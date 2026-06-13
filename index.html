@@ -607,8 +607,8 @@ body::before{content:'';position:fixed;inset:0;
 // 使用 Supabase 自定义表 `app_users`（字段：id, username, pw_hash）
 // 密码通过 Web Crypto API SHA-256 哈希后存储，不明文传输。
 // ─────────────────────────────────────────────────────────────
-const SUPABASE_URL      = "https://qcgasnsibzvyjywastjr.supabase.co";
-const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZ2FzbnNpYnp2eWp5d2FzdGpyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEzNTI3ODUsImV4cCI6MjA5NjkyODc4NX0.mkhEyaLSpyj0w9MsiCOqy5tTvaFYWVR33NkpYr_Mpas";
+const SUPABASE_URL      = "https://zmjdwdpslcumajabmney.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InptamR3ZHBzbGN1bWFqYWJtbmV5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEwOTkwOTMsImV4cCI6MjA5NjY3NTA5M30.HB7umpS9haOuU2UH2MgqkpjZUUZar5iEI4llYVIWGhc";
 
 // Supabase JS 客户端（仅用于数据库操作，不使用 Supabase Auth）
 let _supabase = null;
@@ -1759,7 +1759,7 @@ function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random
 function showWordCard(){hideAllCards();document.getElementById('wordCard').classList.remove('hidden');}
 
 function showWordDisplay(pos){
-  // Phase 1: Show word + meanings, wait for user to tap "Écouter"
+  // Phase 1: Show word + meanings, wait for user to tap Listen
   if(pos>=sessionQueue.length){endSession();return;}
   sessionPos=pos;
   const {idx}=sessionQueue[pos];
@@ -1768,18 +1768,24 @@ function showWordDisplay(pos){
   if(!word){sessionPos++;showWordDisplay(sessionPos);return;}
   clearAll();phase='show';
 
+  // [BUG FIX] 使用新字段 word/pos/mean/sentence，兼容旧字段 fr/g/zh/sfr
+  const displayWord = word.word || word.fr || '';
+  const displayPos  = word.pos  || word.g  || '';
+  const displayMean = word.mean || word.zh  || '';
+  const displaySent = word.sentence || word.sfr || '';
+
   const fw=document.getElementById('frenchWord');
-  fw.textContent=word.fr;fw.classList.remove('hidden');
-  document.getElementById('wordGender').textContent=word.g||'';
-  document.getElementById('chineseMeaning').textContent=word.zh||'';
-  document.getElementById('englishMeaning').textContent=word.en||'';
+  fw.textContent=displayWord; fw.classList.remove('hidden');
+  document.getElementById('wordGender').textContent=displayPos;
+  document.getElementById('chineseMeaning').textContent=displayMean;
+  document.getElementById('englishMeaning').textContent='';
   const sbox=document.getElementById('sentenceDisplay');
   const sfr=document.getElementById('sentenceFr');
-  if(word.sfr){sfr.textContent=word.sfr;sbox.classList.remove('hidden');}
+  if(displaySent){sfr.textContent=displaySent;sbox.classList.remove('hidden');}
   else{sbox.classList.add('hidden');}
   document.getElementById('phaseIcon').textContent='📖';
   document.getElementById('phaseArea').innerHTML=`
-    <div class="status-msg">Study this word !</div>
+    <div class="status-msg">Study this word!</div>
     <button class="speak-btn" onclick="startListening(${idx})">▶ Listen</button>`;
   updateHeader();
 }
@@ -1788,46 +1794,41 @@ function startListening(idx){
   // User tapped → begin full audio chain
   phase='speak';
   document.getElementById('phaseIcon').textContent='🔊';
-  document.getElementById('phaseArea').innerHTML=`<div class="status-msg">Lecture en cours...</div>`;
+  document.getElementById('phaseArea').innerHTML=`<div class="status-msg">Playing...</div>`;
   speakChain(idx);
 }
 
 function speakChain(idx){
   const word=banks[currentLevel][idx];
+  // [修复] 使用新字段，兼容旧字段
+  const w     = word.word     || word.fr  || '';
+  const wmean = word.mean     || word.zh  || '';
+  const wsent = word.sentence || word.sfr || '';
   const steps=[];
 
-  // 1. French word
+  // 1. English word TTS
   steps.push(()=>{
     document.getElementById('phaseIcon').textContent='🔊';
-    setStatus('🇫🇷 '+word.fr);
-    return makeSpeech(word.fr,'fr-FR',0.85,1.1,voices[0]||null);
+    setStatus('🇬🇧 '+w);
+    return makeSpeech(w,'en-GB',0.82,1.1,null);
   });
 
-  // 2. Chinese
-  if(word.zh){
+  // 2. Chinese meaning TTS
+  if(wmean){
     steps.push(()=>{
       document.getElementById('phaseIcon').textContent='🇨🇳';
-      setStatus('🇨🇳 '+word.zh);
-      return makeSpeech(word.zh,'zh-CN',0.85,1.0,null);
+      setStatus('🇨🇳 '+wmean);
+      return makeSpeech(wmean,'zh-CN',0.85,1.0,null);
     });
   }
 
-  // 3. English
-  if(word.en){
-    steps.push(()=>{
-      document.getElementById('phaseIcon').textContent='🇬🇧';
-      setStatus('🇬🇧 '+word.en);
-      return makeSpeech(word.en,'en-GB',0.85,1.0,null);
-    });
-  }
-
-  // 4. Sentence
-  if(word.sfr){
+  // 3. Example sentence TTS
+  if(wsent){
     steps.push(()=>{
       document.getElementById('phaseIcon').textContent='💬';
       setStatus('Example...');
       document.getElementById('sentenceDisplay').classList.remove('hidden');
-      return makeSpeech(word.sfr,'fr-FR',0.78,1.0,voices[0]||null);
+      return makeSpeech(wsent,'en-GB',0.78,1.0,null);
     });
   }
 

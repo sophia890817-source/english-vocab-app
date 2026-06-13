@@ -1,38 +1,4580 @@
 [
   {
+    "word": "about",
+    "pos": "prep.",
+    "mean": "关于，大约",
+    "sentence": "We talk about our school‑life every day."
+  },
+  {
+    "word": "activity",
+    "pos": "n.",
+    "mean": "活动",
+    "sentence": "Our class has an outdoor activity this weekend."
+  },
+  {
+    "word": "address",
+    "pos": "n.",
+    "mean": "地址",
+    "sentence": "Please write down your home address."
+  },
+  {
+    "word": "after",
+    "pos": "prep.",
+    "mean": "在……之后",
+    "sentence": "I play football after school."
+  },
+  {
+    "word": "afternoon",
+    "pos": "n.",
+    "mean": "下午",
+    "sentence": "We have art lessons in the afternoon."
+  },
+  {
+    "word": "again",
+    "pos": "adv.",
+    "mean": "再一次，又",
+    "sentence": "Can you say the word again?"
+  },
+  {
+    "word": "age",
+    "pos": "n.",
+    "mean": "年龄",
+    "sentence": "What is your brother’s age?"
+  },
+  {
+    "word": "air",
+    "pos": "n.",
+    "mean": "空气",
+    "sentence": "Fresh air is good for health."
+  },
+  {
+    "word": "airport",
+    "pos": "n.",
+    "mean": "机场",
+    "sentence": "We will meet you at the airport."
+  },
+  {
+    "word": "all",
+    "pos": "det.",
+    "mean": "全部，所有",
+    "sentence": "All students finish their homework on time."
+  },
+  {
+    "word": "always",
+    "pos": "adv.",
+    "mean": "总是",
+    "sentence": "She always gets up at 7 o’clock."
+  },
+  {
+    "word": "answer",
+    "pos": "v./n.",
+    "mean": "回答；答案",
+    "sentence": "Answer the English questions carefully."
+  },
+  {
+    "word": "any",
+    "pos": "adj.",
+    "mean": "任何的",
+    "sentence": "Do you have any water left?"
+  },
+  {
     "word": "apple",
     "pos": "n.",
     "mean": "苹果",
-    "sentence": "I eat an apple every morning."
+    "sentence": "An apple a day keeps doctors away."
+  },
+  {
+    "word": "arrive",
+    "pos": "v.",
+    "mean": "到达",
+    "sentence": "We arrive at the park at nine."
+  },
+  {
+    "word": "ask",
+    "pos": "v.",
+    "mean": "询问",
+    "sentence": "You can ask the teacher for help."
+  },
+  {
+    "word": "aunt",
+    "pos": "n.",
+    "mean": "姑母，阿姨",
+    "sentence": "My aunt lives in London."
+  },
+  {
+    "word": "baby",
+    "pos": "n.",
+    "mean": "婴儿",
+    "sentence": "The baby sleeps well at night."
+  },
+  {
+    "word": "back",
+    "pos": "n./adv.",
+    "mean": "背部；返回",
+    "sentence": "Go back home before dark."
+  },
+  {
+    "word": "bad",
+    "pos": "adj.",
+    "mean": "坏的，糟糕的",
+    "sentence": "Bad weather stops our trip."
+  },
+  {
+    "word": "bag",
+    "pos": "n.",
+    "mean": "书包，手提包",
+    "sentence": "I put books inside my school bag."
+  },
+  {
+    "word": "ball",
+    "pos": "n.",
+    "mean": "球",
+    "sentence": "They play a ball game together."
+  },
+  {
+    "word": "bank",
+    "pos": "n.",
+    "mean": "银行",
+    "sentence": "Dad goes to the bank every Friday."
+  },
+  {
+    "word": "bathroom",
+    "pos": "n.",
+    "mean": "浴室",
+    "sentence": "Wash hands in the bathroom."
+  },
+  {
+    "word": "beach",
+    "pos": "n.",
+    "mean": "海滩",
+    "sentence": "Children build sandcastles on the beach."
   },
   {
     "word": "beautiful",
     "pos": "adj.",
-    "mean": "美丽的",
-    "sentence": "She has a beautiful smile."
+    "mean": "漂亮的",
+    "sentence": "This beautiful flower blooms in spring."
   },
   {
-    "word": "carry",
+    "word": "because",
+    "pos": "conj.",
+    "mean": "因为",
+    "sentence": "I stay home because it rains heavily."
+  },
+  {
+    "word": "bed",
+    "pos": "n.",
+    "mean": "床",
+    "sentence": "Keep your bed tidy each morning."
+  },
+  {
+    "word": "before",
+    "pos": "prep.",
+    "mean": "在……之前",
+    "sentence": "Brush teeth before dinner."
+  },
+  {
+    "word": "begin",
     "pos": "v.",
-    "mean": "携带；搬运",
-    "sentence": "Can you carry this bag for me?"
+    "mean": "开始",
+    "sentence": "Classes begin at 8:30 a.m."
+  },
+  {
+    "word": "behind",
+    "pos": "prep.",
+    "mean": "在……后面",
+    "sentence": "A cat hides behind the tree."
+  },
+  {
+    "word": "bell",
+    "pos": "n.",
+    "mean": "铃铛，上课铃",
+    "sentence": "The school bell rings loudly."
+  },
+  {
+    "word": "below",
+    "pos": "prep.",
+    "mean": "在下方",
+    "sentence": "Temperatures fall below zero in winter."
+  },
+  {
+    "word": "beside",
+    "pos": "prep.",
+    "mean": "在旁边",
+    "sentence": "A desk stands beside my bed."
+  },
+  {
+    "word": "best",
+    "pos": "adj.",
+    "mean": "最好的",
+    "sentence": "Lily is my best friend."
+  },
+  {
+    "word": "better",
+    "pos": "adj.",
+    "mean": "更好的",
+    "sentence": "Reading makes our English better."
+  },
+  {
+    "word": "bicycle",
+    "pos": "n.",
+    "mean": "自行车",
+    "sentence": "Ride a bicycle to the town centre."
+  },
+  {
+    "word": "big",
+    "pos": "adj.",
+    "mean": "大的",
+    "sentence": "There is a big lake near our village."
+  },
+  {
+    "word": "bird",
+    "pos": "n.",
+    "mean": "小鸟",
+    "sentence": "Birds fly south in cold winter."
+  },
+  {
+    "word": "birthday",
+    "pos": "n.",
+    "mean": "生日",
+    "sentence": "We hold a birthday party for Tom."
+  },
+  {
+    "word": "bite",
+    "pos": "v.",
+    "mean": "咬",
+    "sentence": "Dogs may bite strangers."
+  },
+  {
+    "word": "blanket",
+    "pos": "n.",
+    "mean": "毛毯",
+    "sentence": "Cover yourself with a thick blanket."
+  },
+  {
+    "word": "blouse",
+    "pos": "n.",
+    "mean": "女式衬衫",
+    "sentence": "She wears a white blouse for school."
+  },
+  {
+    "word": "blue",
+    "pos": "adj.",
+    "mean": "蓝色的",
+    "sentence": "My favourite colour is blue."
+  },
+  {
+    "word": "boat",
+    "pos": "n.",
+    "mean": "小船",
+    "sentence": "Tourists take a boat across the river."
+  },
+  {
+    "word": "body",
+    "pos": "n.",
+    "mean": "身体",
+    "sentence": "Do sports to keep your body strong."
+  },
+  {
+    "word": "book",
+    "pos": "n.",
+    "mean": "书本",
+    "sentence": "I read story‑books every evening."
+  },
+  {
+    "word": "borrow",
+    "pos": "v.",
+    "mean": "借入",
+    "sentence": "I borrow a comic book from Jack."
+  },
+  {
+    "word": "boss",
+    "pos": "n.",
+    "mean": "老板",
+    "sentence": "His father works as a shop boss."
+  },
+  {
+    "word": "both",
+    "pos": "pron.",
+    "mean": "两者都",
+    "sentence": "Both girls enjoy drawing pictures."
+  },
+  {
+    "word": "bottle",
+    "pos": "n.",
+    "mean": "瓶子",
+    "sentence": "A water bottle sits on the table."
+  },
+  {
+    "word": "bottom",
+    "pos": "n.",
+    "mean": "底部",
+    "sentence": "Coins fall to the bottom of the pool."
+  },
+  {
+    "word": "bowl",
+    "pos": "n.",
+    "mean": "碗",
+    "sentence": "Eat rice from a ceramic bowl."
+  },
+  {
+    "word": "box",
+    "pos": "n.",
+    "mean": "盒子",
+    "sentence": "Put toys inside the wooden box."
+  },
+  {
+    "word": "brain",
+    "pos": "n.",
+    "mean": "大脑",
+    "sentence": "Our brain works when we think."
+  },
+  {
+    "word": "bread",
+    "pos": "n.",
+    "mean": "面包",
+    "sentence": "We eat bread for breakfast."
+  },
+  {
+    "word": "break",
+    "pos": "v.",
+    "mean": "打碎，中断",
+    "sentence": "Do not break the glass cup."
+  },
+  {
+    "word": "breakfast",
+    "pos": "n.",
+    "mean": "早餐",
+    "sentence": "Breakfast starts at 7 a.m."
+  },
+  {
+    "word": "bridge",
+    "pos": "n.",
+    "mean": "桥梁",
+    "sentence": "People cross the stone bridge daily."
+  },
+  {
+    "word": "bright",
+    "pos": "adj.",
+    "mean": "明亮的",
+    "sentence": "Bright sunlight fills the bedroom."
+  },
+  {
+    "word": "bring",
+    "pos": "v.",
+    "mean": "带来",
+    "sentence": "Bring your notebook to class tomorrow."
+  },
+  {
+    "word": "brother",
+    "pos": "n.",
+    "mean": "兄弟",
+    "sentence": "My elder brother likes basketball."
+  },
+  {
+    "word": "brown",
+    "pos": "adj.",
+    "mean": "棕色的",
+    "sentence": "Brown leaves fall in autumn."
+  },
+  {
+    "word": "brush",
+    "pos": "v./n.",
+    "mean": "刷；刷子",
+    "sentence": "Brush your teeth twice a day."
+  },
+  {
+    "word": "build",
+    "pos": "v.",
+    "mean": "建造",
+    "sentence": "Workers build a new community park."
+  },
+  {
+    "word": "building",
+    "pos": "n.",
+    "mean": "楼房",
+    "sentence": "That tall building is our city library."
+  },
+  {
+    "word": "bus",
+    "pos": "n.",
+    "mean": "公交车",
+    "sentence": "Take a bus to the shopping centre."
+  },
+  {
+    "word": "business",
+    "pos": "n.",
+    "mean": "生意",
+    "sentence": "Uncle’s fruit business grows well."
+  },
+  {
+    "word": "busy",
+    "pos": "adj.",
+    "mean": "忙碌的",
+    "sentence": "Mum is busy cooking dinner now."
+  },
+  {
+    "word": "but",
+    "pos": "conj.",
+    "mean": "但是",
+    "sentence": "He is young but very clever."
+  },
+  {
+    "word": "buy",
+    "pos": "v.",
+    "mean": "购买",
+    "sentence": "Buy fresh fruit at the market."
+  },
+  {
+    "word": "cake",
+    "pos": "n.",
+    "mean": "蛋糕",
+    "sentence": "We cut a chocolate cake on birthdays."
+  },
+  {
+    "word": "camera",
+    "pos": "n.",
+    "mean": "照相机",
+    "sentence": "Use a camera to take photos."
+  },
+  {
+    "word": "camp",
+    "pos": "v./n.",
+    "mean": "露营",
+    "sentence": "We camp by the lake during holidays."
+  },
+  {
+    "word": "capital",
+    "pos": "n.",
+    "mean": "首都",
+    "sentence": "London is the capital of the UK."
+  },
+  {
+    "word": "captain",
+    "pos": "n.",
+    "mean": "队长",
+    "sentence": "He is the captain of our football team."
+  },
+  {
+    "word": "car",
+    "pos": "n.",
+    "mean": "小汽车",
+    "sentence": "Dad drives his car to work each day."
+  },
+  {
+    "word": "card",
+    "pos": "n.",
+    "mean": "卡片",
+    "sentence": "Send a greeting‑card on New Year’s Day."
+  },
+  {
+    "word": "care",
+    "pos": "v./n.",
+    "mean": "关心，在意",
+    "sentence": "Parents care about their children’s study."
+  },
+  {
+    "word": "careful",
+    "pos": "adj.",
+    "mean": "仔细的",
+    "sentence": "Be careful when crossing roads."
+  },
+  {
+    "word": "carrot",
+    "pos": "n.",
+    "mean": "胡萝卜",
+    "sentence": "Rabbits love eating fresh carrots."
+  },
+  {
+    "word": "cat",
+    "pos": "n.",
+    "mean": "猫咪",
+    "sentence": "A lazy cat sleeps on the sofa."
+  },
+  {
+    "word": "catch",
+    "pos": "v.",
+    "mean": "抓住，赶上",
+    "sentence": "Catch the early bus to avoid being late."
+  },
+  {
+    "word": "cave",
+    "pos": "n.",
+    "mean": "山洞",
+    "sentence": "An old cave lies behind the mountain."
+  },
+  {
+    "word": "celebrate",
+    "pos": "v.",
+    "mean": "庆祝",
+    "sentence": "Families celebrate Spring Festival together."
+  },
+  {
+    "word": "centre",
+    "pos": "n.",
+    "mean": "中心",
+    "sentence": "The town centre has many stores."
+  },
+  {
+    "word": "certain",
+    "pos": "adj.",
+    "mean": "确定的",
+    "sentence": "I am certain of the final result."
+  },
+  {
+    "word": "chair",
+    "pos": "n.",
+    "mean": "椅子",
+    "sentence": "Pull a chair next to the desk."
+  },
+  {
+    "word": "chance",
+    "pos": "n.",
+    "mean": "机会",
+    "sentence": "Grab your chance to speak English."
+  },
+  {
+    "word": "change",
+    "pos": "v./n.",
+    "mean": "改变；零钱",
+    "sentence": "Change your bad living habits early."
+  },
+  {
+    "word": "cheap",
+    "pos": "adj.",
+    "mean": "便宜的",
+    "sentence": "Summer clothes become cheap in autumn."
+  },
+  {
+    "word": "check",
+    "pos": "v.",
+    "mean": "检查",
+    "sentence": "Teachers check our homework every morning."
+  },
+  {
+    "word": "cheese",
+    "pos": "n.",
+    "mean": "奶酪",
+    "sentence": "Bread with cheese tastes delicious."
+  },
+  {
+    "word": "chemistry",
+    "pos": "n.",
+    "mean": "化学",
+    "sentence": "We start chemistry lessons in Grade 7."
+  },
+  {
+    "word": "chess",
+    "pos": "n.",
+    "mean": "国际象棋",
+    "sentence": "Grandpa plays chess with neighbours."
+  },
+  {
+    "word": "chicken",
+    "pos": "n.",
+    "mean": "鸡肉，小鸡",
+    "sentence": "We have roasted chicken for lunch."
+  },
+  {
+    "word": "child",
+    "pos": "n.",
+    "mean": "孩童",
+    "sentence": "Each child gets one small gift."
+  },
+  {
+    "word": "children",
+    "pos": "n.",
+    "mean": "孩子们",
+    "sentence": "Children play games on the playground."
+  },
+  {
+    "word": "chocolate",
+    "pos": "n.",
+    "mean": "巧克力",
+    "sentence": "Do not eat too much chocolate."
+  },
+  {
+    "word": "choice",
+    "pos": "n.",
+    "mean": "选择",
+    "sentence": "Make your own choice about hobbies."
+  },
+  {
+    "word": "choose",
+    "pos": "v.",
+    "mean": "挑选",
+    "sentence": "Choose your favourite book from the shelf."
+  },
+  {
+    "word": "church",
+    "pos": "n.",
+    "mean": "教堂",
+    "sentence": "Local people go to church on weekends."
+  },
+  {
+    "word": "cinema",
+    "pos": "n.",
+    "mean": "电影院",
+    "sentence": "Watch cartoon films in the cinema."
+  },
+  {
+    "word": "circle",
+    "pos": "n.",
+    "mean": "圆圈",
+    "sentence": "Draw a big circle on paper."
+  },
+  {
+    "word": "city",
+    "pos": "n.",
+    "mean": "城市",
+    "sentence": "This big city has convenient transport."
+  },
+  {
+    "word": "class",
+    "pos": "n.",
+    "mean": "班级，课程",
+    "sentence": "Our class has forty‑five students."
+  },
+  {
+    "word": "classmate",
+    "pos": "n.",
+    "mean": "同班同学",
+    "sentence": "My classmate shares pencils with me."
+  },
+  {
+    "word": "classroom",
+    "pos": "n.",
+    "mean": "教室",
+    "sentence": "Clean our classroom after school."
+  },
+  {
+    "word": "clear",
+    "pos": "adj.",
+    "mean": "清晰的",
+    "sentence": "We have a clear view of distant hills."
+  },
+  {
+    "word": "climb",
+    "pos": "v.",
+    "mean": "攀爬",
+    "sentence": "Climb small mountains on summer holidays."
+  },
+  {
+    "word": "clock",
+    "pos": "n.",
+    "mean": "时钟",
+    "sentence": "A wall‑clock hangs above the door."
+  },
+  {
+    "word": "close",
+    "pos": "v./adj.",
+    "mean": "关闭；靠近",
+    "sentence": "Close windows before windy weather arrives."
+  },
+  {
+    "word": "clothes",
+    "pos": "n.",
+    "mean": "衣服",
+    "sentence": "Pack your warm clothes for trips."
+  },
+  {
+    "word": "cloud",
+    "pos": "n.",
+    "mean": "云朵",
+    "sentence": "White clouds float across the sky."
+  },
+  {
+    "word": "cloudy",
+    "pos": "adj.",
+    "mean": "多云的",
+    "sentence": "It is cloudy, so it will not be too hot."
+  },
+  {
+    "word": "club",
+    "pos": "n.",
+    "mean": "社团",
+    "sentence": "I join the school sports club."
+  },
+  {
+    "word": "coal",
+    "pos": "n.",
+    "mean": "煤炭",
+    "sentence": "People seldom use coal for heating now."
+  },
+  {
+    "word": "coat",
+    "pos": "n.",
+    "mean": "外套",
+    "sentence": "Put on a thick coat on cold mornings."
+  },
+  {
+    "word": "coffee",
+    "pos": "n.",
+    "mean": "咖啡",
+    "sentence": "Adults often drink coffee after meals."
+  },
+  {
+    "word": "coin",
+    "pos": "n.",
+    "mean": "硬币",
+    "sentence": "Collect colourful foreign coins as hobbies."
+  },
+  {
+    "word": "cold",
+    "pos": "adj./n.",
+    "mean": "寒冷的；感冒",
+    "sentence": "Wear coats when the weather turns cold."
+  },
+  {
+    "word": "collect",
+    "pos": "v.",
+    "mean": "收集",
+    "sentence": "Collect colourful stamps in spare time."
+  },
+  {
+    "word": "college",
+    "pos": "n.",
+    "mean": "专科院校",
+    "sentence": "Teenagers prepare lessons for college exams."
+  },
+  {
+    "word": "colour",
+    "pos": "n.",
+    "mean": "颜色",
+    "sentence": "How many colours can you name?"
+  },
+  {
+    "word": "comb",
+    "pos": "n./v.",
+    "mean": "梳子；梳头",
+    "sentence": "Comb your hair before going out."
+  },
+  {
+    "word": "come",
+    "pos": "v.",
+    "mean": "到来",
+    "sentence": "Come to my home this Saturday afternoon."
+  },
+  {
+    "word": "comfortable",
+    "pos": "adj.",
+    "mean": "舒适的",
+    "sentence": "Soft beds are really comfortable."
+  },
+  {
+    "word": "common",
+    "pos": "adj.",
+    "mean": "普遍的",
+    "sentence": "Rain is common in spring here."
+  },
+  {
+    "word": "communicate",
+    "pos": "v.",
+    "mean": "交流",
+    "sentence": "Communicate with foreign friends online."
+  },
+  {
+    "word": "community",
+    "pos": "n.",
+    "mean": "社区",
+    "sentence": "Our community has a public garden."
+  },
+  {
+    "word": "compare",
+    "pos": "v.",
+    "mean": "对比",
+    "sentence": "Do not compare kids too strictly."
+  },
+  {
+    "word": "competition",
+    "pos": "n.",
+    "mean": "竞赛",
+    "sentence": "Take part in an English speaking competition."
+  },
+  {
+    "word": "complete",
+    "pos": "v./adj.",
+    "mean": "完成；完整的",
+    "sentence": "Complete homework before watching TV."
+  },
+  {
+    "word": "computer",
+    "pos": "n.",
+    "mean": "电脑",
+    "sentence": "Use a computer for online learning."
+  },
+  {
+    "word": "concert",
+    "pos": "n.",
+    "mean": "音乐会",
+    "sentence": "We watch a live music‑concert tonight."
+  },
+  {
+    "word": "condition",
+    "pos": "n.",
+    "mean": "条件",
+    "sentence": "Good sleep improves physical conditions."
+  },
+  {
+    "word": "connect",
+    "pos": "v.",
+    "mean": "连接",
+    "sentence": "Connect two towns by a new road."
+  },
+  {
+    "word": "cook",
+    "pos": "v./n.",
+    "mean": "烹饪；厨师",
+    "sentence": "Mum cooks tasty food for our family."
+  },
+  {
+    "word": "cookie",
+    "pos": "n.",
+    "mean": "曲奇饼干",
+    "sentence": "Sweet cookies are children’s favourite snacks."
+  },
+  {
+    "word": "cool",
+    "pos": "adj.",
+    "mean": "凉爽的",
+    "sentence": "Evenings become cool in early autumn."
+  },
+  {
+    "word": "copy",
+    "pos": "v.",
+    "mean": "抄写",
+    "sentence": "Copy new English words ten times each."
+  },
+  {
+    "word": "corner",
+    "pos": "n.",
+    "mean": "角落",
+    "sentence": "A small bookstore sits at the street corner."
+  },
+  {
+    "word": "correct",
+    "pos": "adj./v.",
+    "mean": "正确的；改正",
+    "sentence": "Correct spelling mistakes right away."
+  },
+  {
+    "word": "cost",
+    "pos": "v.",
+    "mean": "花费",
+    "sentence": "This toy costs twenty‑five pounds."
+  },
+  {
+    "word": "cotton",
+    "pos": "n.",
+    "mean": "棉花",
+    "sentence": "Cotton clothes feel soft and breathable."
+  },
+  {
+    "word": "cough",
+    "pos": "v./n.",
+    "mean": "咳嗽",
+    "sentence": "Cover your mouth when you cough."
+  },
+  {
+    "word": "count",
+    "pos": "v.",
+    "mean": "数数",
+    "sentence": "Count from one to one hundred slowly."
+  },
+  {
+    "word": "country",
+    "pos": "n.",
+    "mean": "国家，乡村",
+    "sentence": "I prefer quiet country scenery."
+  },
+  {
+    "word": "countryside",
+    "pos": "n.",
+    "mean": "乡下",
+    "sentence": "We spend weekends in the countryside."
+  },
+  {
+    "word": "courage",
+    "pos": "n.",
+    "mean": "勇气",
+    "sentence": "Have courage to face small failures."
+  },
+  {
+    "word": "course",
+    "pos": "n.",
+    "mean": "课程",
+    "sentence": "Take a short summer English course."
+  },
+  {
+    "word": "cousin",
+    "pos": "n.",
+    "mean": "表兄弟姐妹",
+    "sentence": "My cousin visits me every summer vacation."
+  },
+  {
+    "word": "cover",
+    "pos": "v.",
+    "mean": "覆盖",
+    "sentence": "Snow covers whole fields in winter."
+  },
+  {
+    "word": "cow",
+    "pos": "n.",
+    "mean": "奶牛",
+    "sentence": "Cows produce fresh milk each day."
+  },
+  {
+    "word": "crash",
+    "pos": "v.",
+    "mean": "碰撞",
+    "sentence": "Two bikes crash on the narrow road."
+  },
+  {
+    "word": "create",
+    "pos": "v.",
+    "mean": "创造",
+    "sentence": "Kids create interesting handmade crafts."
+  },
+  {
+    "word": "cross",
+    "pos": "v./n.",
+    "mean": "穿过；十字路口",
+    "sentence": "Cross roads only at zebra crossings."
+  },
+  {
+    "word": "crowd",
+    "pos": "n.",
+    "mean": "人群",
+    "sentence": "A big crowd gathers at the square."
+  },
+  {
+    "word": "cry",
+    "pos": "v.",
+    "mean": "哭泣",
+    "sentence": "Little kids cry when they feel scared."
+  },
+  {
+    "word": "cup",
+    "pos": "n.",
+    "mean": "水杯",
+    "sentence": "Fill the cup with clean drinking‑water."
+  },
+  {
+    "word": "current",
+    "pos": "adj.",
+    "mean": "当前的",
+    "sentence": "Check your current study progress regularly."
+  },
+  {
+    "word": "curtain",
+    "pos": "n.",
+    "mean": "窗帘",
+    "sentence": "Close curtains before bedtime."
+  },
+  {
+    "word": "custom",
+    "pos": "n.",
+    "mean": "习俗",
+    "sentence": "Gift‑giving is a local spring‑festival custom."
+  },
+  {
+    "word": "dad",
+    "pos": "n.",
+    "mean": "爸爸",
+    "sentence": "My dad jogs every early morning."
+  },
+  {
+    "word": "daily",
+    "pos": "adj./adv.",
+    "mean": "日常的；每日",
+    "sentence": "Write a short daily diary entry."
+  },
+  {
+    "word": "dance",
+    "pos": "v./n.",
+    "mean": "跳舞，舞蹈",
+    "sentence": "Girls dance happily at the party."
+  },
+  {
+    "word": "danger",
+    "pos": "n.",
+    "mean": "危险",
+    "sentence": "Stay away from fire‑related danger."
   },
   {
     "word": "dangerous",
     "pos": "adj.",
     "mean": "危险的",
-    "sentence": "It is dangerous to swim alone."
+    "sentence": "Swimming alone in rivers is dangerous."
+  },
+  {
+    "word": "dark",
+    "pos": "adj.",
+    "mean": "黑暗的",
+    "sentence": "It turns dark after sunset at 6 p.m."
+  },
+  {
+    "word": "date",
+    "pos": "n.",
+    "mean": "日期",
+    "sentence": "Check the date on your calendar."
+  },
+  {
+    "word": "daughter",
+    "pos": "n.",
+    "mean": "女儿",
+    "sentence": "Their daughter learns piano lessons."
+  },
+  {
+    "word": "day",
+    "pos": "n.",
+    "mean": "白天，一天",
+    "sentence": "A sunny day suits outdoor hiking."
+  },
+  {
+    "word": "dead",
+    "pos": "adj.",
+    "mean": "死去的",
+    "sentence": "Dead leaves fall off trees in autumn."
+  },
+  {
+    "word": "dear",
+    "pos": "adj.",
+    "mean": "亲爱的",
+    "sentence": "Dear friends, let’s start our party."
+  },
+  {
+    "word": "decide",
+    "pos": "v.",
+    "mean": "决定",
+    "sentence": "Decide your holiday travel plan early."
+  },
+  {
+    "word": "deep",
+    "pos": "adj.",
+    "mean": "深的",
+    "sentence": "The deep lake has clear fresh water."
+  },
+  {
+    "word": "degree",
+    "pos": "n.",
+    "mean": "度数",
+    "sentence": "Today’s temperature is twenty‑five degrees."
+  },
+  {
+    "word": "delay",
+    "pos": "v./n.",
+    "mean": "耽搁",
+    "sentence": "Heavy rain causes a bus delay of 30 minutes."
+  },
+  {
+    "word": "delicious",
+    "pos": "adj.",
+    "mean": "美味的",
+    "sentence": "Fresh homemade soup tastes delicious."
+  },
+  {
+    "word": "dentist",
+    "pos": "n.",
+    "mean": "牙医",
+    "sentence": "Visit a dentist for tooth pain problems."
+  },
+  {
+    "word": "department",
+    "pos": "n.",
+    "mean": "部门",
+    "sentence": "The fruit department is on the supermarket first floor."
+  },
+  {
+    "word": "describe",
+    "pos": "v.",
+    "mean": "描述",
+    "sentence": "Describe your favourite pet in English."
+  },
+  {
+    "word": "desk",
+    "pos": "n.",
+    "mean": "书桌",
+    "sentence": "Place textbooks neatly on your desk."
+  },
+  {
+    "word": "diary",
+    "pos": "n.",
+    "mean": "日记",
+    "sentence": "Keep a diary to record daily life."
+  },
+  {
+    "word": "dictionary",
+    "pos": "n.",
+    "mean": "词典",
+    "sentence": "Look up new words in an English dictionary."
+  },
+  {
+    "word": "die",
+    "pos": "v.",
+    "mean": "死亡",
+    "sentence": "Some wild plants die during hot summers."
+  },
+  {
+    "word": "difference",
+    "pos": "n.",
+    "mean": "差异",
+    "sentence": "Find differences between two photos."
+  },
+  {
+    "word": "different",
+    "pos": "adj.",
+    "mean": "不同的",
+    "sentence": "We have different hobby choices."
+  },
+  {
+    "word": "difficult",
+    "pos": "adj.",
+    "mean": "困难的",
+    "sentence": "This difficult maths problem needs careful thinking."
+  },
+  {
+    "word": "dinner",
+    "pos": "n.",
+    "mean": "正餐，晚餐",
+    "sentence": "Family members enjoy dinner together at 7 p.m."
+  },
+  {
+    "word": "direct",
+    "pos": "adj.",
+    "mean": "直接的",
+    "sentence": "Take a direct bus to the museum."
+  },
+  {
+    "word": "direction",
+    "pos": "n.",
+    "mean": "方向",
+    "sentence": "Point the right travelling direction on the map."
+  },
+  {
+    "word": "director",
+    "pos": "n.",
+    "mean": "负责人，主管",
+    "sentence": "The camp director arranges daily activities."
+  },
+  {
+    "word": "dirty",
+    "pos": "adj.",
+    "mean": "脏乱的",
+    "sentence": "Wash dirty clothes every three days."
+  },
+  {
+    "word": "discover",
+    "pos": "v.",
+    "mean": "发现",
+    "sentence": "Kids discover small insects in grass fields."
+  },
+  {
+    "word": "discuss",
+    "pos": "v.",
+    "mean": "讨论",
+    "sentence": "Discuss weekend plans with your parents."
+  },
+  {
+    "word": "disease",
+    "pos": "n.",
+    "mean": "疾病",
+    "sentence": "Enough exercise prevents common diseases."
+  },
+  {
+    "word": "dish",
+    "pos": "n.",
+    "mean": "盘子，菜肴",
+    "sentence": "Wash dishes after supper each night."
+  },
+  {
+    "word": "distance",
+    "pos": "n.",
+    "mean": "距离",
+    "sentence": "The walking distance is two kilometres."
+  },
+  {
+    "word": "divide",
+    "pos": "v.",
+    "mean": "划分",
+    "sentence": "Divide the cake into six equal pieces."
+  },
+  {
+    "word": "do",
+    "pos": "v.",
+    "mean": "做",
+    "sentence": "Do simple housework every weekend."
+  },
+  {
+    "word": "doctor",
+    "pos": "n.",
+    "mean": "医生",
+    "sentence": "Call a doctor when people feel seriously ill."
+  },
+  {
+    "word": "dog",
+    "pos": "n.",
+    "mean": "小狗",
+    "sentence": "A pet‑dog runs around our garden."
+  },
+  {
+    "word": "doll",
+    "pos": "n.",
+    "mean": "玩偶",
+    "sentence": "Young girls love cloth dolls."
+  },
+  {
+    "word": "dollar",
+    "pos": "n.",
+    "mean": "美元",
+    "sentence": "This notebook costs one US dollar."
+  },
+  {
+    "word": "door",
+    "pos": "n.",
+    "mean": "房门",
+    "sentence": "Lock the front door before leaving home."
+  },
+  {
+    "word": "double",
+    "pos": "adj.",
+    "mean": "双倍的",
+    "sentence": "We pay double costs for holiday hotel rooms."
+  },
+  {
+    "word": "down",
+    "pos": "adv./prep.",
+    "mean": "向下",
+    "sentence": "Walk down the hill step‑by‑step."
+  },
+  {
+    "word": "draw",
+    "pos": "v.",
+    "mean": "绘画",
+    "sentence": "Draw mountain scenery with colour pencils."
+  },
+  {
+    "word": "dream",
+    "pos": "n./v.",
+    "mean": "梦想；做梦",
+    "sentence": "My dream is travelling around Europe."
+  },
+  {
+    "word": "dress",
+    "pos": "n./v.",
+    "mean": "连衣裙；穿衣",
+    "sentence": "She wears a pink summer‑dress today."
+  },
+  {
+    "word": "drink",
+    "pos": "v./n.",
+    "mean": "喝；饮品",
+    "sentence": "Drink plenty of clean water daily."
+  },
+  {
+    "word": "drive",
+    "pos": "v.",
+    "mean": "驾驶",
+    "sentence": "Adults need licences to drive cars."
+  },
+  {
+    "word": "driver",
+    "pos": "n.",
+    "mean": "司机",
+    "sentence": "The bus‑driver greets every passenger politely."
+  },
+  {
+    "word": "drop",
+    "pos": "v.",
+    "mean": "掉落",
+    "sentence": "Do not drop glass cups on hard floors."
+  },
+  {
+    "word": "dry",
+    "pos": "adj./v.",
+    "mean": "干燥的；烘干",
+    "sentence": "Dry wet clothes under sunshine."
+  },
+  {
+    "word": "duck",
+    "pos": "n.",
+    "mean": "鸭子",
+    "sentence": "Wild ducks swim across the lake surface."
+  },
+  {
+    "word": "duty",
+    "pos": "n.",
+    "mean": "责任",
+    "sentence": "It’s our duty to protect public green plants."
+  },
+  {
+    "word": "ear",
+    "pos": "n.",
+    "mean": "耳朵",
+    "sentence": "Cover your ears against loud noises."
+  },
+  {
+    "word": "early",
+    "pos": "adj./adv.",
+    "mean": "提早的",
+    "sentence": "Get up early for morning reading practice."
+  },
+  {
+    "word": "earth",
+    "pos": "n.",
+    "mean": "地球，土地",
+    "sentence": "We should protect our earth environment."
+  },
+  {
+    "word": "east",
+    "pos": "n.",
+    "mean": "东方",
+    "sentence": "The sun rises from the east every morning."
+  },
+  {
+    "word": "easy",
+    "pos": "adj.",
+    "mean": "简单的",
+    "sentence": "Easy English songs help vocabulary learning."
+  },
+  {
+    "word": "eat",
+    "pos": "v.",
+    "mean": "吃",
+    "sentence": "Eat slow‑cooked porridge for breakfast."
+  },
+  {
+    "word": "education",
+    "pos": "n.",
+    "mean": "教育",
+    "sentence": "Basic education starts at primary school."
+  },
+  {
+    "word": "effect",
+    "pos": "n.",
+    "mean": "效果",
+    "sentence": "Daily reading has good long‑term effects."
+  },
+  {
+    "word": "effort",
+    "pos": "n.",
+    "mean": "努力",
+    "sentence": "Make steady efforts for better exam scores."
+  },
+  {
+    "word": "egg",
+    "pos": "n.",
+    "mean": "鸡蛋",
+    "sentence": "Boiled eggs supply morning nutrition."
+  },
+  {
+    "word": "eight",
+    "pos": "num.",
+    "mean": "八",
+    "sentence": "Our group has eight team‑members."
+  },
+  {
+    "word": "eighteen",
+    "pos": "num.",
+    "mean": "十八",
+    "sentence": "Teenagers turn eighteen legally as adults."
+  },
+  {
+    "word": "eighth",
+    "pos": "num.",
+    "mean": "第八",
+    "sentence": "He wins eighth prize in the race game."
+  },
+  {
+    "word": "either",
+    "pos": "adj./pron.",
+    "mean": "二者其一",
+    "sentence": "You can choose either of the two books."
+  },
+  {
+    "word": "electric",
+    "pos": "adj.",
+    "mean": "用电的",
+    "sentence": "An electric fan cools hot summer rooms."
+  },
+  {
+    "word": "elephant",
+    "pos": "n.",
+    "mean": "大象",
+    "sentence": "Large elephants live in African grasslands."
+  },
+  {
+    "word": "eleven",
+    "pos": "num.",
+    "mean": "十一",
+    "sentence": "Our class break starts at eleven o’clock."
+  },
+  {
+    "word": "else",
+    "pos": "adj.",
+    "mean": "其他的",
+    "sentence": "What else do you plan to buy today?"
+  },
+  {
+    "word": "empty",
+    "pos": "adj.",
+    "mean": "空的",
+    "sentence": "Throw empty plastic bottles into recycling bins."
+  },
+  {
+    "word": "encourage",
+    "pos": "v.",
+    "mean": "鼓励",
+    "sentence": "Parents encourage children to try new hobbies."
+  },
+  {
+    "word": "end",
+    "pos": "n./v.",
+    "mean": "末尾；结束",
+    "sentence": "School lessons end at four thirty p.m."
+  },
+  {
+    "word": "engine",
+    "pos": "n.",
+    "mean": "发动机",
+    "sentence": "Car engines need regular maintenance checks."
+  },
+  {
+    "word": "engineer",
+    "pos": "n.",
+    "mean": "工程师",
+    "sentence": "His uncle works as a civil engineer."
+  },
+  {
+    "word": "England",
+    "pos": "n.",
+    "mean": "英格兰",
+    "sentence": "Many famous castles are built in England."
+  },
+  {
+    "word": "English",
+    "pos": "n./adj.",
+    "mean": "英语；英国的",
+    "sentence": "Speak simple English daily for practice."
   },
   {
     "word": "enjoy",
     "pos": "v.",
-    "mean": "享受；喜爱",
-    "sentence": "I enjoy reading books at night."
+    "mean": "享受",
+    "sentence": "Enjoy fresh air during mountain hiking trips."
+  },
+  {
+    "word": "enough",
+    "pos": "adj./adv.",
+    "mean": "足够的",
+    "sentence": "We pack enough food for one‑day trips."
+  },
+  {
+    "word": "enter",
+    "pos": "v.",
+    "mean": "进入",
+    "sentence": "Enter the museum with valid student tickets."
+  },
+  {
+    "word": "environment",
+    "pos": "n.",
+    "mean": "环境",
+    "sentence": "Plant trees to improve local environment."
+  },
+  {
+    "word": "equal",
+    "pos": "adj.",
+    "mean": "平等的",
+    "sentence": "All students get equal learning chances."
+  },
+  {
+    "word": "equipment",
+    "pos": "n.",
+    "mean": "设备",
+    "sentence": "Sports equipment includes balls and skipping‑ropes."
+  },
+  {
+    "word": "escape",
+    "pos": "v.",
+    "mean": "逃离",
+    "sentence": "Small rabbits escape from wild foxes."
+  },
+  {
+    "word": "especial",
+    "pos": "adj.",
+    "mean": "特别的",
+    "sentence": "We prepare especial gifts for festival days."
+  },
+  {
+    "word": "especially",
+    "pos": "adv.",
+    "mean": "尤其",
+    "sentence": "I love fruits, especially fresh strawberries."
+  },
+  {
+    "word": "Europe",
+    "pos": "n.",
+    "mean": "欧洲",
+    "sentence": "Many teenagers dream of visiting Europe."
+  },
+  {
+    "word": "even",
+    "pos": "adv.",
+    "mean": "甚至",
+    "sentence": "He can even speak basic French words."
+  },
+  {
+    "word": "evening",
+    "pos": "n.",
+    "mean": "傍晚",
+    "sentence": "Families take slow walks in cool evenings."
+  },
+  {
+    "word": "event",
+    "pos": "n.",
+    "mean": "活动，事件",
+    "sentence": "The school sports event takes place next month."
+  },
+  {
+    "word": "ever",
+    "pos": "adv.",
+    "mean": "曾经",
+    "sentence": "Have you ever visited seaside towns?"
+  },
+  {
+    "word": "every",
+    "pos": "det.",
+    "mean": "每一个",
+    "sentence": "Every student follows school rules strictly."
+  },
+  {
+    "word": "everybody",
+    "pos": "pron.",
+    "mean": "每个人",
+    "sentence": "Everybody joins our weekend group activity."
+  },
+  {
+    "word": "everyone",
+    "pos": "pron.",
+    "mean": "所有人",
+    "sentence": "Everyone needs eight‑hour daily sleep."
+  },
+  {
+    "word": "everything",
+    "pos": "pron.",
+    "mean": "所有事物",
+    "sentence": "Pack everything you need before travel trips."
+  },
+  {
+    "word": "everywhere",
+    "pos": "adv.",
+    "mean": "到处",
+    "sentence": "Wild flowers bloom everywhere in spring."
+  },
+  {
+    "word": "example",
+    "pos": "n.",
+    "mean": "例子",
+    "sentence": "Teachers show grammar examples in class."
+  },
+  {
+    "word": "excellent",
+    "pos": "adj.",
+    "mean": "极好的",
+    "sentence": "She gets excellent marks in English exams."
+  },
+  {
+    "word": "except",
+    "pos": "prep.",
+    "mean": "除了",
+    "sentence": "All classmates attend class except Tom today."
+  },
+  {
+    "word": "exchange",
+    "pos": "v./n.",
+    "mean": "交换",
+    "sentence": "Exchange story‑books with your classmates."
+  },
+  {
+    "word": "excited",
+    "pos": "adj.",
+    "mean": "兴奋的",
+    "sentence": "Kids feel excited about summer holidays."
+  },
+  {
+    "word": "excuse",
+    "pos": "n./v.",
+    "mean": "借口；原谅",
+    "sentence": "Please excuse my late arrival this morning."
+  },
+  {
+    "word": "exercise",
+    "pos": "n./v.",
+    "mean": "锻炼，习题",
+    "sentence": "Do thirty‑minute morning exercise each day."
+  },
+  {
+    "word": "exhibition",
+    "pos": "n.",
+    "mean": "展览会",
+    "sentence": "Visit a painting exhibition in the city gallery."
+  },
+  {
+    "word": "exist",
+    "pos": "v.",
+    "mean": "存在",
+    "sentence": "Many rare birds exist within forest mountains."
+  },
+  {
+    "word": "exit",
+    "pos": "n.",
+    "mean": "出口",
+    "sentence": "Find fire exits in large shopping malls."
+  },
+  {
+    "word": "expect",
+    "pos": "v.",
+    "mean": "期待",
+    "sentence": "We expect summer holiday travelling trips."
+  },
+  {
+    "word": "expensive",
+    "pos": "adj.",
+    "mean": "昂贵的",
+    "sentence": "Gold watches are usually quite expensive."
+  },
+  {
+    "word": "explain",
+    "pos": "v.",
+    "mean": "解释",
+    "sentence": "Teachers explain difficult grammar points patiently."
+  },
+  {
+    "word": "explore",
+    "pos": "v.",
+    "mean": "探索",
+    "sentence": "Children explore forest parks during field trips."
+  },
+  {
+    "word": "express",
+    "pos": "v.",
+    "mean": "表达",
+    "sentence": "Express your feelings with simple English sentences."
+  },
+  {
+    "word": "extra",
+    "pos": "adj.",
+    "mean": "额外的",
+    "sentence": "Finish extra vocabulary exercises on weekends."
+  },
+  {
+    "word": "eye",
+    "pos": "n.",
+    "mean": "眼睛",
+    "sentence": "Protect your eyes from long‑time screen watching."
+  },
+  {
+    "word": "face",
+    "pos": "n./v.",
+    "mean": "脸庞；面对",
+    "sentence": "Face small difficulties bravely when studying."
+  },
+  {
+    "word": "fact",
+    "pos": "n.",
+    "mean": "事实",
+    "sentence": "Know the real fact of this small story."
+  },
+  {
+    "word": "factory",
+    "pos": "n.",
+    "mean": "工厂",
+    "sentence": "Workers produce toys inside this factory."
+  },
+  {
+    "word": "fail",
+    "pos": "v.",
+    "mean": "失败",
+    "sentence": "Do not feel upset if you fail minor quizzes."
+  },
+  {
+    "word": "fair",
+    "pos": "adj.",
+    "mean": "公平的",
+    "sentence": "Teachers keep fair rules for class competitions."
+  },
+  {
+    "word": "fall",
+    "pos": "v./n.",
+    "mean": "落下；秋天",
+    "sentence": "Leaves fall down from trees in autumn."
+  },
+  {
+    "word": "family",
+    "pos": "n.",
+    "mean": "家庭",
+    "sentence": "Our whole family travels abroad every two years."
+  },
+  {
+    "word": "famous",
+    "pos": "adj.",
+    "mean": "著名的",
+    "sentence": "This town is famous for fresh honey products."
+  },
+  {
+    "word": "fan",
+    "pos": "n.",
+    "mean": "风扇，粉丝",
+    "sentence": "Electric fans work well during hot summer days."
+  },
+  {
+    "word": "farm",
+    "pos": "n./v.",
+    "mean": "农场；务农",
+    "sentence": "Farmers grow wheat on their large farms."
+  },
+  {
+    "word": "farmer",
+    "pos": "n.",
+    "mean": "农夫",
+    "sentence": "Farmers harvest crops in early autumn seasons."
+  },
+  {
+    "word": "fast",
+    "pos": "adj./adv.",
+    "mean": "快速的",
+    "sentence": "Cars run fast on wide main roads."
+  },
+  {
+    "word": "fat",
+    "pos": "adj.",
+    "mean": "肥胖的",
+    "sentence": "Too much sweet food makes people fat gradually."
+  },
+  {
+    "word": "father",
+    "pos": "n.",
+    "mean": "父亲",
+    "sentence": "My father teaches me swimming skills on weekends."
+  },
+  {
+    "word": "fear",
+    "pos": "n./v.",
+    "mean": "害怕",
+    "sentence": "Young children fear heavy thunder‑storms."
+  },
+  {
+    "word": "feed",
+    "pos": "v.",
+    "mean": "喂养",
+    "sentence": "Feed fresh grass to farm sheep each morning."
+  },
+  {
+    "word": "feel",
+    "pos": "v.",
+    "mean": "感觉",
+    "sentence": "You will feel tired after long‑time hiking trips."
+  },
+  {
+    "word": "festival",
+    "pos": "n.",
+    "mean": "节日",
+    "sentence": "Local people celebrate harvest festivals yearly."
+  },
+  {
+    "word": "fetch",
+    "pos": "v.",
+    "mean": "取来",
+    "sentence": "Fetch clean drinking‑water from the kitchen tap."
+  },
+  {
+    "word": "fever",
+    "pos": "n.",
+    "mean": "发烧",
+    "sentence": "Stay home and rest when you have a fever."
+  },
+  {
+    "word": "few",
+    "pos": "det.",
+    "mean": "少量（否定含义）",
+    "sentence": "Few students finish this hard exercise."
+  },
+  {
+    "word": "field",
+    "pos": "n.",
+    "mean": "田地，场地",
+    "sentence": "Students play football on the grass field."
+  },
+  {
+    "word": "fight",
+    "pos": "v./n.",
+    "mean": "打架",
+    "sentence": "Kids should not fight with their classmates."
+  },
+  {
+    "word": "fill",
+    "pos": "v.",
+    "mean": "填满",
+    "sentence": "Fill glass bottles with fresh spring‑water."
+  },
+  {
+    "word": "film",
+    "pos": "n./v.",
+    "mean": "电影；拍摄",
+    "sentence": "Watch a cartoon film with your family tonight."
+  },
+  {
+    "word": "final",
+    "pos": "adj.",
+    "mean": "最终的",
+    "sentence": "Prepare well for your final end‑of‑term exams."
+  },
+  {
+    "word": "find",
+    "pos": "v.",
+    "mean": "找到",
+    "sentence": "Find hidden small toys inside garden bushes."
+  },
+  {
+    "word": "fine",
+    "pos": "adj.",
+    "mean": "晴朗的，健康的",
+    "sentence": "Fine sunny weather suits outdoor sports."
+  },
+  {
+    "word": "finger",
+    "pos": "n.",
+    "mean": "手指",
+    "sentence": "Cut your fingers carefully with sharp knives."
+  },
+  {
+    "word": "finish",
+    "pos": "v.",
+    "mean": "结束",
+    "sentence": "Finish school homework before 8 p.m. each day."
+  },
+  {
+    "word": "fire",
+    "pos": "n.",
+    "mean": "火焰，火",
+    "sentence": "Do not play with open fire near wooden houses."
+  },
+  {
+    "word": "first",
+    "pos": "num./adj.",
+    "mean": "第一",
+    "sentence": "She wins first prize within the drawing competition."
+  },
+  {
+    "word": "fish",
+    "pos": "n./v.",
+    "mean": "鱼；钓鱼",
+    "sentence": "Grandpa fishes by the lake every Sunday morning."
+  },
+  {
+    "word": "fit",
+    "pos": "adj./v.",
+    "mean": "健康的；适配",
+    "sentence": "Daily jogging keeps your body fit."
+  },
+  {
+    "word": "five",
+    "pos": "num.",
+    "mean": "五",
+    "sentence": "Five friends plan a one‑day mountain trip."
+  },
+  {
+    "word": "fix",
+    "pos": "v.",
+    "mean": "修理",
+    "sentence": "Fix broken bicycle wheels before riding outdoors."
+  },
+  {
+    "word": "flight",
+    "pos": "n.",
+    "mean": "航班",
+    "sentence": "Our morning flight departs at nine o’clock."
+  },
+  {
+    "word": "floor",
+    "pos": "n.",
+    "mean": "地板，楼层",
+    "sentence": "Our classroom sits on the second school floor."
+  },
+  {
+    "word": "flower",
+    "pos": "n.",
+    "mean": "鲜花",
+    "sentence": "Colourful garden flowers bloom during spring months."
+  },
+  {
+    "word": "fly",
+    "pos": "v.",
+    "mean": "飞行",
+    "sentence": "Birds fly high above green forest trees."
+  },
+  {
+    "word": "food",
+    "pos": "n.",
+    "mean": "食物",
+    "sentence": "Store healthy fresh food for summer vacations."
+  },
+  {
+    "word": "foot",
+    "pos": "n.",
+    "mean": "脚",
+    "sentence": "We travel on foot around nearby small villages."
+  },
+  {
+    "word": "football",
+    "pos": "n.",
+    "mean": "足球",
+    "sentence": "Boys play football after daily school classes."
+  },
+  {
+    "word": "for",
+    "pos": "prep.",
+    "mean": "为了",
+    "sentence": "Buy fresh fruit for your whole family members."
+  },
+  {
+    "word": "force",
+    "pos": "v./n.",
+    "mean": "迫使；力量",
+    "sentence": "Natural storm‑force winds shake tree branches."
+  },
+  {
+    "word": "foreign",
+    "pos": "adj.",
+    "mean": "外国的",
+    "sentence": "Learn basic foreign language vocabulary steadily."
+  },
+  {
+    "word": "forest",
+    "pos": "n.",
+    "mean": "森林",
+    "sentence": "Thick forests contain many wild animal species."
+  },
+  {
+    "word": "forget",
+    "pos": "v.",
+    "mean": "忘记",
+    "sentence": "Do not forget your school keys before leaving home."
+  },
+  {
+    "word": "fork",
+    "pos": "n.",
+    "mean": "餐叉",
+    "sentence": "Use forks for eating western‑style meals."
+  },
+  {
+    "word": "form",
+    "pos": "n.",
+    "mean": "表格",
+    "sentence": "Fill in travel registration‑forms carefully."
+  },
+  {
+    "word": "forty",
+    "pos": "num.",
+    "mean": "四十",
+    "sentence": "Forty students attend our school English club."
+  },
+  {
+    "word": "forward",
+    "pos": "adv.",
+    "mean": "向前",
+    "sentence": "Step forward slowly on slippery wet roads."
+  },
+  {
+    "word": "four",
+    "pos": "num.",
+    "mean": "四",
+    "sentence": "Four classmates share one reading desk."
+  },
+  {
+    "word": "fourteen",
+    "pos": "num.",
+    "mean": "十四",
+    "sentence": "Most kids start high‑school at fourteen years old."
+  },
+  {
+    "word": "fox",
+    "pos": "n.",
+    "mean": "狐狸",
+    "sentence": "Clever wild foxes hunt small forest animals."
+  },
+  {
+    "word": "free",
+    "pos": "adj.",
+    "mean": "空闲的，免费的",
+    "sentence": "We have free afternoon time on Wednesday."
+  },
+  {
+    "word": "fresh",
+    "pos": "adj.",
+    "mean": "新鲜的",
+    "sentence": "Fresh morning air improves study efficiency."
+  },
+  {
+    "word": "friend",
+    "pos": "n.",
+    "mean": "朋友",
+    "sentence": "Make honest new friends during school life."
   },
   {
     "word": "friendly",
     "pos": "adj.",
-    "mean": "友好的",
-    "sentence": "The teacher is very friendly."
+    "mean": "友善的",
+    "sentence": "Be friendly towards your new classmates."
+  },
+  {
+    "word": "friendship",
+    "pos": "n.",
+    "mean": "友谊",
+    "sentence": "Long‑term friendship needs daily mutual care."
+  },
+  {
+    "word": "fridge",
+    "pos": "n.",
+    "mean": "冰箱",
+    "sentence": "Store cold milk inside the kitchen fridge."
+  },
+  {
+    "word": "Friday",
+    "pos": "n.",
+    "mean": "星期五",
+    "sentence": "Our weekly sports lesson takes place every Friday."
+  },
+  {
+    "word": "fridge",
+    "pos": "n.",
+    "mean": "冰箱",
+    "sentence": "Store cold milk inside the kitchen fridge."
+  },
+  {
+    "word": "front",
+    "pos": "n.",
+    "mean": "前方",
+    "sentence": "Stand at the front of the classroom for speeches."
+  },
+  {
+    "word": "fruit",
+    "pos": "n.",
+    "mean": "水果",
+    "sentence": "Eat fresh fruit after daily main meals."
+  },
+  {
+    "word": "full",
+    "pos": "adj.",
+    "mean": "满的",
+    "sentence": "The bus becomes full during morning rush hours."
+  },
+  {
+    "word": "fun",
+    "pos": "n.",
+    "mean": "乐趣",
+    "sentence": "We have great fun playing beach games in summer."
+  },
+  {
+    "word": "funny",
+    "pos": "adj.",
+    "mean": "有趣好笑的",
+    "sentence": "Funny cartoon videos cheer bored children up."
+  },
+  {
+    "word": "future",
+    "pos": "n.",
+    "mean": "未来",
+    "sentence": "Plan your future study goals step‑by‑step."
+  },
+  {
+    "word": "game",
+    "pos": "n.",
+    "mean": "游戏，比赛",
+    "sentence": "Play board games with family members at night."
+  },
+  {
+    "word": "garage",
+    "pos": "n.",
+    "mean": "车库",
+    "sentence": "Park family cars inside the home garage."
+  },
+  {
+    "word": "garden",
+    "pos": "n.",
+    "mean": "花园",
+    "sentence": "Grow roses inside our small backyard garden."
+  },
+  {
+    "word": "gate",
+    "pos": "n.",
+    "mean": "大门",
+    "sentence": "School‑gate opens at 7:20 each weekday morning."
+  },
+  {
+    "word": "general",
+    "pos": "adj.",
+    "mean": "大体的",
+    "sentence": "Make a general travel plan before summer trips."
+  },
+  {
+    "word": "gentle",
+    "pos": "adj.",
+    "mean": "温和的",
+    "sentence": "Gentle spring winds blow across garden plants."
+  },
+  {
+    "word": "geography",
+    "pos": "n.",
+    "mean": "地理",
+    "sentence": "We learn country geography in middle‑school classes."
+  },
+  {
+    "word": "get",
+    "pos": "v.",
+    "mean": "获得",
+    "sentence": "Get high scores through steady daily study efforts."
+  },
+  {
+    "word": "gift",
+    "pos": "n.",
+    "mean": "礼物",
+    "sentence": "Prepare birthday gifts for your close friends."
+  },
+  {
+    "word": "girl",
+    "pos": "n.",
+    "mean": "女孩",
+    "sentence": "That young girl learns ballet dance lessons weekly."
+  },
+  {
+    "word": "give",
+    "pos": "v.",
+    "mean": "给予",
+    "sentence": "Give old books to poor‑area children as donations."
+  },
+  {
+    "word": "glass",
+    "pos": "n.",
+    "mean": "玻璃，玻璃杯",
+    "sentence": "Do not drop thin glass cups onto hard floors."
+  },
+  {
+    "word": "glasses",
+    "pos": "n.(pl)",
+    "mean": "眼镜",
+    "sentence": "Wear reading‑glasses for long‑time book‑reading."
+  },
+  {
+    "word": "goal",
+    "pos": "n.",
+    "mean": "目标",
+    "sentence": "Set small weekly goals for English vocabulary learning."
+  },
+  {
+    "word": "gold",
+    "pos": "n.",
+    "mean": "黄金",
+    "sentence": "Gold jewellery costs high market prices."
+  },
+  {
+    "word": "good",
+    "pos": "adj.",
+    "mean": "好的",
+    "sentence": "Keep good daily study habits from primary school."
+  },
+  {
+    "word": "government",
+    "pos": "n.",
+    "mean": "政府",
+    "sentence": "Local governments protect wild forest resources."
+  },
+  {
+    "word": "grade",
+    "pos": "n.",
+    "mean": "年级，分数",
+    "sentence": "She receives high grades on monthly English tests."
+  },
+  {
+    "word": "grammar",
+    "pos": "n.",
+    "mean": "语法",
+    "sentence": "Practise basic grammar rules for KET exam preparation."
+  },
+  {
+    "word": "grandchild",
+    "pos": "n.",
+    "mean": "孙辈",
+    "sentence": "Grandchildren visit grandparents on holidays."
+  },
+  {
+    "word": "granddad",
+    "pos": "n.",
+    "mean": "祖父，外公",
+    "sentence": "Granddad grows vegetables in his garden plot."
+  },
+  {
+    "word": "grandma",
+    "pos": "n.",
+    "mean": "祖母，外婆",
+    "sentence": "Grandma cooks homemade biscuits for kids."
+  },
+  {
+    "word": "grandparent",
+    "pos": "n.",
+    "mean": "祖父母",
+    "sentence": "We spend Spring‑Festival with grandparents."
+  },
+  {
+    "word": "grape",
+    "pos": "n.",
+    "mean": "葡萄",
+    "sentence": "Sweet purple grapes ripen during late summer."
+  },
+  {
+    "word": "grass",
+    "pos": "n.",
+    "mean": "青草",
+    "sentence": "Green grass covers whole football‑field ground."
+  },
+  {
+    "word": "great",
+    "pos": "adj.",
+    "mean": "极好的",
+    "sentence": "We have a great summer‑camp experience last year."
+  },
+  {
+    "word": "green",
+    "pos": "adj.",
+    "mean": "绿色的",
+    "sentence": "Green leaves grow fast during warm spring months."
+  },
+  {
+    "word": "grey",
+    "pos": "adj.",
+    "mean": "灰色的",
+    "sentence": "Grey cloudy skies mean coming rainy weather."
+  },
+  {
+    "word": "ground",
+    "pos": "n.",
+    "mean": "地面",
+    "sentence": "Leaves fall onto the ground after autumn winds blow."
+  },
+  {
+    "word": "group",
+    "pos": "n.",
+    "mean": "小组",
+    "sentence": "Divide students into four small study‑groups."
+  },
+  {
+    "word": "grow",
+    "pos": "v.",
+    "mean": "生长",
+    "sentence": "Young trees grow tall after several years’ growth."
+  },
+  {
+    "word": "guest",
+    "pos": "n.",
+    "mean": "客人",
+    "sentence": "Prepare snacks for home guests visiting on weekends."
+  },
+  {
+    "word": "guide",
+    "pos": "n./v.",
+    "mean": "向导；指引",
+    "sentence": "A mountain guide leads our hiking team safely."
+  },
+  {
+    "word": "guitar",
+    "pos": "n.",
+    "mean": "吉他",
+    "sentence": "Learn simple guitar songs during spare free‑time."
+  },
+  {
+    "word": "gun",
+    "pos": "n.",
+    "mean": "枪支",
+    "sentence": "Ordinary people cannot own private guns legally."
+  },
+  {
+    "word": "habit",
+    "pos": "n.",
+    "mean": "习惯",
+    "sentence": "Build early‑morning reading habits step‑by‑step."
+  },
+  {
+    "word": "hair",
+    "pos": "n.",
+    "mean": "头发",
+    "sentence": "Her long brown hair blows softly in gentle winds."
+  },
+  {
+    "word": "half",
+    "pos": "n.",
+    "mean": "一半",
+    "sentence": "Eat half of the bread piece for morning snacks."
+  },
+  {
+    "word": "hall",
+    "pos": "n.",
+    "mean": "大厅",
+    "sentence": "School meetings take place inside the main hall."
+  },
+  {
+    "word": "hamburger",
+    "pos": "n.",
+    "mean": "汉堡包",
+    "sentence": "Children love beef hamburgers as fast‑food meals."
+  },
+  {
+    "word": "hand",
+    "pos": "n.",
+    "mean": "手",
+    "sentence": "Wash hands carefully before eating daily meals."
+  },
+  {
+    "word": "happen",
+    "pos": "v.",
+    "mean": "发生",
+    "sentence": "What interesting things happen during your summer holiday?"
+  },
+  {
+    "word": "happy",
+    "pos": "adj.",
+    "mean": "开心的",
+    "sentence": "Kids feel happy playing outdoor group‑games."
+  },
+  {
+    "word": "hard",
+    "pos": "adj./adv.",
+    "mean": "困难的；努力地",
+    "sentence": "Study hard to pass your KET English exam."
+  },
+  {
+    "word": "harm",
+    "pos": "v./n.",
+    "mean": "伤害",
+    "sentence": "Too‑bright sunlight harms children’s eyesight."
+  },
+  {
+    "word": "harvest",
+    "pos": "v./n.",
+    "mean": "收获",
+    "sentence": "Farmers harvest ripe wheat during early autumn."
+  },
+  {
+    "word": "hat",
+    "pos": "n.",
+    "mean": "宽边帽子",
+    "sentence": "Wear sun‑hats during hot‑day beach travelling."
+  },
+  {
+    "word": "hate",
+    "pos": "v.",
+    "mean": "讨厌",
+    "sentence": "Most children hate rainy cold winter weather."
+  },
+  {
+    "word": "health",
+    "pos": "n.",
+    "mean": "健康",
+    "sentence": "Regular exercise improves long‑term physical health."
+  },
+  {
+    "word": "healthy",
+    "pos": "adj.",
+    "mean": "健康的",
+    "sentence": "Healthy vegetables supply daily‑required vitamins."
+  },
+  {
+    "word": "hear",
+    "pos": "v.",
+    "mean": "听见",
+    "sentence": "You can hear birds singing inside thick forests."
+  },
+  {
+    "word": "heart",
+    "pos": "n.",
+    "mean": "心脏",
+    "sentence": "Running sports strengthen your heart condition."
+  },
+  {
+    "word": "heat",
+    "pos": "n.",
+    "mean": "热度",
+    "sentence": "Summer heat makes afternoon outdoor activities tiring."
+  },
+  {
+    "word": "heavy",
+    "pos": "adj.",
+    "mean": "沉重的",
+    "sentence": "Heavy school‑bags strain children’s young shoulders."
+  },
+  {
+    "word": "height",
+    "pos": "n.",
+    "mean": "高度",
+    "sentence": "Check children’s height growth every six‑month period."
+  },
+  {
+    "word": "hello",
+    "pos": "excl.",
+    "mean": "你好",
+    "sentence": "Say hello to your teachers each school morning."
+  },
+  {
+    "word": "help",
+    "pos": "v./n.",
+    "mean": "帮助",
+    "sentence": "Classmates help each other with difficult homework tasks."
+  },
+  {
+    "word": "hen",
+    "pos": "n.",
+    "mean": "母鸡",
+    "sentence": "Farm hens produce fresh eggs every single morning."
+  },
+  {
+    "word": "here",
+    "pos": "adv.",
+    "mean": "这里",
+    "sentence": "Stay here and wait for your group‑members’ return."
+  },
+  {
+    "word": "hide",
+    "pos": "v.",
+    "mean": "躲藏",
+    "sentence": "Kids hide behind trees during hide‑and‑seek games."
+  },
+  {
+    "word": "high",
+    "pos": "adj.",
+    "mean": "高的",
+    "sentence": "High mountain peaks remain cold in summer seasons."
+  },
+  {
+    "word": "hill",
+    "pos": "n.",
+    "mean": "小山",
+    "sentence": "Climb small green hills during weekend hiking trips."
+  },
+  {
+    "word": "hire",
+    "pos": "v.",
+    "mean": "租借",
+    "sentence": "Hire small bikes for town‑centre sightseeing travel."
+  },
+  {
+    "word": "history",
+    "pos": "n.",
+    "mean": "历史",
+    "sentence": "Learn world‑history stories within middle‑school lessons."
+  },
+  {
+    "word": "hobby",
+    "pos": "n.",
+    "mean": "爱好",
+    "sentence": "Drawing pictures becomes my main daily hobby."
+  },
+  {
+    "word": "hold",
+    "pos": "v.",
+    "mean": "握住，举办",
+    "sentence": "Our school holds sports meetings every spring term."
+  },
+  {
+    "word": "hole",
+    "pos": "n.",
+    "mean": "洞穴",
+    "sentence": "Rabbits dig small holes inside grass‑covered fields."
+  },
+  {
+    "word": "holiday",
+    "pos": "n.",
+    "mean": "假期",
+    "sentence": "Plan family travel trips during summer holidays."
+  },
+  {
+    "word": "home",
+    "pos": "n.",
+    "mean": "家",
+    "sentence": "Return home before dark on weekend evenings."
+  },
+  {
+    "word": "homework",
+    "pos": "n.",
+    "mean": "家庭作业",
+    "sentence": "Finish daily homework before playing games."
+  },
+  {
+    "word": "honest",
+    "pos": "adj.",
+    "mean": "诚实的",
+    "sentence": "Keep honest behaviour towards teachers and parents."
+  },
+  {
+    "word": "hope",
+    "pos": "v./n.",
+    "mean": "希望",
+    "sentence": "I hope my English listening scores improve quickly."
+  },
+  {
+    "word": "horse",
+    "pos": "n.",
+    "mean": "马匹",
+    "sentence": "Kids ride horses on rural countryside farms."
+  },
+  {
+    "word": "hospital",
+    "pos": "n.",
+    "mean": "医院",
+    "sentence": "Visit community hospitals for minor health problems."
+  },
+  {
+    "word": "hotel",
+    "pos": "n.",
+    "mean": "酒店",
+    "sentence": "Book seaside hotels one‑month before summer vacations."
+  },
+  {
+    "word": "hour",
+    "pos": "n.",
+    "mean": "小时",
+    "sentence": "One‑hour daily English practice improves vocabulary skills."
+  },
+  {
+    "word": "house",
+    "pos": "n.",
+    "mean": "房子",
+    "sentence": "Their new house stands beside a clear small river."
+  },
+  {
+    "word": "housework",
+    "pos": "n.",
+    "mean": "家务",
+    "sentence": "Teenagers do basic housework each weekend day."
+  },
+  {
+    "word": "how",
+    "pos": "adv.",
+    "mean": "如何",
+    "sentence": "How do you prepare your KET‑exam vocabulary revision?"
+  },
+  {
+    "word": "however",
+    "pos": "adv.",
+    "mean": "然而",
+    "sentence": "It rains heavily; however, our hiking trip still continues."
+  },
+  {
+    "word": "huge",
+    "pos": "adj.",
+    "mean": "巨大的",
+    "sentence": "A huge old oak‑tree grows near our village square."
+  },
+  {
+    "word": "human",
+    "pos": "n.",
+    "mean": "人类",
+    "sentence": "Humans must protect natural wild‑animal environments."
+  },
+  {
+    "word": "hundred",
+    "pos": "num.",
+    "mean": "百",
+    "sentence": "One‑hundred new vocabulary words need weekly revision."
+  },
+  {
+    "word": "hungry",
+    "pos": "adj.",
+    "mean": "饥饿的",
+    "sentence": "Kids feel hungry after long‑time outdoor sports."
+  },
+  {
+    "word": "hunt",
+    "pos": "v.",
+    "mean": "捕猎",
+    "sentence": "Wild wolves hunt small forest animals at night‑time."
+  },
+  {
+    "word": "hurry",
+    "pos": "v./n.",
+    "mean": "匆忙",
+    "sentence": "Do not hurry; finish your homework step‑by‑step."
+  },
+  {
+    "word": "husband",
+    "pos": "n.",
+    "mean": "丈夫",
+    "sentence": "Her husband works as a city‑centre fireman."
+  },
+  {
+    "word": "ice",
+    "pos": "n.",
+    "mean": "冰块",
+    "sentence": "Put ice cubes inside summer fruit‑juice drinks."
+  },
+  {
+    "word": "idea",
+    "pos": "n.",
+    "mean": "主意",
+    "sentence": "Share travel‑plan ideas with your family‑members."
+  },
+  {
+    "word": "if",
+    "pos": "conj.",
+    "mean": "如果",
+    "sentence": "If it rains tomorrow, our outdoor sports class cancels."
+  },
+  {
+    "word": "ill",
+    "pos": "adj.",
+    "mean": "生病的",
+    "sentence": "Stay home and rest when you feel ill with colds."
+  },
+  {
+    "word": "image",
+    "pos": "n.",
+    "mean": "图像",
+    "sentence": "Digital‑camera images record holiday travelling moments."
+  },
+  {
+    "word": "imagine",
+    "pos": "v.",
+    "mean": "想象",
+    "sentence": "Imagine your ideal summer‑camp daily life."
+  },
+  {
+    "word": "immediate",
+    "pos": "adj.",
+    "mean": "立刻的",
+    "sentence": "Take immediate action for fire‑emergency situations."
+  },
+  {
+    "word": "improve",
+    "pos": "v.",
+    "mean": "提升",
+    "sentence": "Daily listening practice improves your oral‑English level."
+  },
+  {
+    "word": "include",
+    "pos": "v.",
+    "mean": "包含",
+    "sentence": "The travel package includes free breakfast meals."
+  },
+  {
+    "word": "income",
+    "pos": "n.",
+    "mean": "收入",
+    "sentence": "Farmers’ income rises with fresh fruit sales growth."
+  },
+  {
+    "word": "increase",
+    "pos": "v.",
+    "mean": "增长",
+    "sentence": "Children’s vocabulary amount increases with daily revision."
+  },
+  {
+    "word": "indoor",
+    "pos": "adj.",
+    "mean": "室内的",
+    "sentence": "Do indoor games during rainy‑day weekends."
+  },
+  {
+    "word": "industry",
+    "pos": "n.",
+    "mean": "产业",
+    "sentence": "Tourism industry grows fast within coastal towns."
+  },
+  {
+    "word": "inform",
+    "pos": "v.",
+    "mean": "通知",
+    "sentence": "Teachers inform parents of monthly exam results."
+  },
+  {
+    "word": "inside",
+    "pos": "prep.",
+    "mean": "在内部",
+    "sentence": "Store warm coats inside your school‑bag pockets."
+  },
+  {
+    "word": "instead",
+    "pos": "adv.",
+    "mean": "代替",
+    "sentence": "Read English books instead of watching short videos."
+  },
+  {
+    "word": "instruction",
+    "pos": "n.",
+    "mean": "说明",
+    "sentence": "Read product instructions before using new equipment."
+  },
+  {
+    "word": "instrument",
+    "pos": "n.",
+    "mean": "乐器",
+    "sentence": "Piano is a popular music‑learning instrument for children."
+  },
+  {
+    "word": "insurance",
+    "pos": "n.",
+    "mean": "保险",
+    "sentence": "Buy travel‑insurance before long‑distance trips."
+  },
+  {
+    "word": "intend",
+    "pos": "v.",
+    "mean": "打算",
+    "sentence": "I intend finishing KET vocabulary‑revision within two‑months."
+  },
+  {
+    "word": "interest",
+    "pos": "n.",
+    "mean": "兴趣",
+    "sentence": "Develop learning interest for foreign‑language study."
+  },
+  {
+    "word": "interesting",
+    "pos": "adj.",
+    "mean": "有趣的",
+    "sentence": "Interesting English story‑books attract young learners."
+  },
+  {
+    "word": "international",
+    "pos": "adj.",
+    "mean": "国际的",
+    "sentence": "International summer‑camps connect foreign teenagers."
+  },
+  {
+    "word": "internet",
+    "pos": "n.",
+    "mean": "互联网",
+    "sentence": "Use the internet for safe online English‑learning resources."
+  },
+  {
+    "word": "interview",
+    "pos": "n./v.",
+    "mean": "采访",
+    "sentence": "Journalists interview local farmers about harvest seasons."
+  },
+  {
+    "word": "introduce",
+    "pos": "v.",
+    "mean": "介绍",
+    "sentence": "Introduce your best friend to foreign‑exchange students."
+  },
+  {
+    "word": "invite",
+    "pos": "v.",
+    "mean": "邀请",
+    "sentence": "Invite classmates for weekend home‑party gatherings."
+  },
+  {
+    "word": "iron",
+    "pos": "n.",
+    "mean": "铁",
+    "sentence": "Iron‑made garden‑tools help farm‑planting work."
+  },
+  {
+    "word": "island",
+    "pos": "n.",
+    "mean": "岛屿",
+    "sentence": "Seaside islands have fresh seafood‑food resources."
+  },
+  {
+    "word": "jacket",
+    "pos": "n.",
+    "mean": "夹克衫",
+    "sentence": "Wear light jackets for cool spring‑season evenings."
+  },
+  {
+    "word": "jam",
+    "pos": "n.",
+    "mean": "果酱",
+    "sentence": "Spread strawberry jam over breakfast bread slices."
+  },
+  {
+    "word": "January",
+    "pos": "n.",
+    "mean": "一月",
+    "sentence": "Cold snowy weather arrives in January every year."
+  },
+  {
+    "word": "job",
+    "pos": "n.",
+    "mean": "工作",
+    "sentence": "Find part‑time holiday jobs for teenagers above sixteen‑years‑old."
+  },
+  {
+    "word": "join",
+    "pos": "v.",
+    "mean": "加入",
+    "sentence": "Join school‑English‑club weekly evening‑activities."
+  },
+  {
+    "word": "journey",
+    "pos": "n.",
+    "mean": "长途旅途",
+    "sentence": "Our cross‑country train‑journey lasts twelve‑hours."
+  },
+  {
+    "word": "joy",
+    "pos": "n.",
+    "mean": "喜悦",
+    "sentence": "Kids feel great joy receiving birthday‑party gifts."
+  },
+  {
+    "word": "judge",
+    "pos": "v./n.",
+    "mean": "评判；裁判",
+    "sentence": "Sports‑referees judge football‑match scores fairly."
+  },
+  {
+    "word": "juice",
+    "pos": "n.",
+    "mean": "果汁",
+    "sentence": "Fresh orange juice supplies morning‑time vitamins."
+  },
+  {
+    "word": "July",
+    "pos": "n.",
+    "mean": "七月",
+    "sentence": "Summer vacation officially starts in early July."
+  },
+  {
+    "word": "jump",
+    "pos": "v.",
+    "mean": "跳跃",
+    "sentence": "Children jump rope during playground break‑time."
+  },
+  {
+    "word": "June",
+    "pos": "n.",
+    "mean": "六月",
+    "sentence": "Hot summer‑weather begins in late June each year."
+  },
+  {
+    "word": "jungle",
+    "pos": "n.",
+    "mean": "丛林",
+    "sentence": "Tropical jungles contain thousands of wild‑animal species."
+  },
+  {
+    "word": "just",
+    "pos": "adv.",
+    "mean": "刚刚",
+    "sentence": "I just finish revising thirty KET core‑vocabulary words."
+  },
+  {
+    "word": "keep",
+    "pos": "v.",
+    "mean": "保持",
+    "sentence": "Keep your English‑notebook tidy for daily revision use."
+  },
+  {
+    "word": "key",
+    "pos": "n.",
+    "mean": "钥匙",
+    "sentence": "Do not lose your front‑door house‑keys before school trips."
+  },
+  {
+    "word": "keyboard",
+    "pos": "n.",
+    "mean": "键盘",
+    "sentence": "Use computer keyboards for English‑typing practice."
+  },
+  {
+    "word": "kick",
+    "pos": "v.",
+    "mean": "踢",
+    "sentence": "Boys kick footballs on the school playground field."
+  },
+  {
+    "word": "kid",
+    "pos": "n.",
+    "mean": "小孩",
+    "sentence": "Local kids play seaside games during summer vacations."
+  },
+  {
+    "word": "kill",
+    "pos": "v.",
+    "mean": "杀死",
+    "sentence": "Heavy wild‑fire flames kill large forest‑tree areas."
+  },
+  {
+    "word": "kilometre",
+    "pos": "n.",
+    "mean": "千米",
+    "sentence": "The lake sits three kilometres away from our town centre."
+  },
+  {
+    "word": "king",
+    "pos": "n.",
+    "mean": "国王",
+    "sentence": "Old‑story kings ruled ancient European small kingdoms."
+  },
+  {
+    "word": "kitchen",
+    "pos": "n.",
+    "mean": "厨房",
+    "sentence": "Mum cooks daily‑family meals inside the kitchen room."
+  },
+  {
+    "word": "kite",
+    "pos": "n.",
+    "mean": "风筝",
+    "sentence": "Fly colourful kites during windy spring‑season days."
+  },
+  {
+    "word": "knee",
+    "pos": "n.",
+    "mean": "膝盖",
+    "sentence": "Scratch‑injuries often appear on children’s knees."
+  },
+  {
+    "word": "knife",
+    "pos": "n.",
+    "mean": "小刀",
+    "sentence": "Sharp kitchen‑knives need adult‑supervision for kids’ use."
+  },
+  {
+    "word": "knock",
+    "pos": "v.",
+    "mean": "敲击",
+    "sentence": "Knock the front‑door before entering other people’s homes."
+  },
+  {
+    "word": "know",
+    "pos": "v.",
+    "mean": "知道",
+    "sentence": "Know basic English‑grammar rules before KET‑exam revision."
+  },
+  {
+    "word": "knowledge",
+    "pos": "n.",
+    "mean": "知识",
+    "sentence": "Daily reading builds long‑term English‑language knowledge."
+  },
+  {
+    "word": "lab",
+    "pos": "n.",
+    "mean": "实验室",
+    "sentence": "Chemistry‑lab lessons start from Grade‑seven middle school."
+  },
+  {
+    "word": "lake",
+    "pos": "n.",
+    "mean": "湖泊",
+    "sentence": "Fresh‑water lake fish are popular local‑town seafood dishes."
+  },
+  {
+    "word": "lamp",
+    "pos": "n.",
+    "mean": "台灯",
+    "sentence": "Desk‑lamps supply evening‑time reading‑lighting support."
+  },
+  {
+    "word": "land",
+    "pos": "n./v.",
+    "mean": "陆地；着陆",
+    "sentence": "Airplanes land safely on airport run‑ways."
+  },
+  {
+    "word": "language",
+    "pos": "n.",
+    "mean": "语言",
+    "sentence": "English becomes a global‑wide communication language."
+  },
+  {
+    "word": "large",
+    "pos": "adj.",
+    "mean": "大型的",
+    "sentence": "Large shopping‑malls open within new‑city communities."
+  },
+  {
+    "word": "last",
+    "pos": "adj./v.",
+    "mean": "最后的；持续",
+    "sentence": "Summer‑vacation lasts roughly eight‑weeks each year."
+  },
+  {
+    "word": "late",
+    "pos": "adj./adv.",
+    "mean": "迟到的",
+    "sentence": "Do not be late for your morning school‑classes."
+  },
+  {
+    "word": "later",
+    "pos": "adv.",
+    "mean": "稍后",
+    "sentence": "Finish your homework first; we play games later."
+  },
+  {
+    "word": "laugh",
+    "pos": "v.",
+    "mean": "大笑",
+    "sentence": "Classmates laugh at funny short English cartoon videos."
+  },
+  {
+    "word": "law",
+    "pos": "n.",
+    "mean": "法律",
+    "sentence": "National laws protect children’s basic learning‑rights."
+  },
+  {
+    "word": "lawyer",
+    "pos": "n.",
+    "mean": "律师",
+    "sentence": "Professional lawyers solve people’s legal‑problem cases."
+  },
+  {
+    "word": "lazy",
+    "pos": "adj.",
+    "mean": "懒惰的",
+    "sentence": "Do not be lazy for daily English‑vocabulary revision work."
+  },
+  {
+    "word": "lead",
+    "pos": "v.",
+    "mean": "带领",
+    "sentence": "Teachers lead students for outdoor spring‑field trips."
+  },
+  {
+    "word": "leader",
+    "pos": "n.",
+    "mean": "领队",
+    "sentence": "Our summer‑camp group‑leader organises daily team‑games."
+  },
+  {
+    "word": "leaf",
+    "pos": "n.",
+    "mean": "树叶",
+    "sentence": "Maple‑tree leaves turn red in autumn‑season months."
+  },
+  {
+    "word": "learn",
+    "pos": "v.",
+    "mean": "学习",
+    "sentence": "Learn core‑KET vocabulary with daily ten‑word plans."
+  },
+  {
+    "word": "least",
+    "pos": "adj.",
+    "mean": "最少的",
+    "sentence": "Spend least mobile‑phone time during exam‑revision periods."
+  },
+  {
+    "word": "leave",
+    "pos": "v.",
+    "mean": "离开",
+    "sentence": "Leave home at 7 a.m. to avoid school‑class lateness."
+  },
+  {
+    "word": "left",
+    "pos": "n./adj.",
+    "mean": "左边",
+    "sentence": "The bookstore is on your left side of the street road."
+  },
+  {
+    "word": "leg",
+    "pos": "n.",
+    "mean": "腿部",
+    "sentence": "Tired leg‑muscles appear after long‑time mountain‑hiking trips."
+  },
+  {
+    "word": "lend",
+    "pos": "v.",
+    "mean": "借出",
+    "sentence": "Lend your spare English‑notebook to new classmates."
+  },
+  {
+    "word": "lesson",
+    "pos": "n.",
+    "mean": "课程",
+    "sentence": "We have four morning English‑lessons every school weekday."
+  },
+  {
+    "word": "letter",
+    "pos": "n.",
+    "mean": "信件",
+    "sentence": "Write paper letters to foreign pen‑pal students monthly."
+  },
+  {
+    "word": "level",
+    "pos": "n.",
+    "mean": "水平",
+    "sentence": "Improve your English‑speaking level through daily oral‑practice."
+  },
+  {
+    "word": "library",
+    "pos": "n.",
+    "mean": "图书馆",
+    "sentence": "Borrow story‑books from the town public‑library building."
+  },
+  {
+    "word": "lie",
+    "pos": "v.",
+    "mean": "平躺，说谎",
+    "sentence": "Lie on soft grass during afternoon‑rest breaks outdoors."
+  },
+  {
+    "word": "life",
+    "pos": "n.",
+    "mean": "生活",
+    "sentence": "Record colourful daily‑life moments with photo‑graphs."
+  },
+  {
+    "word": "lift",
+    "pos": "v./n.",
+    "mean": "举起；电梯",
+    "sentence": "Take building lifts for fast high‑floor travelling access."
+  },
+  {
+    "word": "light",
+    "pos": "n./adj.",
+    "mean": "灯光；浅色的",
+    "sentence": "Bed‑room night‑lights support night‑time reading activities."
+  },
+  {
+    "word": "like",
+    "pos": "v./prep.",
+    "mean": "喜欢；像",
+    "sentence": "Most teenagers like summer seaside‑vacation trips."
+  },
+  {
+    "word": "limit",
+    "pos": "v./n.",
+    "mean": "限制",
+    "sentence": "Parents limit children’s daily mobile‑phone screen‑time hours."
+  },
+  {
+    "word": "line",
+    "pos": "n.",
+    "mean": "线条，队伍",
+    "sentence": "Queue‑up in a straight line for school‑canteen meals."
+  },
+  {
+    "word": "lion",
+    "pos": "n.",
+    "mean": "狮子",
+    "sentence": "Wild lions live within African grassland wildlife‑parks."
+  },
+  {
+    "word": "list",
+    "pos": "n.",
+    "mean": "清单",
+    "sentence": "Make daily vocabulary‑revision word‑lists every early morning."
+  },
+  {
+    "word": "listen",
+    "pos": "v.",
+    "mean": "倾听",
+    "sentence": "Listen to English‑audio materials for thirty‑minutes daily."
+  },
+  {
+    "word": "little",
+    "pos": "adj.",
+    "mean": "少量（肯定含义）",
+    "sentence": "Add a little sugar into your morning‑time milk drinks."
+  },
+  {
+    "word": "live",
+    "pos": "v./adj.",
+    "mean": "居住；现场的",
+    "sentence": "We live in a quiet countryside small‑village house."
+  },
+  {
+    "word": "living‑room",
+    "pos": "n.",
+    "mean": "客厅",
+    "sentence": "Whole‑family members gather inside the living‑room space."
+  },
+  {
+    "word": "load",
+    "pos": "n.",
+    "mean": "负载",
+    "sentence": "Heavy school‑bag loads strain young children’s shoulders."
+  },
+  {
+    "word": "local",
+    "pos": "adj.",
+    "mean": "当地的",
+    "sentence": "Taste local fresh seafood dishes during seaside travelling trips."
+  },
+  {
+    "word": "lock",
+    "pos": "v.",
+    "mean": "锁上",
+    "sentence": "Lock your bicycle wheels before leaving playground areas."
+  },
+  {
+    "word": "London",
+    "pos": "n.",
+    "mean": "伦敦",
+    "sentence": "London holds many famous historic old‑castle buildings."
+  },
+  {
+    "word": "lonely",
+    "pos": "adj.",
+    "mean": "孤单的",
+    "sentence": "Kids may feel lonely without weekend play‑mates."
+  },
+  {
+    "word": "long",
+    "pos": "adj./adv.",
+    "mean": "长的",
+    "sentence": "Long summer‑vacation days suit outdoor travelling‑plans."
+  },
+  {
+    "word": "look",
+    "pos": "v.",
+    "mean": "看",
+    "sentence": "Look at English‑word pictures for fast vocabulary memorisation."
+  },
+  {
+    "word": "lose",
+    "pos": "v.",
+    "mean": "丢失",
+    "sentence": "Do not lose your exam admission‑cards before KET‑test days."
+  },
+  {
+    "word": "loss",
+    "pos": "n.",
+    "mean": "损失",
+    "sentence": "Wild‑fire fire‑causes large forest‑vegetation loss problems."
+  },
+  {
+    "word": "lot",
+    "pos": "n.",
+    "mean": "许多",
+    "sentence": "A lot of new vocabulary words require regular weekly revision."
+  },
+  {
+    "word": "love",
+    "pos": "v./n.",
+    "mean": "热爱",
+    "sentence": "Children love warm sunny spring‑season outdoor activities."
+  },
+  {
+    "word": "low",
+    "pos": "adj.",
+    "mean": "低矮的",
+    "sentence": "Low‑temperature weather arrives during winter‑season months."
+  },
+  {
+    "word": "luck",
+    "pos": "n.",
+    "mean": "运气",
+    "sentence": "Wish you good luck for your upcoming KET English‑exam test."
+  },
+  {
+    "word": "lucky",
+    "pos": "adj.",
+    "mean": "幸运的",
+    "sentence": "Lucky students win summer‑camp free‑activity prizes."
+  },
+  {
+    "word": "lunch",
+    "pos": "n.",
+    "mean": "午餐",
+    "sentence": "School‑canteen lunch starts at twelve o’clock noon‑time."
+  },
+  {
+    "word": "machine",
+    "pos": "n.",
+    "mean": "机器",
+    "sentence": "Washing‑machines save daily house‑work time‑costs."
+  },
+  {
+    "word": "magazine",
+    "pos": "n.",
+    "mean": "杂志",
+    "sentence": "Read teenage English‑magazines for spare‑time vocabulary learning."
+  },
+  {
+    "word": "mail",
+    "pos": "n./v.",
+    "mean": "邮件",
+    "sentence": "Mail hand‑written letters to overseas pen‑pal friends."
+  },
+  {
+    "word": "main",
+    "pos": "adj.",
+    "mean": "主要的",
+    "sentence": "The main road connects our town‑centre and countryside villages."
+  },
+  {
+    "word": "make",
+    "pos": "v.",
+    "mean": "制作",
+    "sentence": "Make handmade paper‑crafts during weekend free‑time hours."
+  },
+  {
+    "word": "mall",
+    "pos": "n.",
+    "mean": "大型购物中心",
+    "sentence": "Weekend crowds gather inside city‑centre shopping‑malls."
+  },
+  {
+    "word": "man",
+    "pos": "n.",
+    "mean": "成年男人",
+    "sentence": "That tall man works as a local‑town fire‑fighter worker."
+  },
+  {
+    "word": "manage",
+    "pos": "v.",
+    "mean": "设法做到",
+    "sentence": "Manage finishing fifty daily‑vocabulary revision‑tasks each day."
+  },
+  {
+    "word": "manager",
+    "pos": "n.",
+    "mean": "经理",
+    "sentence": "Shop‑managers arrange daily store‑goods sales‑plans."
+  },
+  {
+    "word": "manner",
+    "pos": "n.",
+    "mean": "举止",
+    "sentence": "Polite table‑manners form from children’s early‑age education."
+  },
+  {
+    "word": "map",
+    "pos": "n.",
+    "mean": "地图",
+    "sentence": "Check travel road‑maps before countryside hiking‑trips."
+  },
+  {
+    "word": "March",
+    "pos": "n.",
+    "mean": "三月",
+    "sentence": "Spring‑season flowers start blooming from early March."
+  },
+  {
+    "word": "mark",
+    "pos": "n./v.",
+    "mean": "分数；标记",
+    "sentence": "Teachers mark weekly English‑quiz homework‑papers carefully."
+  },
+  {
+    "word": "market",
+    "pos": "n.",
+    "mean": "集市",
+    "sentence": "Buy fresh farm‑vegetables at the weekend open‑air market."
+  },
+  {
+    "word": "match",
+    "pos": "n./v.",
+    "mean": "比赛；匹配",
+    "sentence": "Watch school football‑match games every spring term."
+  },
+  {
+    "word": "maths",
+    "pos": "n.",
+    "mean": "数学",
+    "sentence": "Practise daily maths exercises alongside English‑vocabulary revision."
+  },
+  {
+    "word": "matter",
+    "pos": "n.",
+    "mean": "事情",
+    "sentence": "Discuss holiday‑travel‑matters together with family‑members."
+  },
+  {
+    "word": "May",
+    "pos": "n.",
+    "mean": "五月",
+    "sentence": "Warm stable spring‑weather lasts through the month of May."
+  },
+  {
+    "word": "meal",
+    "pos": "n.",
+    "mean": "一餐",
+    "sentence": "Three main daily‑meals supply children’s growing‑period nutrition."
+  },
+  {
+    "word": "mean",
+    "pos": "v.",
+    "mean": "意思是",
+    "sentence": "Explain what difficult English‑words mean in simple Chinese sentences."
+  },
+  {
+    "word": "meaning",
+    "pos": "n.",
+    "mean": "词义",
+    "sentence": "Write down new‑word meanings beside your vocabulary‑notebook words."
+  },
+  {
+    "word": "measure",
+    "pos": "v./n.",
+    "mean": "测量",
+    "sentence": "Measure children’s body‑height every six‑month growth‑period."
+  },
+  {
+    "word": "meat",
+    "pos": "n.",
+    "mean": "肉类",
+    "sentence": "Fresh chicken‑meat supplies daily‑required body‑proteins."
+  },
+  {
+    "word": "medicine",
+    "pos": "n.",
+    "mean": "药品",
+    "sentence": "Take cold‑treatment medicine during flu‑illness periods."
+  },
+  {
+    "word": "meet",
+    "pos": "v.",
+    "mean": "碰面",
+    "sentence": "Meet classmates at the school‑gate before morning‑class starts."
+  },
+  {
+    "word": "meeting",
+    "pos": "n.",
+    "mean": "会议",
+    "sentence": "Class‑leader organises weekly class‑management meetings."
+  },
+  {
+    "word": "member",
+    "pos": "n.",
+    "mean": "成员",
+    "sentence": "Each club‑member joins two weekly English‑club‑activities."
+  },
+  {
+    "word": "memory",
+    "pos": "n.",
+    "mean": "记忆",
+    "sentence": "Daily word‑review strengthens long‑term vocabulary‑memory skills."
+  },
+  {
+    "word": "menu",
+    "pos": "n.",
+    "mean": "菜单",
+    "sentence": "Check restaurant food‑menus before ordering travel‑trip meals."
+  },
+  {
+    "word": "mercy",
+    "pos": "n.",
+    "mean": "宽容",
+    "sentence": "Show mercy toward small wild‑forest living‑creatures."
+  },
+  {
+    "word": "message",
+    "pos": "n.",
+    "mean": "消息",
+    "sentence": "Send short text‑messages to your weekend play‑mates."
+  },
+  {
+    "word": "metal",
+    "pos": "n.",
+    "mean": "金属",
+    "sentence": "Metal‑made water‑bottles suit outdoor hiking‑trip‑uses."
+  },
+  {
+    "word": "method",
+    "pos": "n.",
+    "mean": "方法",
+    "sentence": "Use memory‑games as fast English‑vocabulary‑learning methods."
+  },
+  {
+    "word": "middle",
+    "pos": "n.",
+    "mean": "中间",
+    "sentence": "Sit in the classroom‑middle‑area during daily school‑lessons."
+  },
+  {
+    "word": "milk",
+    "pos": "n./v.",
+    "mean": "牛奶；挤奶",
+    "sentence": "Drink warm fresh milk every early morning‑time period."
+  },
+  {
+    "word": "mind",
+    "pos": "v./n.",
+    "mean": "介意；头脑",
+    "sentence": "Do you mind sharing your English‑revision notes with classmates?"
+  },
+  {
+    "word": "mine",
+    "pos": "pron.",
+    "mean": "我的物品",
+    "sentence": "This English‑vocabulary notebook is mine, not Tom’s."
+  },
+  {
+    "word": "minute",
+    "pos": "n.",
+    "mean": "分钟",
+    "sentence": "Spend thirty minutes daily on English‑listening‑practice tasks."
+  },
+  {
+    "word": "mirror",
+    "pos": "n.",
+    "mean": "镜子",
+    "sentence": "Check your appearance‑image with bedroom‑wall mirrors."
+  },
+  {
+    "word": "miss",
+    "pos": "v.",
+    "mean": "想念，错过",
+    "sentence": "Do not miss early‑morning school‑buses on rainy‑weather days."
+  },
+  {
+    "word": "mix",
+    "pos": "v.",
+    "mean": "混合",
+    "sentence": "Mix fresh fruit‑pieces for summer homemade‑fruit‑juice drinks."
+  },
+  {
+    "word": "mobile",
+    "pos": "adj.",
+    "mean": "可移动的",
+    "sentence": "Mobile‑phones provide convenient online English‑learning channels."
+  },
+  {
+    "word": "model",
+    "pos": "n.",
+    "mean": "模型",
+    "sentence": "Build wooden‑ship models during weekend handmade‑craft‑time."
+  },
+  {
+    "word": "modern",
+    "pos": "adj.",
+    "mean": "现代化的",
+    "sentence": "Modern city‑buildings contain smart automatic‑control facilities."
+  },
+  {
+    "word": "moment",
+    "pos": "n.",
+    "mean": "片刻",
+    "sentence": "Stop study‑work for short rest‑moments every forty‑minutes."
+  },
+  {
+    "word": "money",
+    "pos": "n.",
+    "mean": "金钱",
+    "sentence": "Save pocket‑money for buying English‑story‑book collections."
+  },
+  {
+    "word": "monitor",
+    "pos": "n.",
+    "mean": "班长",
+    "sentence": "Our class‑monitor manages daily classroom‑order rules."
+  },
+  {
+    "word": "month",
+    "pos": "n.",
+    "mean": "月份",
+    "sentence": "One‑month steady vocabulary‑revision improves word‑mastery levels."
+  },
+  {
+    "word": "moon",
+    "pos": "n.",
+    "mean": "月亮",
+    "sentence": "The bright full‑moon shines over countryside villages at night‑time."
+  },
+  {
+    "word": "more",
+    "pos": "adj.",
+    "mean": "更多的",
+    "sentence": "Read more English‑books to expand your word‑storage amounts."
+  },
+  {
+    "word": "morning",
+    "pos": "n.",
+    "mean": "早晨",
+    "sentence": "Morning‑time fresh‑air jogging supports healthy daily‑living habits."
+  },
+  {
+    "word": "mother",
+    "pos": "n.",
+    "mean": "母亲",
+    "sentence": "My mother prepares healthy breakfast‑food every single morning."
+  },
+  {
+    "word": "motorcycle",
+    "pos": "n.",
+    "mean": "摩托车",
+    "sentence": "Teenagers cannot ride motorcycles under sixteen‑years‑old age."
+  },
+  {
+    "word": "mountain",
+    "pos": "n.",
+    "mean": "高山",
+    "sentence": "Summer mountain‑hiking trips attract many teenage student‑groups."
+  },
+  {
+    "word": "mouse",
+    "pos": "n.",
+    "mean": "老鼠",
+    "sentence": "Small wild‑mice live within farm‑house grain‑storage barn‑areas."
+  },
+  {
+    "word": "mouth",
+    "pos": "n.",
+    "mean": "嘴巴",
+    "sentence": "Cover your mouth while coughing in public‑place surroundings."
+  },
+  {
+    "word": "move",
+    "pos": "v.",
+    "mean": "移动",
+    "sentence": "Move your desk‑chair closer to classroom front‑board positions."
+  },
+  {
+    "word": "movie",
+    "pos": "n.",
+    "mean": "电影",
+    "sentence": "Watch original English‑cartoon‑movies for listening‑practice training."
+  },
+  {
+    "word": "much",
+    "pos": "adj.",
+    "mean": "大量的",
+    "sentence": "Do not spend much spare‑time on mobile‑phone short‑videos."
+  },
+  {
+    "word": "museum",
+    "pos": "n.",
+    "mean": "博物馆",
+    "sentence": "Visit city history‑museums during weekend family‑travel plans."
+  },
+  {
+    "word": "music",
+    "pos": "n.",
+    "mean": "音乐",
+    "sentence": "Soft English‑pop‑music helps relaxed vocabulary‑revision study‑states."
+  },
+  {
+    "word": "must",
+    "pos": "modal‑v.",
+    "mean": "必须",
+    "sentence": "You must finish daily homework before enjoying game‑playing time."
+  },
+  {
+    "word": "name",
+    "pos": "n.",
+    "mean": "姓名",
+    "sentence": "Write your full‑name on top of English‑exam answer‑papers."
+  },
+  {
+    "word": "national",
+    "pos": "adj.",
+    "mean": "国家的",
+    "sentence": "National‑holiday periods offer long‑distance family‑travel chances."
+  },
+  {
+    "word": "natural",
+    "pos": "adj.",
+    "mean": "自然的",
+    "sentence": "Natural forest‑scenery calms tired study‑pressure‑moods."
+  },
+  {
+    "word": "nature",
+    "pos": "n.",
+    "mean": "大自然",
+    "sentence": "Get close‑to‑nature scenery during countryside hiking‑trips."
+  },
+  {
+    "word": "near",
+    "pos": "prep.",
+    "mean": "靠近",
+    "sentence": "A small river flows near our countryside‑village housing areas."
+  },
+  {
+    "word": "necessary",
+    "pos": "adj.",
+    "mean": "必要的",
+    "sentence": "Daily word‑revision is necessary for KET‑exam vocabulary‑preparations."
+  },
+  {
+    "word": "neck",
+    "pos": "n.",
+    "mean": "脖子",
+    "sentence": "Relax your neck‑muscles after long‑time desk‑study‑periods."
+  },
+  {
+    "word": "need",
+    "pos": "v./n.",
+    "mean": "需要",
+    "sentence": "Teenagers need eight‑hours sleep every single night‑time period."
+  },
+  {
+    "word": "neighbour",
+    "pos": "n.",
+    "mean": "邻居",
+    "sentence": "Our next‑door neighbours share fresh home‑grown vegetables with us."
+  },
+  {
+    "word": "neighbourhood",
+    "pos": "n.",
+    "mean": "街区",
+    "sentence": "Local‑neighbourhood communities build shared public‑garden spaces."
+  },
+  {
+    "word": "neither",
+    "pos": "pron.",
+    "mean": "两者都不",
+    "sentence": "Neither student finishes today’s difficult maths‑homework task."
+  },
+  {
+    "word": "net",
+    "pos": "n.",
+    "mean": "网",
+    "sentence": "Football‑goal nets stand at two ends of playground pitch‑fields."
+  },
+  {
+    "word": "never",
+    "pos": "adv.",
+    "mean": "从不",
+    "sentence": "Never skip daily ten‑minute English‑word‑revision plans."
+  },
+  {
+    "word": "new",
+    "pos": "adj.",
+    "mean": "崭新的",
+    "sentence": "Buy new vocabulary‑notebooks for your KET‑exam revision‑periods."
+  },
+  {
+    "word": "news",
+    "pos": "n.",
+    "mean": "新闻",
+    "sentence": "Watch simple children’s English‑news videos for listening‑training practice."
+  },
+  {
+    "word": "newspaper",
+    "pos": "n.",
+    "mean": "报纸",
+    "sentence": "Read simplified teenage English‑newspapers during spare‑time hours."
+  },
+  {
+    "word": "next",
+    "pos": "adj.",
+    "mean": "下一个",
+    "sentence": "Our next weekly English‑quiz test takes place this coming Friday."
+  },
+  {
+    "word": "nice",
+    "pos": "adj.",
+    "mean": "美好的",
+    "sentence": "Nice sunny‑weather days suit whole‑family outdoor picnic‑plans."
+  },
+  {
+    "word": "night",
+    "pos": "n.",
+    "mean": "夜晚",
+    "sentence": "Quiet night‑time hours work well for deep‑focus vocabulary‑revision‑study."
+  },
+  {
+    "word": "nine",
+    "pos": "num.",
+    "mean": "九",
+    "sentence": "Nine classmates form our school English‑speech‑competition‑team group."
+  },
+  {
+    "word": "nineteen",
+    "pos": "num.",
+    "mean": "十九",
+    "sentence": "Most teenagers turn nineteen during their senior‑high‑school‑years."
+  },
+  {
+    "word": "no",
+    "pos": "excl.",
+    "mean": "不",
+    "sentence": "Say no to excessive mobile‑phone game‑playing habits."
+  },
+  {
+    "word": "noise",
+    "pos": "n.",
+    "mean": "噪音",
+    "sentence": "Loud street‑traffic noises disturb evening‑homework‑study‑time periods."
+  },
+  {
+    "word": "noisy",
+    "pos": "adj.",
+    "mean": "吵闹的",
+    "sentence": "Noisy playground‑areas are unsuitable for word‑revision‑study‑tasks."
+  },
+  {
+    "word": "none",
+    "pos": "pron.",
+    "mean": "全无",
+    "sentence": "None of students skip their daily English‑homework assignments."
+  },
+  {
+    "word": "noodle",
+    "pos": "n.",
+    "mean": "面条",
+    "sentence": "Hot beef‑noodles become popular winter‑season breakfast‑food choices."
+  },
+  {
+    "word": "noon",
+    "pos": "n.",
+    "mean": "正午",
+    "sentence": "Take a thirty‑minute mid‑day nap right after noon‑time lunch‑meals."
+  },
+  {
+    "word": "normal",
+    "pos": "adj.",
+    "mean": "常规的",
+    "sentence": "Follow normal daily study‑schedules throughout exam‑revision‑periods."
+  },
+  {
+    "word": "north",
+    "pos": "n.",
+    "mean": "北方",
+    "sentence": "Cold winter‑weather arrives earlier within northern‑countryside regions."
+  },
+  {
+    "word": "nose",
+    "pos": "n.",
+    "mean": "鼻子",
+    "sentence": "Use your nose to smell fresh spring‑season garden‑flower fragrances."
+  },
+  {
+    "word": "note",
+    "pos": "n./v.",
+    "mean": "笔记；记录",
+    "sentence": "Note down unknown English‑words during reading‑practice sessions."
+  },
+  {
+    "word": "notebook",
+    "pos": "n.",
+    "mean": "笔记本",
+    "sentence": "Store all core‑KET vocabulary‑lists inside your revision‑notebook file."
+  },
+  {
+    "word": "notice",
+    "pos": "v./n.",
+    "mean": "注意到；通知",
+    "sentence": "Notice small grammar‑mistakes within your written‑English sentences."
+  },
+  {
+    "word": "now",
+    "pos": "adv.",
+    "mean": "现在",
+    "sentence": "Start your daily vocabulary‑revision‑study right now immediately."
+  },
+  {
+    "word": "number",
+    "pos": "n.",
+    "mean": "数字",
+    "sentence": "Write exam‑candidate numbers on your test‑paper top‑sections."
+  },
+  {
+    "word": "nurse",
+    "pos": "n.",
+    "mean": "护士",
+    "sentence": "Hospital nurses take good care of sick children‑patients daily."
+  },
+  {
+    "word": "object",
+    "pos": "n.",
+    "mean": "物品",
+    "sentence": "Collect small natural‑objects like stones during hiking‑trip‑activities."
+  },
+  {
+    "word": "ocean",
+    "pos": "n.",
+    "mean": "海洋",
+    "sentence": "Blue ocean waves roll across seaside‑coast beach‑areas."
+  },
+  {
+    "word": "October",
+    "pos": "n.",
+    "mean": "十月",
+    "sentence": "Cool autumn‑weather fully arrives by early‑October months."
+  },
+  {
+    "word": "offer",
+    "pos": "v./n.",
+    "mean": "主动提供",
+    "sentence": "Classmates offer homework‑help to struggling study‑partners."
+  },
+  {
+    "word": "office",
+    "pos": "n.",
+    "mean": "办公室",
+    "sentence": "Teachers’ main office‑room sits beside our main classroom building."
+  },
+  {
+    "word": "officer",
+    "pos": "n.",
+    "mean": "官员，警员",
+    "sentence": "Local‑police officers keep town‑street public‑safety orders."
+  },
+  {
+    "word": "official",
+    "pos": "adj.",
+    "mean": "官方的",
+    "sentence": "Follow official KET‑exam vocabulary‑lists for exam‑preparation revision‑work."
+  },
+  {
+    "word": "often",
+    "pos": "adv.",
+    "mean": "经常",
+    "sentence": "We often practise English‑dialogues during after‑school club‑activities."
+  },
+  {
+    "word": "oil",
+    "pos": "n.",
+    "mean": "食用油",
+    "sentence": "Cooking‑oil is essential ingredients for daily‑family meal‑preparations."
+  },
+  {
+    "word": "ok",
+    "pos": "excl.",
+    "mean": "好的",
+    "sentence": "Ok, we start our daily thirty‑minute English‑listening‑practice task now."
+  },
+  {
+    "word": "old",
+    "pos": "adj.",
+    "mean": "年老的",
+    "sentence": "Elderly old‑people enjoy slow‑walking park‑activities every morning‑time."
+  },
+  {
+    "word": "Olympic",
+    "pos": "adj.",
+    "mean": "奥林匹克的",
+    "sentence": "Olympic‑sports‑games encourage worldwide teenage sports‑participation."
+  },
+  {
+    "word": "once",
+    "pos": "adv.",
+    "mean": "一次",
+    "sentence": "Revise your full weekly‑word‑list once every weekend‑day period."
+  },
+  {
+    "word": "one",
+    "pos": "num.",
+    "mean": "一",
+    "sentence": "One effective daily study‑plan improves long‑term exam‑preparation results."
+  },
+  {
+    "word": "online",
+    "pos": "adj.",
+    "mean": "线上的",
+    "sentence": "Take online English‑speaking‑courses for spare‑time‑skill‑improvement work."
+  },
+  {
+    "word": "open",
+    "pos": "v./adj.",
+    "mean": "打开；开放的",
+    "sentence": "Open classroom‑windows for fresh‑air circulation each school‑morning."
+  },
+  {
+    "word": "operate",
+    "pos": "v.",
+    "mean": "操作",
+    "sentence": "Learn how to operate English‑learning tablet‑devices properly."
+  },
+  {
+    "word": "opinion",
+    "pos": "n.",
+    "mean": "观点",
+    "sentence": "Share your travel‑plan opinions within family‑discussion‑meetings."
+  },
+  {
+    "word": "opportunity",
+    "pos": "n.",
+    "mean": "机会",
+    "sentence": "Grab every oral‑English‑speaking opportunity during school‑club‑activities."
+  },
+  {
+    "word": "opposite",
+    "pos": "adj./n.",
+    "mean": "相反的",
+    "sentence": "The bookstore stands on the opposite street‑road side of our school."
+  },
+  {
+    "word": "orange",
+    "pos": "n./adj.",
+    "mean": "橙子；橙色的",
+    "sentence": "Fresh orange‑fruits supply vitamin‑C for daily‑health‑needs."
+  },
+  {
+    "word": "order",
+    "pos": "n./v.",
+    "mean": "秩序；订购",
+    "sentence": "Maintain classroom‑study‑order rules during teacher‑absent periods."
+  },
+  {
+    "word": "ordinary",
+    "pos": "adj.",
+    "mean": "普通的",
+    "sentence": "Ordinary daily‑reading habits build steady language‑progress results."
+  },
+  {
+    "word": "organise",
+    "pos": "v.",
+    "mean": "组织",
+    "sentence": "Our class‑leader organises monthly outdoor spring‑picnic‑events."
+  },
+  {
+    "word": "origin",
+    "pos": "n.",
+    "mean": "起源",
+    "sentence": "Learn about English‑word origins for better long‑term word‑memorisation skills."
+  },
+  {
+    "word": "other",
+    "pos": "adj.",
+    "mean": "其他的",
+    "sentence": "Borrow revision‑notes from other high‑level English‑class‑students."
+  },
+  {
+    "word": "our",
+    "pos": "pron.",
+    "mean": "我们的",
+    "sentence": "Our school playground‑field holds weekly Friday‑sports‑lessons."
+  },
+  {
+    "word": "out",
+    "pos": "adv.",
+    "mean": "向外",
+    "sentence": "Walk out of classroom‑buildings for short break‑time outdoor‑rest periods."
+  },
+  {
+    "word": "outdoor",
+    "pos": "adj.",
+    "mean": "户外的",
+    "sentence": "Outdoor mountain‑hiking trips enrich summer‑vacation daily‑life‑experiences."
+  },
+  {
+    "word": "outside",
+    "pos": "prep.",
+    "mean": "外部",
+    "sentence": "Park your bicycles outside the main school‑gate fence‑areas."
+  },
+  {
+    "word": "oven",
+    "pos": "n.",
+    "mean": "烤箱",
+    "sentence": "Home‑ovens bake sweet chocolate‑cookies for weekend‑snack‑preparations."
+  },
+  {
+    "word": "own",
+    "pos": "adj./v.",
+    "mean": "自己的；拥有",
+    "sentence": "Organise your own personal vocabulary‑revision daily‑study‑plans."
+  },
+  {
+    "word": "pack",
+    "pos": "v./n.",
+    "mean": "打包",
+    "sentence": "Pack travelling‑bags one‑day before your summer‑vacation trip‑departure date."
+  },
+  {
+    "word": "page",
+    "pos": "n.",
+    "mean": "书页",
+    "sentence": "Mark important vocabulary‑list pages inside your English‑textbook books."
+  },
+  {
+    "word": "pain",
+    "pos": "n.",
+    "mean": "疼痛",
+    "sentence": "Leg‑muscle pains happen after long‑time continuous jogging‑exercise tasks."
+  },
+  {
+    "word": "paint",
+    "pos": "v./n.",
+    "mean": "绘画；涂料",
+    "sentence": "Paint colourful mountain‑scenery pictures during weekend free‑time hours."
+  },
+  {
+    "word": "painting",
+    "pos": "n.",
+    "mean": "画作",
+    "sentence": "Famous landscape‑paintings display within city‑centre public‑art‑museums."
+  },
+  {
+    "word": "pair",
+    "pos": "n.",
+    "mean": "一对",
+    "sentence": "A pair of sports‑trainer shoes suits outdoor hiking‑trip‑walking‑activities."
+  },
+  {
+    "word": "palace",
+    "pos": "n.",
+    "mean": "宫殿",
+    "sentence": "Historic royal palaces become popular European‑tourist‑sightseeing locations."
+  },
+  {
+    "word": "pan",
+    "pos": "n.",
+    "mean": "平底锅",
+    "sentence": "Cook morning‑time fried‑eggs inside kitchen‑cooking‑pans daily."
+  },
+  {
+    "word": "paper",
+    "pos": "n.",
+    "mean": "纸张",
+    "sentence": "Write daily‑new‑word revision‑lists on clean white paper sheets."
+  },
+  {
+    "word": "paradise",
+    "pos": "n.",
+    "mean": "乐园",
+    "sentence": "Seaside beach‑areas become summer‑vacation children’s playing‑paradise zones."
+  },
+  {
+    "word": "parent",
+    "pos": "n.",
+    "mean": "父母",
+    "sentence": "Parents check children’s daily‑homework‑completion quality every evening‑time."
+  },
+  {
+    "word": "park",
+    "pos": "n./v.",
+    "mean": "公园；停车",
+    "sentence": "Local‑town central‑park hosts weekend public outdoor‑activity‑events."
+  },
+  {
+    "word": "part",
+    "pos": "n.",
+    "mean": "部分",
+    "sentence": "Spend one‑part of your spare‑time on English‑vocabulary‑revision‑study‑tasks."
+  },
+  {
+    "word": "particular",
+    "pos": "adj.",
+    "mean": "特定的",
+    "sentence": "Focus revision‑work on particular high‑frequency KET‑exam core‑words."
+  },
+  {
+    "word": "partner",
+    "pos": "n.",
+    "mean": "搭档",
+    "sentence": "Choose a study‑partner for daily English‑dialogue‑speaking‑practice sessions."
+  },
+  {
+    "word": "party",
+    "pos": "n.",
+    "mean": "派对",
+    "sentence": "Organise a birthday‑party gathering for your best‑friend yearly."
+  },
+  {
+    "word": "pass",
+    "pos": "v.",
+    "mean": "通过",
+    "sentence": "Steady daily‑revision‑study‑work helps you pass your KET‑exam successfully."
+  },
+  {
+    "word": "passage",
+    "pos": "n.",
+    "mean": "短文",
+    "sentence": "Read three short English‑reading‑passages every early‑morning‑study‑period."
+  },
+  {
+    "word": "passenger",
+    "pos": "n.",
+    "mean": "乘客",
+    "sentence": "Bus‑passengers queue‑up orderly at street‑bus‑stop station‑locations."
+  },
+  {
+    "word": "passport",
+    "pos": "n.",
+    "mean": "护照",
+    "sentence": "Prepare travel‑passport documents before overseas international‑trips."
+  },
+  {
+    "word": "path",
+    "pos": "n.",
+    "mean": "小路",
+    "sentence": "Narrow grass‑covered countryside‑paths connect nearby small‑villages together."
+  },
+  {
+    "word": "patient",
+    "pos": "n./adj.",
+    "mean": "病人；耐心的",
+    "sentence": "Be patient during long‑term vocabulary‑memorisation revision‑processes."
+  },
+  {
+    "word": "pay",
+    "pos": "v.",
+    "mean": "支付",
+    "sentence": "Pay travel‑hotel booking‑fees one‑month ahead of summer‑trip dates."
+  },
+  {
+    "word": "peace",
+    "pos": "n.",
+    "mean": "和平",
+    "sentence": "Peace‑ful countryside‑living environments suit quiet daily‑study‑work‑tasks."
+  },
+  {
+    "word": "pear",
+    "pos": "n.",
+    "mean": "梨",
+    "sentence": "Juicy fresh‑pears ripen within late‑summer‑season farm‑orchard areas."
+  },
+  {
+    "word": "pen",
+    "pos": "n.",
+    "mean": "钢笔",
+    "sentence": "Use black‑ink pens for writing formal English‑exam answer‑paper contents."
+  },
+  {
+    "word": "pencil",
+    "pos": "n.",
+    "mean": "铅笔",
+    "sentence": "Colour‑pencils draw colourful scenery‑sketches during free‑time‑hours."
+  },
+  {
+    "word": "people",
+    "pos": "n.",
+    "mean": "人们",
+    "sentence": "Local‑countryside‑people grow fresh seasonal farm‑vegetables yearly."
+  },
+  {
+    "word": "pepper",
+    "pos": "n.",
+    "mean": "胡椒粉",
+    "sentence": "Add small‑amount black‑pepper into homemade‑soup cooking‑preparations."
+  },
+  {
+    "word": "percent",
+    "pos": "n.",
+    "mean": "百分比",
+    "sentence": "Sixty‑percent of daily‑study‑time should focus on core‑vocabulary revision‑work."
+  },
+  {
+    "word": "perfect",
+    "pos": "adj.",
+    "mean": "完美的",
+    "sentence": "Keep steady revision‑habits for approaching perfect KET‑exam‑scores."
+  },
+  {
+    "word": "perform",
+    "pos": "v.",
+    "mean": "表演",
+    "sentence": "Students perform English‑drama plays within school spring‑festival‑parties."
+  },
+  {
+    "word": "performance",
+    "pos": "n.",
+    "mean": "演出",
+    "sentence": "Weekly school‑theatre performances attract teenage student‑audience‑groups."
+  },
+  {
+    "word": "perhaps",
+    "pos": "adv.",
+    "mean": "也许",
+    "sentence": "Perhaps we adjust our daily‑word‑revision amount for easier study‑progress‑tracking."
+  },
+  {
+    "word": "period",
+    "pos": "n.",
+    "mean": "时段",
+    "sentence": "A forty‑minute focused‑study‑period suits English‑grammar‑practice‑tasks well."
+  },
+  {
+    "word": "person",
+    "pos": "n.",
+    "mean": "个人",
+    "sentence": "Each single‑person builds personalised vocabulary‑memorisation study‑methods."
+  },
+  {
+    "word": "personal",
+    "pos": "adj.",
+    "mean": "个人的",
+    "sentence": "Keep your personal exam‑revision‑notes safe before official test‑day periods."
+  },
+  {
+    "word": "pet",
+    "pos": "n.",
+    "mean": "宠物",
+    "sentence": "Raise small pet‑rabbits within your family backyard‑garden‑space areas."
+  },
+  {
+    "word": "phone",
+    "pos": "n./v.",
+    "mean": "电话；致电",
+    "sentence": "Phone your classmates to confirm weekend group‑study‑plan details."
+  },
+  {
+    "word": "photo",
+    "pos": "n.",
+    "mean": "照片",
+    "sentence": "Take travel‑trip photos to record summer‑vacation sightseeing‑moments."
+  },
+  {
+    "word": "photograph",
+    "pos": "n.",
+    "mean": "正式照片",
+    "sentence": "Take passport‑standard photographs before overseas travel‑document‑preparations."
+  },
+  {
+    "word": "physical",
+    "pos": "adj.",
+    "mean": "身体的",
+    "sentence": "Thirty‑minute daily physical‑exercise improves students’ long‑term study‑energy levels."
+  },
+  {
+    "word": "piano",
+    "pos": "n.",
+    "mean": "钢琴",
+    "sentence": "Practise basic piano‑melodies during after‑school spare‑time‑hours."
+  },
+  {
+    "word": "picnic",
+    "pos": "n.",
+    "mean": "野餐",
+    "sentence": "Whole‑family members prepare outdoor picnic‑food supplies for weekend park‑trips."
+  },
+  {
+    "word": "picture",
+    "pos": "n.",
+    "mean": "图画",
+    "sentence": "Match English‑words with corresponding picture‑images for fast‑memorisation‑purposes."
+  },
+  {
+    "word": "piece",
+    "pos": "n.",
+    "mean": "碎片",
+    "sentence": "Cut a large cake‑piece into eight small equal‑sized slices for party‑participants."
+  },
+  {
+    "word": "pig",
+    "pos": "n.",
+    "mean": "猪",
+    "sentence": "Farm‑pigs supply pork‑meat for daily‑family cooking‑meal‑preparations."
+  },
+  {
+    "word": "pillow",
+    "pos": "n.",
+    "mean": "枕头",
+    "sentence": "Soft cotton‑pillows support comfortable night‑time sleeping‑quality levels."
+  },
+  {
+    "word": "pilot",
+    "pos": "n.",
+    "mean": "飞行员",
+    "sentence": "Airplane‑pilots control aircraft‑flight‑routes during international‑air‑travel‑journeys."
+  },
+  {
+    "word": "pink",
+    "pos": "adj.",
+    "mean": "粉色的",
+    "sentence": "Pink cherry‑blossom flowers bloom throughout early‑spring‑season months."
+  },
+  {
+    "word": "pioneer",
+    "pos": "n.",
+    "mean": "开拓者",
+    "sentence": "Young‑teenage pioneers take part in countryside volunteer‑planting‑activities."
+  },
+  {
+    "word": "pipe",
+    "pos": "n.",
+    "mean": "管道",
+    "sentence": "Water‑pipes carry fresh drinking‑water to countryside‑village housing‑areas."
+  },
+  {
+    "word": "pizza",
+    "pos": "n.",
+    "mean": "披萨",
+    "sentence": "Cheese‑topped pizza‑dishes become popular weekend‑family‑dinner‑selections."
+  },
+  {
+    "word": "place",
+    "pos": "n./v.",
+    "mean": "地点；放置",
+    "sentence": "Place your vocabulary‑notebook on your desk before daily‑study‑period‑starts."
+  },
+  {
+    "word": "plan",
+    "pos": "n./v.",
+    "mean": "计划",
+    "sentence": "Make weekly English‑revision‑plans before each new Monday‑school‑week‑begins."
+  },
+  {
+    "word": "plane",
+    "pos": "n.",
+    "mean": "飞机",
+    "sentence": "Take passenger‑planes for fast long‑distance cross‑country travel‑trips."
+  },
+  {
+    "word": "plant",
+    "pos": "n./v.",
+    "mean": "植物；种植",
+    "sentence": "Plant young fruit‑trees during early‑spring‑season volunteer‑farm‑activities."
+  },
+  {
+    "word": "plastic",
+    "pos": "adj.",
+    "mean": "塑料的",
+    "sentence": "Recycle used plastic‑bottles for environmental‑protection‑daily‑habits."
+  },
+  {
+    "word": "plate",
+    "pos": "n.",
+    "mean": "盘子",
+    "sentence": "Place cooked‑food dishes onto ceramic dinner‑plates during family‑meal‑times."
+  },
+  {
+    "word": "play",
+    "pos": "v./n.",
+    "mean": "玩耍",
+    "sentence": "Play simple English‑word‑games with study‑partners during break‑time‑periods."
+  },
+  {
+    "word": "player",
+    "pos": "n.",
+    "mean": "选手",
+    "sentence": "Our football‑team players practise pitch‑skills every weekday afternoon‑hours."
+  },
+  {
+    "word": "playground",
+    "pos": "n.",
+    "mean": "操场",
+    "sentence": "Primary‑school children run playground‑field races during break‑time‑periods."
+  },
+  {
+    "word": "pleasant",
+    "pos": "adj.",
+    "mean": "令人愉悦的",
+    "sentence": "Pleasant cool autumn‑weather supports long‑time outdoor‑study‑tasks."
+  },
+  {
+    "word": "please",
+    "pos": "v.",
+    "mean": "请",
+    "sentence": "Please finish your daily‑homework assignments before evening‑game‑playing‑time‑periods."
+  },
+  {
+    "word": "pleasure",
+    "pos": "n.",
+    "mean": "乐趣",
+    "sentence": "Reading simplified English‑novels brings huge learning‑pleasure results."
+  },
+  {
+    "word": "plenty",
+    "pos": "pron.",
+    "mean": "大量",
+    "sentence": "Plenty of revision‑materials support your KET‑exam vocabulary‑preparation‑processes."
+  },
+  {
+    "word": "plus",
+    "pos": "prep.",
+    "mean": "加上",
+    "sentence": "Fifty new‑words plus thirty‑review‑words make up daily‑study‑word‑tasks."
+  },
+  {
+    "word": "pocket",
+    "pos": "n.",
+    "mean": "口袋",
+    "sentence": "Put small word‑flash‑cards inside your jacket‑pockets for outdoor spare‑time‑revision‑uses."
+  },
+  {
+    "word": "poem",
+    "pos": "n.",
+    "mean": "诗歌",
+    "sentence": "Read short English‑poems during early‑morning reading‑practice‑periods."
+  },
+  {
+    "word": "point",
+    "pos": "n./v.",
+    "mean": "要点；指向",
+    "sentence": "Mark core grammar‑key‑points within your English‑textbook pages."
+  },
+  {
+    "word": "police",
+    "pos": "n.",
+    "mean": "警察",
+    "sentence": "Local‑town police‑teams patrol main‑street road‑areas for public‑safety‑maintenance‑work."
+  },
+  {
+    "word": "polite",
+    "pos": "adj.",
+    "mean": "有礼貌的",
+    "sentence": "Keep polite speaking‑manners while communicating with teachers and classmates."
+  },
+  {
+    "word": "pond",
+    "pos": "n.",
+    "mean": "池塘",
+    "sentence": "Small farm‑ponds contain fresh‑water fish for local‑town seafood‑supply‑purposes."
+  },
+  {
+    "word": "pool",
+    "pos": "n.",
+    "mean": "水池",
+    "sentence": "School‑swimming‑pool opens for summer‑season student swimming‑training‑classes."
+  },
+  {
+    "word": "poor",
+    "pos": "adj.",
+    "mean": "贫穷的",
+    "sentence": "Volunteers send story‑book donations toward poor‑area primary‑school‑children."
+  },
+  {
+    "word": "pop",
+    "pos": "adj.",
+    "mean": "流行的",
+    "sentence": "Pop‑style English‑songs improve teenage students’ listening‑vocabulary‑levels."
+  },
+  {
+    "word": "popular",
+    "pos": "adj.",
+    "mean": "受欢迎的",
+    "sentence": "Football‑sports remain popular among most teenage school‑student‑groups."
+  },
+  {
+    "word": "population",
+    "pos": "n.",
+    "mean": "人口",
+    "sentence": "Small‑countryside‑villages have low local‑population‑density levels."
+  },
+  {
+    "word": "pork",
+    "pos": "n.",
+    "mean": "猪肉",
+    "sentence": "Fried pork‑chops serve as popular weekend‑lunch‑meal selections."
+  },
+  {
+    "word": "port",
+    "pos": "n.",
+    "mean": "港口",
+    "sentence": "Seaside‑port‑towns develop fast seafood‑trading‑business industries."
+  },
+  {
+    "word": "position",
+    "pos": "n.",
+    "mean": "位置",
+    "sentence": "Check your desk‑sitting‑position to protect children’s eyesight‑health‑conditions."
+  },
+  {
+    "word": "possible",
+    "pos": "adj.",
+    "mean": "可能的",
+    "sentence": "Finish daily‑revision‑word‑tasks as early as possible every single day."
+  },
+  {
+    "word": "post",
+    "pos": "n./v.",
+    "mean": "邮政；邮寄",
+    "sentence": "Post holiday‑travel‑postcards to your close‑friend contacts."
+  },
+  {
+    "word": "pot",
+    "pos": "n.",
+    "mean": "锅",
+    "sentence": "Cook vegetable‑soups inside ceramic cooking‑pots during cold winter‑season‑days."
+  },
+  {
+    "word": "potato",
+    "pos": "n.",
+    "mean": "土豆",
+    "sentence": "Baked potato‑chips are popular children‑friendly snack‑selections."
+  },
+  {
+    "word": "pound",
+    "pos": "n.",
+    "mean": "英镑",
+    "sentence": "This book costs one pound."
   }
 ]
