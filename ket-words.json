@@ -1,0 +1,38 @@
+[
+  {
+    "word": "apple",
+    "pos": "n.",
+    "mean": "苹果",
+    "sentence": "I eat an apple every morning."
+  },
+  {
+    "word": "beautiful",
+    "pos": "adj.",
+    "mean": "美丽的",
+    "sentence": "She has a beautiful smile."
+  },
+  {
+    "word": "carry",
+    "pos": "v.",
+    "mean": "携带；搬运",
+    "sentence": "Can you carry this bag for me?"
+  },
+  {
+    "word": "dangerous",
+    "pos": "adj.",
+    "mean": "危险的",
+    "sentence": "It is dangerous to swim alone."
+  },
+  {
+    "word": "enjoy",
+    "pos": "v.",
+    "mean": "享受；喜爱",
+    "sentence": "I enjoy reading books at night."
+  },
+  {
+    "word": "friendly",
+    "pos": "adj.",
+    "mean": "友好的",
+    "sentence": "The teacher is very friendly."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "word": "ambiguous",
+    "pos": "adj.",
+    "mean": "含糊的；模棱两可的",
+    "sentence": "The contract contained several ambiguous clauses."
+  },
+  {
+    "word": "bureaucracy",
+    "pos": "n.",
+    "mean": "官僚体制；繁文缛节",
+    "sentence": "The bureaucracy slowed down the approval process."
+  },
+  {
+    "word": "cogent",
+    "pos": "adj.",
+    "mean": "有说服力的",
+    "sentence": "She made a cogent argument for reform."
+  },
+  {
+    "word": "delineate",
+    "pos": "v.",
+    "mean": "描述；划定界限",
+    "sentence": "The report delineates the main causes of poverty."
+  },
+  {
+    "word": "empirical",
+    "pos": "adj.",
+    "mean": "经验的；实证的",
+    "sentence": "The study is based on empirical evidence."
+  },
+  {
+    "word": "facilitate",
+    "pos": "v.",
+    "mean": "促进；使便利",
+    "sentence": "Technology can facilitate communication across borders."
+  }
+]

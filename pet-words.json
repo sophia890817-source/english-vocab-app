@@ -1,0 +1,38 @@
+[
+  {
+    "word": "achieve",
+    "pos": "v.",
+    "mean": "实现；达到",
+    "sentence": "She worked hard to achieve her goals."
+  },
+  {
+    "word": "benefit",
+    "pos": "n.",
+    "mean": "好处；利益",
+    "sentence": "Regular exercise has many health benefits."
+  },
+  {
+    "word": "consider",
+    "pos": "v.",
+    "mean": "考虑；认为",
+    "sentence": "Please consider all the options carefully."
+  },
+  {
+    "word": "discover",
+    "pos": "v.",
+    "mean": "发现；找到",
+    "sentence": "Scientists discovered a new species last year."
+  },
+  {
+    "word": "essential",
+    "pos": "adj.",
+    "mean": "必要的；基本的",
+    "sentence": "Water is essential for all living things."
+  },
+  {
+    "word": "familiar",
+    "pos": "adj.",
+    "mean": "熟悉的",
+    "sentence": "The face looks familiar to me."
+  }
+]
