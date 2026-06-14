@@ -1859,7 +1859,7 @@ function setStatus(msg){
 function startRepeat(idx){
   phase='repeat';
   document.getElementById('phaseIcon').textContent='🎤';
-  let secs=5;const circ=188.5;
+  let secs=10;const circ=188.5;
   document.getElementById('phaseArea').innerHTML=`
     <div class="countdown-wrap">
       <div class="countdown-label">Say it aloud!</div>
@@ -1877,7 +1877,7 @@ function startRepeat(idx){
     const el=document.getElementById('cdNum');
     const pg=document.getElementById('progC');
     if(el)el.textContent=secs;
-    if(pg)pg.style.strokeDashoffset=circ*(1-secs/5);
+    if(pg)pg.style.strokeDashoffset=circ*(1-secs/10);
     if(secs<=0){clearInterval(cdInterval);startSpell(idx);}
   },1000);
 }
