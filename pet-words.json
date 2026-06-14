@@ -1,401 +1,6086 @@
 [
-{"word":"absent-minded","pos":"adj.","mean":"心不在焉的","sentence":"He is very absent-minded and often forgets appointments."},
-  {"word":"access","pos":"n.","mean":"进入；使用权","sentence":"All students have access to the school library."},
-  {"word":"achievement","pos":"n.","mean":"成就；成绩","sentence":"Winning the championship was her greatest achievement."},
-  {"word":"adapt","pos":"v.","mean":"适应；改编","sentence":"It took her a while to adapt to the new country."},
-  {"word":"add up","pos":"phr.v.","mean":"合计；把…加起来","sentence":"Add up all the numbers and give me the total."},
-  {"word":"adjust","pos":"v.","mean":"调整；适应","sentence":"She adjusted the mirror before starting the car."},
-  {"word":"admire","pos":"v.","mean":"钦佩；赞赏","sentence":"Everyone admired her for her courage and determination."},
-  {"word":"adoption","pos":"n.","mean":"收养；采用","sentence":"They considered adoption after years of trying for a child."},
-  {"word":"aggressive","pos":"adj.","mean":"好斗的；侵略性的","sentence":"Some dogs can be aggressive if they are not trained properly."},
-  {"word":"airport","pos":"n.","mean":"机场","sentence":"We arrived at the airport two hours before the flight."},
-  {"word":"aisle","pos":"n.","mean":"走廊；通道","sentence":"She prefers an aisle seat on the plane."},
-  {"word":"allergic","pos":"adj.","mean":"过敏的","sentence":"She is allergic to shellfish."},
-  {"word":"allowance","pos":"n.","mean":"津贴；零花钱","sentence":"His parents give him a weekly allowance."},
-  {"word":"amazing","pos":"adj.","mean":"令人惊叹的","sentence":"The view from the top of the hill was amazing."},
-  {"word":"amusing","pos":"adj.","mean":"有趣的；好笑的","sentence":"He told an amusing story that made everyone laugh."},
-  {"word":"ancient","pos":"adj.","mean":"古代的","sentence":"The ancient temple was built over two thousand years ago."},
-  {"word":"ankle","pos":"n.","mean":"脚踝","sentence":"She twisted her ankle while playing tennis."},
-  {"word":"anniversary","pos":"n.","mean":"周年纪念","sentence":"They celebrated their silver wedding anniversary."},
-  {"word":"antique","pos":"n.","mean":"古董；文物","sentence":"She collects antiques from local markets."},
-  {"word":"apologise","pos":"v.","mean":"道歉","sentence":"She apologised sincerely for being late."},
-  {"word":"appointment","pos":"n.","mean":"约会；预约","sentence":"She has a hospital appointment on Monday."},
-  {"word":"approve","pos":"v.","mean":"批准；赞成","sentence":"The manager approved the new budget proposal."},
-  {"word":"around","pos":"prep.","mean":"大约；在…周围","sentence":"There are around fifty students in the building."},
-  {"word":"arrange","pos":"v.","mean":"安排；布置","sentence":"She arranged to meet him at the café at noon."},
-  {"word":"arrest","pos":"v.","mean":"逮捕","sentence":"The suspect was arrested by police."},
-  {"word":"attitude","pos":"n.","mean":"态度；看法","sentence":"She has a very positive attitude towards learning."},
-  {"word":"attract","pos":"v.","mean":"吸引","sentence":"The new theme park attracts visitors from all over the world."},
-  {"word":"audience","pos":"n.","mean":"观众；受众","sentence":"The audience gave a standing ovation at the end."},
-  {"word":"awful","pos":"adj.","mean":"糟糕的","sentence":"The traffic was awful and we were two hours late."},
-  {"word":"baggage claim","pos":"n.","mean":"行李认领处","sentence":"After landing, we went straight to the baggage claim."},
-  {"word":"balanced","pos":"adj.","mean":"均衡的","sentence":"She tries to eat a balanced diet every day."},
-  {"word":"bargain","pos":"n.","mean":"便宜货；交易","sentence":"She found a real bargain at the market."},
-  {"word":"barrier","pos":"n.","mean":"障碍；屏障","sentence":"Language can be a barrier to communication."},
-  {"word":"behaviour","pos":"n.","mean":"行为","sentence":"The teacher praised the students for their good behaviour."},
-  {"word":"belonging","pos":"n.","mean":"归属感","sentence":"She has a strong sense of belonging to her community."},
-  {"word":"bet","pos":"v.","mean":"打赌；确信","sentence":"I bet she won't be on time."},
-  {"word":"bitter","pos":"adj.","mean":"苦的；悲痛的","sentence":"The coffee was too bitter for her taste."},
-  {"word":"blind","pos":"adj.","mean":"失明的；视而不见的","sentence":"The charity provides guide dogs for blind people."},
-  {"word":"block","pos":"n.","mean":"街区；块","sentence":"Walk two blocks north and then turn left."},
-  {"word":"bloom","pos":"v.","mean":"开花；繁荣","sentence":"The roses bloom beautifully in June."},
-  {"word":"blow","pos":"v.","mean":"吹；爆炸","sentence":"A strong wind blew all the leaves off the tree."},
-  {"word":"bonus","pos":"n.","mean":"奖金；额外好处","sentence":"She received a Christmas bonus from her employer."},
-  {"word":"boot","pos":"n.","mean":"靴子；后备箱","sentence":"She bought a new pair of hiking boots."},
-  {"word":"bore","pos":"v.","mean":"使厌烦","sentence":"The long meeting bored everyone in the room."},
-  {"word":"brain","pos":"n.","mean":"大脑；智力","sentence":"Exercise is good for both your body and your brain."},
-  {"word":"brand","pos":"n.","mean":"品牌；商标","sentence":"This brand of coffee is very popular."},
-  {"word":"break","pos":"n.","mean":"休息；休假","sentence":"Let's take a short break before the next session."},
-  {"word":"breathtaking","pos":"adj.","mean":"令人叹为观止的","sentence":"The view from the summit was breathtaking."},
-  {"word":"brief","pos":"adj.","mean":"简短的；短暂的","sentence":"She gave a brief description of what happened."},
-  {"word":"bring about","pos":"phr.v.","mean":"引起；导致","sentence":"The new law brought about significant changes."},
-  {"word":"broad","pos":"adj.","mean":"宽阔的；广泛的","sentence":"She has a broad knowledge of world history."},
-  {"word":"broken","pos":"adj.","mean":"破损的；坏掉的","sentence":"The lift is broken so we have to use the stairs."},
-  {"word":"budget","pos":"v.","mean":"编制预算","sentence":"She budgets carefully to save money each month."},
-  {"word":"bunch","pos":"n.","mean":"束；群","sentence":"He bought her a bunch of yellow flowers."},
-  {"word":"burning","pos":"adj.","mean":"燃烧的；强烈的","sentence":"She had a burning desire to become an artist."},
-  {"word":"buzz","pos":"n.","mean":"嗡嗡声；兴奋","sentence":"There was a real buzz of excitement before the concert."},
-  {"word":"cable","pos":"n.","mean":"电缆；有线电视","sentence":"Please pass me that cable for the printer."},
-  {"word":"calculate","pos":"v.","mean":"计算","sentence":"Can you calculate the total cost of the trip?"},
-  {"word":"campsite","pos":"n.","mean":"露营地","sentence":"We stayed at a campsite near the lake."},
-  {"word":"capable","pos":"adj.","mean":"有能力的；能干的","sentence":"She is very capable of managing the whole project."},
-  {"word":"careful","pos":"adj.","mean":"小心的；谨慎的","sentence":"Be careful when you cross the road."},
-  {"word":"careless","pos":"adj.","mean":"粗心的；不小心的","sentence":"His careless mistake cost the company a lot of money."},
-  {"word":"cause","pos":"n.","mean":"原因；事业","sentence":"She supports the cause of environmental protection."},
-  {"word":"ceremony","pos":"n.","mean":"典礼；仪式","sentence":"The graduation ceremony was a memorable event."},
-  {"word":"chain","pos":"n.","mean":"链条；连锁","sentence":"This restaurant is part of a large international chain."},
-  {"word":"challenging","pos":"adj.","mean":"具有挑战性的","sentence":"She prefers challenging tasks to routine ones."},
-  {"word":"championship","pos":"n.","mean":"锦标赛；冠军地位","sentence":"They won the national championship for the second time."},
-  {"word":"charge","pos":"v.","mean":"收费；充电","sentence":"How much do you charge for a room per night?"},
-  {"word":"charity","pos":"n.","mean":"慈善；捐助","sentence":"They raised money for a children's charity."},
-  {"word":"check","pos":"v.","mean":"检查；核实","sentence":"Please check your answers before handing in the paper."},
-  {"word":"cheerful","pos":"adj.","mean":"愉快的","sentence":"She always has a cheerful and positive attitude."},
-  {"word":"choice","pos":"n.","mean":"选择","sentence":"You have a wide choice of activities on the course."},
-  {"word":"claim","pos":"n.","mean":"声明；索赔","sentence":"She made a claim on her travel insurance."},
-  {"word":"clap","pos":"v.","mean":"鼓掌；拍手","sentence":"The audience clapped and cheered loudly."},
-  {"word":"class","pos":"n.","mean":"班级；等级","sentence":"She is at the top of her class at school."},
-  {"word":"clear","pos":"adj.","mean":"清楚的；明显的","sentence":"The instructions were very clear and easy to follow."},
-  {"word":"clever","pos":"adj.","mean":"聪明的；机智的","sentence":"She is clever and always knows the right answer."},
-  {"word":"collect","pos":"v.","mean":"收集；收藏","sentence":"He collects old stamps from around the world."},
-  {"word":"comfortable","pos":"adj.","mean":"舒适的","sentence":"She felt very comfortable in the warm, quiet room."},
-  {"word":"common","pos":"adj.","mean":"常见的；共同的","sentence":"It's very common to feel nervous before an exam."},
-  {"word":"compare","pos":"v.","mean":"比较；对比","sentence":"If you compare the two products, this one is better value."},
-  {"word":"complain","pos":"v.","mean":"抱怨；投诉","sentence":"Several passengers complained about the delay."},
-  {"word":"confident","pos":"adj.","mean":"自信的","sentence":"She felt confident after practising her speech several times."},
-  {"word":"confusing","pos":"adj.","mean":"令人困惑的","sentence":"The instructions were very confusing."},
-  {"word":"considerable","pos":"adj.","mean":"相当大的；值得考虑的","sentence":"She has made considerable progress this year."},
-  {"word":"consist","pos":"v.","mean":"由…组成","sentence":"The team consists of people from ten different countries."},
-  {"word":"contact","pos":"n.","mean":"联系；接触","sentence":"Please keep in contact with us."},
-  {"word":"context","pos":"n.","mean":"背景；语境","sentence":"You need to understand the context of the story."},
-  {"word":"convenient","pos":"adj.","mean":"方便的","sentence":"Is this time convenient for you?"},
-  {"word":"convince","pos":"v.","mean":"说服；使确信","sentence":"She convinced her parents to let her study abroad."},
-  {"word":"correct","pos":"v.","mean":"改正；纠正","sentence":"The teacher corrected the students' pronunciation."},
-  {"word":"count","pos":"v.","mean":"计数；重要","sentence":"Every vote counts in this election."},
-  {"word":"couple","pos":"n.","mean":"一对；几个","sentence":"A couple of people arrived late to the party."},
-  {"word":"course","pos":"n.","mean":"课程；道路","sentence":"She enrolled on a French language course."},
-  {"word":"crash","pos":"v.","mean":"碰撞；崩溃","sentence":"His computer crashed and he lost all his work."},
-  {"word":"creature","pos":"n.","mean":"生物；动物","sentence":"The rainforest is home to many unusual creatures."},
-  {"word":"cross","pos":"v.","mean":"穿过；横过","sentence":"Be careful when you cross the road."},
-  {"word":"cucumber","pos":"n.","mean":"黄瓜","sentence":"She added cucumber and tomato to the salad."},
-  {"word":"curious","pos":"adj.","mean":"好奇的","sentence":"She is always curious about how things work."},
-  {"word":"cut down","pos":"phr.v.","mean":"减少；砍倒","sentence":"The doctor told him to cut down on fatty food."},
-  {"word":"damage","pos":"n.","mean":"损坏；损失","sentence":"The storm caused a lot of damage to the town."},
-  {"word":"data","pos":"n.","mean":"数据；资料","sentence":"The scientists collected data from the experiment."},
-  {"word":"deadline","pos":"n.","mean":"截止日期","sentence":"The deadline for applications is next Friday."},
-  {"word":"deal with","pos":"phr.v.","mean":"处理；应对","sentence":"She is very good at dealing with stressful situations."},
-  {"word":"decent","pos":"adj.","mean":"体面的；像样的","sentence":"She earns a decent wage at the new company."},
-  {"word":"dedicate","pos":"v.","mean":"致力于；献身于","sentence":"He dedicated his life to helping others."},
-  {"word":"definite","pos":"adj.","mean":"确定的；明确的","sentence":"Is there a definite date for the opening?"},
-  {"word":"delay","pos":"v.","mean":"延误；推迟","sentence":"The train was delayed by thirty minutes."},
-  {"word":"delighted","pos":"adj.","mean":"高兴的；满心喜悦的","sentence":"She was delighted to hear the good news."},
-  {"word":"depend","pos":"v.","mean":"依靠；取决于","sentence":"The result depends on how hard you work."},
-  {"word":"depressing","pos":"adj.","mean":"令人沮丧的","sentence":"The news was very depressing."},
-  {"word":"depth","pos":"n.","mean":"深度","sentence":"The depth of the lake is over fifty metres."},
-  {"word":"deserve","pos":"v.","mean":"值得；应得","sentence":"She works very hard and deserves a pay rise."},
-  {"word":"determination","pos":"n.","mean":"决心；毅力","sentence":"Her determination helped her succeed against all odds."},
-  {"word":"develop","pos":"v.","mean":"发展；培养","sentence":"She developed an interest in art at a young age."},
-  {"word":"digital","pos":"adj.","mean":"数字的；数码的","sentence":"She takes most of her photos with a digital camera."},
-  {"word":"direction","pos":"n.","mean":"方向","sentence":"Could you point me in the direction of the station?"},
-  {"word":"disabled","pos":"adj.","mean":"残障的","sentence":"The car park has spaces reserved for disabled drivers."},
-  {"word":"disappoint","pos":"v.","mean":"使失望","sentence":"She didn't want to disappoint her parents."},
-  {"word":"discipline","pos":"n.","mean":"纪律；学科","sentence":"Self-discipline is important when studying independently."},
-  {"word":"disgusting","pos":"adj.","mean":"令人恶心的","sentence":"The rubbish on the street was absolutely disgusting."},
-  {"word":"dislike","pos":"v.","mean":"不喜欢","sentence":"She dislikes crowds and avoids busy places."},
-  {"word":"disturb","pos":"v.","mean":"打扰；使不安","sentence":"Please do not disturb—I am in a meeting."},
-  {"word":"donate","pos":"v.","mean":"捐赠；捐款","sentence":"She donated her old clothes to a charity shop."},
-  {"word":"doubt","pos":"n.","mean":"疑问；怀疑","sentence":"I have no doubt that she will succeed."},
-  {"word":"drag","pos":"v.","mean":"拖；拉","sentence":"She dragged her heavy suitcase up the stairs."},
-  {"word":"dramatic","pos":"adj.","mean":"戏剧性的；显著的","sentence":"There has been a dramatic increase in the number of visitors."},
-  {"word":"duty-free","pos":"adj.","mean":"免税的","sentence":"She bought some perfume from the duty-free shop."},
-  {"word":"eager","pos":"adj.","mean":"渴望的；热切的","sentence":"She was eager to learn as much as possible."},
-  {"word":"earn","pos":"v.","mean":"赚；赢得","sentence":"He earns extra money by giving private lessons."},
-  {"word":"effort","pos":"n.","mean":"努力；尝试","sentence":"She made a great effort to arrive on time."},
-  {"word":"elder","pos":"adj.","mean":"年长的","sentence":"Her elder brother works as a doctor."},
-  {"word":"else","pos":"adv.","mean":"其他；否则","sentence":"Is there anything else I can help you with?"},
-  {"word":"employ","pos":"v.","mean":"雇用","sentence":"The company employs over three hundred people."},
-  {"word":"encouraging","pos":"adj.","mean":"鼓励的；令人鼓舞的","sentence":"The results were very encouraging."},
-  {"word":"enjoyable","pos":"adj.","mean":"令人愉快的","sentence":"We had a very enjoyable evening at the theatre."},
-  {"word":"enormous","pos":"adj.","mean":"巨大的","sentence":"The work involved an enormous amount of time."},
-  {"word":"entertaining","pos":"adj.","mean":"有趣的；娱乐性强的","sentence":"The show was very entertaining."},
-  {"word":"entrance","pos":"n.","mean":"入口处","sentence":"Please use the side entrance after six o'clock."},
-  {"word":"envy","pos":"n.","mean":"嫉妒；羡慕","sentence":"She looked at her sister's new car with envy."},
-  {"word":"escape","pos":"n.","mean":"逃脱；逃跑","sentence":"The film is a fantastic escape from everyday life."},
-  {"word":"eventually","pos":"adv.","mean":"最终；终究","sentence":"She eventually found a job that she loved."},
-  {"word":"exam","pos":"n.","mean":"考试","sentence":"She stayed up late revising for her exam."},
-  {"word":"exciting","pos":"adj.","mean":"令人兴奋的","sentence":"This is one of the most exciting films I've ever seen."},
-  {"word":"exhausting","pos":"adj.","mean":"令人精疲力竭的","sentence":"The journey was long and exhausting."},
-  {"word":"existing","pos":"adj.","mean":"现有的；现存的","sentence":"They plan to improve the existing facilities."},
-  {"word":"expect","pos":"v.","mean":"期待；预期","sentence":"I expect the results will be available by Friday."},
-  {"word":"expensive","pos":"adj.","mean":"昂贵的","sentence":"The restaurant was excellent but very expensive."},
-  {"word":"explore","pos":"v.","mean":"探索；探险","sentence":"We spent the morning exploring the old part of the city."},
-  {"word":"export","pos":"v.","mean":"出口；输出","sentence":"This country exports large amounts of coffee."},
-  {"word":"extra","pos":"adj.","mean":"额外的；附加的","sentence":"She worked extra hours to finish the project."},
-  {"word":"fair","pos":"n.","mean":"集市；交易会","sentence":"We went to the annual trade fair last month."},
-  {"word":"faith","pos":"n.","mean":"信念；信任","sentence":"She has great faith in the abilities of her team."},
-  {"word":"fall","pos":"v.","mean":"下降；跌落","sentence":"Temperatures are expected to fall below zero tonight."},
-  {"word":"fame","pos":"n.","mean":"名气；名声","sentence":"Her fame spread quickly after the television interview."},
-  {"word":"fashionable","pos":"adj.","mean":"时髦的；流行的","sentence":"She always wears fashionable clothes."},
-  {"word":"fear","pos":"n.","mean":"恐惧；害怕","sentence":"She overcame her fear of heights by going rock climbing."},
-  {"word":"fee","pos":"n.","mean":"费用；会费","sentence":"The annual membership fee is fifty pounds."},
-  {"word":"ferry","pos":"n.","mean":"渡船；轮渡","sentence":"We took the ferry across the river."},
-  {"word":"fierce","pos":"adj.","mean":"激烈的；凶猛的","sentence":"There is fierce competition for places at the school."},
-  {"word":"fine","pos":"adj.","mean":"美好的；好的","sentence":"The weather was fine and sunny all week."},
-  {"word":"firm","pos":"adj.","mean":"坚定的；稳固的","sentence":"She gave a firm handshake when they met."},
-  {"word":"flexible","pos":"adj.","mean":"灵活的","sentence":"My working hours are very flexible."},
-  {"word":"focus","pos":"n.","mean":"焦点；重点","sentence":"The main focus of the lesson was grammar."},
-  {"word":"fond","pos":"adj.","mean":"喜爱的","sentence":"She is very fond of classical music."},
-  {"word":"football","pos":"n.","mean":"足球","sentence":"He plays football for the local club every Saturday."},
-  {"word":"foreign","pos":"adj.","mean":"外国的","sentence":"She is fluent in four foreign languages."},
-  {"word":"forget","pos":"v.","mean":"忘记","sentence":"Don't forget to lock the door before you leave."},
-  {"word":"form","pos":"n.","mean":"表格；形式","sentence":"Please fill in this form with your personal details."},
-  {"word":"formal","pos":"adj.","mean":"正式的","sentence":"The dinner was a formal occasion so she wore a suit."},
-  {"word":"fortune","pos":"n.","mean":"财富；运气","sentence":"She made her fortune in the tech industry."},
-  {"word":"freedom","pos":"n.","mean":"自由","sentence":"She values her freedom and independence."},
-  {"word":"freezing","pos":"adj.","mean":"极冷的；冰冷的","sentence":"It was absolutely freezing outside last night."},
-  {"word":"friendly","pos":"adj.","mean":"友善的","sentence":"All the staff were very friendly and helpful."},
-  {"word":"frightening","pos":"adj.","mean":"令人恐惧的","sentence":"The thunderstorm was quite frightening."},
-  {"word":"frown","pos":"v.","mean":"皱眉","sentence":"She frowned when she read the disappointing news."},
-  {"word":"full","pos":"adj.","mean":"满的；充足的","sentence":"The train was full and we had to stand."},
-  {"word":"gain","pos":"n.","mean":"收获；增加","sentence":"There have been significant gains in efficiency."},
-  {"word":"genuine","pos":"adj.","mean":"真诚的；真实的","sentence":"She gave a genuine smile when she heard the news."},
-  {"word":"gift","pos":"n.","mean":"天赋","sentence":"She has a real gift for music."},
-  {"word":"give up","pos":"phr.v.","mean":"放弃","sentence":"She refused to give up even when things got difficult."},
-  {"word":"global","pos":"adj.","mean":"全球的","sentence":"This has become a global issue."},
-  {"word":"go ahead","pos":"phr.v.","mean":"进行；继续","sentence":"Please go ahead with the presentation."},
-  {"word":"gorgeous","pos":"adj.","mean":"华美的；极好的","sentence":"She wore a gorgeous dress to the ceremony."},
-  {"word":"government","pos":"n.","mean":"政府","sentence":"The government announced new plans for transport."},
-  {"word":"grade","pos":"v.","mean":"给…评分","sentence":"The teacher graded all the papers over the weekend."},
-  {"word":"grateful","pos":"adj.","mean":"感激的","sentence":"She was grateful for all the support she received."},
-  {"word":"grown-up","pos":"n.","mean":"大人；成年人","sentence":"Ask a grown-up if you need help."},
-  {"word":"guarantee","pos":"v.","mean":"保证；担保","sentence":"The company guarantees delivery within three days."},
-  {"word":"guidebook","pos":"n.","mean":"旅游指南","sentence":"She bought a guidebook before visiting the city."},
-  {"word":"guilty","pos":"adj.","mean":"有罪的；内疚的","sentence":"He felt guilty about not telling the truth."},
-  {"word":"halfway","pos":"adv.","mean":"半途地；中途","sentence":"We stopped halfway through the journey for lunch."},
-  {"word":"handwriting","pos":"n.","mean":"笔迹；书写","sentence":"Her handwriting is very neat and clear."},
-  {"word":"hang up","pos":"phr.v.","mean":"挂断电话","sentence":"She said goodbye and hung up."},
-  {"word":"hardly","pos":"adv.","mean":"几乎不","sentence":"She was so tired she could hardly keep her eyes open."},
-  {"word":"harm","pos":"n.","mean":"伤害；危害","sentence":"The chemicals can cause harm to the environment."},
-  {"word":"harvest","pos":"n.","mean":"收获；收割","sentence":"The farmers had an excellent harvest this year."},
-  {"word":"headline","pos":"n.","mean":"新闻标题","sentence":"The news made headlines around the world."},
-  {"word":"hire","pos":"n.","mean":"租用","sentence":"Bicycles are available for hire at the station."},
-  {"word":"homeless","pos":"adj.","mean":"无家可归的","sentence":"The charity provides shelter for homeless people."},
-  {"word":"hopeless","pos":"adj.","mean":"没有希望的","sentence":"He is absolutely hopeless at cooking."},
-  {"word":"housewife","pos":"n.","mean":"家庭主妇","sentence":"She gave up her career to become a housewife."},
-  {"word":"hunger","pos":"n.","mean":"饥饿","sentence":"Many people in the world still suffer from hunger."},
-  {"word":"ideal","pos":"adj.","mean":"理想的","sentence":"This location is ideal for a family holiday."},
-  {"word":"identify","pos":"v.","mean":"识别；确认","sentence":"Can you identify the person in this photograph?"},
-  {"word":"ignore","pos":"v.","mean":"忽视；无视","sentence":"She ignored the warning signs and went ahead anyway."},
-  {"word":"immigration","pos":"n.","mean":"移民；移居","sentence":"The government announced new immigration laws."},
-  {"word":"impact","pos":"n.","mean":"影响；冲击","sentence":"Climate change is having a major impact on wildlife."},
-  {"word":"impress","pos":"v.","mean":"给…留下深刻印象","sentence":"She impressed everyone with her knowledge."},
-  {"word":"impressive","pos":"adj.","mean":"给人深刻印象的","sentence":"The museum has an impressive collection of modern art."},
-  {"word":"income","pos":"n.","mean":"收入","sentence":"She has a modest income but manages very well."},
-  {"word":"incredible","pos":"adj.","mean":"难以置信的；了不起的","sentence":"The athlete's speed was absolutely incredible."},
-  {"word":"infection","pos":"n.","mean":"感染；传染病","sentence":"She took antibiotics to treat the infection."},
-  {"word":"influence","pos":"v.","mean":"影响；对…起作用","sentence":"Music has greatly influenced her choice of career."},
-  {"word":"inform","pos":"v.","mean":"通知；告知","sentence":"Please inform us of any changes to your plans."},
-  {"word":"insect","pos":"n.","mean":"昆虫","sentence":"She is terrified of insects, especially spiders."},
-  {"word":"inspire","pos":"v.","mean":"激励；给…以灵感","sentence":"Her teacher inspired her to pursue a career in science."},
-  {"word":"instead","pos":"adv.","mean":"替代地；相反","sentence":"There were no seats, so she stood instead."},
-  {"word":"instrument","pos":"n.","mean":"乐器；仪器","sentence":"She plays three different musical instruments."},
-  {"word":"intend","pos":"v.","mean":"打算","sentence":"Do you intend to apply for the position?"},
-  {"word":"internet","pos":"n.","mean":"互联网","sentence":"She uses the internet to research her projects."},
-  {"word":"invest","pos":"v.","mean":"投资","sentence":"She invested her savings in a small business."},
-  {"word":"issue","pos":"n.","mean":"议题；问题","sentence":"Environmental issues are a major topic of debate."},
-  {"word":"item","pos":"n.","mean":"物品；条款","sentence":"Please check that all items are included in the order."},
-  {"word":"journey","pos":"n.","mean":"旅程","sentence":"The journey to the airport took nearly two hours."},
-  {"word":"judge","pos":"v.","mean":"评判；判断","sentence":"It's wrong to judge people before you know them."},
-  {"word":"keen","pos":"adj.","mean":"热心的；渴望的","sentence":"She is keen to learn new skills."},
-  {"word":"label","pos":"n.","mean":"标签；品牌","sentence":"Always read the label before using the product."},
-  {"word":"last","pos":"v.","mean":"持续；持久","sentence":"The concert lasted over three hours."},
-  {"word":"lately","pos":"adv.","mean":"最近；近来","sentence":"Have you been feeling tired lately?"},
-  {"word":"laugh","pos":"v.","mean":"笑；大笑","sentence":"Everyone laughed at his funny joke."},
-  {"word":"lay","pos":"v.","mean":"放置；下蛋","sentence":"She laid the flowers carefully on the table."},
-  {"word":"lead","pos":"n.","mean":"领先；铅","sentence":"Our team is in the lead after three goals."},
-  {"word":"leaf","pos":"n.","mean":"叶子","sentence":"The leaves were beginning to turn yellow."},
-  {"word":"lean","pos":"v.","mean":"倾斜；倚靠","sentence":"She leaned against the wall while she waited."},
-  {"word":"length","pos":"n.","mean":"长度；持续时间","sentence":"The length of the film is just under two hours."},
-  {"word":"lift","pos":"n.","mean":"电梯；搭便车","sentence":"Can you give me a lift to the station?"},
-  {"word":"link","pos":"v.","mean":"联系；连接","sentence":"Researchers have linked sugar consumption to health problems."},
-  {"word":"load","pos":"n.","mean":"负担；大量","sentence":"She had loads of work to get through this week."},
-  {"word":"location","pos":"n.","mean":"地点；位置","sentence":"The flat has an excellent location in the city centre."},
-  {"word":"lock","pos":"v.","mean":"锁上","sentence":"Don't forget to lock the door when you leave."},
-  {"word":"look up","pos":"phr.v.","mean":"查阅；抬头看","sentence":"If you don't know the word, look it up in the dictionary."},
-  {"word":"loud","pos":"adj.","mean":"响亮的；吵闹的","sentence":"The music was so loud we couldn't hear each other speak."},
-  {"word":"lower","pos":"v.","mean":"降低；减少","sentence":"They plan to lower the price of public transport."},
-  {"word":"luggage","pos":"n.","mean":"行李","sentence":"Check in your luggage at the desk before going to departures."},
-  {"word":"make up","pos":"phr.v.","mean":"组成；编造","sentence":"Women make up over half of the workforce."},
-  {"word":"manner","pos":"n.","mean":"方式；态度","sentence":"She explained everything in a clear and polite manner."},
-  {"word":"march","pos":"v.","mean":"行进；游行","sentence":"Hundreds of people marched through the city centre."},
-  {"word":"mark","pos":"v.","mean":"标记；评分","sentence":"The teacher marked the essays and returned them."},
-  {"word":"maths","pos":"n.","mean":"数学","sentence":"She is very good at maths and science."},
-  {"word":"mayor","pos":"n.","mean":"市长","sentence":"The mayor officially opened the new library."},
-  {"word":"media","pos":"n.","mean":"媒体","sentence":"The story was covered by the national media."},
-  {"word":"memorable","pos":"adj.","mean":"难忘的","sentence":"It was a truly memorable occasion."},
-  {"word":"mention","pos":"v.","mean":"提及；说起","sentence":"She mentioned she was looking for a new job."},
-  {"word":"method","pos":"n.","mean":"方法；方式","sentence":"What method do you find most effective for studying?"},
-  {"word":"mind","pos":"n.","mean":"思想；脑子","sentence":"She has a very sharp and creative mind."},
-  {"word":"minimum","pos":"n.","mean":"最低限度","sentence":"We need a minimum of ten people to start the class."},
-  {"word":"missing","pos":"adj.","mean":"失踪的；缺少的","sentence":"A wallet was found with some money missing."},
-  {"word":"mix","pos":"v.","mean":"混合；交往","sentence":"Mix the ingredients together in a large bowl."},
-  {"word":"model","pos":"v.","mean":"模仿；展示","sentence":"She models the latest designs for a fashion company."},
-  {"word":"moment","pos":"n.","mean":"片刻","sentence":"I'll be with you in a moment."},
-  {"word":"mostly","pos":"adv.","mean":"主要地；大部分","sentence":"She mostly works from home these days."},
-  {"word":"mud","pos":"n.","mean":"泥","sentence":"There was thick mud on the path after the rain."},
-  {"word":"mystery","pos":"adj.","mean":"神秘的","sentence":"She loves mystery novels, especially detective stories."},
-  {"word":"narrow","pos":"v.","mean":"使缩小；变窄","sentence":"The gap between the two teams has narrowed."},
-  {"word":"nearby","pos":"adj.","mean":"附近的","sentence":"Is there a supermarket nearby?"},
-  {"word":"need","pos":"n.","mean":"需要；必要性","sentence":"There is a need for more affordable housing."},
-  {"word":"neighbour","pos":"n.","mean":"邻居","sentence":"She is on very good terms with all her neighbours."},
-  {"word":"neither","pos":"conj.","mean":"两者都不","sentence":"Neither option seems ideal to me."},
-  {"word":"nest","pos":"n.","mean":"鸟巢","sentence":"The bird built a nest in the tree outside our window."},
-  {"word":"obvious","pos":"adj.","mean":"明显的","sentence":"It was obvious from the start that the plan would not work."},
-  {"word":"offer","pos":"n.","mean":"提议；优惠","sentence":"She received several job offers after the interview."},
-  {"word":"officer","pos":"n.","mean":"官员；警官","sentence":"The police officer directed traffic at the junction."},
-  {"word":"once","pos":"conj.","mean":"一旦","sentence":"Once you start the exercise, it gets easier."},
-  {"word":"online","pos":"adj.","mean":"在线的","sentence":"She does most of her shopping online."},
-  {"word":"operation","pos":"n.","mean":"手术","sentence":"He had a successful operation on his shoulder."},
-  {"word":"ordinary","pos":"adj.","mean":"普通的；平凡的","sentence":"She leads a perfectly ordinary but happy life."},
-  {"word":"organisation","pos":"n.","mean":"机构；组织","sentence":"She volunteers for a non-profit organisation."},
-  {"word":"origin","pos":"n.","mean":"起源；出身","sentence":"The origins of the tradition go back hundreds of years."},
-  {"word":"outcome","pos":"n.","mean":"结果；结局","sentence":"The outcome of the meeting was very positive."},
-  {"word":"outskirts","pos":"n.","mean":"市郊；郊区","sentence":"She lives on the outskirts of the city."},
-  {"word":"overcome","pos":"v.","mean":"克服；战胜","sentence":"She worked hard to overcome her fear of public speaking."},
-  {"word":"package","pos":"n.","mean":"包裹","sentence":"She sent a package to her friend overseas."},
-  {"word":"parking","pos":"n.","mean":"停车","sentence":"Parking in the city centre can be very expensive."},
-  {"word":"participate","pos":"v.","mean":"参与；参加","sentence":"Everyone is encouraged to participate in the discussion."},
-  {"word":"patient","pos":"n.","mean":"病人；患者","sentence":"The nurses looked after the patients with great care."},
-  {"word":"pause","pos":"v.","mean":"暂停；停顿","sentence":"She paused before answering the difficult question."},
-  {"word":"pay attention","pos":"phr.v.","mean":"注意；专心","sentence":"Please pay attention to the safety instructions."},
-  {"word":"penalty","pos":"n.","mean":"惩罚；罚款","sentence":"There is a penalty for late payment."},
-  {"word":"personal","pos":"adj.","mean":"个人的；私人的","sentence":"Please do not share any personal information online."},
-  {"word":"persuade","pos":"v.","mean":"说服；劝说","sentence":"She persuaded him to take the day off work."},
-  {"word":"pick up","pos":"phr.v.","mean":"接；拾起","sentence":"Can you pick me up from the station?"},
-  {"word":"planet","pos":"n.","mean":"行星","sentence":"We must do more to protect our planet."},
-  {"word":"plate","pos":"n.","mean":"盘子","sentence":"She put a large plate of pasta on the table."},
-  {"word":"policy","pos":"n.","mean":"政策；方针","sentence":"The school has a strict policy on mobile phones."},
-  {"word":"position","pos":"n.","mean":"位置；职位","sentence":"She was promoted to a senior position."},
-  {"word":"postpone","pos":"v.","mean":"推迟；延期","sentence":"The event was postponed due to heavy rain."},
-  {"word":"practise","pos":"v.","mean":"练习；实践","sentence":"She practises the piano for one hour every day."},
-  {"word":"precious","pos":"adj.","mean":"珍贵的；宝贵的","sentence":"Time is precious so don't waste it."},
-  {"word":"prediction","pos":"n.","mean":"预测；预言","sentence":"Her prediction about the weather turned out to be right."},
-  {"word":"pressure","pos":"n.","mean":"压力；压强","sentence":"She works well under pressure."},
-  {"word":"primary","pos":"adj.","mean":"初级的；主要的","sentence":"She teaches at the local primary school."},
-  {"word":"print","pos":"v.","mean":"打印；印刷","sentence":"Please print two copies of the document."},
-  {"word":"process","pos":"n.","mean":"过程；程序","sentence":"Learning a new language is a long process."},
-  {"word":"prove","pos":"v.","mean":"证明；证实","sentence":"She proved that she was the best candidate for the job."},
-  {"word":"pub","pos":"n.","mean":"酒吧；小酒馆","sentence":"They met for a drink at the local pub."},
-  {"word":"punish","pos":"v.","mean":"惩罚","sentence":"The children were punished for arriving late to school."},
-  {"word":"race","pos":"n.","mean":"比赛；种族","sentence":"She won the 400-metre race at the athletics championship."},
-  {"word":"realistic","pos":"adj.","mean":"现实的","sentence":"You need to be more realistic about your expectations."},
-  {"word":"recreation","pos":"n.","mean":"娱乐；消遣","sentence":"The park provides space for recreation and relaxation."},
-  {"word":"reduce","pos":"n.","mean":"减少","sentence":"A small change can make a big reduction in costs."},
-  {"word":"refund","pos":"n.","mean":"退款","sentence":"She asked for a refund because the product was damaged."},
-  {"word":"region","pos":"n.","mean":"地区；区域","sentence":"This region is famous for its fine wine."},
-  {"word":"regret","pos":"v.","mean":"后悔；遗憾","sentence":"She regretted not studying harder at school."},
-  {"word":"relate","pos":"v.","mean":"有关；涉及","sentence":"Her problems relate to difficulties at home."},
-  {"word":"relevant","pos":"adj.","mean":"相关的；切题的","sentence":"Please only include relevant information in your answer."},
-  {"word":"remind","pos":"v.","mean":"提醒","sentence":"Please remind me to call the plumber tomorrow."},
-  {"word":"remove","pos":"v.","mean":"移走；去掉","sentence":"Please remove your shoes before entering the house."},
-  {"word":"rent","pos":"v.","mean":"租用；出租","sentence":"They decided to rent a flat near the university."},
-  {"word":"require","pos":"v.","mean":"需要；要求","sentence":"The application requires a reference from an employer."},
-  {"word":"reservation","pos":"n.","mean":"预订；保留","sentence":"I made a reservation at the restaurant for seven o'clock."},
-  {"word":"resort","pos":"n.","mean":"度假胜地","sentence":"They stayed at a beach resort in the south of Spain."},
-  {"word":"responsibility","pos":"n.","mean":"责任","sentence":"She takes her responsibilities as a team leader very seriously."},
-  {"word":"risk","pos":"v.","mean":"冒险","sentence":"She risked her life to save the drowning child."},
-  {"word":"round","pos":"n.","mean":"一轮；一圈","sentence":"She made it to the final round of the competition."},
-  {"word":"rubbish","pos":"adj.","mean":"差劲的；毫无价值的","sentence":"The film was absolutely rubbish."},
-  {"word":"run out of","pos":"phr.v.","mean":"用完；耗尽","sentence":"We've run out of milk—can you buy some?"},
-  {"word":"rush","pos":"v.","mean":"匆忙；冲","sentence":"She rushed to catch the last train."},
-  {"word":"salary","pos":"n.","mean":"薪酬","sentence":"She negotiated a higher salary before accepting the job."},
-  {"word":"satisfying","pos":"adj.","mean":"令人满意的","sentence":"It's very satisfying to complete a difficult project."},
-  {"word":"scary","pos":"adj.","mean":"令人害怕的","sentence":"The haunted house was very scary."},
-  {"word":"schedule","pos":"n.","mean":"时间表；日程","sentence":"What is on the schedule for tomorrow?"},
-  {"word":"sculpture","pos":"n.","mean":"雕塑","sentence":"The gallery has an impressive collection of modern sculpture."},
-  {"word":"secondary","pos":"adj.","mean":"中等的；次要的","sentence":"She teaches history at a secondary school."},
-  {"word":"section","pos":"n.","mean":"部分；章节","sentence":"Please read the first section of the report."},
-  {"word":"security","pos":"n.","mean":"安全；保障","sentence":"Security at the airport has been increased."},
-  {"word":"self-confident","pos":"adj.","mean":"自信的","sentence":"She became much more self-confident after the course."},
-  {"word":"sense","pos":"n.","mean":"感觉；意义","sentence":"She has a great sense of humour."},
-  {"word":"sight","pos":"n.","mean":"视力；景象","sentence":"The old city is full of amazing sights."},
-  {"word":"signal","pos":"n.","mean":"信号；标志","sentence":"The phone has no signal in this area."},
-  {"word":"significant","pos":"adj.","mean":"重要的；显著的","sentence":"There has been a significant improvement in her grades."},
-  {"word":"single","pos":"adj.","mean":"单一的；单身的","sentence":"She prefers to travel as a single person."},
-  {"word":"slight","pos":"adj.","mean":"轻微的；稍许的","sentence":"There was a slight delay due to technical issues."},
-  {"word":"social","pos":"adj.","mean":"社交的；社会的","sentence":"She has a very active social life."},
-  {"word":"solar","pos":"adj.","mean":"太阳的；太阳能的","sentence":"They installed solar panels on the roof."},
-  {"word":"spare","pos":"adj.","mean":"空余的；备用的","sentence":"What do you do in your spare time?"},
-  {"word":"spectator","pos":"n.","mean":"观众；旁观者","sentence":"Thousands of spectators watched the final."},
-  {"word":"statement","pos":"n.","mean":"声明；陈述","sentence":"She made a brief statement to the press."},
-  {"word":"statue","pos":"n.","mean":"雕像","sentence":"There is a bronze statue of the founder in the square."},
-  {"word":"steady","pos":"adj.","mean":"稳定的；持续的","sentence":"She has made steady progress throughout the year."},
-  {"word":"storm","pos":"n.","mean":"风暴；暴风雨","sentence":"A powerful storm hit the coast last night."},
-  {"word":"stranger","pos":"n.","mean":"陌生人","sentence":"She was warned not to talk to strangers."},
-  {"word":"successful","pos":"adj.","mean":"成功的","sentence":"She has had a very successful career."},
-  {"word":"sudden","pos":"adj.","mean":"突然的","sentence":"There was a sudden change in the weather."},
-  {"word":"sunburn","pos":"n.","mean":"晒伤","sentence":"She got sunburn on the beach because she forgot her sunscreen."},
-  {"word":"supermarket","pos":"n.","mean":"超市","sentence":"I'll stop at the supermarket on the way home."},
-  {"word":"supply","pos":"v.","mean":"供应；提供","sentence":"The organisation supplies food and water to the community."},
-  {"word":"team","pos":"n.","mean":"团队；队","sentence":"She has been part of the same team for five years."},
-  {"word":"technology","pos":"n.","mean":"技术；科技","sentence":"New technology is changing the way we communicate."},
-  {"word":"teenager","pos":"n.","mean":"青少年","sentence":"She runs a drama club for teenagers."},
-  {"word":"tenant","pos":"n.","mean":"租户；房客","sentence":"The tenants pay rent monthly."},
-  {"word":"theory","pos":"n.","mean":"理论；假设","sentence":"There are several theories about why the event happened."},
-  {"word":"throughout","pos":"prep.","mean":"整个；贯穿","sentence":"The museum is open throughout the year."},
-  {"word":"tidy","pos":"v.","mean":"整理；收拾","sentence":"She tidied her room before her guests arrived."},
-  {"word":"timetable","pos":"n.","mean":"时刻表","sentence":"Check the timetable to see when the next train leaves."},
-  {"word":"trade","pos":"n.","mean":"贸易；行业","sentence":"International trade is important for the economy."},
-  {"word":"tradition","pos":"n.","mean":"传统","sentence":"It is a tradition to decorate the house at Christmas."},
-  {"word":"transfer","pos":"v.","mean":"转让；调任","sentence":"She was transferred to the company's head office."},
-  {"word":"treatment","pos":"n.","mean":"治疗；对待","sentence":"The treatment was successful and she made a full recovery."},
-  {"word":"trend","pos":"n.","mean":"趋势","sentence":"There is a growing trend towards healthy eating."},
-  {"word":"tropical","pos":"adj.","mean":"热带的","sentence":"They spent their holiday on a tropical island."},
-  {"word":"trust","pos":"n.","mean":"信任","sentence":"It takes time to build trust with someone."},
-  {"word":"tutor","pos":"n.","mean":"家庭教师；辅导老师","sentence":"She has a private tutor to help her with maths."},
-  {"word":"unclear","pos":"adj.","mean":"不清楚的","sentence":"The instructions were unclear and confusing."},
-  {"word":"unexpected","pos":"adj.","mean":"意想不到的","sentence":"We had an unexpected visitor this morning."},
-  {"word":"unfortunately","pos":"adv.","mean":"不幸地；遗憾地","sentence":"Unfortunately, she was not able to attend the meeting."},
-  {"word":"unlimited","pos":"adj.","mean":"无限的；无限制的","sentence":"The pass gives unlimited access to all public transport."},
-  {"word":"unsafe","pos":"adj.","mean":"不安全的","sentence":"The building was declared unsafe after the earthquake."},
-  {"word":"upset","pos":"adj.","mean":"心烦意乱的","sentence":"She was very upset when she heard the news."},
-  {"word":"urban","pos":"adj.","mean":"城市的；都市的","sentence":"Many young people move to urban areas for work."},
-  {"word":"value","pos":"v.","mean":"重视；珍视","sentence":"She values honesty above all other qualities."},
-  {"word":"variety","pos":"n.","mean":"种类；多样性","sentence":"The city offers a great variety of cultural experiences."},
-  {"word":"version","pos":"n.","mean":"版本；版","sentence":"Have you seen the latest version of the software?"},
-  {"word":"victim","pos":"n.","mean":"受难者；受害者","sentence":"The charity supports victims of natural disasters."},
-  {"word":"visible","pos":"adj.","mean":"可见的；明显的","sentence":"The mountains were clearly visible from the window."},
-  {"word":"vital","pos":"adj.","mean":"至关重要的","sentence":"It is vital that you take your medicine every day."},
-  {"word":"voyage","pos":"n.","mean":"航海；旅程","sentence":"The ship began its long voyage across the Atlantic."},
-  {"word":"warn","pos":"v.","mean":"警告；提醒","sentence":"The sign warned drivers about the dangerous bend."},
-  {"word":"weakness","pos":"n.","mean":"弱点；缺点","sentence":"She identified her main weakness as time management."},
-  {"word":"welcome","pos":"adj.","mean":"受欢迎的","sentence":"All ideas and suggestions are welcome."},
-  {"word":"whereas","pos":"conj.","mean":"然而；相比之下","sentence":"She enjoys swimming whereas her brother prefers cycling."},
-  {"word":"wildlife","pos":"n.","mean":"野生动物","sentence":"The national park protects a variety of wildlife."},
-  {"word":"wonder","pos":"n.","mean":"奇观；奇迹","sentence":"The Great Wall of China is one of the wonders of the world."},
-  {"word":"wooden","pos":"adj.","mean":"木制的","sentence":"The cottage had a beautiful wooden floor."},
-  {"word":"workplace","pos":"n.","mean":"工作场所","sentence":"Good communication is essential in the workplace."},
-  {"word":"worldwide","pos":"adv.","mean":"在全世界","sentence":"The film was released worldwide on the same day."},
-  {"word":"wrap","pos":"n.","mean":"包装；围巾","sentence":"She bought a silk wrap to wear at the wedding."},
-  {"word":"worried","pos":"adj.","mean":"担心的；忧虑的","sentence":"She was very worried about the exam results."},
-  {"word":"worthwhile","pos":"adj.","mean":"值得的","sentence":"The trip was long but absolutely worthwhile."},
+  {
+    "word": "ability",
+    "pos": "n.",
+    "mean": "能力；才能",
+    "sentence": "She has the ability to learn languages quickly."
+  },
+  {
+    "word": "absent",
+    "pos": "adj.",
+    "mean": "缺席的；不在的",
+    "sentence": "Three students were absent from class today."
+  },
+  {
+    "word": "absolutely",
+    "pos": "adv.",
+    "mean": "绝对地；完全地",
+    "sentence": "The movie was absolutely fantastic."
+  },
+  {
+    "word": "accent",
+    "pos": "n.",
+    "mean": "口音；腔调",
+    "sentence": "She speaks English with a strong French accent."
+  },
+  {
+    "word": "accept",
+    "pos": "v.",
+    "mean": "接受；同意",
+    "sentence": "She accepted the job offer immediately."
+  },
+  {
+    "word": "accident",
+    "pos": "n.",
+    "mean": "事故；意外",
+    "sentence": "There was a car accident on the main road."
+  },
+  {
+    "word": "accommodation",
+    "pos": "n.",
+    "mean": "住宿；住处",
+    "sentence": "The hotel provides excellent accommodation."
+  },
+  {
+    "word": "accurate",
+    "pos": "adj.",
+    "mean": "准确的；精确的",
+    "sentence": "The weather forecast was not very accurate."
+  },
+  {
+    "word": "achieve",
+    "pos": "v.",
+    "mean": "实现；达到",
+    "sentence": "She worked hard to achieve her goals."
+  },
+  {
+    "word": "activity",
+    "pos": "n.",
+    "mean": "活动；行动",
+    "sentence": "Swimming is a great outdoor activity."
+  },
+  {
+    "word": "actually",
+    "pos": "adv.",
+    "mean": "实际上；真实地",
+    "sentence": "She seems shy, but she's actually very funny."
+  },
+  {
+    "word": "admire",
+    "pos": "v.",
+    "mean": "钦佩；赞美",
+    "sentence": "I really admire her courage and determination."
+  },
+  {
+    "word": "admit",
+    "pos": "v.",
+    "mean": "承认；准许进入",
+    "sentence": "He finally admitted that he had made a mistake."
+  },
+  {
+    "word": "adult",
+    "pos": "n.",
+    "mean": "成人；成年人",
+    "sentence": "This film is suitable for adults only."
+  },
+  {
+    "word": "advance",
+    "pos": "n.",
+    "mean": "提前；预先",
+    "sentence": "Please book your tickets in advance."
+  },
+  {
+    "word": "advantage",
+    "pos": "n.",
+    "mean": "优势；有利条件",
+    "sentence": "Being tall is an advantage in basketball."
+  },
+  {
+    "word": "adventure",
+    "pos": "n.",
+    "mean": "冒险；奇遇",
+    "sentence": "Travelling alone is a great adventure."
+  },
+  {
+    "word": "advertise",
+    "pos": "v.",
+    "mean": "做广告；宣传",
+    "sentence": "They advertised the new product on television."
+  },
+  {
+    "word": "advertisement",
+    "pos": "n.",
+    "mean": "广告",
+    "sentence": "I saw an advertisement for the job in the newspaper."
+  },
+  {
+    "word": "advice",
+    "pos": "n.",
+    "mean": "建议；忠告",
+    "sentence": "She gave me some very useful advice."
+  },
+  {
+    "word": "afford",
+    "pos": "v.",
+    "mean": "负担得起；买得起",
+    "sentence": "I can't afford to buy a new car right now."
+  },
+  {
+    "word": "agree",
+    "pos": "v.",
+    "mean": "同意；赞成",
+    "sentence": "I completely agree with what you said."
+  },
+  {
+    "word": "aim",
+    "pos": "n.",
+    "mean": "目标；目的",
+    "sentence": "My aim is to become a professional photographer."
+  },
+  {
+    "word": "ambition",
+    "pos": "n.",
+    "mean": "雄心；抱负",
+    "sentence": "His ambition is to start his own business."
+  },
+  {
+    "word": "amount",
+    "pos": "n.",
+    "mean": "数量；总额",
+    "sentence": "A large amount of money was raised for charity."
+  },
+  {
+    "word": "ancient",
+    "pos": "adj.",
+    "mean": "古代的；古老的",
+    "sentence": "The ancient ruins attracted thousands of tourists."
+  },
+  {
+    "word": "announce",
+    "pos": "v.",
+    "mean": "宣布；通告",
+    "sentence": "The manager announced the results of the competition."
+  },
+  {
+    "word": "annual",
+    "pos": "adj.",
+    "mean": "每年的；年度的",
+    "sentence": "The annual sports day is held every June."
+  },
+  {
+    "word": "anxious",
+    "pos": "adj.",
+    "mean": "焦虑的；担心的",
+    "sentence": "She felt anxious before her driving test."
+  },
+  {
+    "word": "apologise",
+    "pos": "v.",
+    "mean": "道歉；认错",
+    "sentence": "He apologised for arriving late to the meeting."
+  },
+  {
+    "word": "appear",
+    "pos": "v.",
+    "mean": "出现；似乎",
+    "sentence": "A rainbow appeared after the rain stopped."
+  },
+  {
+    "word": "apply",
+    "pos": "v.",
+    "mean": "申请；应用",
+    "sentence": "She applied for a job at the local hospital."
+  },
+  {
+    "word": "appointment",
+    "pos": "n.",
+    "mean": "约定；预约",
+    "sentence": "I have a doctor's appointment at three o'clock."
+  },
+  {
+    "word": "argument",
+    "pos": "n.",
+    "mean": "争论；争吵",
+    "sentence": "They had an argument about money."
+  },
+  {
+    "word": "arrange",
+    "pos": "v.",
+    "mean": "安排；整理",
+    "sentence": "Can you arrange a meeting for next week?"
+  },
+  {
+    "word": "arrival",
+    "pos": "n.",
+    "mean": "到达；到来",
+    "sentence": "We waited at the airport for her arrival."
+  },
+  {
+    "word": "article",
+    "pos": "n.",
+    "mean": "文章；物品",
+    "sentence": "I read an interesting article about climate change."
+  },
+  {
+    "word": "athlete",
+    "pos": "n.",
+    "mean": "运动员；田径运动员",
+    "sentence": "He became a professional athlete at eighteen."
+  },
+  {
+    "word": "atmosphere",
+    "pos": "n.",
+    "mean": "气氛；大气层",
+    "sentence": "The restaurant had a very friendly atmosphere."
+  },
+  {
+    "word": "attract",
+    "pos": "v.",
+    "mean": "吸引；引起注意",
+    "sentence": "The new museum attracts many visitors every day."
+  },
+  {
+    "word": "attractive",
+    "pos": "adj.",
+    "mean": "迷人的；有吸引力的",
+    "sentence": "She found the job offer very attractive."
+  },
+  {
+    "word": "available",
+    "pos": "adj.",
+    "mean": "可用的；有空的",
+    "sentence": "Are you available for a meeting on Friday?"
+  },
+  {
+    "word": "average",
+    "pos": "adj.",
+    "mean": "平均的；普通的",
+    "sentence": "The average temperature in July is 28 degrees."
+  },
+  {
+    "word": "avoid",
+    "pos": "v.",
+    "mean": "避免；回避",
+    "sentence": "You should avoid eating too much sugar."
+  },
+  {
+    "word": "award",
+    "pos": "n.",
+    "mean": "奖项；奖励",
+    "sentence": "She won an award for best actress."
+  },
+  {
+    "word": "background",
+    "pos": "n.",
+    "mean": "背景；经历",
+    "sentence": "She comes from a musical background."
+  },
+  {
+    "word": "balance",
+    "pos": "n.",
+    "mean": "平衡；余额",
+    "sentence": "It's important to have a balance between work and rest."
+  },
+  {
+    "word": "basic",
+    "pos": "adj.",
+    "mean": "基本的；基础的",
+    "sentence": "This course covers basic English grammar."
+  },
+  {
+    "word": "behaviour",
+    "pos": "n.",
+    "mean": "行为；举止",
+    "sentence": "The teacher praised the students for their good behaviour."
+  },
+  {
+    "word": "believe",
+    "pos": "v.",
+    "mean": "相信；认为",
+    "sentence": "I believe that everyone deserves a second chance."
+  },
+  {
+    "word": "belong",
+    "pos": "v.",
+    "mean": "属于；应归属于",
+    "sentence": "This coat belongs to my sister."
+  },
+  {
+    "word": "benefit",
+    "pos": "n.",
+    "mean": "好处；利益",
+    "sentence": "Regular exercise has many health benefits."
+  },
+  {
+    "word": "biography",
+    "pos": "n.",
+    "mean": "传记",
+    "sentence": "I'm reading a biography of Albert Einstein."
+  },
+  {
+    "word": "blame",
+    "pos": "v.",
+    "mean": "责备；归咎于",
+    "sentence": "Don't blame yourself for what happened."
+  },
+  {
+    "word": "borrow",
+    "pos": "v.",
+    "mean": "借入；借用",
+    "sentence": "Can I borrow your dictionary for a moment?"
+  },
+  {
+    "word": "bother",
+    "pos": "v.",
+    "mean": "烦扰；打扰",
+    "sentence": "Sorry to bother you, but can you help me?"
+  },
+  {
+    "word": "brave",
+    "pos": "adj.",
+    "mean": "勇敢的；无畏的",
+    "sentence": "The brave firefighter rescued the child from the burning building."
+  },
+  {
+    "word": "break down",
+    "pos": "phr.v.",
+    "mean": "（机器）抛锚；（情绪）崩溃",
+    "sentence": "Our car broke down on the motorway."
+  },
+  {
+    "word": "breath",
+    "pos": "n.",
+    "mean": "呼吸；气息",
+    "sentence": "He was out of breath after running up the stairs."
+  },
+  {
+    "word": "brilliant",
+    "pos": "adj.",
+    "mean": "聪明的；精彩的",
+    "sentence": "She had a brilliant idea for the science project."
+  },
+  {
+    "word": "brochure",
+    "pos": "n.",
+    "mean": "小册子；说明书",
+    "sentence": "We picked up a brochure about the museum."
+  },
+  {
+    "word": "budget",
+    "pos": "n.",
+    "mean": "预算；经费",
+    "sentence": "We need to keep within our travel budget."
+  },
+  {
+    "word": "calm",
+    "pos": "adj.",
+    "mean": "平静的；冷静的",
+    "sentence": "Please stay calm and follow the emergency instructions."
+  },
+  {
+    "word": "cancel",
+    "pos": "v.",
+    "mean": "取消；撤销",
+    "sentence": "The concert was cancelled due to bad weather."
+  },
+  {
+    "word": "career",
+    "pos": "n.",
+    "mean": "职业；事业",
+    "sentence": "She had a successful career as a journalist."
+  },
+  {
+    "word": "cause",
+    "pos": "v.",
+    "mean": "引起；造成",
+    "sentence": "Heavy rain caused serious flooding in the town."
+  },
+  {
+    "word": "celebrate",
+    "pos": "v.",
+    "mean": "庆祝；庆贺",
+    "sentence": "They celebrated her birthday with a surprise party."
+  },
+  {
+    "word": "century",
+    "pos": "n.",
+    "mean": "世纪；百年",
+    "sentence": "The building was constructed in the nineteenth century."
+  },
+  {
+    "word": "challenge",
+    "pos": "n.",
+    "mean": "挑战；难题",
+    "sentence": "Learning a new language is always a challenge."
+  },
+  {
+    "word": "champion",
+    "pos": "n.",
+    "mean": "冠军；捍卫者",
+    "sentence": "She became world champion at the age of twenty."
+  },
+  {
+    "word": "character",
+    "pos": "n.",
+    "mean": "性格；人物；特点",
+    "sentence": "The main character in the novel is a young detective."
+  },
+  {
+    "word": "charge",
+    "pos": "n.",
+    "mean": "费用；指控",
+    "sentence": "There is no charge for children under five."
+  },
+  {
+    "word": "charity",
+    "pos": "n.",
+    "mean": "慈善机构；慈善",
+    "sentence": "She volunteers for a local charity every weekend."
+  },
+  {
+    "word": "cheerful",
+    "pos": "adj.",
+    "mean": "开朗的；愉快的",
+    "sentence": "He always has a cheerful attitude towards life."
+  },
+  {
+    "word": "choice",
+    "pos": "n.",
+    "mean": "选择；抉择",
+    "sentence": "There was a wide choice of dishes on the menu."
+  },
+  {
+    "word": "climate",
+    "pos": "n.",
+    "mean": "气候；氛围",
+    "sentence": "The climate in this region is warm and humid."
+  },
+  {
+    "word": "collection",
+    "pos": "n.",
+    "mean": "收藏；系列",
+    "sentence": "He has an impressive collection of old coins."
+  },
+  {
+    "word": "comfortable",
+    "pos": "adj.",
+    "mean": "舒适的；安逸的",
+    "sentence": "The sofa is very comfortable to sit on."
+  },
+  {
+    "word": "communicate",
+    "pos": "v.",
+    "mean": "交流；沟通",
+    "sentence": "It's important to communicate clearly with your team."
+  },
+  {
+    "word": "community",
+    "pos": "n.",
+    "mean": "社区；共同体",
+    "sentence": "She works hard for her local community."
+  },
+  {
+    "word": "compare",
+    "pos": "v.",
+    "mean": "比较；对比",
+    "sentence": "Let's compare the prices before we buy anything."
+  },
+  {
+    "word": "compete",
+    "pos": "v.",
+    "mean": "竞争；参加比赛",
+    "sentence": "More than fifty athletes competed in the race."
+  },
+  {
+    "word": "competition",
+    "pos": "n.",
+    "mean": "比赛；竞争",
+    "sentence": "She entered a national writing competition."
+  },
+  {
+    "word": "complain",
+    "pos": "v.",
+    "mean": "抱怨；投诉",
+    "sentence": "The guests complained about the noise in the hotel."
+  },
+  {
+    "word": "concentrate",
+    "pos": "v.",
+    "mean": "集中注意力；专注",
+    "sentence": "It's hard to concentrate when there is too much noise."
+  },
+  {
+    "word": "confident",
+    "pos": "adj.",
+    "mean": "自信的；确信的",
+    "sentence": "She felt confident about passing the exam."
+  },
+  {
+    "word": "connection",
+    "pos": "n.",
+    "mean": "联系；连接",
+    "sentence": "There is a strong connection between diet and health."
+  },
+  {
+    "word": "consider",
+    "pos": "v.",
+    "mean": "考虑；认为",
+    "sentence": "Please consider all the options before deciding."
+  },
+  {
+    "word": "convenient",
+    "pos": "adj.",
+    "mean": "方便的；便利的",
+    "sentence": "The hotel is in a very convenient location."
+  },
+  {
+    "word": "conversation",
+    "pos": "n.",
+    "mean": "对话；交谈",
+    "sentence": "We had a long conversation about our plans."
+  },
+  {
+    "word": "convince",
+    "pos": "v.",
+    "mean": "说服；使确信",
+    "sentence": "She convinced me to join the gym with her."
+  },
+  {
+    "word": "correct",
+    "pos": "adj.",
+    "mean": "正确的；对的",
+    "sentence": "All your answers were correct."
+  },
+  {
+    "word": "courage",
+    "pos": "n.",
+    "mean": "勇气；胆量",
+    "sentence": "It takes courage to speak in public."
+  },
+  {
+    "word": "creative",
+    "pos": "adj.",
+    "mean": "有创造力的；创新的",
+    "sentence": "She is a very creative designer."
+  },
+  {
+    "word": "cultural",
+    "pos": "adj.",
+    "mean": "文化的；文化上的",
+    "sentence": "London offers a rich cultural experience."
+  },
+  {
+    "word": "curious",
+    "pos": "adj.",
+    "mean": "好奇的；求知欲强的",
+    "sentence": "Children are naturally curious about the world around them."
+  },
+  {
+    "word": "currency",
+    "pos": "n.",
+    "mean": "货币；通货",
+    "sentence": "What is the local currency in Japan?"
+  },
+  {
+    "word": "custom",
+    "pos": "n.",
+    "mean": "习俗；惯例",
+    "sentence": "It's a custom to give gifts at Chinese New Year."
+  },
+  {
+    "word": "damage",
+    "pos": "v.",
+    "mean": "损坏；破坏",
+    "sentence": "The storm damaged many buildings in the area."
+  },
+  {
+    "word": "dangerous",
+    "pos": "adj.",
+    "mean": "危险的；不安全的",
+    "sentence": "It is dangerous to text while driving."
+  },
+  {
+    "word": "decide",
+    "pos": "v.",
+    "mean": "决定；下决心",
+    "sentence": "Have you decided where to go on holiday?"
+  },
+  {
+    "word": "delay",
+    "pos": "n.",
+    "mean": "延误；推迟",
+    "sentence": "There was a two-hour delay due to bad weather."
+  },
+  {
+    "word": "delicious",
+    "pos": "adj.",
+    "mean": "美味的；可口的",
+    "sentence": "The food at the Italian restaurant was absolutely delicious."
+  },
+  {
+    "word": "deliver",
+    "pos": "v.",
+    "mean": "递送；交付",
+    "sentence": "The post office delivered the package this morning."
+  },
+  {
+    "word": "demand",
+    "pos": "n.",
+    "mean": "需求；要求",
+    "sentence": "There is a high demand for skilled workers in this field."
+  },
+  {
+    "word": "depressed",
+    "pos": "adj.",
+    "mean": "沮丧的；抑郁的",
+    "sentence": "She felt depressed after losing her job."
+  },
+  {
+    "word": "describe",
+    "pos": "v.",
+    "mean": "描述；形容",
+    "sentence": "Can you describe what you saw at the scene?"
+  },
+  {
+    "word": "design",
+    "pos": "n.",
+    "mean": "设计；图案",
+    "sentence": "She studied graphic design at university."
+  },
+  {
+    "word": "despite",
+    "pos": "prep.",
+    "mean": "尽管；即使",
+    "sentence": "She ran the marathon despite having an injury."
+  },
+  {
+    "word": "destroy",
+    "pos": "v.",
+    "mean": "破坏；毁灭",
+    "sentence": "The earthquake destroyed hundreds of homes."
+  },
+  {
+    "word": "develop",
+    "pos": "v.",
+    "mean": "发展；开发",
+    "sentence": "The company plans to develop new products next year."
+  },
+  {
+    "word": "diary",
+    "pos": "n.",
+    "mean": "日记；日程本",
+    "sentence": "She writes in her diary every evening."
+  },
+  {
+    "word": "diet",
+    "pos": "n.",
+    "mean": "饮食；食谱",
+    "sentence": "A healthy diet includes plenty of fruit and vegetables."
+  },
+  {
+    "word": "difficulty",
+    "pos": "n.",
+    "mean": "困难；艰难",
+    "sentence": "She had difficulty understanding the instructions."
+  },
+  {
+    "word": "disappear",
+    "pos": "v.",
+    "mean": "消失；不见",
+    "sentence": "The sun disappeared behind the clouds."
+  },
+  {
+    "word": "disappointed",
+    "pos": "adj.",
+    "mean": "失望的；沮丧的",
+    "sentence": "He was disappointed when he didn't get the job."
+  },
+  {
+    "word": "discount",
+    "pos": "n.",
+    "mean": "折扣；优惠",
+    "sentence": "Students receive a ten percent discount on all tickets."
+  },
+  {
+    "word": "discover",
+    "pos": "v.",
+    "mean": "发现；找到",
+    "sentence": "Scientists discovered a new species in the rainforest."
+  },
+  {
+    "word": "discuss",
+    "pos": "v.",
+    "mean": "讨论；商量",
+    "sentence": "We need to discuss the plans for the event."
+  },
+  {
+    "word": "disease",
+    "pos": "n.",
+    "mean": "疾病；病症",
+    "sentence": "Regular exercise can help prevent heart disease."
+  },
+  {
+    "word": "display",
+    "pos": "v.",
+    "mean": "展示；陈列",
+    "sentence": "The museum displays ancient artefacts from Egypt."
+  },
+  {
+    "word": "distance",
+    "pos": "n.",
+    "mean": "距离；远处",
+    "sentence": "The school is within walking distance of our house."
+  },
+  {
+    "word": "documentary",
+    "pos": "n.",
+    "mean": "纪录片",
+    "sentence": "I watched an interesting documentary about nature last night."
+  },
+  {
+    "word": "download",
+    "pos": "v.",
+    "mean": "下载",
+    "sentence": "You can download the app for free."
+  },
+  {
+    "word": "dream",
+    "pos": "n.",
+    "mean": "梦；梦想",
+    "sentence": "Her dream is to become a famous artist."
+  },
+  {
+    "word": "earn",
+    "pos": "v.",
+    "mean": "赚钱；挣得",
+    "sentence": "She earns a good salary working as an engineer."
+  },
+  {
+    "word": "education",
+    "pos": "n.",
+    "mean": "教育；学历",
+    "sentence": "Good education is essential for a successful future."
+  },
+  {
+    "word": "effect",
+    "pos": "n.",
+    "mean": "效果；影响",
+    "sentence": "The medicine had a positive effect on her health."
+  },
+  {
+    "word": "efficient",
+    "pos": "adj.",
+    "mean": "高效的；效率高的",
+    "sentence": "The new machine is much more efficient than the old one."
+  },
+  {
+    "word": "embarrassed",
+    "pos": "adj.",
+    "mean": "尴尬的；难堪的",
+    "sentence": "She felt embarrassed when she forgot his name."
+  },
+  {
+    "word": "emergency",
+    "pos": "n.",
+    "mean": "紧急情况；急事",
+    "sentence": "Call 999 in case of an emergency."
+  },
+  {
+    "word": "employee",
+    "pos": "n.",
+    "mean": "雇员；员工",
+    "sentence": "The company has over five hundred employees."
+  },
+  {
+    "word": "encourage",
+    "pos": "v.",
+    "mean": "鼓励；促进",
+    "sentence": "Her parents always encouraged her to try new things."
+  },
+  {
+    "word": "energy",
+    "pos": "n.",
+    "mean": "精力；能量",
+    "sentence": "Children have a lot of energy."
+  },
+  {
+    "word": "enjoy",
+    "pos": "v.",
+    "mean": "享受；喜爱",
+    "sentence": "I enjoy reading books before going to sleep."
+  },
+  {
+    "word": "enormous",
+    "pos": "adj.",
+    "mean": "巨大的；庞大的",
+    "sentence": "The new shopping centre is enormous."
+  },
+  {
+    "word": "entertainment",
+    "pos": "n.",
+    "mean": "娱乐；消遣",
+    "sentence": "There is plenty of entertainment for all ages at the festival."
+  },
+  {
+    "word": "environment",
+    "pos": "n.",
+    "mean": "环境；自然环境",
+    "sentence": "We must protect the environment for future generations."
+  },
+  {
+    "word": "equipment",
+    "pos": "n.",
+    "mean": "设备；器材",
+    "sentence": "The gym has brand new equipment."
+  },
+  {
+    "word": "escape",
+    "pos": "v.",
+    "mean": "逃脱；逃离",
+    "sentence": "The prisoner tried to escape from jail."
+  },
+  {
+    "word": "essential",
+    "pos": "adj.",
+    "mean": "必要的；基本的",
+    "sentence": "Water is essential for all living things."
+  },
+  {
+    "word": "event",
+    "pos": "n.",
+    "mean": "事件；活动",
+    "sentence": "The charity event raised a lot of money."
+  },
+  {
+    "word": "examination",
+    "pos": "n.",
+    "mean": "考试；检查",
+    "sentence": "She studied hard for her final examinations."
+  },
+  {
+    "word": "excellent",
+    "pos": "adj.",
+    "mean": "出色的；优秀的",
+    "sentence": "The students produced some excellent work this term."
+  },
+  {
+    "word": "exchange",
+    "pos": "n.",
+    "mean": "交换；外汇",
+    "sentence": "She went on a student exchange programme to Spain."
+  },
+  {
+    "word": "excited",
+    "pos": "adj.",
+    "mean": "兴奋的；激动的",
+    "sentence": "The children were very excited about the school trip."
+  },
+  {
+    "word": "exhausted",
+    "pos": "adj.",
+    "mean": "精疲力竭的；筋疲力尽的",
+    "sentence": "I was exhausted after the long walk."
+  },
+  {
+    "word": "exhibition",
+    "pos": "n.",
+    "mean": "展览；展示",
+    "sentence": "There is a photography exhibition at the gallery this week."
+  },
+  {
+    "word": "experience",
+    "pos": "n.",
+    "mean": "经历；经验",
+    "sentence": "Working abroad was an amazing experience."
+  },
+  {
+    "word": "explanation",
+    "pos": "n.",
+    "mean": "解释；说明",
+    "sentence": "The teacher gave a clear explanation of the grammar rule."
+  },
+  {
+    "word": "explore",
+    "pos": "v.",
+    "mean": "探索；探险",
+    "sentence": "We spent the morning exploring the old town."
+  },
+  {
+    "word": "extremely",
+    "pos": "adv.",
+    "mean": "非常；极度地",
+    "sentence": "The test was extremely difficult."
+  },
+  {
+    "word": "fail",
+    "pos": "v.",
+    "mean": "失败；不及格",
+    "sentence": "He failed his driving test for the third time."
+  },
+  {
+    "word": "familiar",
+    "pos": "adj.",
+    "mean": "熟悉的；常见的",
+    "sentence": "The face looks familiar but I can't remember her name."
+  },
+  {
+    "word": "fantastic",
+    "pos": "adj.",
+    "mean": "极好的；奇妙的",
+    "sentence": "We had a fantastic time at the concert."
+  },
+  {
+    "word": "fascinated",
+    "pos": "adj.",
+    "mean": "着迷的；入迷的",
+    "sentence": "She was fascinated by the history of the city."
+  },
+  {
+    "word": "fashion",
+    "pos": "n.",
+    "mean": "时尚；流行",
+    "sentence": "She works in the fashion industry in Milan."
+  },
+  {
+    "word": "favourite",
+    "pos": "adj.",
+    "mean": "最喜欢的",
+    "sentence": "Pizza is my favourite food."
+  },
+  {
+    "word": "festival",
+    "pos": "n.",
+    "mean": "节日；节庆活动",
+    "sentence": "The music festival attracts thousands of people every year."
+  },
+  {
+    "word": "figure",
+    "pos": "n.",
+    "mean": "数字；人物；体形",
+    "sentence": "The number of tourists has reached record figures."
+  },
+  {
+    "word": "fix",
+    "pos": "v.",
+    "mean": "修理；固定",
+    "sentence": "Can you fix my bicycle? The wheel is broken."
+  },
+  {
+    "word": "flight",
+    "pos": "n.",
+    "mean": "航班；飞行",
+    "sentence": "Our flight to Paris departs at six in the morning."
+  },
+  {
+    "word": "flood",
+    "pos": "n.",
+    "mean": "洪水；泛滥",
+    "sentence": "Heavy rains caused severe floods across the region."
+  },
+  {
+    "word": "fluent",
+    "pos": "adj.",
+    "mean": "流利的；流畅的",
+    "sentence": "She is fluent in Spanish and Portuguese."
+  },
+  {
+    "word": "focus",
+    "pos": "v.",
+    "mean": "集中；关注",
+    "sentence": "You need to focus on your studies this term."
+  },
+  {
+    "word": "fond",
+    "pos": "adj.",
+    "mean": "喜爱的；温情的",
+    "sentence": "She is very fond of animals, especially dogs."
+  },
+  {
+    "word": "forecast",
+    "pos": "n.",
+    "mean": "预报；预测",
+    "sentence": "The weather forecast says it will rain tomorrow."
+  },
+  {
+    "word": "forest",
+    "pos": "n.",
+    "mean": "森林；树林",
+    "sentence": "The Amazon rainforest is home to millions of species."
+  },
+  {
+    "word": "forgive",
+    "pos": "v.",
+    "mean": "原谅；宽恕",
+    "sentence": "She forgave him for what he had done."
+  },
+  {
+    "word": "fortunately",
+    "pos": "adv.",
+    "mean": "幸运地；幸亏",
+    "sentence": "Fortunately, nobody was hurt in the accident."
+  },
+  {
+    "word": "fresh",
+    "pos": "adj.",
+    "mean": "新鲜的；清新的",
+    "sentence": "Always use fresh ingredients when cooking."
+  },
+  {
+    "word": "friendly",
+    "pos": "adj.",
+    "mean": "友好的；亲切的",
+    "sentence": "The locals were very friendly and welcoming."
+  },
+  {
+    "word": "frightened",
+    "pos": "adj.",
+    "mean": "害怕的；受惊的",
+    "sentence": "She was frightened by the loud thunder."
+  },
+  {
+    "word": "frustrated",
+    "pos": "adj.",
+    "mean": "沮丧的；受挫的",
+    "sentence": "He felt frustrated when he couldn't solve the problem."
+  },
+  {
+    "word": "full-time",
+    "pos": "adj.",
+    "mean": "全职的",
+    "sentence": "She has a full-time job at the bank."
+  },
+  {
+    "word": "furniture",
+    "pos": "n.",
+    "mean": "家具",
+    "sentence": "We need to buy some new furniture for the living room."
+  },
+  {
+    "word": "further",
+    "pos": "adv.",
+    "mean": "更远；进一步",
+    "sentence": "The university is further away than I thought."
+  },
+  {
+    "word": "gallery",
+    "pos": "n.",
+    "mean": "画廊；美术馆",
+    "sentence": "The art gallery has an excellent collection of paintings."
+  },
+  {
+    "word": "generation",
+    "pos": "n.",
+    "mean": "一代；一代人",
+    "sentence": "Each generation faces different challenges."
+  },
+  {
+    "word": "generous",
+    "pos": "adj.",
+    "mean": "慷慨的；大方的",
+    "sentence": "She was very generous with her time and money."
+  },
+  {
+    "word": "gentle",
+    "pos": "adj.",
+    "mean": "温和的；轻柔的",
+    "sentence": "He has a very gentle manner with children."
+  },
+  {
+    "word": "global warming",
+    "pos": "n.",
+    "mean": "全球变暖",
+    "sentence": "Global warming is one of the biggest challenges of our time."
+  },
+  {
+    "word": "guide",
+    "pos": "n.",
+    "mean": "导游；指南",
+    "sentence": "The guide took us around the ancient city."
+  },
+  {
+    "word": "habit",
+    "pos": "n.",
+    "mean": "习惯；惯例",
+    "sentence": "She has a habit of drinking tea every morning."
+  },
+  {
+    "word": "handle",
+    "pos": "v.",
+    "mean": "处理；应付",
+    "sentence": "She handled the situation very calmly."
+  },
+  {
+    "word": "health",
+    "pos": "n.",
+    "mean": "健康；身体状况",
+    "sentence": "Eating well is important for your health."
+  },
+  {
+    "word": "hire",
+    "pos": "v.",
+    "mean": "雇用；租用",
+    "sentence": "We hired a car for the duration of our holiday."
+  },
+  {
+    "word": "historic",
+    "pos": "adj.",
+    "mean": "历史性的；有历史意义的",
+    "sentence": "The city is famous for its historic buildings."
+  },
+  {
+    "word": "hobby",
+    "pos": "n.",
+    "mean": "爱好；业余活动",
+    "sentence": "My hobbies include reading and playing chess."
+  },
+  {
+    "word": "honest",
+    "pos": "adj.",
+    "mean": "诚实的；坦率的",
+    "sentence": "She always gives honest opinions about things."
+  },
+  {
+    "word": "hopeful",
+    "pos": "adj.",
+    "mean": "有希望的；充满希望的",
+    "sentence": "I am hopeful that we will find a solution soon."
+  },
+  {
+    "word": "horrible",
+    "pos": "adj.",
+    "mean": "可怕的；糟糕的",
+    "sentence": "The weather was horrible last weekend."
+  },
+  {
+    "word": "housework",
+    "pos": "n.",
+    "mean": "家务劳动",
+    "sentence": "She spends a lot of time doing housework."
+  },
+  {
+    "word": "huge",
+    "pos": "adj.",
+    "mean": "巨大的；庞大的",
+    "sentence": "The stadium is huge and can hold sixty thousand people."
+  },
+  {
+    "word": "imagination",
+    "pos": "n.",
+    "mean": "想象力；创造力",
+    "sentence": "Children have wonderful imaginations."
+  },
+  {
+    "word": "immediately",
+    "pos": "adv.",
+    "mean": "立即；马上",
+    "sentence": "Please call me immediately if you have a problem."
+  },
+  {
+    "word": "important",
+    "pos": "adj.",
+    "mean": "重要的；重大的",
+    "sentence": "It is important to eat a balanced diet."
+  },
+  {
+    "word": "improve",
+    "pos": "v.",
+    "mean": "改善；提高",
+    "sentence": "Her English has improved a lot this year."
+  },
+  {
+    "word": "include",
+    "pos": "v.",
+    "mean": "包括；包含",
+    "sentence": "The price includes breakfast and dinner."
+  },
+  {
+    "word": "increase",
+    "pos": "v.",
+    "mean": "增加；增长",
+    "sentence": "The number of visitors has increased by twenty percent."
+  },
+  {
+    "word": "independent",
+    "pos": "adj.",
+    "mean": "独立的；自主的",
+    "sentence": "She is a very independent person."
+  },
+  {
+    "word": "industry",
+    "pos": "n.",
+    "mean": "工业；行业",
+    "sentence": "The tourism industry is very important for our economy."
+  },
+  {
+    "word": "information",
+    "pos": "n.",
+    "mean": "信息；资料",
+    "sentence": "For more information, please visit our website."
+  },
+  {
+    "word": "ingredient",
+    "pos": "n.",
+    "mean": "成分；原料",
+    "sentence": "The recipe calls for only a few simple ingredients."
+  },
+  {
+    "word": "injure",
+    "pos": "v.",
+    "mean": "伤害；使受伤",
+    "sentence": "Two players were injured during the football match."
+  },
+  {
+    "word": "intelligent",
+    "pos": "adj.",
+    "mean": "聪明的；有才智的",
+    "sentence": "She is one of the most intelligent students in the class."
+  },
+  {
+    "word": "interested",
+    "pos": "adj.",
+    "mean": "感兴趣的",
+    "sentence": "Are you interested in joining our photography club?"
+  },
+  {
+    "word": "interesting",
+    "pos": "adj.",
+    "mean": "有趣的；引人入胜的",
+    "sentence": "The documentary was really interesting."
+  },
+  {
+    "word": "interview",
+    "pos": "n.",
+    "mean": "面试；采访",
+    "sentence": "She has a job interview at nine o'clock tomorrow morning."
+  },
+  {
+    "word": "invention",
+    "pos": "n.",
+    "mean": "发明；创造",
+    "sentence": "The invention of the internet changed everything."
+  },
+  {
+    "word": "invitation",
+    "pos": "n.",
+    "mean": "邀请；请帖",
+    "sentence": "Did you receive an invitation to the party?"
+  },
+  {
+    "word": "involve",
+    "pos": "v.",
+    "mean": "包含；涉及",
+    "sentence": "The job involves a lot of travelling."
+  },
+  {
+    "word": "island",
+    "pos": "n.",
+    "mean": "岛；岛屿",
+    "sentence": "We spent two weeks on a beautiful tropical island."
+  },
+  {
+    "word": "journey",
+    "pos": "n.",
+    "mean": "旅程；旅途",
+    "sentence": "The journey from London to Edinburgh takes about four hours."
+  },
+  {
+    "word": "judge",
+    "pos": "v.",
+    "mean": "判断；评判",
+    "sentence": "Don't judge people by their appearance."
+  },
+  {
+    "word": "knowledge",
+    "pos": "n.",
+    "mean": "知识；了解",
+    "sentence": "She has an excellent knowledge of French history."
+  },
+  {
+    "word": "landscape",
+    "pos": "n.",
+    "mean": "风景；景观",
+    "sentence": "The landscape in the mountains is absolutely beautiful."
+  },
+  {
+    "word": "language",
+    "pos": "n.",
+    "mean": "语言",
+    "sentence": "She speaks three languages: English, French and Spanish."
+  },
+  {
+    "word": "latest",
+    "pos": "adj.",
+    "mean": "最新的；最近的",
+    "sentence": "Have you seen the latest news?"
+  },
+  {
+    "word": "lazy",
+    "pos": "adj.",
+    "mean": "懒惰的；懒洋洋的",
+    "sentence": "Don't be lazy—you need to study for your exams."
+  },
+  {
+    "word": "local",
+    "pos": "adj.",
+    "mean": "当地的；本地的",
+    "sentence": "We bought fresh vegetables from the local market."
+  },
+  {
+    "word": "lonely",
+    "pos": "adj.",
+    "mean": "孤独的；寂寞的",
+    "sentence": "She felt lonely after moving to a new city."
+  },
+  {
+    "word": "lovely",
+    "pos": "adj.",
+    "mean": "可爱的；美好的",
+    "sentence": "What a lovely day for a walk in the park!"
+  },
+  {
+    "word": "lucky",
+    "pos": "adj.",
+    "mean": "幸运的",
+    "sentence": "I was lucky to find a parking space so quickly."
+  },
+  {
+    "word": "manage",
+    "pos": "v.",
+    "mean": "设法做到；管理",
+    "sentence": "Did you manage to finish the report on time?"
+  },
+  {
+    "word": "magazine",
+    "pos": "n.",
+    "mean": "杂志",
+    "sentence": "She reads a fashion magazine every month."
+  },
+  {
+    "word": "main",
+    "pos": "adj.",
+    "mean": "主要的；最重要的",
+    "sentence": "What is the main reason for your visit?"
+  },
+  {
+    "word": "manners",
+    "pos": "n.",
+    "mean": "礼貌；举止",
+    "sentence": "It's important to teach children good manners."
+  },
+  {
+    "word": "material",
+    "pos": "n.",
+    "mean": "材料；物质",
+    "sentence": "The bag is made from recycled materials."
+  },
+  {
+    "word": "meal",
+    "pos": "n.",
+    "mean": "一餐；饭",
+    "sentence": "We had a delicious meal at the new Italian restaurant."
+  },
+  {
+    "word": "medicine",
+    "pos": "n.",
+    "mean": "药；医学",
+    "sentence": "The doctor prescribed some medicine for her cough."
+  },
+  {
+    "word": "member",
+    "pos": "n.",
+    "mean": "成员；会员",
+    "sentence": "She is a member of the local tennis club."
+  },
+  {
+    "word": "memorable",
+    "pos": "adj.",
+    "mean": "难忘的；值得纪念的",
+    "sentence": "The concert was a truly memorable experience."
+  },
+  {
+    "word": "message",
+    "pos": "n.",
+    "mean": "信息；消息",
+    "sentence": "Can you pass on a message to your sister?"
+  },
+  {
+    "word": "method",
+    "pos": "n.",
+    "mean": "方法；方式",
+    "sentence": "There are several methods you can use to solve this problem."
+  },
+  {
+    "word": "mind",
+    "pos": "v.",
+    "mean": "介意；在乎",
+    "sentence": "Do you mind if I open the window?"
+  },
+  {
+    "word": "mistake",
+    "pos": "n.",
+    "mean": "错误；过失",
+    "sentence": "Everyone makes mistakes when learning a new language."
+  },
+  {
+    "word": "modern",
+    "pos": "adj.",
+    "mean": "现代的；新式的",
+    "sentence": "The hotel has a very modern design."
+  },
+  {
+    "word": "money",
+    "pos": "n.",
+    "mean": "钱；金钱",
+    "sentence": "She saved enough money to buy a new computer."
+  },
+  {
+    "word": "musician",
+    "pos": "n.",
+    "mean": "音乐家；乐手",
+    "sentence": "He is a talented musician who plays the piano and violin."
+  },
+  {
+    "word": "narrow",
+    "pos": "adj.",
+    "mean": "狭窄的",
+    "sentence": "The road was too narrow for two cars to pass."
+  },
+  {
+    "word": "natural",
+    "pos": "adj.",
+    "mean": "自然的；天然的",
+    "sentence": "The park is famous for its natural beauty."
+  },
+  {
+    "word": "nature",
+    "pos": "n.",
+    "mean": "自然；大自然",
+    "sentence": "She loves spending time in nature."
+  },
+  {
+    "word": "necessary",
+    "pos": "adj.",
+    "mean": "必要的；必需的",
+    "sentence": "Is it necessary to bring a passport?"
+  },
+  {
+    "word": "neighbour",
+    "pos": "n.",
+    "mean": "邻居；邻国",
+    "sentence": "She gets on very well with her neighbours."
+  },
+  {
+    "word": "nervous",
+    "pos": "adj.",
+    "mean": "紧张的；不安的",
+    "sentence": "I always feel nervous before a presentation."
+  },
+  {
+    "word": "notice",
+    "pos": "v.",
+    "mean": "注意；注意到",
+    "sentence": "Did you notice anything unusual about her behaviour?"
+  },
+  {
+    "word": "offer",
+    "pos": "v.",
+    "mean": "提供；提出",
+    "sentence": "He offered to help carry her bags."
+  },
+  {
+    "word": "opinion",
+    "pos": "n.",
+    "mean": "观点；意见",
+    "sentence": "In my opinion, the film was disappointing."
+  },
+  {
+    "word": "opportunity",
+    "pos": "n.",
+    "mean": "机会；时机",
+    "sentence": "This job is a great opportunity for you."
+  },
+  {
+    "word": "organise",
+    "pos": "v.",
+    "mean": "组织；安排",
+    "sentence": "She organised a surprise party for her friend."
+  },
+  {
+    "word": "outdoor",
+    "pos": "adj.",
+    "mean": "户外的；室外的",
+    "sentence": "He enjoys outdoor activities like hiking and cycling."
+  },
+  {
+    "word": "own",
+    "pos": "v.",
+    "mean": "拥有；拥有物",
+    "sentence": "She owns a small café in the town centre."
+  },
+  {
+    "word": "patient",
+    "pos": "adj.",
+    "mean": "有耐心的",
+    "sentence": "You need to be patient when learning a new skill."
+  },
+  {
+    "word": "perfect",
+    "pos": "adj.",
+    "mean": "完美的；理想的",
+    "sentence": "The weather was perfect for a picnic."
+  },
+  {
+    "word": "perform",
+    "pos": "v.",
+    "mean": "表演；执行",
+    "sentence": "The band performed brilliantly at the festival."
+  },
+  {
+    "word": "plan",
+    "pos": "n.",
+    "mean": "计划；打算",
+    "sentence": "What are your plans for the summer holidays?"
+  },
+  {
+    "word": "pleasant",
+    "pos": "adj.",
+    "mean": "令人愉快的；宜人的",
+    "sentence": "We had a very pleasant evening with our friends."
+  },
+  {
+    "word": "polite",
+    "pos": "adj.",
+    "mean": "有礼貌的；客气的",
+    "sentence": "She is always polite and respectful to everyone."
+  },
+  {
+    "word": "pollute",
+    "pos": "v.",
+    "mean": "污染",
+    "sentence": "Factories often pollute rivers and the air."
+  },
+  {
+    "word": "pollution",
+    "pos": "n.",
+    "mean": "污染",
+    "sentence": "Air pollution is a serious problem in big cities."
+  },
+  {
+    "word": "popular",
+    "pos": "adj.",
+    "mean": "受欢迎的；流行的",
+    "sentence": "This café is very popular with students."
+  },
+  {
+    "word": "possible",
+    "pos": "adj.",
+    "mean": "可能的",
+    "sentence": "Is it possible to change my flight booking?"
+  },
+  {
+    "word": "poverty",
+    "pos": "n.",
+    "mean": "贫困；贫穷",
+    "sentence": "Many people around the world still live in poverty."
+  },
+  {
+    "word": "predict",
+    "pos": "v.",
+    "mean": "预测；预言",
+    "sentence": "It is difficult to predict what will happen next."
+  },
+  {
+    "word": "prefer",
+    "pos": "v.",
+    "mean": "更喜欢；偏爱",
+    "sentence": "I prefer coffee to tea in the morning."
+  },
+  {
+    "word": "prepare",
+    "pos": "v.",
+    "mean": "准备；预备",
+    "sentence": "She spent the whole evening preparing for the interview."
+  },
+  {
+    "word": "prevent",
+    "pos": "v.",
+    "mean": "预防；阻止",
+    "sentence": "Washing your hands regularly helps prevent illness."
+  },
+  {
+    "word": "price",
+    "pos": "n.",
+    "mean": "价格；价钱",
+    "sentence": "The price of food has gone up a lot recently."
+  },
+  {
+    "word": "prize",
+    "pos": "n.",
+    "mean": "奖品；奖励",
+    "sentence": "She won first prize in the short story competition."
+  },
+  {
+    "word": "probably",
+    "pos": "adv.",
+    "mean": "可能；大概",
+    "sentence": "It will probably rain this afternoon."
+  },
+  {
+    "word": "problem",
+    "pos": "n.",
+    "mean": "问题；难题",
+    "sentence": "I had some problems with my computer this morning."
+  },
+  {
+    "word": "produce",
+    "pos": "v.",
+    "mean": "生产；产生",
+    "sentence": "The factory produces over a thousand cars a day."
+  },
+  {
+    "word": "professional",
+    "pos": "adj.",
+    "mean": "专业的；职业的",
+    "sentence": "She gave a very professional presentation."
+  },
+  {
+    "word": "programme",
+    "pos": "n.",
+    "mean": "节目；计划",
+    "sentence": "What is your favourite TV programme?"
+  },
+  {
+    "word": "progress",
+    "pos": "n.",
+    "mean": "进步；进展",
+    "sentence": "She is making excellent progress in her English studies."
+  },
+  {
+    "word": "project",
+    "pos": "n.",
+    "mean": "项目；课题",
+    "sentence": "We are working on a group project about recycling."
+  },
+  {
+    "word": "property",
+    "pos": "n.",
+    "mean": "财产；房产",
+    "sentence": "House prices and property values have risen significantly."
+  },
+  {
+    "word": "protect",
+    "pos": "v.",
+    "mean": "保护；防护",
+    "sentence": "We must protect endangered species from extinction."
+  },
+  {
+    "word": "proud",
+    "pos": "adj.",
+    "mean": "自豪的；骄傲的",
+    "sentence": "Her parents are very proud of her achievements."
+  },
+  {
+    "word": "provide",
+    "pos": "v.",
+    "mean": "提供；供给",
+    "sentence": "The school provides free meals for all students."
+  },
+  {
+    "word": "punishment",
+    "pos": "n.",
+    "mean": "惩罚；处罚",
+    "sentence": "The punishment for breaking the rules is unfair."
+  },
+  {
+    "word": "quality",
+    "pos": "n.",
+    "mean": "质量；品质",
+    "sentence": "The quality of the food at this restaurant is excellent."
+  },
+  {
+    "word": "question",
+    "pos": "n.",
+    "mean": "问题；疑问",
+    "sentence": "Do you have any questions about the assignment?"
+  },
+  {
+    "word": "queue",
+    "pos": "v.",
+    "mean": "排队等候",
+    "sentence": "We had to queue for over an hour to get tickets."
+  },
+  {
+    "word": "realistic",
+    "pos": "adj.",
+    "mean": "现实的；实际的",
+    "sentence": "You need to be more realistic about your plans."
+  },
+  {
+    "word": "reason",
+    "pos": "n.",
+    "mean": "原因；理由",
+    "sentence": "What is the main reason for learning English?"
+  },
+  {
+    "word": "receive",
+    "pos": "v.",
+    "mean": "收到；接受",
+    "sentence": "She received a letter from her friend in Australia."
+  },
+  {
+    "word": "recently",
+    "pos": "adv.",
+    "mean": "最近；近来",
+    "sentence": "Have you seen any good films recently?"
+  },
+  {
+    "word": "recognise",
+    "pos": "v.",
+    "mean": "认出；承认",
+    "sentence": "I didn't recognise him with his new haircut."
+  },
+  {
+    "word": "recommend",
+    "pos": "v.",
+    "mean": "推荐；建议",
+    "sentence": "Can you recommend a good restaurant near here?"
+  },
+  {
+    "word": "recycle",
+    "pos": "v.",
+    "mean": "回收；循环利用",
+    "sentence": "It is important to recycle paper, glass and plastic."
+  },
+  {
+    "word": "reduce",
+    "pos": "v.",
+    "mean": "减少；降低",
+    "sentence": "We need to reduce the amount of plastic we use."
+  },
+  {
+    "word": "refuse",
+    "pos": "v.",
+    "mean": "拒绝",
+    "sentence": "She refused to answer any more questions."
+  },
+  {
+    "word": "relationship",
+    "pos": "n.",
+    "mean": "关系；关联",
+    "sentence": "She has a good relationship with her colleagues."
+  },
+  {
+    "word": "relaxed",
+    "pos": "adj.",
+    "mean": "放松的；轻松的",
+    "sentence": "I feel much more relaxed since I started doing yoga."
+  },
+  {
+    "word": "reliable",
+    "pos": "adj.",
+    "mean": "可靠的；值得信赖的",
+    "sentence": "She is a reliable and hard-working employee."
+  },
+  {
+    "word": "replace",
+    "pos": "v.",
+    "mean": "替换；取代",
+    "sentence": "They replaced the old computers with new ones."
+  },
+  {
+    "word": "report",
+    "pos": "n.",
+    "mean": "报告；汇报",
+    "sentence": "She wrote a report on climate change."
+  },
+  {
+    "word": "research",
+    "pos": "n.",
+    "mean": "研究；调查",
+    "sentence": "Scientists are carrying out research into new treatments."
+  },
+  {
+    "word": "respond",
+    "pos": "v.",
+    "mean": "回应；响应",
+    "sentence": "Please respond to the email as soon as possible."
+  },
+  {
+    "word": "responsibility",
+    "pos": "n.",
+    "mean": "责任；义务",
+    "sentence": "It's your responsibility to complete the work on time."
+  },
+  {
+    "word": "result",
+    "pos": "n.",
+    "mean": "结果；成绩",
+    "sentence": "The results of the exam will be published next week."
+  },
+  {
+    "word": "review",
+    "pos": "n.",
+    "mean": "评论；复习",
+    "sentence": "The film received excellent reviews from critics."
+  },
+  {
+    "word": "reward",
+    "pos": "n.",
+    "mean": "奖励；报酬",
+    "sentence": "Hard work always brings its own reward."
+  },
+  {
+    "word": "role",
+    "pos": "n.",
+    "mean": "角色；作用",
+    "sentence": "She played the leading role in the school play."
+  },
+  {
+    "word": "routine",
+    "pos": "n.",
+    "mean": "日常工作；惯例",
+    "sentence": "She has a strict morning routine."
+  },
+  {
+    "word": "rubbish",
+    "pos": "n.",
+    "mean": "垃圾；废话",
+    "sentence": "Don't drop rubbish in the street."
+  },
+  {
+    "word": "rude",
+    "pos": "adj.",
+    "mean": "粗鲁的；不礼貌的",
+    "sentence": "It's rude to interrupt someone when they're speaking."
+  },
+  {
+    "word": "safe",
+    "pos": "adj.",
+    "mean": "安全的；保险的",
+    "sentence": "Make sure you keep your valuables in a safe place."
+  },
+  {
+    "word": "satisfy",
+    "pos": "v.",
+    "mean": "使满意；满足",
+    "sentence": "Nothing seemed to satisfy his appetite."
+  },
+  {
+    "word": "scenery",
+    "pos": "n.",
+    "mean": "风景；景色",
+    "sentence": "The scenery in the Scottish Highlands is breathtaking."
+  },
+  {
+    "word": "season",
+    "pos": "n.",
+    "mean": "季节；时期",
+    "sentence": "Spring is my favourite season of the year."
+  },
+  {
+    "word": "seem",
+    "pos": "v.",
+    "mean": "看起来；似乎",
+    "sentence": "She seems very happy in her new job."
+  },
+  {
+    "word": "select",
+    "pos": "v.",
+    "mean": "选择；挑选",
+    "sentence": "Please select the option that best describes you."
+  },
+  {
+    "word": "serious",
+    "pos": "adj.",
+    "mean": "严肃的；严重的",
+    "sentence": "This is a very serious matter and must be dealt with quickly."
+  },
+  {
+    "word": "serve",
+    "pos": "v.",
+    "mean": "服务；供应",
+    "sentence": "The restaurant serves food until eleven o'clock."
+  },
+  {
+    "word": "share",
+    "pos": "v.",
+    "mean": "分享；共用",
+    "sentence": "She likes to share her ideas with the rest of the class."
+  },
+  {
+    "word": "shy",
+    "pos": "adj.",
+    "mean": "害羞的；内向的",
+    "sentence": "He was too shy to ask for help."
+  },
+  {
+    "word": "similar",
+    "pos": "adj.",
+    "mean": "相似的；相像的",
+    "sentence": "The two paintings are very similar in style."
+  },
+  {
+    "word": "simple",
+    "pos": "adj.",
+    "mean": "简单的；朴素的",
+    "sentence": "The recipe is very simple and takes just ten minutes."
+  },
+  {
+    "word": "situation",
+    "pos": "n.",
+    "mean": "情况；处境",
+    "sentence": "The situation has improved a lot in recent weeks."
+  },
+  {
+    "word": "skill",
+    "pos": "n.",
+    "mean": "技能；技巧",
+    "sentence": "She has excellent communication skills."
+  },
+  {
+    "word": "society",
+    "pos": "n.",
+    "mean": "社会",
+    "sentence": "We all have a responsibility to contribute to society."
+  },
+  {
+    "word": "solve",
+    "pos": "v.",
+    "mean": "解决；解答",
+    "sentence": "The police are trying to solve the mystery."
+  },
+  {
+    "word": "special",
+    "pos": "adj.",
+    "mean": "特别的；特殊的",
+    "sentence": "Today is a very special day for our family."
+  },
+  {
+    "word": "spend",
+    "pos": "v.",
+    "mean": "花费；度过",
+    "sentence": "She spends most of her free time reading."
+  },
+  {
+    "word": "spread",
+    "pos": "v.",
+    "mean": "传播；蔓延",
+    "sentence": "The news spread quickly through social media."
+  },
+  {
+    "word": "staff",
+    "pos": "n.",
+    "mean": "员工；工作人员",
+    "sentence": "All staff are required to attend the training day."
+  },
+  {
+    "word": "stage",
+    "pos": "n.",
+    "mean": "阶段；舞台",
+    "sentence": "The project is still in its early stages."
+  },
+  {
+    "word": "standard",
+    "pos": "n.",
+    "mean": "标准；水平",
+    "sentence": "The standard of work has improved greatly this year."
+  },
+  {
+    "word": "stranger",
+    "pos": "n.",
+    "mean": "陌生人；外来者",
+    "sentence": "Never accept gifts from strangers."
+  },
+  {
+    "word": "stress",
+    "pos": "n.",
+    "mean": "压力；强调",
+    "sentence": "She is under a lot of stress at work."
+  },
+  {
+    "word": "strict",
+    "pos": "adj.",
+    "mean": "严格的；严厉的",
+    "sentence": "The teacher is very strict about homework deadlines."
+  },
+  {
+    "word": "structure",
+    "pos": "n.",
+    "mean": "结构；构造",
+    "sentence": "The sentence structure in this language is quite different."
+  },
+  {
+    "word": "subject",
+    "pos": "n.",
+    "mean": "科目；主题",
+    "sentence": "What is your favourite school subject?"
+  },
+  {
+    "word": "succeed",
+    "pos": "v.",
+    "mean": "成功；完成",
+    "sentence": "She worked very hard and finally succeeded."
+  },
+  {
+    "word": "suffer",
+    "pos": "v.",
+    "mean": "受苦；忍受",
+    "sentence": "She suffers from hay fever every spring."
+  },
+  {
+    "word": "suggest",
+    "pos": "v.",
+    "mean": "建议；提议",
+    "sentence": "I suggest we leave early to avoid the traffic."
+  },
+  {
+    "word": "suitable",
+    "pos": "adj.",
+    "mean": "合适的；适当的",
+    "sentence": "This film is not suitable for young children."
+  },
+  {
+    "word": "support",
+    "pos": "v.",
+    "mean": "支持；支撑",
+    "sentence": "She always supports her team, even when they lose."
+  },
+  {
+    "word": "suppose",
+    "pos": "v.",
+    "mean": "假设；认为",
+    "sentence": "I suppose we could take a different route."
+  },
+  {
+    "word": "surprised",
+    "pos": "adj.",
+    "mean": "惊讶的",
+    "sentence": "She was surprised when they threw a party for her."
+  },
+  {
+    "word": "surround",
+    "pos": "v.",
+    "mean": "围绕；包围",
+    "sentence": "The village is surrounded by beautiful countryside."
+  },
+  {
+    "word": "survive",
+    "pos": "v.",
+    "mean": "生存；幸存",
+    "sentence": "How did the plant survive without water for so long?"
+  },
+  {
+    "word": "symbol",
+    "pos": "n.",
+    "mean": "象征；符号",
+    "sentence": "The dove is a symbol of peace."
+  },
+  {
+    "word": "talent",
+    "pos": "n.",
+    "mean": "才能；天赋",
+    "sentence": "She has a great talent for painting."
+  },
+  {
+    "word": "temperature",
+    "pos": "n.",
+    "mean": "温度；气温",
+    "sentence": "The temperature outside is minus five degrees."
+  },
+  {
+    "word": "terrible",
+    "pos": "adj.",
+    "mean": "可怕的；糟糕的",
+    "sentence": "The weather was terrible during our holiday."
+  },
+  {
+    "word": "tired",
+    "pos": "adj.",
+    "mean": "疲倦的；厌倦的",
+    "sentence": "I'm too tired to go out tonight."
+  },
+  {
+    "word": "together",
+    "pos": "adv.",
+    "mean": "在一起；共同",
+    "sentence": "They worked together to solve the problem."
+  },
+  {
+    "word": "topic",
+    "pos": "n.",
+    "mean": "话题；主题",
+    "sentence": "The topic of the essay is environmental protection."
+  },
+  {
+    "word": "tour",
+    "pos": "n.",
+    "mean": "旅行；参观",
+    "sentence": "We went on a guided tour of the old city."
+  },
+  {
+    "word": "tradition",
+    "pos": "n.",
+    "mean": "传统；惯例",
+    "sentence": "It's a local tradition to light candles on this day."
+  },
+  {
+    "word": "translate",
+    "pos": "v.",
+    "mean": "翻译",
+    "sentence": "She offered to translate the document into English."
+  },
+  {
+    "word": "transport",
+    "pos": "n.",
+    "mean": "交通；运输",
+    "sentence": "Public transport in the city is very good."
+  },
+  {
+    "word": "trust",
+    "pos": "v.",
+    "mean": "信任；信赖",
+    "sentence": "I trust her completely—she never lets me down."
+  },
+  {
+    "word": "typical",
+    "pos": "adj.",
+    "mean": "典型的；有代表性的",
+    "sentence": "This is a typical example of his work."
+  },
+  {
+    "word": "unique",
+    "pos": "adj.",
+    "mean": "独特的；唯一的",
+    "sentence": "Every person is unique in their own way."
+  },
+  {
+    "word": "university",
+    "pos": "n.",
+    "mean": "大学",
+    "sentence": "She is studying law at university."
+  },
+  {
+    "word": "unusual",
+    "pos": "adj.",
+    "mean": "不寻常的；罕见的",
+    "sentence": "It's unusual to see snow here in April."
+  },
+  {
+    "word": "update",
+    "pos": "v.",
+    "mean": "更新；使现代化",
+    "sentence": "Please update your contact details on the website."
+  },
+  {
+    "word": "useful",
+    "pos": "adj.",
+    "mean": "有用的；实用的",
+    "sentence": "This dictionary is very useful for language learners."
+  },
+  {
+    "word": "various",
+    "pos": "adj.",
+    "mean": "各种各样的",
+    "sentence": "The shop sells various types of coffee and tea."
+  },
+  {
+    "word": "view",
+    "pos": "n.",
+    "mean": "观点；景色",
+    "sentence": "The view from the top of the mountain was spectacular."
+  },
+  {
+    "word": "village",
+    "pos": "n.",
+    "mean": "村庄；乡村",
+    "sentence": "She grew up in a small village in the countryside."
+  },
+  {
+    "word": "volunteer",
+    "pos": "v.",
+    "mean": "自愿；做志愿者",
+    "sentence": "She volunteers at the hospital every Saturday."
+  },
+  {
+    "word": "waste",
+    "pos": "v.",
+    "mean": "浪费",
+    "sentence": "Don't waste time—start working now."
+  },
+  {
+    "word": "wealth",
+    "pos": "n.",
+    "mean": "财富；丰富",
+    "sentence": "The city is known for its great wealth."
+  },
+  {
+    "word": "website",
+    "pos": "n.",
+    "mean": "网站",
+    "sentence": "Check our website for more information."
+  },
+  {
+    "word": "willing",
+    "pos": "adj.",
+    "mean": "愿意的；自愿的",
+    "sentence": "She is willing to help whenever she can."
+  },
+  {
+    "word": "win",
+    "pos": "v.",
+    "mean": "赢得；获胜",
+    "sentence": "Our team won the championship for the third year in a row."
+  },
+  {
+    "word": "wonder",
+    "pos": "v.",
+    "mean": "想知道；好奇",
+    "sentence": "I wonder what the weather will be like tomorrow."
+  },
+  {
+    "word": "worry",
+    "pos": "v.",
+    "mean": "担心；焦虑",
+    "sentence": "Don't worry—everything will be fine."
+  },
+  {
+    "word": "worth",
+    "pos": "adj.",
+    "mean": "值得的；有价值的",
+    "sentence": "The museum is definitely worth a visit."
+  },
+  {
+    "word": "wrap",
+    "pos": "v.",
+    "mean": "包裹；包装",
+    "sentence": "She wrapped the birthday present in colourful paper."
+  },
+  {
+    "word": "abroad",
+    "pos": "adv.",
+    "mean": "在国外；到国外",
+    "sentence": "She has lived abroad for five years."
+  },
+  {
+    "word": "accompany",
+    "pos": "v.",
+    "mean": "陪同；伴随",
+    "sentence": "Would you like me to accompany you to the hospital?"
+  },
+  {
+    "word": "account",
+    "pos": "n.",
+    "mean": "账户；账号",
+    "sentence": "I need to open a bank account."
+  },
+  {
+    "word": "ache",
+    "pos": "n.",
+    "mean": "疼痛；持续的痛",
+    "sentence": "I have an ache in my back from sitting too long."
+  },
+  {
+    "word": "act",
+    "pos": "v.",
+    "mean": "行动；表演",
+    "sentence": "She acted very professionally during the crisis."
+  },
+  {
+    "word": "action",
+    "pos": "n.",
+    "mean": "行动；动作",
+    "sentence": "We need to take action before it's too late."
+  },
+  {
+    "word": "address",
+    "pos": "n.",
+    "mean": "地址；住址",
+    "sentence": "Please write your full address on the form."
+  },
+  {
+    "word": "admission",
+    "pos": "n.",
+    "mean": "入场费；承认",
+    "sentence": "Admission to the museum is free on Sundays."
+  },
+  {
+    "word": "age",
+    "pos": "n.",
+    "mean": "年龄；时代",
+    "sentence": "You have to be a certain age to drive a car."
+  },
+  {
+    "word": "agency",
+    "pos": "n.",
+    "mean": "代理机构；中介",
+    "sentence": "She found her job through a recruitment agency."
+  },
+  {
+    "word": "alarm",
+    "pos": "n.",
+    "mean": "警报；闹钟",
+    "sentence": "The alarm went off at six in the morning."
+  },
+  {
+    "word": "album",
+    "pos": "n.",
+    "mean": "相册；专辑",
+    "sentence": "They released their new album last month."
+  },
+  {
+    "word": "allow",
+    "pos": "v.",
+    "mean": "允许；准许",
+    "sentence": "Smoking is not allowed inside the building."
+  },
+  {
+    "word": "appearance",
+    "pos": "n.",
+    "mean": "外貌；出现",
+    "sentence": "She always takes great care of her appearance."
+  },
+  {
+    "word": "application",
+    "pos": "n.",
+    "mean": "申请；应用程序",
+    "sentence": "She submitted her application for the scholarship online."
+  },
+  {
+    "word": "approach",
+    "pos": "v.",
+    "mean": "接近；靠近",
+    "sentence": "As they approached the village, they could see smoke."
+  },
+  {
+    "word": "architect",
+    "pos": "n.",
+    "mean": "建筑师",
+    "sentence": "The famous architect designed several landmark buildings."
+  },
+  {
+    "word": "area",
+    "pos": "n.",
+    "mean": "地区；面积",
+    "sentence": "The area around the city centre is very busy."
+  },
+  {
+    "word": "arrest",
+    "pos": "v.",
+    "mean": "逮捕；拘留",
+    "sentence": "The police arrested the suspect early in the morning."
+  },
+  {
+    "word": "assignment",
+    "pos": "n.",
+    "mean": "作业；任务",
+    "sentence": "The teacher gave us a written assignment for homework."
+  },
+  {
+    "word": "audience",
+    "pos": "n.",
+    "mean": "观众；听众",
+    "sentence": "The audience clapped enthusiastically at the end."
+  },
+  {
+    "word": "author",
+    "pos": "n.",
+    "mean": "作者；作家",
+    "sentence": "She is the author of several best-selling novels."
+  },
+  {
+    "word": "awful",
+    "pos": "adj.",
+    "mean": "糟透的；可怕的",
+    "sentence": "The food at that restaurant was absolutely awful."
+  },
+  {
+    "word": "babysit",
+    "pos": "v.",
+    "mean": "照看婴儿",
+    "sentence": "She sometimes babysits for her neighbours at weekends."
+  },
+  {
+    "word": "baggage",
+    "pos": "n.",
+    "mean": "行李",
+    "sentence": "You are only allowed one piece of hand baggage."
+  },
+  {
+    "word": "bake",
+    "pos": "v.",
+    "mean": "烘焙；烤",
+    "sentence": "She loves to bake cakes and biscuits."
+  },
+  {
+    "word": "ban",
+    "pos": "v.",
+    "mean": "禁止",
+    "sentence": "The school has banned the use of mobile phones in class."
+  },
+  {
+    "word": "band",
+    "pos": "n.",
+    "mean": "乐队；一群",
+    "sentence": "Her favourite band is playing at the stadium tonight."
+  },
+  {
+    "word": "banking",
+    "pos": "n.",
+    "mean": "银行业；银行事务",
+    "sentence": "She has worked in banking for over ten years."
+  },
+  {
+    "word": "barbecue",
+    "pos": "n.",
+    "mean": "烧烤",
+    "sentence": "We had a barbecue in the garden last Sunday."
+  },
+  {
+    "word": "battery",
+    "pos": "n.",
+    "mean": "电池",
+    "sentence": "The battery in my phone needs replacing."
+  },
+  {
+    "word": "beat",
+    "pos": "v.",
+    "mean": "击败；跳动",
+    "sentence": "Our team beat the rivals three goals to one."
+  },
+  {
+    "word": "beginner",
+    "pos": "n.",
+    "mean": "初学者",
+    "sentence": "This course is designed for complete beginners."
+  },
+  {
+    "word": "bill",
+    "pos": "n.",
+    "mean": "账单；钞票",
+    "sentence": "The electricity bill was much higher than usual."
+  },
+  {
+    "word": "board",
+    "pos": "v.",
+    "mean": "登上（交通工具）",
+    "sentence": "Passengers should board the train at platform four."
+  },
+  {
+    "word": "booking",
+    "pos": "n.",
+    "mean": "预订",
+    "sentence": "I made a booking at the restaurant for eight o'clock."
+  },
+  {
+    "word": "border",
+    "pos": "n.",
+    "mean": "边界；边境",
+    "sentence": "We crossed the border into France by train."
+  },
+  {
+    "word": "branch",
+    "pos": "n.",
+    "mean": "分支；树枝",
+    "sentence": "The bank has branches in every major city."
+  },
+  {
+    "word": "breathe",
+    "pos": "v.",
+    "mean": "呼吸",
+    "sentence": "Breathe in slowly and then breathe out."
+  },
+  {
+    "word": "building",
+    "pos": "n.",
+    "mean": "建筑物；大楼",
+    "sentence": "The office building was completed last year."
+  },
+  {
+    "word": "business",
+    "pos": "n.",
+    "mean": "商业；生意",
+    "sentence": "She set up her own business at the age of thirty."
+  },
+  {
+    "word": "cabin",
+    "pos": "n.",
+    "mean": "小屋；客舱",
+    "sentence": "They stayed in a log cabin in the mountains."
+  },
+  {
+    "word": "calm down",
+    "pos": "phr.v.",
+    "mean": "冷静下来",
+    "sentence": "She told him to calm down and think clearly."
+  },
+  {
+    "word": "camp",
+    "pos": "v.",
+    "mean": "露营",
+    "sentence": "We camped near the lake for three nights."
+  },
+  {
+    "word": "capital",
+    "pos": "n.",
+    "mean": "首都；资本",
+    "sentence": "Paris is the capital of France."
+  },
+  {
+    "word": "captain",
+    "pos": "n.",
+    "mean": "船长；队长",
+    "sentence": "The captain gave instructions to the crew."
+  },
+  {
+    "word": "care",
+    "pos": "v.",
+    "mean": "关心；在乎",
+    "sentence": "She really cares about the environment."
+  },
+  {
+    "word": "carry out",
+    "pos": "phr.v.",
+    "mean": "执行；实施",
+    "sentence": "They carried out a survey of local residents."
+  },
+  {
+    "word": "cash",
+    "pos": "n.",
+    "mean": "现金",
+    "sentence": "Do you pay by cash or by card?"
+  },
+  {
+    "word": "certificate",
+    "pos": "n.",
+    "mean": "证书；证明",
+    "sentence": "She received a certificate for completing the course."
+  },
+  {
+    "word": "change",
+    "pos": "n.",
+    "mean": "变化；零钱",
+    "sentence": "There have been many changes to the timetable."
+  },
+  {
+    "word": "check in",
+    "pos": "phr.v.",
+    "mean": "办理入住手续",
+    "sentence": "We need to check in at least two hours before the flight."
+  },
+  {
+    "word": "childhood",
+    "pos": "n.",
+    "mean": "童年；幼年时代",
+    "sentence": "She had a very happy childhood in the countryside."
+  },
+  {
+    "word": "cinema",
+    "pos": "n.",
+    "mean": "电影院",
+    "sentence": "Let's go to the cinema this evening."
+  },
+  {
+    "word": "citizen",
+    "pos": "n.",
+    "mean": "公民；市民",
+    "sentence": "Every citizen has the right to vote."
+  },
+  {
+    "word": "claim",
+    "pos": "v.",
+    "mean": "声称；要求",
+    "sentence": "He claimed he had never seen the document before."
+  },
+  {
+    "word": "climate change",
+    "pos": "n.",
+    "mean": "气候变化",
+    "sentence": "Climate change is affecting weather patterns worldwide."
+  },
+  {
+    "word": "coach",
+    "pos": "n.",
+    "mean": "长途客车；教练",
+    "sentence": "We travelled by coach from London to Edinburgh."
+  },
+  {
+    "word": "coast",
+    "pos": "n.",
+    "mean": "海岸；海边",
+    "sentence": "They spent the weekend relaxing on the coast."
+  },
+  {
+    "word": "colleague",
+    "pos": "n.",
+    "mean": "同事",
+    "sentence": "She gets on very well with her colleagues."
+  },
+  {
+    "word": "college",
+    "pos": "n.",
+    "mean": "学院；大学",
+    "sentence": "He studies engineering at a technical college."
+  },
+  {
+    "word": "complaint",
+    "pos": "n.",
+    "mean": "投诉；抱怨",
+    "sentence": "The hotel received several complaints about the noise."
+  },
+  {
+    "word": "conference",
+    "pos": "n.",
+    "mean": "会议；研讨会",
+    "sentence": "She attended an international conference on climate change."
+  },
+  {
+    "word": "continue",
+    "pos": "v.",
+    "mean": "继续；延续",
+    "sentence": "She continued to work even when she was unwell."
+  },
+  {
+    "word": "contract",
+    "pos": "n.",
+    "mean": "合同；协议",
+    "sentence": "She signed a two-year contract with the company."
+  },
+  {
+    "word": "council",
+    "pos": "n.",
+    "mean": "委员会；议会",
+    "sentence": "The local council is responsible for road repairs."
+  },
+  {
+    "word": "couple",
+    "pos": "n.",
+    "mean": "一对；夫妇",
+    "sentence": "The couple celebrated their tenth wedding anniversary."
+  },
+  {
+    "word": "crime",
+    "pos": "n.",
+    "mean": "犯罪；罪行",
+    "sentence": "The rate of crime in the city has been falling."
+  },
+  {
+    "word": "crowd",
+    "pos": "n.",
+    "mean": "人群；一大群人",
+    "sentence": "A large crowd gathered to watch the street performance."
+  },
+  {
+    "word": "crowded",
+    "pos": "adj.",
+    "mean": "拥挤的；人很多的",
+    "sentence": "The streets were very crowded on market day."
+  },
+  {
+    "word": "cure",
+    "pos": "v.",
+    "mean": "治愈；治好",
+    "sentence": "Scientists are working to find a cure for the disease."
+  },
+  {
+    "word": "cycle",
+    "pos": "v.",
+    "mean": "骑自行车",
+    "sentence": "She cycles to work every day to keep fit."
+  },
+  {
+    "word": "daily",
+    "pos": "adj.",
+    "mean": "每日的；日常的",
+    "sentence": "Exercise should be part of your daily routine."
+  },
+  {
+    "word": "declare",
+    "pos": "v.",
+    "mean": "申报；宣布",
+    "sentence": "You must declare any goods you bring into the country."
+  },
+  {
+    "word": "deeply",
+    "pos": "adv.",
+    "mean": "深深地；非常",
+    "sentence": "She was deeply moved by the film."
+  },
+  {
+    "word": "defeat",
+    "pos": "v.",
+    "mean": "击败；战胜",
+    "sentence": "The home team defeated their rivals easily."
+  },
+  {
+    "word": "degree",
+    "pos": "n.",
+    "mean": "度；程度；学位",
+    "sentence": "She has a degree in computer science."
+  },
+  {
+    "word": "departure",
+    "pos": "n.",
+    "mean": "出发；离开",
+    "sentence": "Departure time is listed on your boarding pass."
+  },
+  {
+    "word": "deposit",
+    "pos": "n.",
+    "mean": "定金；押金",
+    "sentence": "You need to pay a deposit when you make a booking."
+  },
+  {
+    "word": "desert",
+    "pos": "n.",
+    "mean": "沙漠",
+    "sentence": "The Sahara is the largest hot desert in the world."
+  },
+  {
+    "word": "destination",
+    "pos": "n.",
+    "mean": "目的地",
+    "sentence": "Paris was our final destination."
+  },
+  {
+    "word": "diagram",
+    "pos": "n.",
+    "mean": "图表；示意图",
+    "sentence": "The diagram shows how the machine works."
+  },
+  {
+    "word": "direction",
+    "pos": "n.",
+    "mean": "方向；指导",
+    "sentence": "Can you give me directions to the train station?"
+  },
+  {
+    "word": "disabled",
+    "pos": "adj.",
+    "mean": "残疾的",
+    "sentence": "The building has special facilities for disabled visitors."
+  },
+  {
+    "word": "drama",
+    "pos": "n.",
+    "mean": "戏剧；戏剧课",
+    "sentence": "She studies music and drama at college."
+  },
+  {
+    "word": "draw",
+    "pos": "v.",
+    "mean": "画；吸引",
+    "sentence": "He loves to draw cartoons in his spare time."
+  },
+  {
+    "word": "driving licence",
+    "pos": "n.",
+    "mean": "驾照",
+    "sentence": "You must carry your driving licence at all times."
+  },
+  {
+    "word": "due",
+    "pos": "adj.",
+    "mean": "预期的；应付的",
+    "sentence": "The report is due on Friday."
+  },
+  {
+    "word": "duty",
+    "pos": "n.",
+    "mean": "职责；义务",
+    "sentence": "It is your duty to report any suspicious activity."
+  },
+  {
+    "word": "earthquake",
+    "pos": "n.",
+    "mean": "地震",
+    "sentence": "A powerful earthquake struck the region last night."
+  },
+  {
+    "word": "economics",
+    "pos": "n.",
+    "mean": "经济学",
+    "sentence": "She is studying economics and business at university."
+  },
+  {
+    "word": "election",
+    "pos": "n.",
+    "mean": "选举",
+    "sentence": "Millions of people voted in the general election."
+  },
+  {
+    "word": "electricity",
+    "pos": "n.",
+    "mean": "电；电力",
+    "sentence": "Our electricity bill is very high in winter."
+  },
+  {
+    "word": "embassy",
+    "pos": "n.",
+    "mean": "大使馆",
+    "sentence": "She had to visit the embassy to get a new visa."
+  },
+  {
+    "word": "employ",
+    "pos": "v.",
+    "mean": "雇用",
+    "sentence": "The factory employs over five hundred workers."
+  },
+  {
+    "word": "engineering",
+    "pos": "n.",
+    "mean": "工程学；工程",
+    "sentence": "He studied mechanical engineering at university."
+  },
+  {
+    "word": "enquiry",
+    "pos": "n.",
+    "mean": "询问；调查",
+    "sentence": "Please direct all enquiries to the reception desk."
+  },
+  {
+    "word": "entry",
+    "pos": "n.",
+    "mean": "入口；进入",
+    "sentence": "Entry to the building requires a security pass."
+  },
+  {
+    "word": "equal",
+    "pos": "adj.",
+    "mean": "平等的；相等的",
+    "sentence": "Everyone deserves equal rights and opportunities."
+  },
+  {
+    "word": "essay",
+    "pos": "n.",
+    "mean": "文章；散文",
+    "sentence": "She wrote an essay on the causes of the First World War."
+  },
+  {
+    "word": "exact",
+    "pos": "adj.",
+    "mean": "确切的；精确的",
+    "sentence": "What is the exact time of arrival?"
+  },
+  {
+    "word": "expedition",
+    "pos": "n.",
+    "mean": "探险；考察",
+    "sentence": "They went on an expedition to the North Pole."
+  },
+  {
+    "word": "explain",
+    "pos": "v.",
+    "mean": "解释；说明",
+    "sentence": "Can you explain how this machine works?"
+  },
+  {
+    "word": "facility",
+    "pos": "n.",
+    "mean": "设施；设备",
+    "sentence": "The sports centre has excellent facilities."
+  },
+  {
+    "word": "fact",
+    "pos": "n.",
+    "mean": "事实；实际情况",
+    "sentence": "In fact, the test was much easier than I expected."
+  },
+  {
+    "word": "fair",
+    "pos": "adj.",
+    "mean": "公平的；合理的",
+    "sentence": "The referee made a fair decision."
+  },
+  {
+    "word": "far",
+    "pos": "adv.",
+    "mean": "远；很大程度上",
+    "sentence": "How far is it to the nearest town?"
+  },
+  {
+    "word": "fault",
+    "pos": "n.",
+    "mean": "错误；缺点",
+    "sentence": "It wasn't her fault that things went wrong."
+  },
+  {
+    "word": "feel",
+    "pos": "v.",
+    "mean": "感觉；触摸",
+    "sentence": "I feel much better after a good night's sleep."
+  },
+  {
+    "word": "field",
+    "pos": "n.",
+    "mean": "田野；领域",
+    "sentence": "She is an expert in the field of medicine."
+  },
+  {
+    "word": "fight",
+    "pos": "v.",
+    "mean": "争斗；对抗",
+    "sentence": "We must fight against climate change."
+  },
+  {
+    "word": "fill in",
+    "pos": "phr.v.",
+    "mean": "填写（表格）",
+    "sentence": "Please fill in all sections of the application form."
+  },
+  {
+    "word": "finally",
+    "pos": "adv.",
+    "mean": "最终；终于",
+    "sentence": "After hours of waiting, the train finally arrived."
+  },
+  {
+    "word": "find out",
+    "pos": "phr.v.",
+    "mean": "发现；弄清楚",
+    "sentence": "Did you find out when the next bus leaves?"
+  },
+  {
+    "word": "fine",
+    "pos": "n.",
+    "mean": "罚款",
+    "sentence": "She had to pay a fine for parking illegally."
+  },
+  {
+    "word": "fit",
+    "pos": "adj.",
+    "mean": "健康的；合适的",
+    "sentence": "She jogs every morning to stay fit."
+  },
+  {
+    "word": "flat",
+    "pos": "n.",
+    "mean": "公寓",
+    "sentence": "They live in a small flat in the city centre."
+  },
+  {
+    "word": "flavour",
+    "pos": "n.",
+    "mean": "味道；口味",
+    "sentence": "What flavour of ice cream would you like?"
+  },
+  {
+    "word": "flexible",
+    "pos": "adj.",
+    "mean": "灵活的；可变通的",
+    "sentence": "The job offers flexible working hours."
+  },
+  {
+    "word": "folk",
+    "pos": "adj.",
+    "mean": "民间的；民俗的",
+    "sentence": "We listened to traditional folk music at the festival."
+  },
+  {
+    "word": "forbidden",
+    "pos": "adj.",
+    "mean": "被禁止的",
+    "sentence": "Photography is forbidden inside the museum."
+  },
+  {
+    "word": "foreign",
+    "pos": "adj.",
+    "mean": "外国的；境外的",
+    "sentence": "She can speak three foreign languages."
+  },
+  {
+    "word": "foreigner",
+    "pos": "n.",
+    "mean": "外国人",
+    "sentence": "The city attracts a large number of foreigners every year."
+  },
+  {
+    "word": "forever",
+    "pos": "adv.",
+    "mean": "永远；一直",
+    "sentence": "I will remember that holiday forever."
+  },
+  {
+    "word": "formal",
+    "pos": "adj.",
+    "mean": "正式的",
+    "sentence": "Please dress formally for the interview."
+  },
+  {
+    "word": "fortnight",
+    "pos": "n.",
+    "mean": "两周；十四天",
+    "sentence": "They went on holiday for a fortnight."
+  },
+  {
+    "word": "fountain",
+    "pos": "n.",
+    "mean": "喷泉",
+    "sentence": "There is a beautiful fountain in the centre of the square."
+  },
+  {
+    "word": "frame",
+    "pos": "n.",
+    "mean": "框架；镜框",
+    "sentence": "She put the photograph in a silver frame."
+  },
+  {
+    "word": "freedom",
+    "pos": "n.",
+    "mean": "自由",
+    "sentence": "Freedom of speech is an important right."
+  },
+  {
+    "word": "frequent",
+    "pos": "adj.",
+    "mean": "频繁的；经常的",
+    "sentence": "There are frequent bus services to the city centre."
+  },
+  {
+    "word": "fuel",
+    "pos": "n.",
+    "mean": "燃料",
+    "sentence": "The price of fuel has increased again."
+  },
+  {
+    "word": "function",
+    "pos": "n.",
+    "mean": "功能；作用",
+    "sentence": "What is the main function of this button?"
+  },
+  {
+    "word": "gain",
+    "pos": "v.",
+    "mean": "获得；得到",
+    "sentence": "She gained a lot of experience working abroad."
+  },
+  {
+    "word": "general",
+    "pos": "adj.",
+    "mean": "一般的；总体的",
+    "sentence": "The general standard of work has improved a lot."
+  },
+  {
+    "word": "geography",
+    "pos": "n.",
+    "mean": "地理学",
+    "sentence": "Geography is her favourite subject at school."
+  },
+  {
+    "word": "gift",
+    "pos": "n.",
+    "mean": "礼物；天赋",
+    "sentence": "She received many gifts on her birthday."
+  },
+  {
+    "word": "glad",
+    "pos": "adj.",
+    "mean": "高兴的；乐意的",
+    "sentence": "I'm so glad you could come to the party."
+  },
+  {
+    "word": "global",
+    "pos": "adj.",
+    "mean": "全球的；世界性的",
+    "sentence": "Climate change is a global problem."
+  },
+  {
+    "word": "goal",
+    "pos": "n.",
+    "mean": "目标；进球",
+    "sentence": "Her goal is to become a doctor."
+  },
+  {
+    "word": "government",
+    "pos": "n.",
+    "mean": "政府",
+    "sentence": "The government has introduced new environmental laws."
+  },
+  {
+    "word": "grade",
+    "pos": "n.",
+    "mean": "等级；成绩",
+    "sentence": "She got excellent grades in her final exams."
+  },
+  {
+    "word": "graduate",
+    "pos": "v.",
+    "mean": "毕业",
+    "sentence": "She graduated from university last summer."
+  },
+  {
+    "word": "grateful",
+    "pos": "adj.",
+    "mean": "感激的；感谢的",
+    "sentence": "I am very grateful for all your help."
+  },
+  {
+    "word": "greedy",
+    "pos": "adj.",
+    "mean": "贪婪的",
+    "sentence": "Don't be greedy—leave some food for others."
+  },
+  {
+    "word": "ground",
+    "pos": "n.",
+    "mean": "地面；理由",
+    "sentence": "The children played on the grass in the school ground."
+  },
+  {
+    "word": "guess",
+    "pos": "v.",
+    "mean": "猜测；推断",
+    "sentence": "Can you guess how old she is?"
+  },
+  {
+    "word": "guest",
+    "pos": "n.",
+    "mean": "客人；来宾",
+    "sentence": "We have two guests staying with us this weekend."
+  },
+  {
+    "word": "guilty",
+    "pos": "adj.",
+    "mean": "有罪的；内疚的",
+    "sentence": "She felt guilty about lying to her parents."
+  },
+  {
+    "word": "gym",
+    "pos": "n.",
+    "mean": "体育馆；健身房",
+    "sentence": "She goes to the gym three times a week."
+  },
+  {
+    "word": "harm",
+    "pos": "v.",
+    "mean": "伤害；损害",
+    "sentence": "Smoking can harm your health."
+  },
+  {
+    "word": "headline",
+    "pos": "n.",
+    "mean": "头版头条；标题",
+    "sentence": "The story made the headlines in all the newspapers."
+  },
+  {
+    "word": "heat",
+    "pos": "n.",
+    "mean": "热量；高温",
+    "sentence": "The heat in the desert can be unbearable."
+  },
+  {
+    "word": "height",
+    "pos": "n.",
+    "mean": "高度；身高",
+    "sentence": "She was afraid of heights."
+  },
+  {
+    "word": "helpful",
+    "pos": "adj.",
+    "mean": "有帮助的；热心的",
+    "sentence": "The staff were very helpful and friendly."
+  },
+  {
+    "word": "history",
+    "pos": "n.",
+    "mean": "历史",
+    "sentence": "She has always been interested in ancient history."
+  },
+  {
+    "word": "homesick",
+    "pos": "adj.",
+    "mean": "想家的；思乡的",
+    "sentence": "She felt homesick during her first weeks abroad."
+  },
+  {
+    "word": "hope",
+    "pos": "v.",
+    "mean": "希望；盼望",
+    "sentence": "I hope the weather improves for the weekend."
+  },
+  {
+    "word": "however",
+    "pos": "adv.",
+    "mean": "然而；不管怎样",
+    "sentence": "The hotel was expensive; however, it was excellent."
+  },
+  {
+    "word": "human",
+    "pos": "adj.",
+    "mean": "人类的；人的",
+    "sentence": "Human beings are social creatures."
+  },
+  {
+    "word": "humid",
+    "pos": "adj.",
+    "mean": "潮湿的；湿热的",
+    "sentence": "The climate is very humid in summer."
+  },
+  {
+    "word": "hunt",
+    "pos": "v.",
+    "mean": "打猎；寻找",
+    "sentence": "Some animals hunt at night."
+  },
+  {
+    "word": "hurt",
+    "pos": "v.",
+    "mean": "伤害；疼痛",
+    "sentence": "She fell off her bike and hurt her knee."
+  },
+  {
+    "word": "ID card",
+    "pos": "n.",
+    "mean": "身份证",
+    "sentence": "You need to show your ID card at the entrance."
+  },
+  {
+    "word": "identity",
+    "pos": "n.",
+    "mean": "身份；特征",
+    "sentence": "Cultural identity is very important to many people."
+  },
+  {
+    "word": "income",
+    "pos": "n.",
+    "mean": "收入；所得",
+    "sentence": "Her income has doubled since she changed jobs."
+  },
+  {
+    "word": "influence",
+    "pos": "n.",
+    "mean": "影响；作用",
+    "sentence": "Music has a big influence on her mood."
+  },
+  {
+    "word": "insist",
+    "pos": "v.",
+    "mean": "坚持；坚决要求",
+    "sentence": "She insisted on paying for dinner."
+  },
+  {
+    "word": "instruction",
+    "pos": "n.",
+    "mean": "说明；指示",
+    "sentence": "Read the instructions carefully before you start."
+  },
+  {
+    "word": "intend",
+    "pos": "v.",
+    "mean": "打算；想要",
+    "sentence": "I intend to learn how to drive this year."
+  },
+  {
+    "word": "interest",
+    "pos": "n.",
+    "mean": "兴趣；利息",
+    "sentence": "She has a great interest in art and photography."
+  },
+  {
+    "word": "jealous",
+    "pos": "adj.",
+    "mean": "嫉妒的；吃醋的",
+    "sentence": "She felt jealous when her friend got the promotion."
+  },
+  {
+    "word": "jewellery",
+    "pos": "n.",
+    "mean": "珠宝；首饰",
+    "sentence": "She keeps her jewellery in a small box."
+  },
+  {
+    "word": "journalist",
+    "pos": "n.",
+    "mean": "记者；新闻工作者",
+    "sentence": "She works as a journalist for a national newspaper."
+  },
+  {
+    "word": "keep on",
+    "pos": "phr.v.",
+    "mean": "继续做某事",
+    "sentence": "Keep on practising and you will improve."
+  },
+  {
+    "word": "keen",
+    "pos": "adj.",
+    "mean": "热衷的；渴望的",
+    "sentence": "She is very keen on photography."
+  },
+  {
+    "word": "key",
+    "pos": "adj.",
+    "mean": "关键的；重要的",
+    "sentence": "Communication is a key skill in any job."
+  },
+  {
+    "word": "kindness",
+    "pos": "n.",
+    "mean": "善良；好意",
+    "sentence": "She showed great kindness to everyone she met."
+  },
+  {
+    "word": "launch",
+    "pos": "v.",
+    "mean": "发起；推出",
+    "sentence": "The company is launching a new product next month."
+  },
+  {
+    "word": "law",
+    "pos": "n.",
+    "mean": "法律；定律",
+    "sentence": "Everyone must obey the law."
+  },
+  {
+    "word": "lay",
+    "pos": "v.",
+    "mean": "放置；产（卵）",
+    "sentence": "She laid the book on the table."
+  },
+  {
+    "word": "lead",
+    "pos": "v.",
+    "mean": "带领；导致",
+    "sentence": "This path leads to the beach."
+  },
+  {
+    "word": "lecture",
+    "pos": "n.",
+    "mean": "讲座；演讲",
+    "sentence": "She attended a lecture on environmental science."
+  },
+  {
+    "word": "lend",
+    "pos": "v.",
+    "mean": "借出；借给",
+    "sentence": "Can you lend me your pen for a moment?"
+  },
+  {
+    "word": "level",
+    "pos": "n.",
+    "mean": "水平；级别",
+    "sentence": "Her level of English has improved greatly."
+  },
+  {
+    "word": "lifestyle",
+    "pos": "n.",
+    "mean": "生活方式",
+    "sentence": "Moving to the country changed her lifestyle completely."
+  },
+  {
+    "word": "likely",
+    "pos": "adj.",
+    "mean": "可能的；有希望的",
+    "sentence": "It is likely to rain this afternoon."
+  },
+  {
+    "word": "limit",
+    "pos": "n.",
+    "mean": "限制；极限",
+    "sentence": "There is a speed limit of thirty miles per hour here."
+  },
+  {
+    "word": "link",
+    "pos": "n.",
+    "mean": "联系；链接",
+    "sentence": "Is there a link between diet and mental health?"
+  },
+  {
+    "word": "literature",
+    "pos": "n.",
+    "mean": "文学",
+    "sentence": "She studied English literature at university."
+  },
+  {
+    "word": "location",
+    "pos": "n.",
+    "mean": "位置；地点",
+    "sentence": "The hotel is in a perfect location near the beach."
+  },
+  {
+    "word": "look after",
+    "pos": "phr.v.",
+    "mean": "照顾；照料",
+    "sentence": "She looks after her elderly neighbours."
+  },
+  {
+    "word": "look forward to",
+    "pos": "phr.v.",
+    "mean": "期待；盼望",
+    "sentence": "I look forward to meeting you next week."
+  },
+  {
+    "word": "lose",
+    "pos": "v.",
+    "mean": "失去；输掉",
+    "sentence": "She lost her keys and had to call a locksmith."
+  },
+  {
+    "word": "loss",
+    "pos": "n.",
+    "mean": "损失；失去",
+    "sentence": "The flood caused enormous loss to the community."
+  },
+  {
+    "word": "luggage",
+    "pos": "n.",
+    "mean": "行李",
+    "sentence": "We had to pay extra for our heavy luggage."
+  },
+  {
+    "word": "mark",
+    "pos": "n.",
+    "mean": "分数；标记",
+    "sentence": "She got full marks in the English exam."
+  },
+  {
+    "word": "maximum",
+    "pos": "adj.",
+    "mean": "最大的；最高的",
+    "sentence": "The maximum speed limit is seventy miles per hour."
+  },
+  {
+    "word": "mention",
+    "pos": "v.",
+    "mean": "提到；提及",
+    "sentence": "Did he mention what time he would arrive?"
+  },
+  {
+    "word": "menu",
+    "pos": "n.",
+    "mean": "菜单；菜肴",
+    "sentence": "The menu included a wide variety of dishes."
+  },
+  {
+    "word": "minimum",
+    "pos": "adj.",
+    "mean": "最小的；最低的",
+    "sentence": "The minimum age for voting is eighteen."
+  },
+  {
+    "word": "missing",
+    "pos": "adj.",
+    "mean": "丢失的；失踪的",
+    "sentence": "Have you seen a missing cat in this area?"
+  },
+  {
+    "word": "mixture",
+    "pos": "n.",
+    "mean": "混合物；混合",
+    "sentence": "The dessert is a mixture of cream and fruit."
+  },
+  {
+    "word": "model",
+    "pos": "n.",
+    "mean": "模型；模特",
+    "sentence": "She works as a fashion model in Milan."
+  },
+  {
+    "word": "moment",
+    "pos": "n.",
+    "mean": "时刻；片刻",
+    "sentence": "Wait a moment—I'll be right back."
+  },
+  {
+    "word": "motor",
+    "pos": "n.",
+    "mean": "发动机；马达",
+    "sentence": "The motor in the washing machine has broken down."
+  },
+  {
+    "word": "movement",
+    "pos": "n.",
+    "mean": "运动；移动",
+    "sentence": "The environmental movement is growing worldwide."
+  },
+  {
+    "word": "mud",
+    "pos": "n.",
+    "mean": "泥巴；泥土",
+    "sentence": "The children got covered in mud playing outside."
+  },
+  {
+    "word": "multiply",
+    "pos": "v.",
+    "mean": "乘；增加",
+    "sentence": "Multiply four by six and you get twenty-four."
+  },
+  {
+    "word": "mystery",
+    "pos": "n.",
+    "mean": "谜；神秘事物",
+    "sentence": "The mystery was finally solved by a young detective."
+  },
+  {
+    "word": "nationality",
+    "pos": "n.",
+    "mean": "国籍；民族",
+    "sentence": "Please state your full name and nationality."
+  },
+  {
+    "word": "noise",
+    "pos": "n.",
+    "mean": "噪音；声响",
+    "sentence": "The neighbours were making a lot of noise last night."
+  },
+  {
+    "word": "none",
+    "pos": "pron.",
+    "mean": "没有一个；没有",
+    "sentence": "None of the students passed the first test."
+  },
+  {
+    "word": "normal",
+    "pos": "adj.",
+    "mean": "正常的；普通的",
+    "sentence": "It's completely normal to feel nervous before an exam."
+  },
+  {
+    "word": "nowadays",
+    "pos": "adv.",
+    "mean": "如今；现在",
+    "sentence": "Nowadays, most people have a smartphone."
+  },
+  {
+    "word": "object",
+    "pos": "n.",
+    "mean": "物体；目标",
+    "sentence": "What is that strange object on the table?"
+  },
+  {
+    "word": "obvious",
+    "pos": "adj.",
+    "mean": "明显的；显然的",
+    "sentence": "It was obvious that she was unhappy."
+  },
+  {
+    "word": "official",
+    "pos": "adj.",
+    "mean": "官方的；正式的",
+    "sentence": "This is the official website of the organisation."
+  },
+  {
+    "word": "once",
+    "pos": "adv.",
+    "mean": "曾经；一旦",
+    "sentence": "I once lived in Tokyo for two years."
+  },
+  {
+    "word": "operation",
+    "pos": "n.",
+    "mean": "手术；行动",
+    "sentence": "She had an operation on her knee."
+  },
+  {
+    "word": "original",
+    "pos": "adj.",
+    "mean": "原始的；独创的",
+    "sentence": "The original plan was to arrive at noon."
+  },
+  {
+    "word": "oven",
+    "pos": "n.",
+    "mean": "烤箱；炉",
+    "sentence": "Preheat the oven to 180 degrees before baking."
+  },
+  {
+    "word": "package",
+    "pos": "n.",
+    "mean": "包裹；套餐",
+    "sentence": "I received a package in the post yesterday."
+  },
+  {
+    "word": "particular",
+    "pos": "adj.",
+    "mean": "特别的；特定的",
+    "sentence": "I'm looking for a particular book about photography."
+  },
+  {
+    "word": "partner",
+    "pos": "n.",
+    "mean": "伙伴；合伙人",
+    "sentence": "She works with a business partner."
+  },
+  {
+    "word": "passport",
+    "pos": "n.",
+    "mean": "护照",
+    "sentence": "Don't forget to take your passport to the airport."
+  },
+  {
+    "word": "path",
+    "pos": "n.",
+    "mean": "小路；途径",
+    "sentence": "The path through the forest was very muddy."
+  },
+  {
+    "word": "payment",
+    "pos": "n.",
+    "mean": "付款；支付",
+    "sentence": "You can make payment by cash or credit card."
+  },
+  {
+    "word": "peaceful",
+    "pos": "adj.",
+    "mean": "平静的；和平的",
+    "sentence": "The village is a very peaceful place to live."
+  },
+  {
+    "word": "pension",
+    "pos": "n.",
+    "mean": "退休金；养老金",
+    "sentence": "She relies on her pension to cover her monthly expenses."
+  },
+  {
+    "word": "period",
+    "pos": "n.",
+    "mean": "时期；阶段",
+    "sentence": "There was a difficult period after the company moved."
+  },
+  {
+    "word": "permit",
+    "pos": "v.",
+    "mean": "允许；准许",
+    "sentence": "Camping is not permitted in this area."
+  },
+  {
+    "word": "phone",
+    "pos": "v.",
+    "mean": "打电话",
+    "sentence": "She phoned to say she would be late."
+  },
+  {
+    "word": "plant",
+    "pos": "v.",
+    "mean": "种植；安置",
+    "sentence": "They planted trees to improve the environment."
+  },
+  {
+    "word": "plenty",
+    "pos": "pron.",
+    "mean": "大量；充足",
+    "sentence": "There is plenty of food for everyone."
+  },
+  {
+    "word": "pointed",
+    "pos": "adj.",
+    "mean": "尖的；尖锐的",
+    "sentence": "She wore shoes with pointed toes."
+  },
+  {
+    "word": "position",
+    "pos": "n.",
+    "mean": "位置；职位",
+    "sentence": "She applied for the position of manager."
+  },
+  {
+    "word": "post",
+    "pos": "v.",
+    "mean": "邮寄；发帖",
+    "sentence": "I need to post this letter before five o'clock."
+  },
+  {
+    "word": "pound",
+    "pos": "n.",
+    "mean": "英镑；磅",
+    "sentence": "The book costs ten pounds."
+  },
+  {
+    "word": "power",
+    "pos": "n.",
+    "mean": "力量；权力；电力",
+    "sentence": "Wind power is a clean source of energy."
+  },
+  {
+    "word": "press",
+    "pos": "v.",
+    "mean": "按；压",
+    "sentence": "Press the button to start the machine."
+  },
+  {
+    "word": "pride",
+    "pos": "n.",
+    "mean": "自豪；骄傲",
+    "sentence": "She takes great pride in her work."
+  },
+  {
+    "word": "prove",
+    "pos": "v.",
+    "mean": "证明；证实",
+    "sentence": "Can you prove that you were there at the time?"
+  },
+  {
+    "word": "public",
+    "pos": "adj.",
+    "mean": "公共的；公开的",
+    "sentence": "Public transport is free for children under twelve."
+  },
+  {
+    "word": "pull",
+    "pos": "v.",
+    "mean": "拉；拖",
+    "sentence": "Pull the door to open it, don't push."
+  },
+  {
+    "word": "purpose",
+    "pos": "n.",
+    "mean": "目的；用途",
+    "sentence": "What is the purpose of your visit?"
+  },
+  {
+    "word": "push",
+    "pos": "v.",
+    "mean": "推；促使",
+    "sentence": "Push the door to open it."
+  },
+  {
+    "word": "quantity",
+    "pos": "n.",
+    "mean": "数量",
+    "sentence": "You need a large quantity of sugar for this recipe."
+  },
+  {
+    "word": "quick",
+    "pos": "adj.",
+    "mean": "快速的；敏捷的",
+    "sentence": "She gave a quick answer to the question."
+  },
+  {
+    "word": "quiet",
+    "pos": "adj.",
+    "mean": "安静的；寂静的",
+    "sentence": "The house was very quiet after the children left."
+  },
+  {
+    "word": "quit",
+    "pos": "v.",
+    "mean": "停止；辞职",
+    "sentence": "She quit her job to travel around the world."
+  },
+  {
+    "word": "raise",
+    "pos": "v.",
+    "mean": "筹集；提升",
+    "sentence": "They raised over five thousand pounds for charity."
+  },
+  {
+    "word": "range",
+    "pos": "n.",
+    "mean": "范围；一系列",
+    "sentence": "The shop offers a wide range of products."
+  },
+  {
+    "word": "reach",
+    "pos": "v.",
+    "mean": "到达；达到",
+    "sentence": "We finally reached our destination at midnight."
+  },
+  {
+    "word": "ready",
+    "pos": "adj.",
+    "mean": "准备好的",
+    "sentence": "Are you ready to leave? The taxi is here."
+  },
+  {
+    "word": "real",
+    "pos": "adj.",
+    "mean": "真实的；真正的",
+    "sentence": "Is this a real diamond or an imitation?"
+  },
+  {
+    "word": "record",
+    "pos": "n.",
+    "mean": "记录；唱片",
+    "sentence": "She broke the world record for the 100 metres."
+  },
+  {
+    "word": "recover",
+    "pos": "v.",
+    "mean": "恢复；重新获得",
+    "sentence": "She is recovering well after the operation."
+  },
+  {
+    "word": "refer",
+    "pos": "v.",
+    "mean": "提到；参考",
+    "sentence": "He referred to his notes during the presentation."
+  },
+  {
+    "word": "regard",
+    "pos": "v.",
+    "mean": "认为；把…看作",
+    "sentence": "She regards hard work as the key to success."
+  },
+  {
+    "word": "register",
+    "pos": "v.",
+    "mean": "注册；登记",
+    "sentence": "Please register your details at the front desk."
+  },
+  {
+    "word": "regular",
+    "pos": "adj.",
+    "mean": "定期的；规律的",
+    "sentence": "She visits her grandparents on a regular basis."
+  },
+  {
+    "word": "relation",
+    "pos": "n.",
+    "mean": "关系；亲属",
+    "sentence": "What is the relation between stress and illness?"
+  },
+  {
+    "word": "relax",
+    "pos": "v.",
+    "mean": "放松；休息",
+    "sentence": "After a long day, she likes to relax by reading."
+  },
+  {
+    "word": "remind",
+    "pos": "v.",
+    "mean": "提醒；使想起",
+    "sentence": "Can you remind me to call the dentist tomorrow?"
+  },
+  {
+    "word": "repair",
+    "pos": "v.",
+    "mean": "修理；修缮",
+    "sentence": "The plumber came to repair the broken pipe."
+  },
+  {
+    "word": "repeat",
+    "pos": "v.",
+    "mean": "重复；再说一遍",
+    "sentence": "Could you please repeat the question?"
+  },
+  {
+    "word": "reply",
+    "pos": "v.",
+    "mean": "回复；回答",
+    "sentence": "She replied to his email within minutes."
+  },
+  {
+    "word": "request",
+    "pos": "n.",
+    "mean": "请求；要求",
+    "sentence": "She made a request to change her appointment."
+  },
+  {
+    "word": "require",
+    "pos": "v.",
+    "mean": "需要；要求",
+    "sentence": "The job requires excellent communication skills."
+  },
+  {
+    "word": "respect",
+    "pos": "v.",
+    "mean": "尊重；尊敬",
+    "sentence": "She respects her teachers and classmates."
+  },
+  {
+    "word": "responsible",
+    "pos": "adj.",
+    "mean": "负责任的；造成…的",
+    "sentence": "She is responsible for training new employees."
+  },
+  {
+    "word": "rest",
+    "pos": "v.",
+    "mean": "休息；依靠",
+    "sentence": "You should rest after your long journey."
+  },
+  {
+    "word": "retire",
+    "pos": "v.",
+    "mean": "退休",
+    "sentence": "He plans to retire at the age of sixty-five."
+  },
+  {
+    "word": "return",
+    "pos": "v.",
+    "mean": "返回；归还",
+    "sentence": "She returned the library books on time."
+  },
+  {
+    "word": "rise",
+    "pos": "v.",
+    "mean": "上升；增加",
+    "sentence": "Temperatures are expected to rise this week."
+  },
+  {
+    "word": "risk",
+    "pos": "n.",
+    "mean": "风险；危险",
+    "sentence": "There is a risk of injury if you don't wear protective gear."
+  },
+  {
+    "word": "rule",
+    "pos": "n.",
+    "mean": "规则；规定",
+    "sentence": "You must follow the rules of the school."
+  },
+  {
+    "word": "salary",
+    "pos": "n.",
+    "mean": "薪水；工资",
+    "sentence": "She received a pay rise and a higher salary."
+  },
+  {
+    "word": "save",
+    "pos": "v.",
+    "mean": "节省；拯救",
+    "sentence": "She saves a little money from her salary every month."
+  },
+  {
+    "word": "scared",
+    "pos": "adj.",
+    "mean": "害怕的；恐惧的",
+    "sentence": "She was scared of spiders as a child."
+  },
+  {
+    "word": "scholarship",
+    "pos": "n.",
+    "mean": "奖学金",
+    "sentence": "She won a scholarship to study at a top university."
+  },
+  {
+    "word": "search",
+    "pos": "v.",
+    "mean": "搜索；寻找",
+    "sentence": "She searched the internet for information."
+  },
+  {
+    "word": "service",
+    "pos": "n.",
+    "mean": "服务；公共服务",
+    "sentence": "The customer service at this hotel is excellent."
+  },
+  {
+    "word": "settle",
+    "pos": "v.",
+    "mean": "定居；解决",
+    "sentence": "They settled in Canada after moving from China."
+  },
+  {
+    "word": "shadow",
+    "pos": "n.",
+    "mean": "影子；阴影",
+    "sentence": "A long shadow fell across the path."
+  },
+  {
+    "word": "shape",
+    "pos": "n.",
+    "mean": "形状；状态",
+    "sentence": "The room was in the shape of a square."
+  },
+  {
+    "word": "shelf",
+    "pos": "n.",
+    "mean": "架子；搁板",
+    "sentence": "The books are on the shelf above the desk."
+  },
+  {
+    "word": "shock",
+    "pos": "n.",
+    "mean": "震惊；冲击",
+    "sentence": "The news came as a complete shock to everyone."
+  },
+  {
+    "word": "sign",
+    "pos": "n.",
+    "mean": "标志；迹象",
+    "sentence": "There are signs everywhere indicating the exit."
+  },
+  {
+    "word": "silence",
+    "pos": "n.",
+    "mean": "沉默；安静",
+    "sentence": "There was a moment of silence after the announcement."
+  },
+  {
+    "word": "site",
+    "pos": "n.",
+    "mean": "地点；网站",
+    "sentence": "This is the site of an ancient Roman temple."
+  },
+  {
+    "word": "size",
+    "pos": "n.",
+    "mean": "大小；尺寸",
+    "sentence": "What size shoes do you wear?"
+  },
+  {
+    "word": "smart",
+    "pos": "adj.",
+    "mean": "聪明的；整洁的",
+    "sentence": "She is one of the smartest students in her year."
+  },
+  {
+    "word": "smooth",
+    "pos": "adj.",
+    "mean": "光滑的；平稳的",
+    "sentence": "The road was very smooth after the repairs."
+  },
+  {
+    "word": "solution",
+    "pos": "n.",
+    "mean": "解决方案；答案",
+    "sentence": "We are still looking for a solution to the problem."
+  },
+  {
+    "word": "sort",
+    "pos": "n.",
+    "mean": "种类；类别",
+    "sentence": "What sort of music do you prefer?"
+  },
+  {
+    "word": "source",
+    "pos": "n.",
+    "mean": "来源；源泉",
+    "sentence": "What is the original source of this information?"
+  },
+  {
+    "word": "speak",
+    "pos": "v.",
+    "mean": "说；讲",
+    "sentence": "She speaks English, French and Italian fluently."
+  },
+  {
+    "word": "speed",
+    "pos": "n.",
+    "mean": "速度",
+    "sentence": "The train was travelling at high speed."
+  },
+  {
+    "word": "square",
+    "pos": "n.",
+    "mean": "广场；正方形",
+    "sentence": "The market is held in the town square every Saturday."
+  },
+  {
+    "word": "stairs",
+    "pos": "n.",
+    "mean": "楼梯",
+    "sentence": "Take the stairs instead of the lift to get more exercise."
+  },
+  {
+    "word": "stay",
+    "pos": "v.",
+    "mean": "停留；逗留",
+    "sentence": "She stayed at a small hotel near the beach."
+  },
+  {
+    "word": "steal",
+    "pos": "v.",
+    "mean": "偷窃；偷拿",
+    "sentence": "Someone stole her bag on the train."
+  },
+  {
+    "word": "stone",
+    "pos": "n.",
+    "mean": "石头；岩石",
+    "sentence": "The walls were built from local stone."
+  },
+  {
+    "word": "straight",
+    "pos": "adj.",
+    "mean": "直的；笔直的",
+    "sentence": "Go straight ahead and turn left at the corner."
+  },
+  {
+    "word": "strange",
+    "pos": "adj.",
+    "mean": "陌生的；奇怪的",
+    "sentence": "There was a strange noise coming from the cellar."
+  },
+  {
+    "word": "strength",
+    "pos": "n.",
+    "mean": "力量；优势",
+    "sentence": "Her greatest strength is her ability to solve problems."
+  },
+  {
+    "word": "survey",
+    "pos": "n.",
+    "mean": "调查；问卷",
+    "sentence": "We carried out a survey to find out what people thought."
+  },
+  {
+    "word": "swap",
+    "pos": "v.",
+    "mean": "交换；互换",
+    "sentence": "She swapped her old phone for a newer model."
+  },
+  {
+    "word": "switch",
+    "pos": "v.",
+    "mean": "切换；转换",
+    "sentence": "She switched jobs after five years."
+  },
+  {
+    "word": "taste",
+    "pos": "v.",
+    "mean": "品尝；有…的味道",
+    "sentence": "This soup tastes absolutely delicious."
+  },
+  {
+    "word": "text",
+    "pos": "v.",
+    "mean": "发短信",
+    "sentence": "She texted her friend to say she was running late."
+  },
+  {
+    "word": "throw",
+    "pos": "v.",
+    "mean": "扔；投掷",
+    "sentence": "Throw the ball to the other side of the field."
+  },
+  {
+    "word": "tidy",
+    "pos": "adj.",
+    "mean": "整洁的；整齐的",
+    "sentence": "Her bedroom is always neat and tidy."
+  },
+  {
+    "word": "timetable",
+    "pos": "n.",
+    "mean": "时刻表；课程表",
+    "sentence": "The new school timetable starts next week."
+  },
+  {
+    "word": "tip",
+    "pos": "n.",
+    "mean": "小费；提示",
+    "sentence": "Let me give you a few useful tips for the exam."
+  },
+  {
+    "word": "total",
+    "pos": "adj.",
+    "mean": "总共的；完全的",
+    "sentence": "What is the total cost including tax?"
+  },
+  {
+    "word": "touch",
+    "pos": "v.",
+    "mean": "触摸；感动",
+    "sentence": "The story touched everyone who heard it."
+  },
+  {
+    "word": "tower",
+    "pos": "n.",
+    "mean": "塔；高楼",
+    "sentence": "The Eiffel Tower is one of the most visited landmarks."
+  },
+  {
+    "word": "tram",
+    "pos": "n.",
+    "mean": "有轨电车",
+    "sentence": "The city has an excellent tram network."
+  },
+  {
+    "word": "trend",
+    "pos": "n.",
+    "mean": "趋势；潮流",
+    "sentence": "There is a growing trend towards working from home."
+  },
+  {
+    "word": "trip",
+    "pos": "n.",
+    "mean": "旅行；出行",
+    "sentence": "We went on a day trip to the coast."
+  },
+  {
+    "word": "trouble",
+    "pos": "n.",
+    "mean": "麻烦；困难",
+    "sentence": "She got into trouble for being late to class."
+  },
+  {
+    "word": "truth",
+    "pos": "n.",
+    "mean": "真相；真理",
+    "sentence": "Please tell me the truth about what happened."
+  },
+  {
+    "word": "turn down",
+    "pos": "phr.v.",
+    "mean": "拒绝；调低",
+    "sentence": "She turned down the job offer as the salary was too low."
+  },
+  {
+    "word": "twice",
+    "pos": "adv.",
+    "mean": "两次；两倍",
+    "sentence": "She visits her parents twice a month."
+  },
+  {
+    "word": "understand",
+    "pos": "v.",
+    "mean": "理解；明白",
+    "sentence": "I don't quite understand what you mean."
+  },
+  {
+    "word": "uniform",
+    "pos": "n.",
+    "mean": "制服；校服",
+    "sentence": "Students must wear school uniform every day."
+  },
+  {
+    "word": "upload",
+    "pos": "v.",
+    "mean": "上传",
+    "sentence": "She uploaded her photos to the website."
+  },
+  {
+    "word": "valuable",
+    "pos": "adj.",
+    "mean": "有价值的；宝贵的",
+    "sentence": "She gave me some very valuable advice."
+  },
+  {
+    "word": "value",
+    "pos": "n.",
+    "mean": "价值；重要性",
+    "sentence": "The value of the property has increased."
+  },
+  {
+    "word": "variety",
+    "pos": "n.",
+    "mean": "多样性；种类",
+    "sentence": "The restaurant offers a wide variety of dishes."
+  },
+  {
+    "word": "vehicle",
+    "pos": "n.",
+    "mean": "车辆；交通工具",
+    "sentence": "Only emergency vehicles are allowed on this road."
+  },
+  {
+    "word": "victim",
+    "pos": "n.",
+    "mean": "受害者",
+    "sentence": "The police are looking for witnesses and victims."
+  },
+  {
+    "word": "visa",
+    "pos": "n.",
+    "mean": "签证",
+    "sentence": "You need a visa to enter some countries."
+  },
+  {
+    "word": "vision",
+    "pos": "n.",
+    "mean": "视力；眼光",
+    "sentence": "She has a clear vision for the future of the company."
+  },
+  {
+    "word": "visit",
+    "pos": "v.",
+    "mean": "参观；拜访",
+    "sentence": "We visited the museum during our trip to Rome."
+  },
+  {
+    "word": "warn",
+    "pos": "v.",
+    "mean": "警告；提醒",
+    "sentence": "The doctor warned him to stop smoking immediately."
+  },
+  {
+    "word": "wedding",
+    "pos": "n.",
+    "mean": "婚礼",
+    "sentence": "We were invited to their wedding in the south of France."
+  },
+  {
+    "word": "weight",
+    "pos": "n.",
+    "mean": "重量；体重",
+    "sentence": "She has lost weight since she started exercising."
+  },
+  {
+    "word": "welcome",
+    "pos": "v.",
+    "mean": "欢迎",
+    "sentence": "The receptionist welcomed us when we arrived."
+  },
+  {
+    "word": "wild",
+    "pos": "adj.",
+    "mean": "野生的；荒野的",
+    "sentence": "The national park is home to many wild animals."
+  },
+  {
+    "word": "wisdom",
+    "pos": "n.",
+    "mean": "智慧；明智",
+    "sentence": "With age comes wisdom and experience."
+  },
+  {
+    "word": "wish",
+    "pos": "v.",
+    "mean": "希望；祝愿",
+    "sentence": "I wish you all the best in your new job."
+  },
+  {
+    "word": "within",
+    "pos": "prep.",
+    "mean": "在…范围内",
+    "sentence": "The hotel is within walking distance of the station."
+  },
+  {
+    "word": "worldwide",
+    "pos": "adj.",
+    "mean": "全球性的；世界范围的",
+    "sentence": "The company has worldwide operations."
+  },
+  {
+    "word": "youth",
+    "pos": "n.",
+    "mean": "青春；年轻人",
+    "sentence": "She works with a local youth organisation."
+  },
+  {
+    "word": "zone",
+    "pos": "n.",
+    "mean": "区域；地带",
+    "sentence": "This is a no-parking zone."
+  },
+  {
+    "word": "absent-minded",
+    "pos": "adj.",
+    "mean": "心不在焉的",
+    "sentence": "He is very absent-minded and often forgets appointments."
+  },
+  {
+    "word": "access",
+    "pos": "n.",
+    "mean": "进入；使用权",
+    "sentence": "All students have access to the school library."
+  },
+  {
+    "word": "achievement",
+    "pos": "n.",
+    "mean": "成就；成绩",
+    "sentence": "Winning the championship was her greatest achievement."
+  },
+  {
+    "word": "adapt",
+    "pos": "v.",
+    "mean": "适应；改编",
+    "sentence": "It took her a while to adapt to the new country."
+  },
+  {
+    "word": "add up",
+    "pos": "phr.v.",
+    "mean": "合计；把…加起来",
+    "sentence": "Add up all the numbers and give me the total."
+  },
+  {
+    "word": "adjust",
+    "pos": "v.",
+    "mean": "调整；适应",
+    "sentence": "She adjusted the mirror before starting the car."
+  },
+  {
+    "word": "adoption",
+    "pos": "n.",
+    "mean": "收养；采用",
+    "sentence": "They considered adoption after years of trying for a child."
+  },
+  {
+    "word": "aggressive",
+    "pos": "adj.",
+    "mean": "好斗的；侵略性的",
+    "sentence": "Some dogs can be aggressive if they are not trained properly."
+  },
+  {
+    "word": "airport",
+    "pos": "n.",
+    "mean": "机场",
+    "sentence": "We arrived at the airport two hours before the flight."
+  },
+  {
+    "word": "aisle",
+    "pos": "n.",
+    "mean": "走廊；通道",
+    "sentence": "She prefers an aisle seat on the plane."
+  },
+  {
+    "word": "allergic",
+    "pos": "adj.",
+    "mean": "过敏的",
+    "sentence": "She is allergic to shellfish."
+  },
+  {
+    "word": "allowance",
+    "pos": "n.",
+    "mean": "津贴；零花钱",
+    "sentence": "His parents give him a weekly allowance."
+  },
+  {
+    "word": "amazing",
+    "pos": "adj.",
+    "mean": "令人惊叹的",
+    "sentence": "The view from the top of the hill was amazing."
+  },
+  {
+    "word": "amusing",
+    "pos": "adj.",
+    "mean": "有趣的；好笑的",
+    "sentence": "He told an amusing story that made everyone laugh."
+  },
+  {
+    "word": "ankle",
+    "pos": "n.",
+    "mean": "脚踝",
+    "sentence": "She twisted her ankle while playing tennis."
+  },
+  {
+    "word": "anniversary",
+    "pos": "n.",
+    "mean": "周年纪念",
+    "sentence": "They celebrated their silver wedding anniversary."
+  },
+  {
+    "word": "antique",
+    "pos": "n.",
+    "mean": "古董；文物",
+    "sentence": "She collects antiques from local markets."
+  },
+  {
+    "word": "approve",
+    "pos": "v.",
+    "mean": "批准；赞成",
+    "sentence": "The manager approved the new budget proposal."
+  },
+  {
+    "word": "around",
+    "pos": "prep.",
+    "mean": "大约；在…周围",
+    "sentence": "There are around fifty students in the building."
+  },
+  {
+    "word": "attitude",
+    "pos": "n.",
+    "mean": "态度；看法",
+    "sentence": "She has a very positive attitude towards learning."
+  },
+  {
+    "word": "baggage claim",
+    "pos": "n.",
+    "mean": "行李认领处",
+    "sentence": "After landing, we went straight to the baggage claim."
+  },
+  {
+    "word": "balanced",
+    "pos": "adj.",
+    "mean": "均衡的",
+    "sentence": "She tries to eat a balanced diet every day."
+  },
+  {
+    "word": "bargain",
+    "pos": "n.",
+    "mean": "便宜货；交易",
+    "sentence": "She found a real bargain at the market."
+  },
+  {
+    "word": "barrier",
+    "pos": "n.",
+    "mean": "障碍；屏障",
+    "sentence": "Language can be a barrier to communication."
+  },
+  {
+    "word": "belonging",
+    "pos": "n.",
+    "mean": "归属感",
+    "sentence": "She has a strong sense of belonging to her community."
+  },
+  {
+    "word": "bet",
+    "pos": "v.",
+    "mean": "打赌；确信",
+    "sentence": "I bet she won't be on time."
+  },
+  {
+    "word": "bitter",
+    "pos": "adj.",
+    "mean": "苦的；悲痛的",
+    "sentence": "The coffee was too bitter for her taste."
+  },
+  {
+    "word": "blind",
+    "pos": "adj.",
+    "mean": "失明的；视而不见的",
+    "sentence": "The charity provides guide dogs for blind people."
+  },
+  {
+    "word": "block",
+    "pos": "n.",
+    "mean": "街区；块",
+    "sentence": "Walk two blocks north and then turn left."
+  },
+  {
+    "word": "bloom",
+    "pos": "v.",
+    "mean": "开花；繁荣",
+    "sentence": "The roses bloom beautifully in June."
+  },
+  {
+    "word": "blow",
+    "pos": "v.",
+    "mean": "吹；爆炸",
+    "sentence": "A strong wind blew all the leaves off the tree."
+  },
+  {
+    "word": "bonus",
+    "pos": "n.",
+    "mean": "奖金；额外好处",
+    "sentence": "She received a Christmas bonus from her employer."
+  },
+  {
+    "word": "boot",
+    "pos": "n.",
+    "mean": "靴子；后备箱",
+    "sentence": "She bought a new pair of hiking boots."
+  },
+  {
+    "word": "bore",
+    "pos": "v.",
+    "mean": "使厌烦",
+    "sentence": "The long meeting bored everyone in the room."
+  },
+  {
+    "word": "brain",
+    "pos": "n.",
+    "mean": "大脑；智力",
+    "sentence": "Exercise is good for both your body and your brain."
+  },
+  {
+    "word": "brand",
+    "pos": "n.",
+    "mean": "品牌；商标",
+    "sentence": "This brand of coffee is very popular."
+  },
+  {
+    "word": "break",
+    "pos": "n.",
+    "mean": "休息；休假",
+    "sentence": "Let's take a short break before the next session."
+  },
+  {
+    "word": "breathtaking",
+    "pos": "adj.",
+    "mean": "令人叹为观止的",
+    "sentence": "The view from the summit was breathtaking."
+  },
+  {
+    "word": "brief",
+    "pos": "adj.",
+    "mean": "简短的；短暂的",
+    "sentence": "She gave a brief description of what happened."
+  },
+  {
+    "word": "bring about",
+    "pos": "phr.v.",
+    "mean": "引起；导致",
+    "sentence": "The new law brought about significant changes."
+  },
+  {
+    "word": "broad",
+    "pos": "adj.",
+    "mean": "宽阔的；广泛的",
+    "sentence": "She has a broad knowledge of world history."
+  },
+  {
+    "word": "broken",
+    "pos": "adj.",
+    "mean": "破损的；坏掉的",
+    "sentence": "The lift is broken so we have to use the stairs."
+  },
+  {
+    "word": "bunch",
+    "pos": "n.",
+    "mean": "束；群",
+    "sentence": "He bought her a bunch of yellow flowers."
+  },
+  {
+    "word": "burning",
+    "pos": "adj.",
+    "mean": "燃烧的；强烈的",
+    "sentence": "She had a burning desire to become an artist."
+  },
+  {
+    "word": "buzz",
+    "pos": "n.",
+    "mean": "嗡嗡声；兴奋",
+    "sentence": "There was a real buzz of excitement before the concert."
+  },
+  {
+    "word": "cable",
+    "pos": "n.",
+    "mean": "电缆；有线电视",
+    "sentence": "Please pass me that cable for the printer."
+  },
+  {
+    "word": "calculate",
+    "pos": "v.",
+    "mean": "计算",
+    "sentence": "Can you calculate the total cost of the trip?"
+  },
+  {
+    "word": "campsite",
+    "pos": "n.",
+    "mean": "露营地",
+    "sentence": "We stayed at a campsite near the lake."
+  },
+  {
+    "word": "capable",
+    "pos": "adj.",
+    "mean": "有能力的；能干的",
+    "sentence": "She is very capable of managing the whole project."
+  },
+  {
+    "word": "careful",
+    "pos": "adj.",
+    "mean": "小心的；谨慎的",
+    "sentence": "Be careful when you cross the road."
+  },
+  {
+    "word": "careless",
+    "pos": "adj.",
+    "mean": "粗心的；不小心的",
+    "sentence": "His careless mistake cost the company a lot of money."
+  },
+  {
+    "word": "ceremony",
+    "pos": "n.",
+    "mean": "典礼；仪式",
+    "sentence": "The graduation ceremony was a memorable event."
+  },
+  {
+    "word": "chain",
+    "pos": "n.",
+    "mean": "链条；连锁",
+    "sentence": "This restaurant is part of a large international chain."
+  },
+  {
+    "word": "challenging",
+    "pos": "adj.",
+    "mean": "具有挑战性的",
+    "sentence": "She prefers challenging tasks to routine ones."
+  },
+  {
+    "word": "championship",
+    "pos": "n.",
+    "mean": "锦标赛；冠军地位",
+    "sentence": "They won the national championship for the second time."
+  },
+  {
+    "word": "check",
+    "pos": "v.",
+    "mean": "检查；核实",
+    "sentence": "Please check your answers before handing in the paper."
+  },
+  {
+    "word": "clap",
+    "pos": "v.",
+    "mean": "鼓掌；拍手",
+    "sentence": "The audience clapped and cheered loudly."
+  },
+  {
+    "word": "class",
+    "pos": "n.",
+    "mean": "班级；等级",
+    "sentence": "She is at the top of her class at school."
+  },
+  {
+    "word": "clear",
+    "pos": "adj.",
+    "mean": "清楚的；明显的",
+    "sentence": "The instructions were very clear and easy to follow."
+  },
+  {
+    "word": "clever",
+    "pos": "adj.",
+    "mean": "聪明的；机智的",
+    "sentence": "She is clever and always knows the right answer."
+  },
+  {
+    "word": "collect",
+    "pos": "v.",
+    "mean": "收集；收藏",
+    "sentence": "He collects old stamps from around the world."
+  },
+  {
+    "word": "common",
+    "pos": "adj.",
+    "mean": "常见的；共同的",
+    "sentence": "It's very common to feel nervous before an exam."
+  },
+  {
+    "word": "confusing",
+    "pos": "adj.",
+    "mean": "令人困惑的",
+    "sentence": "The instructions were very confusing."
+  },
+  {
+    "word": "considerable",
+    "pos": "adj.",
+    "mean": "相当大的；值得考虑的",
+    "sentence": "She has made considerable progress this year."
+  },
+  {
+    "word": "consist",
+    "pos": "v.",
+    "mean": "由…组成",
+    "sentence": "The team consists of people from ten different countries."
+  },
+  {
+    "word": "contact",
+    "pos": "n.",
+    "mean": "联系；接触",
+    "sentence": "Please keep in contact with us."
+  },
+  {
+    "word": "context",
+    "pos": "n.",
+    "mean": "背景；语境",
+    "sentence": "You need to understand the context of the story."
+  },
+  {
+    "word": "count",
+    "pos": "v.",
+    "mean": "计数；重要",
+    "sentence": "Every vote counts in this election."
+  },
+  {
+    "word": "course",
+    "pos": "n.",
+    "mean": "课程；道路",
+    "sentence": "She enrolled on a French language course."
+  },
+  {
+    "word": "crash",
+    "pos": "v.",
+    "mean": "碰撞；崩溃",
+    "sentence": "His computer crashed and he lost all his work."
+  },
+  {
+    "word": "creature",
+    "pos": "n.",
+    "mean": "生物；动物",
+    "sentence": "The rainforest is home to many unusual creatures."
+  },
+  {
+    "word": "cross",
+    "pos": "v.",
+    "mean": "穿过；横过",
+    "sentence": "Be careful when you cross the road."
+  },
+  {
+    "word": "cucumber",
+    "pos": "n.",
+    "mean": "黄瓜",
+    "sentence": "She added cucumber and tomato to the salad."
+  },
+  {
+    "word": "cut down",
+    "pos": "phr.v.",
+    "mean": "减少；砍倒",
+    "sentence": "The doctor told him to cut down on fatty food."
+  },
+  {
+    "word": "data",
+    "pos": "n.",
+    "mean": "数据；资料",
+    "sentence": "The scientists collected data from the experiment."
+  },
+  {
+    "word": "deadline",
+    "pos": "n.",
+    "mean": "截止日期",
+    "sentence": "The deadline for applications is next Friday."
+  },
+  {
+    "word": "deal with",
+    "pos": "phr.v.",
+    "mean": "处理；应对",
+    "sentence": "She is very good at dealing with stressful situations."
+  },
+  {
+    "word": "decent",
+    "pos": "adj.",
+    "mean": "体面的；像样的",
+    "sentence": "She earns a decent wage at the new company."
+  },
+  {
+    "word": "dedicate",
+    "pos": "v.",
+    "mean": "致力于；献身于",
+    "sentence": "He dedicated his life to helping others."
+  },
+  {
+    "word": "definite",
+    "pos": "adj.",
+    "mean": "确定的；明确的",
+    "sentence": "Is there a definite date for the opening?"
+  },
+  {
+    "word": "delighted",
+    "pos": "adj.",
+    "mean": "高兴的；满心喜悦的",
+    "sentence": "She was delighted to hear the good news."
+  },
+  {
+    "word": "depend",
+    "pos": "v.",
+    "mean": "依靠；取决于",
+    "sentence": "The result depends on how hard you work."
+  },
+  {
+    "word": "depressing",
+    "pos": "adj.",
+    "mean": "令人沮丧的",
+    "sentence": "The news was very depressing."
+  },
+  {
+    "word": "depth",
+    "pos": "n.",
+    "mean": "深度",
+    "sentence": "The depth of the lake is over fifty metres."
+  },
+  {
+    "word": "deserve",
+    "pos": "v.",
+    "mean": "值得；应得",
+    "sentence": "She works very hard and deserves a pay rise."
+  },
+  {
+    "word": "determination",
+    "pos": "n.",
+    "mean": "决心；毅力",
+    "sentence": "Her determination helped her succeed against all odds."
+  },
+  {
+    "word": "digital",
+    "pos": "adj.",
+    "mean": "数字的；数码的",
+    "sentence": "She takes most of her photos with a digital camera."
+  },
+  {
+    "word": "disappoint",
+    "pos": "v.",
+    "mean": "使失望",
+    "sentence": "She didn't want to disappoint her parents."
+  },
+  {
+    "word": "discipline",
+    "pos": "n.",
+    "mean": "纪律；学科",
+    "sentence": "Self-discipline is important when studying independently."
+  },
+  {
+    "word": "disgusting",
+    "pos": "adj.",
+    "mean": "令人恶心的",
+    "sentence": "The rubbish on the street was absolutely disgusting."
+  },
+  {
+    "word": "dislike",
+    "pos": "v.",
+    "mean": "不喜欢",
+    "sentence": "She dislikes crowds and avoids busy places."
+  },
+  {
+    "word": "disturb",
+    "pos": "v.",
+    "mean": "打扰；使不安",
+    "sentence": "Please do not disturb—I am in a meeting."
+  },
+  {
+    "word": "donate",
+    "pos": "v.",
+    "mean": "捐赠；捐款",
+    "sentence": "She donated her old clothes to a charity shop."
+  },
+  {
+    "word": "doubt",
+    "pos": "n.",
+    "mean": "疑问；怀疑",
+    "sentence": "I have no doubt that she will succeed."
+  },
+  {
+    "word": "drag",
+    "pos": "v.",
+    "mean": "拖；拉",
+    "sentence": "She dragged her heavy suitcase up the stairs."
+  },
+  {
+    "word": "dramatic",
+    "pos": "adj.",
+    "mean": "戏剧性的；显著的",
+    "sentence": "There has been a dramatic increase in the number of visitors."
+  },
+  {
+    "word": "duty-free",
+    "pos": "adj.",
+    "mean": "免税的",
+    "sentence": "She bought some perfume from the duty-free shop."
+  },
+  {
+    "word": "eager",
+    "pos": "adj.",
+    "mean": "渴望的；热切的",
+    "sentence": "She was eager to learn as much as possible."
+  },
+  {
+    "word": "effort",
+    "pos": "n.",
+    "mean": "努力；尝试",
+    "sentence": "She made a great effort to arrive on time."
+  },
+  {
+    "word": "elder",
+    "pos": "adj.",
+    "mean": "年长的",
+    "sentence": "Her elder brother works as a doctor."
+  },
+  {
+    "word": "else",
+    "pos": "adv.",
+    "mean": "其他；否则",
+    "sentence": "Is there anything else I can help you with?"
+  },
+  {
+    "word": "encouraging",
+    "pos": "adj.",
+    "mean": "鼓励的；令人鼓舞的",
+    "sentence": "The results were very encouraging."
+  },
+  {
+    "word": "enjoyable",
+    "pos": "adj.",
+    "mean": "令人愉快的",
+    "sentence": "We had a very enjoyable evening at the theatre."
+  },
+  {
+    "word": "entertaining",
+    "pos": "adj.",
+    "mean": "有趣的；娱乐性强的",
+    "sentence": "The show was very entertaining."
+  },
+  {
+    "word": "entrance",
+    "pos": "n.",
+    "mean": "入口处",
+    "sentence": "Please use the side entrance after six o'clock."
+  },
+  {
+    "word": "envy",
+    "pos": "n.",
+    "mean": "嫉妒；羡慕",
+    "sentence": "She looked at her sister's new car with envy."
+  },
+  {
+    "word": "eventually",
+    "pos": "adv.",
+    "mean": "最终；终究",
+    "sentence": "She eventually found a job that she loved."
+  },
+  {
+    "word": "exam",
+    "pos": "n.",
+    "mean": "考试",
+    "sentence": "She stayed up late revising for her exam."
+  },
+  {
+    "word": "exciting",
+    "pos": "adj.",
+    "mean": "令人兴奋的",
+    "sentence": "This is one of the most exciting films I've ever seen."
+  },
+  {
+    "word": "exhausting",
+    "pos": "adj.",
+    "mean": "令人精疲力竭的",
+    "sentence": "The journey was long and exhausting."
+  },
+  {
+    "word": "existing",
+    "pos": "adj.",
+    "mean": "现有的；现存的",
+    "sentence": "They plan to improve the existing facilities."
+  },
+  {
+    "word": "expect",
+    "pos": "v.",
+    "mean": "期待；预期",
+    "sentence": "I expect the results will be available by Friday."
+  },
+  {
+    "word": "expensive",
+    "pos": "adj.",
+    "mean": "昂贵的",
+    "sentence": "The restaurant was excellent but very expensive."
+  },
+  {
+    "word": "export",
+    "pos": "v.",
+    "mean": "出口；输出",
+    "sentence": "This country exports large amounts of coffee."
+  },
+  {
+    "word": "extra",
+    "pos": "adj.",
+    "mean": "额外的；附加的",
+    "sentence": "She worked extra hours to finish the project."
+  },
+  {
+    "word": "faith",
+    "pos": "n.",
+    "mean": "信念；信任",
+    "sentence": "She has great faith in the abilities of her team."
+  },
+  {
+    "word": "fall",
+    "pos": "v.",
+    "mean": "下降；跌落",
+    "sentence": "Temperatures are expected to fall below zero tonight."
+  },
+  {
+    "word": "fame",
+    "pos": "n.",
+    "mean": "名气；名声",
+    "sentence": "Her fame spread quickly after the television interview."
+  },
+  {
+    "word": "fashionable",
+    "pos": "adj.",
+    "mean": "时髦的；流行的",
+    "sentence": "She always wears fashionable clothes."
+  },
+  {
+    "word": "fear",
+    "pos": "n.",
+    "mean": "恐惧；害怕",
+    "sentence": "She overcame her fear of heights by going rock climbing."
+  },
+  {
+    "word": "fee",
+    "pos": "n.",
+    "mean": "费用；会费",
+    "sentence": "The annual membership fee is fifty pounds."
+  },
+  {
+    "word": "ferry",
+    "pos": "n.",
+    "mean": "渡船；轮渡",
+    "sentence": "We took the ferry across the river."
+  },
+  {
+    "word": "fierce",
+    "pos": "adj.",
+    "mean": "激烈的；凶猛的",
+    "sentence": "There is fierce competition for places at the school."
+  },
+  {
+    "word": "firm",
+    "pos": "adj.",
+    "mean": "坚定的；稳固的",
+    "sentence": "She gave a firm handshake when they met."
+  },
+  {
+    "word": "football",
+    "pos": "n.",
+    "mean": "足球",
+    "sentence": "He plays football for the local club every Saturday."
+  },
+  {
+    "word": "forget",
+    "pos": "v.",
+    "mean": "忘记",
+    "sentence": "Don't forget to lock the door before you leave."
+  },
+  {
+    "word": "form",
+    "pos": "n.",
+    "mean": "表格；形式",
+    "sentence": "Please fill in this form with your personal details."
+  },
+  {
+    "word": "fortune",
+    "pos": "n.",
+    "mean": "财富；运气",
+    "sentence": "She made her fortune in the tech industry."
+  },
+  {
+    "word": "freezing",
+    "pos": "adj.",
+    "mean": "极冷的；冰冷的",
+    "sentence": "It was absolutely freezing outside last night."
+  },
+  {
+    "word": "frightening",
+    "pos": "adj.",
+    "mean": "令人恐惧的",
+    "sentence": "The thunderstorm was quite frightening."
+  },
+  {
+    "word": "frown",
+    "pos": "v.",
+    "mean": "皱眉",
+    "sentence": "She frowned when she read the disappointing news."
+  },
+  {
+    "word": "full",
+    "pos": "adj.",
+    "mean": "满的；充足的",
+    "sentence": "The train was full and we had to stand."
+  },
+  {
+    "word": "genuine",
+    "pos": "adj.",
+    "mean": "真诚的；真实的",
+    "sentence": "She gave a genuine smile when she heard the news."
+  },
+  {
+    "word": "give up",
+    "pos": "phr.v.",
+    "mean": "放弃",
+    "sentence": "She refused to give up even when things got difficult."
+  },
+  {
+    "word": "go ahead",
+    "pos": "phr.v.",
+    "mean": "进行；继续",
+    "sentence": "Please go ahead with the presentation."
+  },
+  {
+    "word": "gorgeous",
+    "pos": "adj.",
+    "mean": "华美的；极好的",
+    "sentence": "She wore a gorgeous dress to the ceremony."
+  },
+  {
+    "word": "grown-up",
+    "pos": "n.",
+    "mean": "大人；成年人",
+    "sentence": "Ask a grown-up if you need help."
+  },
+  {
+    "word": "guarantee",
+    "pos": "v.",
+    "mean": "保证；担保",
+    "sentence": "The company guarantees delivery within three days."
+  },
+  {
+    "word": "guidebook",
+    "pos": "n.",
+    "mean": "旅游指南",
+    "sentence": "She bought a guidebook before visiting the city."
+  },
+  {
+    "word": "halfway",
+    "pos": "adv.",
+    "mean": "半途地；中途",
+    "sentence": "We stopped halfway through the journey for lunch."
+  },
+  {
+    "word": "handwriting",
+    "pos": "n.",
+    "mean": "笔迹；书写",
+    "sentence": "Her handwriting is very neat and clear."
+  },
+  {
+    "word": "hang up",
+    "pos": "phr.v.",
+    "mean": "挂断电话",
+    "sentence": "She said goodbye and hung up."
+  },
+  {
+    "word": "hardly",
+    "pos": "adv.",
+    "mean": "几乎不",
+    "sentence": "She was so tired she could hardly keep her eyes open."
+  },
+  {
+    "word": "harvest",
+    "pos": "n.",
+    "mean": "收获；收割",
+    "sentence": "The farmers had an excellent harvest this year."
+  },
+  {
+    "word": "homeless",
+    "pos": "adj.",
+    "mean": "无家可归的",
+    "sentence": "The charity provides shelter for homeless people."
+  },
+  {
+    "word": "hopeless",
+    "pos": "adj.",
+    "mean": "没有希望的",
+    "sentence": "He is absolutely hopeless at cooking."
+  },
+  {
+    "word": "housewife",
+    "pos": "n.",
+    "mean": "家庭主妇",
+    "sentence": "She gave up her career to become a housewife."
+  },
+  {
+    "word": "hunger",
+    "pos": "n.",
+    "mean": "饥饿",
+    "sentence": "Many people in the world still suffer from hunger."
+  },
+  {
+    "word": "ideal",
+    "pos": "adj.",
+    "mean": "理想的",
+    "sentence": "This location is ideal for a family holiday."
+  },
+  {
+    "word": "identify",
+    "pos": "v.",
+    "mean": "识别；确认",
+    "sentence": "Can you identify the person in this photograph?"
+  },
+  {
+    "word": "ignore",
+    "pos": "v.",
+    "mean": "忽视；无视",
+    "sentence": "She ignored the warning signs and went ahead anyway."
+  },
+  {
+    "word": "immigration",
+    "pos": "n.",
+    "mean": "移民；移居",
+    "sentence": "The government announced new immigration laws."
+  },
+  {
+    "word": "impact",
+    "pos": "n.",
+    "mean": "影响；冲击",
+    "sentence": "Climate change is having a major impact on wildlife."
+  },
+  {
+    "word": "impress",
+    "pos": "v.",
+    "mean": "给…留下深刻印象",
+    "sentence": "She impressed everyone with her knowledge."
+  },
+  {
+    "word": "impressive",
+    "pos": "adj.",
+    "mean": "给人深刻印象的",
+    "sentence": "The museum has an impressive collection of modern art."
+  },
+  {
+    "word": "incredible",
+    "pos": "adj.",
+    "mean": "难以置信的；了不起的",
+    "sentence": "The athlete's speed was absolutely incredible."
+  },
+  {
+    "word": "infection",
+    "pos": "n.",
+    "mean": "感染；传染病",
+    "sentence": "She took antibiotics to treat the infection."
+  },
+  {
+    "word": "inform",
+    "pos": "v.",
+    "mean": "通知；告知",
+    "sentence": "Please inform us of any changes to your plans."
+  },
+  {
+    "word": "insect",
+    "pos": "n.",
+    "mean": "昆虫",
+    "sentence": "She is terrified of insects, especially spiders."
+  },
+  {
+    "word": "inspire",
+    "pos": "v.",
+    "mean": "激励；给…以灵感",
+    "sentence": "Her teacher inspired her to pursue a career in science."
+  },
+  {
+    "word": "instead",
+    "pos": "adv.",
+    "mean": "替代地；相反",
+    "sentence": "There were no seats, so she stood instead."
+  },
+  {
+    "word": "instrument",
+    "pos": "n.",
+    "mean": "乐器；仪器",
+    "sentence": "She plays three different musical instruments."
+  },
+  {
+    "word": "internet",
+    "pos": "n.",
+    "mean": "互联网",
+    "sentence": "She uses the internet to research her projects."
+  },
+  {
+    "word": "invest",
+    "pos": "v.",
+    "mean": "投资",
+    "sentence": "She invested her savings in a small business."
+  },
+  {
+    "word": "issue",
+    "pos": "n.",
+    "mean": "议题；问题",
+    "sentence": "Environmental issues are a major topic of debate."
+  },
+  {
+    "word": "item",
+    "pos": "n.",
+    "mean": "物品；条款",
+    "sentence": "Please check that all items are included in the order."
+  },
+  {
+    "word": "label",
+    "pos": "n.",
+    "mean": "标签；品牌",
+    "sentence": "Always read the label before using the product."
+  },
+  {
+    "word": "last",
+    "pos": "v.",
+    "mean": "持续；持久",
+    "sentence": "The concert lasted over three hours."
+  },
+  {
+    "word": "lately",
+    "pos": "adv.",
+    "mean": "最近；近来",
+    "sentence": "Have you been feeling tired lately?"
+  },
+  {
+    "word": "laugh",
+    "pos": "v.",
+    "mean": "笑；大笑",
+    "sentence": "Everyone laughed at his funny joke."
+  },
+  {
+    "word": "leaf",
+    "pos": "n.",
+    "mean": "叶子",
+    "sentence": "The leaves were beginning to turn yellow."
+  },
+  {
+    "word": "lean",
+    "pos": "v.",
+    "mean": "倾斜；倚靠",
+    "sentence": "She leaned against the wall while she waited."
+  },
+  {
+    "word": "length",
+    "pos": "n.",
+    "mean": "长度；持续时间",
+    "sentence": "The length of the film is just under two hours."
+  },
+  {
+    "word": "lift",
+    "pos": "n.",
+    "mean": "电梯；搭便车",
+    "sentence": "Can you give me a lift to the station?"
+  },
+  {
+    "word": "load",
+    "pos": "n.",
+    "mean": "负担；大量",
+    "sentence": "She had loads of work to get through this week."
+  },
+  {
+    "word": "lock",
+    "pos": "v.",
+    "mean": "锁上",
+    "sentence": "Don't forget to lock the door when you leave."
+  },
+  {
+    "word": "look up",
+    "pos": "phr.v.",
+    "mean": "查阅；抬头看",
+    "sentence": "If you don't know the word, look it up in the dictionary."
+  },
+  {
+    "word": "loud",
+    "pos": "adj.",
+    "mean": "响亮的；吵闹的",
+    "sentence": "The music was so loud we couldn't hear each other speak."
+  },
+  {
+    "word": "lower",
+    "pos": "v.",
+    "mean": "降低；减少",
+    "sentence": "They plan to lower the price of public transport."
+  },
+  {
+    "word": "make up",
+    "pos": "phr.v.",
+    "mean": "组成；编造",
+    "sentence": "Women make up over half of the workforce."
+  },
+  {
+    "word": "manner",
+    "pos": "n.",
+    "mean": "方式；态度",
+    "sentence": "She explained everything in a clear and polite manner."
+  },
+  {
+    "word": "march",
+    "pos": "v.",
+    "mean": "行进；游行",
+    "sentence": "Hundreds of people marched through the city centre."
+  },
+  {
+    "word": "maths",
+    "pos": "n.",
+    "mean": "数学",
+    "sentence": "She is very good at maths and science."
+  },
+  {
+    "word": "mayor",
+    "pos": "n.",
+    "mean": "市长",
+    "sentence": "The mayor officially opened the new library."
+  },
+  {
+    "word": "media",
+    "pos": "n.",
+    "mean": "媒体",
+    "sentence": "The story was covered by the national media."
+  },
+  {
+    "word": "mix",
+    "pos": "v.",
+    "mean": "混合；交往",
+    "sentence": "Mix the ingredients together in a large bowl."
+  },
+  {
+    "word": "mostly",
+    "pos": "adv.",
+    "mean": "主要地；大部分",
+    "sentence": "She mostly works from home these days."
+  },
+  {
+    "word": "nearby",
+    "pos": "adj.",
+    "mean": "附近的",
+    "sentence": "Is there a supermarket nearby?"
+  },
+  {
+    "word": "need",
+    "pos": "n.",
+    "mean": "需要；必要性",
+    "sentence": "There is a need for more affordable housing."
+  },
+  {
+    "word": "neither",
+    "pos": "conj.",
+    "mean": "两者都不",
+    "sentence": "Neither option seems ideal to me."
+  },
+  {
+    "word": "nest",
+    "pos": "n.",
+    "mean": "鸟巢",
+    "sentence": "The bird built a nest in the tree outside our window."
+  },
+  {
+    "word": "officer",
+    "pos": "n.",
+    "mean": "官员；警官",
+    "sentence": "The police officer directed traffic at the junction."
+  },
+  {
+    "word": "online",
+    "pos": "adj.",
+    "mean": "在线的",
+    "sentence": "She does most of her shopping online."
+  },
+  {
+    "word": "ordinary",
+    "pos": "adj.",
+    "mean": "普通的；平凡的",
+    "sentence": "She leads a perfectly ordinary but happy life."
+  },
+  {
+    "word": "organisation",
+    "pos": "n.",
+    "mean": "机构；组织",
+    "sentence": "She volunteers for a non-profit organisation."
+  },
+  {
+    "word": "origin",
+    "pos": "n.",
+    "mean": "起源；出身",
+    "sentence": "The origins of the tradition go back hundreds of years."
+  },
+  {
+    "word": "outcome",
+    "pos": "n.",
+    "mean": "结果；结局",
+    "sentence": "The outcome of the meeting was very positive."
+  },
+  {
+    "word": "outskirts",
+    "pos": "n.",
+    "mean": "市郊；郊区",
+    "sentence": "She lives on the outskirts of the city."
+  },
+  {
+    "word": "overcome",
+    "pos": "v.",
+    "mean": "克服；战胜",
+    "sentence": "She worked hard to overcome her fear of public speaking."
+  },
+  {
+    "word": "parking",
+    "pos": "n.",
+    "mean": "停车",
+    "sentence": "Parking in the city centre can be very expensive."
+  },
+  {
+    "word": "participate",
+    "pos": "v.",
+    "mean": "参与；参加",
+    "sentence": "Everyone is encouraged to participate in the discussion."
+  },
+  {
+    "word": "pause",
+    "pos": "v.",
+    "mean": "暂停；停顿",
+    "sentence": "She paused before answering the difficult question."
+  },
+  {
+    "word": "pay attention",
+    "pos": "phr.v.",
+    "mean": "注意；专心",
+    "sentence": "Please pay attention to the safety instructions."
+  },
+  {
+    "word": "penalty",
+    "pos": "n.",
+    "mean": "惩罚；罚款",
+    "sentence": "There is a penalty for late payment."
+  },
+  {
+    "word": "personal",
+    "pos": "adj.",
+    "mean": "个人的；私人的",
+    "sentence": "Please do not share any personal information online."
+  },
+  {
+    "word": "persuade",
+    "pos": "v.",
+    "mean": "说服；劝说",
+    "sentence": "She persuaded him to take the day off work."
+  },
+  {
+    "word": "pick up",
+    "pos": "phr.v.",
+    "mean": "接；拾起",
+    "sentence": "Can you pick me up from the station?"
+  },
+  {
+    "word": "planet",
+    "pos": "n.",
+    "mean": "行星",
+    "sentence": "We must do more to protect our planet."
+  },
+  {
+    "word": "plate",
+    "pos": "n.",
+    "mean": "盘子",
+    "sentence": "She put a large plate of pasta on the table."
+  },
+  {
+    "word": "policy",
+    "pos": "n.",
+    "mean": "政策；方针",
+    "sentence": "The school has a strict policy on mobile phones."
+  },
+  {
+    "word": "postpone",
+    "pos": "v.",
+    "mean": "推迟；延期",
+    "sentence": "The event was postponed due to heavy rain."
+  },
+  {
+    "word": "practise",
+    "pos": "v.",
+    "mean": "练习；实践",
+    "sentence": "She practises the piano for one hour every day."
+  },
+  {
+    "word": "precious",
+    "pos": "adj.",
+    "mean": "珍贵的；宝贵的",
+    "sentence": "Time is precious so don't waste it."
+  },
+  {
+    "word": "prediction",
+    "pos": "n.",
+    "mean": "预测；预言",
+    "sentence": "Her prediction about the weather turned out to be right."
+  },
+  {
+    "word": "pressure",
+    "pos": "n.",
+    "mean": "压力；压强",
+    "sentence": "She works well under pressure."
+  },
+  {
+    "word": "primary",
+    "pos": "adj.",
+    "mean": "初级的；主要的",
+    "sentence": "She teaches at the local primary school."
+  },
+  {
+    "word": "print",
+    "pos": "v.",
+    "mean": "打印；印刷",
+    "sentence": "Please print two copies of the document."
+  },
+  {
+    "word": "process",
+    "pos": "n.",
+    "mean": "过程；程序",
+    "sentence": "Learning a new language is a long process."
+  },
+  {
+    "word": "pub",
+    "pos": "n.",
+    "mean": "酒吧；小酒馆",
+    "sentence": "They met for a drink at the local pub."
+  },
+  {
+    "word": "punish",
+    "pos": "v.",
+    "mean": "惩罚",
+    "sentence": "The children were punished for arriving late to school."
+  },
+  {
+    "word": "race",
+    "pos": "n.",
+    "mean": "比赛；种族",
+    "sentence": "She won the 400-metre race at the athletics championship."
+  },
+  {
+    "word": "recreation",
+    "pos": "n.",
+    "mean": "娱乐；消遣",
+    "sentence": "The park provides space for recreation and relaxation."
+  },
+  {
+    "word": "refund",
+    "pos": "n.",
+    "mean": "退款",
+    "sentence": "She asked for a refund because the product was damaged."
+  },
+  {
+    "word": "region",
+    "pos": "n.",
+    "mean": "地区；区域",
+    "sentence": "This region is famous for its fine wine."
+  },
+  {
+    "word": "regret",
+    "pos": "v.",
+    "mean": "后悔；遗憾",
+    "sentence": "She regretted not studying harder at school."
+  },
+  {
+    "word": "relate",
+    "pos": "v.",
+    "mean": "有关；涉及",
+    "sentence": "Her problems relate to difficulties at home."
+  },
+  {
+    "word": "relevant",
+    "pos": "adj.",
+    "mean": "相关的；切题的",
+    "sentence": "Please only include relevant information in your answer."
+  },
+  {
+    "word": "remove",
+    "pos": "v.",
+    "mean": "移走；去掉",
+    "sentence": "Please remove your shoes before entering the house."
+  },
+  {
+    "word": "rent",
+    "pos": "v.",
+    "mean": "租用；出租",
+    "sentence": "They decided to rent a flat near the university."
+  },
+  {
+    "word": "reservation",
+    "pos": "n.",
+    "mean": "预订；保留",
+    "sentence": "I made a reservation at the restaurant for seven o'clock."
+  },
+  {
+    "word": "resort",
+    "pos": "n.",
+    "mean": "度假胜地",
+    "sentence": "They stayed at a beach resort in the south of Spain."
+  },
+  {
+    "word": "round",
+    "pos": "n.",
+    "mean": "一轮；一圈",
+    "sentence": "She made it to the final round of the competition."
+  },
+  {
+    "word": "run out of",
+    "pos": "phr.v.",
+    "mean": "用完；耗尽",
+    "sentence": "We've run out of milk—can you buy some?"
+  },
+  {
+    "word": "rush",
+    "pos": "v.",
+    "mean": "匆忙；冲",
+    "sentence": "She rushed to catch the last train."
+  },
+  {
+    "word": "satisfying",
+    "pos": "adj.",
+    "mean": "令人满意的",
+    "sentence": "It's very satisfying to complete a difficult project."
+  },
+  {
+    "word": "scary",
+    "pos": "adj.",
+    "mean": "令人害怕的",
+    "sentence": "The haunted house was very scary."
+  },
+  {
+    "word": "schedule",
+    "pos": "n.",
+    "mean": "时间表；日程",
+    "sentence": "What is on the schedule for tomorrow?"
+  },
+  {
+    "word": "sculpture",
+    "pos": "n.",
+    "mean": "雕塑",
+    "sentence": "The gallery has an impressive collection of modern sculpture."
+  },
+  {
+    "word": "secondary",
+    "pos": "adj.",
+    "mean": "中等的；次要的",
+    "sentence": "She teaches history at a secondary school."
+  },
+  {
+    "word": "section",
+    "pos": "n.",
+    "mean": "部分；章节",
+    "sentence": "Please read the first section of the report."
+  },
+  {
+    "word": "security",
+    "pos": "n.",
+    "mean": "安全；保障",
+    "sentence": "Security at the airport has been increased."
+  },
+  {
+    "word": "self-confident",
+    "pos": "adj.",
+    "mean": "自信的",
+    "sentence": "She became much more self-confident after the course."
+  },
+  {
+    "word": "sense",
+    "pos": "n.",
+    "mean": "感觉；意义",
+    "sentence": "She has a great sense of humour."
+  },
+  {
+    "word": "sight",
+    "pos": "n.",
+    "mean": "视力；景象",
+    "sentence": "The old city is full of amazing sights."
+  },
+  {
+    "word": "signal",
+    "pos": "n.",
+    "mean": "信号；标志",
+    "sentence": "The phone has no signal in this area."
+  },
+  {
+    "word": "significant",
+    "pos": "adj.",
+    "mean": "重要的；显著的",
+    "sentence": "There has been a significant improvement in her grades."
+  },
+  {
+    "word": "single",
+    "pos": "adj.",
+    "mean": "单一的；单身的",
+    "sentence": "She prefers to travel as a single person."
+  },
+  {
+    "word": "slight",
+    "pos": "adj.",
+    "mean": "轻微的；稍许的",
+    "sentence": "There was a slight delay due to technical issues."
+  },
+  {
+    "word": "social",
+    "pos": "adj.",
+    "mean": "社交的；社会的",
+    "sentence": "She has a very active social life."
+  },
+  {
+    "word": "solar",
+    "pos": "adj.",
+    "mean": "太阳的；太阳能的",
+    "sentence": "They installed solar panels on the roof."
+  },
+  {
+    "word": "spare",
+    "pos": "adj.",
+    "mean": "空余的；备用的",
+    "sentence": "What do you do in your spare time?"
+  },
+  {
+    "word": "spectator",
+    "pos": "n.",
+    "mean": "观众；旁观者",
+    "sentence": "Thousands of spectators watched the final."
+  },
+  {
+    "word": "statement",
+    "pos": "n.",
+    "mean": "声明；陈述",
+    "sentence": "She made a brief statement to the press."
+  },
+  {
+    "word": "statue",
+    "pos": "n.",
+    "mean": "雕像",
+    "sentence": "There is a bronze statue of the founder in the square."
+  },
+  {
+    "word": "steady",
+    "pos": "adj.",
+    "mean": "稳定的；持续的",
+    "sentence": "She has made steady progress throughout the year."
+  },
+  {
+    "word": "storm",
+    "pos": "n.",
+    "mean": "风暴；暴风雨",
+    "sentence": "A powerful storm hit the coast last night."
+  },
+  {
+    "word": "successful",
+    "pos": "adj.",
+    "mean": "成功的",
+    "sentence": "She has had a very successful career."
+  },
+  {
+    "word": "sudden",
+    "pos": "adj.",
+    "mean": "突然的",
+    "sentence": "There was a sudden change in the weather."
+  },
+  {
+    "word": "sunburn",
+    "pos": "n.",
+    "mean": "晒伤",
+    "sentence": "She got sunburn on the beach because she forgot her sunscreen."
+  },
+  {
+    "word": "supermarket",
+    "pos": "n.",
+    "mean": "超市",
+    "sentence": "I'll stop at the supermarket on the way home."
+  },
+  {
+    "word": "supply",
+    "pos": "v.",
+    "mean": "供应；提供",
+    "sentence": "The organisation supplies food and water to the community."
+  },
+  {
+    "word": "team",
+    "pos": "n.",
+    "mean": "团队；队",
+    "sentence": "She has been part of the same team for five years."
+  },
+  {
+    "word": "technology",
+    "pos": "n.",
+    "mean": "技术；科技",
+    "sentence": "New technology is changing the way we communicate."
+  },
+  {
+    "word": "teenager",
+    "pos": "n.",
+    "mean": "青少年",
+    "sentence": "She runs a drama club for teenagers."
+  },
+  {
+    "word": "tenant",
+    "pos": "n.",
+    "mean": "租户；房客",
+    "sentence": "The tenants pay rent monthly."
+  },
+  {
+    "word": "theory",
+    "pos": "n.",
+    "mean": "理论；假设",
+    "sentence": "There are several theories about why the event happened."
+  },
+  {
+    "word": "throughout",
+    "pos": "prep.",
+    "mean": "整个；贯穿",
+    "sentence": "The museum is open throughout the year."
+  },
+  {
+    "word": "trade",
+    "pos": "n.",
+    "mean": "贸易；行业",
+    "sentence": "International trade is important for the economy."
+  },
+  {
+    "word": "transfer",
+    "pos": "v.",
+    "mean": "转让；调任",
+    "sentence": "She was transferred to the company's head office."
+  },
+  {
+    "word": "treatment",
+    "pos": "n.",
+    "mean": "治疗；对待",
+    "sentence": "The treatment was successful and she made a full recovery."
+  },
+  {
+    "word": "tropical",
+    "pos": "adj.",
+    "mean": "热带的",
+    "sentence": "They spent their holiday on a tropical island."
+  },
+  {
+    "word": "tutor",
+    "pos": "n.",
+    "mean": "家庭教师；辅导老师",
+    "sentence": "She has a private tutor to help her with maths."
+  },
+  {
+    "word": "unclear",
+    "pos": "adj.",
+    "mean": "不清楚的",
+    "sentence": "The instructions were unclear and confusing."
+  },
+  {
+    "word": "unexpected",
+    "pos": "adj.",
+    "mean": "意想不到的",
+    "sentence": "We had an unexpected visitor this morning."
+  },
+  {
+    "word": "unfortunately",
+    "pos": "adv.",
+    "mean": "不幸地；遗憾地",
+    "sentence": "Unfortunately, she was not able to attend the meeting."
+  },
+  {
+    "word": "unlimited",
+    "pos": "adj.",
+    "mean": "无限的；无限制的",
+    "sentence": "The pass gives unlimited access to all public transport."
+  },
+  {
+    "word": "unsafe",
+    "pos": "adj.",
+    "mean": "不安全的",
+    "sentence": "The building was declared unsafe after the earthquake."
+  },
+  {
+    "word": "upset",
+    "pos": "adj.",
+    "mean": "心烦意乱的",
+    "sentence": "She was very upset when she heard the news."
+  },
+  {
+    "word": "urban",
+    "pos": "adj.",
+    "mean": "城市的；都市的",
+    "sentence": "Many young people move to urban areas for work."
+  },
+  {
+    "word": "version",
+    "pos": "n.",
+    "mean": "版本；版",
+    "sentence": "Have you seen the latest version of the software?"
+  },
+  {
+    "word": "visible",
+    "pos": "adj.",
+    "mean": "可见的；明显的",
+    "sentence": "The mountains were clearly visible from the window."
+  },
+  {
+    "word": "vital",
+    "pos": "adj.",
+    "mean": "至关重要的",
+    "sentence": "It is vital that you take your medicine every day."
+  },
+  {
+    "word": "voyage",
+    "pos": "n.",
+    "mean": "航海；旅程",
+    "sentence": "The ship began its long voyage across the Atlantic."
+  },
+  {
+    "word": "weakness",
+    "pos": "n.",
+    "mean": "弱点；缺点",
+    "sentence": "She identified her main weakness as time management."
+  },
+  {
+    "word": "whereas",
+    "pos": "conj.",
+    "mean": "然而；相比之下",
+    "sentence": "She enjoys swimming whereas her brother prefers cycling."
+  },
+  {
+    "word": "wildlife",
+    "pos": "n.",
+    "mean": "野生动物",
+    "sentence": "The national park protects a variety of wildlife."
+  },
+  {
+    "word": "wooden",
+    "pos": "adj.",
+    "mean": "木制的",
+    "sentence": "The cottage had a beautiful wooden floor."
+  },
+  {
+    "word": "workplace",
+    "pos": "n.",
+    "mean": "工作场所",
+    "sentence": "Good communication is essential in the workplace."
+  },
+  {
+    "word": "worried",
+    "pos": "adj.",
+    "mean": "担心的；忧虑的",
+    "sentence": "She was very worried about the exam results."
+  },
+  {
+    "word": "worthwhile",
+    "pos": "adj.",
+    "mean": "值得的",
+    "sentence": "The trip was long but absolutely worthwhile."
+  }
 ]
