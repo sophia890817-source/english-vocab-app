@@ -607,8 +607,8 @@ body::before{content:'';position:fixed;inset:0;
 // 使用 Supabase 自定义表 `app_users`（字段：id, username, pw_hash）
 // 密码通过 Web Crypto API SHA-256 哈希后存储，不明文传输。
 // ─────────────────────────────────────────────────────────────
-const SUPABASE_URL      = "https://zmjdwdpslcumajabmney.supabase.co";
-const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InptamR3ZHBzbGN1bWFqYWJtbmV5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEwOTkwOTMsImV4cCI6MjA5NjY3NTA5M30.HB7umpS9haOuU2UH2MgqkpjZUUZar5iEI4llYVIWGhc";
+const SUPABASE_URL      = "https://qcgasnsibzvyjywastjr.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjZ2FzbnNpYnp2eWp5d2FzdGpyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEzNTI3ODUsImV4cCI6MjA5NjkyODc4NX0.mkhEyaLSpyj0w9MsiCOqy5tTvaFYWVR33NkpYr_Mpas";
 
 // Supabase JS 客户端（仅用于数据库操作，不使用 Supabase Auth）
 let _supabase = null;
@@ -632,6 +632,19 @@ async function sha256(text) {
   const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
   return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
 }
+
+// ── localStorage 键名（需在离线队列之前定义）────────────────
+const SK={
+  banks:()=>'mm_banks',
+  students:()=>'mm_students',
+  dailyCount:()=>'mm_dailyCount',
+  mastered:(s,l)=>`mm_${s}_${l}_mastered`,
+  wrong:(s,l)=>`mm_${s}_${l}_wrong`,
+  score:(s,l)=>`mm_${s}_${l}_score`,
+  medals:(s,l)=>`mm_${s}_${l}_medals`,
+};
+function lsGet(k,d=null){try{const v=localStorage.getItem(k);return v===null?d:JSON.parse(v);}catch(e){return d;}}
+function lsSet(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
 
 // ── 离线队列：断网时临时缓存待上传的进度变更 ──────────────
 const OFFLINE_QUEUE_KEY = 'mm_offline_queue';
@@ -867,10 +880,10 @@ async function _enterAsStudent(username) {
 }
 
 // ── 互斥登录实现 ─────────────────────────────────────────────
-// 原理：每次登录，向 Supabase Realtime Broadcast Channel "auth:{uid}" 广播新 token。
-// 已在线的旧设备收到不同 token 后立即强制退出，清空本地数据，跳转登录页。
+// 双保险：① Realtime 广播即时踢出  ② app_users.session_token 数据库轮询兜底
 let _sessionToken = null;
 let _kickChannel  = null;
+let _sessionPollTimer = null;
 
 function _genToken() {
   return Math.random().toString(36).slice(2) + Date.now().toString(36);
@@ -879,38 +892,81 @@ function _sessionTokenKey(uid) {
   return `mm_session_token:${uid}`;
 }
 
-// 登录成功后：生成新 token，广播给其他设备，订阅踢出监听
+async function _publishSessionToken(uid) {
+  if (!_supabase || !uid || !_sessionToken) return;
+  try {
+    const { error } = await _supabase
+      .from('app_users')
+      .update({ session_token: _sessionToken })
+      .eq('id', uid);
+    if (error) console.warn('[mutex] 写入 session_token 失败:', error.message);
+    else console.log('[mutex] session_token 已写入数据库');
+  } catch(e) {
+    console.warn('[mutex] session_token 写入异常:', e.message);
+  }
+}
+
+function _broadcastNewLogin() {
+  if (!_kickChannel || !_sessionToken) return;
+  _kickChannel.send({
+    type: 'broadcast',
+    event: 'new_login',
+    payload: { token: _sessionToken, ts: Date.now() }
+  });
+}
+
+function _startSessionWatch(uid) {
+  _stopSessionWatch();
+  _sessionPollTimer = setInterval(async () => {
+    if (!authUser || authUser.id !== uid || !_sessionToken || !_supabase) return;
+    try {
+      const { data, error } = await _supabase
+        .from('app_users')
+        .select('session_token')
+        .eq('id', uid)
+        .maybeSingle();
+      if (error) return;
+      if (data?.session_token && data.session_token !== _sessionToken) {
+        console.warn('[mutex] 数据库 session_token 已变更，本设备强制退出');
+        _forceLogout();
+      }
+    } catch(e) {}
+  }, 4000);
+}
+
+function _stopSessionWatch() {
+  if (_sessionPollTimer) { clearInterval(_sessionPollTimer); _sessionPollTimer = null; }
+}
+
+// 登录成功后：生成新 token，写入数据库，广播给其他设备，订阅踢出监听
 function _registerDeviceSession(uid) {
   if (!_supabase) return;
   _sessionToken = _genToken();
   localStorage.setItem(_sessionTokenKey(uid), _sessionToken);
   console.log(`[mutex] 本设备 session token: ${_sessionToken}`);
 
+  _publishSessionToken(uid);
+  _startSessionWatch(uid);
+
   if (_kickChannel) { try { _supabase.removeChannel(_kickChannel); } catch(e){} }
 
-  // 订阅 Realtime Broadcast Channel，监听其他设备的登录广播
   _kickChannel = _supabase.channel(`auth:${uid}`, {
     config: { broadcast: { self: false } }
   });
   _kickChannel
     .on('broadcast', { event: 'new_login' }, ({ payload }) => {
-      // 【异地登录踢出】收到其他设备的登录广播且 token 不一致
       if (payload.token && payload.token !== _sessionToken) {
         console.warn('[mutex] 检测到账号在其他设备登录，本设备强制退出');
         _forceLogout();
       }
     })
-    .subscribe();
-
-  // 广播"我上线了"给其他已登录设备，触发它们退出
-  setTimeout(() => {
-    _kickChannel.send({
-      type: 'broadcast',
-      event: 'new_login',
-      payload: { token: _sessionToken, ts: Date.now() }
+    .subscribe((status) => {
+      if (status === 'SUBSCRIBED') {
+        _broadcastNewLogin();
+        setTimeout(_broadcastNewLogin, 1500);
+        console.log('[mutex] 已广播新登录事件，旧设备将被踢出');
+      }
     });
-    console.log('[mutex] 已广播新登录事件，旧设备将被踢出');
-  }, 600);
 }
 
 // 【异地登录下线】被踢出时：清空全部本地用户数据，跳转登录页
@@ -943,7 +999,8 @@ async function _forceLogout() {
   localStorage.removeItem('mm_auth_username');
   localStorage.removeItem('mm_auth_role'); // [권한] 강제 로그아웃 시 역할 삭제
 
-  // 5. 清除 Realtime 订阅
+  // 5. 清除 Realtime 订阅与轮询
+  _stopSessionWatch();
   if (_kickChannel) { try { _supabase.removeChannel(_kickChannel); } catch(e){} _kickChannel = null; }
 
   // 6. 重置内存状态
@@ -1027,6 +1084,16 @@ async function cloudSaveProgress(student, level, masteredArr, wrongArr, scoreVal
       console.warn('[cloud] 读取云端 score/medals 合并失败:', e.message);
     }
   }
+
+  // async 等待期间可能已解锁新勋章/加分，上传前再次合并内存与 localStorage 最新值
+  if (student === currentStudent && level === currentLevel) {
+    scoreToSave  = Math.max(scoreToSave, userScore);
+    medalsToSave = [...new Set([...medalsToSave, ...userMedals])];
+  }
+  const localScore  = lsGet(SK.score(student, level), 0);
+  const localMedals = lsGet(SK.medals(student, level), []);
+  scoreToSave  = Math.max(scoreToSave, localScore);
+  medalsToSave = [...new Set([...medalsToSave, ...localMedals])];
 
   // 合并结果回写本地缓存，保证内存与 localStorage 一致
   lsSet(SK.score(student, level), scoreToSave);
@@ -1197,23 +1264,6 @@ const LEVELS=[
 
 
 // ═══════════════════════════════════════════════════
-// STORAGE
-// ═══════════════════════════════════════════════════
-const SK={
-  banks:()=>'mm_banks',
-  students:()=>'mm_students',
-  dailyCount:()=>'mm_dailyCount',
-  mastered:(s,l)=>`mm_${s}_${l}_mastered`,
-  wrong:(s,l)=>`mm_${s}_${l}_wrong`,
-  // 积分键：按账号+等级独立隔离，格式 mm_sophia_cp_ce2_score
-  score:(s,l)=>`mm_${s}_${l}_score`,
-  // 勋章键：按账号+等级独立隔离，格式 mm_sophia_cp_ce2_medals
-  medals:(s,l)=>`mm_${s}_${l}_medals`,
-};
-function lsGet(k,d=null){try{const v=localStorage.getItem(k);return v===null?d:JSON.parse(v);}catch(e){return d;}}
-function lsSet(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
-
-// ═══════════════════════════════════════════════════
 // STATE
 // ═══════════════════════════════════════════════════
 let currentStudent=null,currentLevel=null,dailyCount=30;
@@ -1234,15 +1284,15 @@ let userMedals = [];
 
 // 勋章总配置表（全局只读，不随账号/等级变化）
 const MEDAL_LIST = [
-  { id:'first_word', icon:'🌱', name:'Nouvel Apprenti', desc:'Tu as fait ton premier pas d\'apprentissage !', type:'instant' },
-  { id:'combo_5',    icon:'🔥', name:'Focused',         desc:'Excellent focus — five correct answers in a row!', type:'instant' },
-  { id:'combo_10',   icon:'💥', name:'Super Student',   desc:'Incredible streak of ten correct answers!', type:'instant' },
-  { id:'no_wrong',   icon:'✨', name:'Flawless',           desc:'You completed this session without a single mistake!', type:'instant' },
-  { id:'score_100',  icon:'⭐', name:'Rising Star',        desc:'Your first 100 points — great progress!', type:'score', threshold:100  },
-  { id:'score_250',  icon:'🎯', name:'Perseverant',      desc:'You keep showing up and learning consistently!', type:'score', threshold:250  },
-  { id:'score_500',  icon:'🏅', name:'Apprenti Vocabulaire', desc:'Tu accumules progressivement beaucoup de vocabulaire !', type:'score', threshold:500  },
-  { id:'score_900',  icon:'🏆', name:'English Specialist', desc:'You have mastered most words at this level!', type:'score', threshold:900  },
-  { id:'score_1800', icon:'👑', name:'Vocabulary Master',     desc:'Deep mastery — you have reached the top of this level!', type:'score', threshold:1800 },
+  { id:'first_word', icon:'🌱', name:'New Learner',         desc:'You got your first answer right — great start!', type:'instant' },
+  { id:'combo_5',    icon:'🔥', name:'Focused',             desc:'Excellent focus — five correct answers in a row!', type:'instant' },
+  { id:'combo_10',   icon:'💥', name:'Super Student',       desc:'Incredible streak of ten correct answers!', type:'instant' },
+  { id:'no_wrong',   icon:'✨', name:'Flawless',            desc:'You completed this session without a single mistake!', type:'instant' },
+  { id:'score_100',  icon:'⭐', name:'Rising Star',         desc:'Your first 100 points — great progress!', type:'score', threshold:100  },
+  { id:'score_250',  icon:'🎯', name:'Persistent Learner',  desc:'You keep showing up and learning consistently!', type:'score', threshold:250  },
+  { id:'score_500',  icon:'🏅', name:'Vocabulary Builder',  desc:'You are steadily building a strong vocabulary!', type:'score', threshold:500  },
+  { id:'score_900',  icon:'🏆', name:'English Specialist',  desc:'You have mastered most words at this level!', type:'score', threshold:900  },
+  { id:'score_1800', icon:'👑', name:'Vocabulary Master',   desc:'Deep mastery — you have reached the top of this level!', type:'score', threshold:1800 },
 ];
 
 // ═══════════════════════════════════════════════════
@@ -1701,12 +1751,7 @@ function unlockMedal(medalId) {
  * 在 checkSpell 答对分支末尾调用（addScore 之后，此时 comboCount/userScore 已更新）
  */
 function checkMedalsOnCorrect() {
-  // ① 首个答对单词 → first_word
-  if (sessionCorrect === 1) {
-    unlockMedal('first_word');
-  }
-
-  // ② 连击勋章（comboCount 在 addScore 后已更新）
+  // 连击勋章（comboCount 在 addScore 后已更新）
   if (comboCount >= 5)  unlockMedal('combo_5');
   if (comboCount >= 10) unlockMedal('combo_10');
 
@@ -1759,7 +1804,7 @@ function renderMedalModal() {
       <span style="font-size:13px;font-weight:700;color:var(--text-mid);">
         Unlocked: <span style="color:var(--ocean);font-size:16px;">${unlockedCount}</span> / ${total} badges
       </span>
-      ${currentLevel ? `<div style="font-size:11px;color:#aaa;margin-top:2px;">Niveau : ${LEVELS.find(l=>l.id===currentLevel)?.label||currentLevel}</div>` : ''}
+      ${currentLevel ? `<div style="font-size:11px;color:#aaa;margin-top:2px;">Level: ${LEVELS.find(l=>l.id===currentLevel)?.label||currentLevel}</div>` : ''}
     </div>
     <div class="medal-list">
       ${MEDAL_LIST.map(m => {
@@ -1963,13 +2008,16 @@ function checkSpell(idx){
   const anchorRect = submitBtn ? submitBtn.getBoundingClientRect() : null;
 
   if(ok){
-    markMastered(idx);sessionCorrect++;
+    markMastered(idx);
+    sessionCorrect++;
+
+    // ── 首题勋章：答对第一题立即解锁（须在 addScore 异步云同步之前）──
+    if (sessionCorrect === 1) unlockMedal('first_word');
 
     // ── 积分：答对，计算连击加分 ─────────────────────────────
     addScore(true, anchorRect);
 
-    // ── 勋章：答对后检查所有即时勋章和积分勋章 ───────────────
-    // 注意：必须在 addScore 之后调用，此时 comboCount/userScore 已更新
+    // ── 勋章：连击与积分勋章（须在 addScore 之后，comboCount/userScore 已更新）
     checkMedalsOnCorrect();
 
     // ── 答对反馈：显示连击提示文案 ────────────────────────────
@@ -2148,7 +2196,8 @@ async function switchAccount(){
   mastered = new Set();
   wrongSet = [];
   closeSettings();
-  // 停止互斥登录订阅
+  // 停止互斥登录订阅与轮询
+  _stopSessionWatch();
   if(typeof _kickChannel!=='undefined'&&_kickChannel&&_supabase){
     try{_supabase.removeChannel(_kickChannel);}catch(e){} _kickChannel=null;
   }
@@ -2439,6 +2488,10 @@ CREATE TABLE IF NOT EXISTS app_users (
 ALTER TABLE app_users ENABLE ROW LEVEL SECURITY;
 CREATE POLICY "anon can register" ON app_users FOR INSERT WITH CHECK (true);
 CREATE POLICY "anon can login"    ON app_users FOR SELECT USING (true);
+CREATE POLICY "anon can update session" ON app_users FOR UPDATE TO anon USING (true) WITH CHECK (true);
+
+-- 互斥登录：app_users 增加 session_token 字段（异地登录踢出旧设备）
+-- ALTER TABLE app_users ADD COLUMN IF NOT EXISTS session_token TEXT;
 
 -- 1. 建表
 CREATE TABLE IF NOT EXISTS word_progress (
