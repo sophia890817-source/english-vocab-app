@@ -641,10 +641,16 @@ function getOfflineQueue() {
 function setOfflineQueue(q) {
   localStorage.setItem(OFFLINE_QUEUE_KEY, JSON.stringify(q));
 }
-// 将一条进度变更加入离线队列（去重：相同 uid+level 只保留最新）
-function enqueueOffline(student, level, masteredArr, wrongArr) {
+// 将一条进度变更加入离线队列（去重：相同 student+level 只保留最新，含积分/勋章）
+function enqueueOffline(student, level, masteredArr, wrongArr, scoreVal, medalsArr) {
   const q = getOfflineQueue().filter(x => !(x.student === student && x.level === level));
-  q.push({ student, level, mastered: masteredArr, wrong: wrongArr, ts: Date.now() });
+  q.push({
+    student, level,
+    mastered: masteredArr, wrong: wrongArr,
+    score:  typeof scoreVal === 'number' ? scoreVal : lsGet(SK.score(student, level), 0),
+    medals: Array.isArray(medalsArr) ? medalsArr : lsGet(SK.medals(student, level), []),
+    ts: Date.now()
+  });
   setOfflineQueue(q);
   console.log(`[offline] 已加入离线队列 student="${student}" level="${level}" 共 ${q.length} 条`);
 }
@@ -656,7 +662,7 @@ async function flushOfflineQueue() {
   console.log(`[offline] 检测到 ${q.length} 条离线数据，开始上传…`);
   const failed = [];
   for (const item of q) {
-    const ok = await cloudSaveProgress(item.student, item.level, item.mastered, item.wrong);
+    const ok = await cloudSaveProgress(item.student, item.level, item.mastered, item.wrong, item.score, item.medals);
     if (!ok) failed.push(item);
   }
   setOfflineQueue(failed);
@@ -825,7 +831,7 @@ async function _onLoginSuccess(action) {
 // 在登录成功后、拉取云端数据之前调用，确保云端数据不被本地旧数据污染
 function _clearLocalProgressCache() {
   console.log('[sync] 登录成功，清空本地旧进度缓存，准备加载云端最新数据…');
-  // 清除所有学生所有等级的本地进度
+  // 清除所有学生所有等级的本地进度（含积分/勋章）
   const students = lsGet(SK.students(), []);
   // 同时也清当前 authUser.username 的缓存（新登录账号的本地数据可能过期）
   const allStudents = new Set([...students, authUser.username]);
@@ -833,6 +839,8 @@ function _clearLocalProgressCache() {
     LEVELS.forEach(l => {
       localStorage.removeItem(SK.mastered(s, l.id));
       localStorage.removeItem(SK.wrong(s, l.id));
+      localStorage.removeItem(SK.score(s, l.id));
+      localStorage.removeItem(SK.medals(s, l.id));
     });
   });
   // 清空离线队列（旧离线数据可能属于其他账号，避免错误上传）
@@ -909,12 +917,14 @@ function _registerDeviceSession(uid) {
 async function _forceLogout() {
   showToast('⚠️ Account signed in elsewhere, logging out');
 
-  // 1. 清除所有学生所有等级本地进度
+  // 1. 清除所有学生所有等级本地进度（含积分/勋章）
   const students = lsGet(SK.students(), []);
   students.forEach(s => {
     LEVELS.forEach(l => {
       localStorage.removeItem(SK.mastered(s, l.id));
       localStorage.removeItem(SK.wrong(s, l.id));
+      localStorage.removeItem(SK.score(s, l.id));
+      localStorage.removeItem(SK.medals(s, l.id));
     });
   });
 
@@ -986,27 +996,61 @@ async function initAuth() {
 // ═══════════════════════════════════════════════════
 
 /**
- * 安全写入单条进度到云端（upsert）。
+ * 安全写入单条进度到云端（upsert），含单词进度、积分、勋章。
+ * 多设备合并策略：积分取较高值，勋章取并集，防止互相覆盖丢失。
  * 联网：直接 upsert；断网/失败：加入离线队列，联网后自动重传。
  */
-async function cloudSaveProgress(student, level, masteredArr, wrongArr) {
+async function cloudSaveProgress(student, level, masteredArr, wrongArr, scoreVal, medalsArr) {
   if (!_supabase || !authUser) return false;
 
   const safeMastered = [...new Set((masteredArr || []).filter(i => typeof i === 'number'))];
   const safeWrong    = [...new Set((wrongArr    || []).filter(i => typeof i === 'number'))];
+  let scoreToSave  = typeof scoreVal === 'number' ? scoreVal : lsGet(SK.score(student, level), 0);
+  let medalsToSave = Array.isArray(medalsArr) ? [...new Set(medalsArr.filter(Boolean))] : lsGet(SK.medals(student, level), []);
+
+  // 多设备合并：上传前读取云端，取 max(score) 与 union(medals)
+  if (navigator.onLine) {
+    try {
+      const { data: existing } = await _supabase
+        .from('word_progress')
+        .select('score, medals')
+        .eq('user_id', authUser.id)
+        .eq('student_name', String(student))
+        .eq('level', String(level))
+        .maybeSingle();
+      if (existing) {
+        scoreToSave  = Math.max(scoreToSave, existing.score ?? 0);
+        const cloudMedals = Array.isArray(existing.medals) ? existing.medals : [];
+        medalsToSave = [...new Set([...cloudMedals, ...medalsToSave])];
+      }
+    } catch(e) {
+      console.warn('[cloud] 读取云端 score/medals 合并失败:', e.message);
+    }
+  }
+
+  // 合并结果回写本地缓存，保证内存与 localStorage 一致
+  lsSet(SK.score(student, level), scoreToSave);
+  lsSet(SK.medals(student, level), medalsToSave);
+  if (student === currentStudent && level === currentLevel) {
+    userScore  = scoreToSave;
+    userMedals = medalsToSave;
+    updateScoreUI();
+  }
+
   const payload = {
     user_id:      authUser.id,
     student_name: String(student),
     level:        String(level),
     mastered:     safeMastered,
     wrong:        safeWrong,
-    //updated_at:   new Date().toISOString(),
+    score:        scoreToSave,
+    medals:       medalsToSave,
   };
 
-  console.log(`[cloud] ▶ 上传 student="${student}" level="${level}" mastered=${safeMastered.length} wrong=${safeWrong.length}`);
+  console.log(`[cloud] ▶ 上传 student="${student}" level="${level}" mastered=${safeMastered.length} wrong=${safeWrong.length} score=${scoreToSave} medals=${medalsToSave.length}`);
 
   if (!navigator.onLine) {
-    enqueueOffline(student, level, safeMastered, safeWrong);
+    enqueueOffline(student, level, safeMastered, safeWrong, scoreToSave, medalsToSave);
     return false;
   }
 
@@ -1026,11 +1070,11 @@ async function cloudSaveProgress(student, level, masteredArr, wrongArr) {
       console.error('[cloud] ⚠️ RLS 拦截！请在 Supabase SQL Editor 执行文件末尾的修复 SQL');
     }
     if (error.code === '42P10') return await _cloudDeleteInsert(payload, student, level);
-    enqueueOffline(student, level, safeMastered, safeWrong);
+    enqueueOffline(student, level, safeMastered, safeWrong, scoreToSave, medalsToSave);
     return false;
   } catch(e) {
     console.warn(`[cloud] 上传异常，加入离线队列:`, e.message);
-    enqueueOffline(student, level, safeMastered, safeWrong);
+    enqueueOffline(student, level, safeMastered, safeWrong, scoreToSave, medalsToSave);
     return false;
   }
 }
@@ -1044,10 +1088,10 @@ async function _cloudDeleteInsert(payload, student, level) {
   try {
     const { error } = await _supabase.from('word_progress').insert(payload);
     if (!error) { console.log(`[cloud] ✅ delete+insert 成功`); return true; }
-    enqueueOffline(student, level, payload.mastered, payload.wrong);
+    enqueueOffline(student, level, payload.mastered, payload.wrong, payload.score, payload.medals);
     return false;
   } catch(e) {
-    enqueueOffline(student, level, payload.mastered, payload.wrong);
+    enqueueOffline(student, level, payload.mastered, payload.wrong, payload.score, payload.medals);
     return false;
   }
 }
@@ -1061,7 +1105,7 @@ async function cloudLoadProgress(student, level) {
   try {
     const { data, error } = await _supabase
       .from('word_progress')
-      .select('mastered, wrong')
+      .select('mastered, wrong, score, medals')
       .eq('user_id', authUser.id)
       .eq('student_name', student)
       .eq('level', level)
@@ -1074,10 +1118,12 @@ async function cloudLoadProgress(student, level) {
     }
     if (!data)  { console.log(`[cloud] 云端暂无数据 student="${student}" level="${level}"`); return false; }
 
-    // 云端数据写入本地（以云端为准）
+    // 云端数据写入本地（以云端为准，含积分与勋章）
     lsSet(SK.mastered(student, level), data.mastered || []);
     lsSet(SK.wrong(student, level),    data.wrong    || []);
-    console.log(`[cloud] ✅ 拉取成功 level="${level}" mastered=${(data.mastered||[]).length} wrong=${(data.wrong||[]).length}`);
+    lsSet(SK.score(student, level),    data.score ?? 0);
+    lsSet(SK.medals(student, level),   Array.isArray(data.medals) ? data.medals : []);
+    console.log(`[cloud] ✅ 拉取成功 level="${level}" mastered=${(data.mastered||[]).length} wrong=${(data.wrong||[]).length} score=${data.score ?? 0} medals=${(data.medals||[]).length}`);
     return true;
   } catch(e) {
     console.error('[cloud] loadProgress 异常:', e);
@@ -1101,7 +1147,7 @@ async function pullAllFromCloud(student) {
   if (pulled > 0) {
     console.log(`[cloud] 拉取完毕，${pulled}/${LEVELS.length} 个等级已更新`);
     showToast(`✅ Progress loaded (${pulled} level(s))`);
-    if (currentLevel) { loadProgress(); updateHeader(); }
+    if (currentLevel) { loadProgress(); loadScore(); loadMedals(); updateHeader(); updateScoreUI(); }
   } else {
     console.log('[cloud] 云端暂无进度，新账号从零开始');
     showToast('☁️ No cloud progress, starting fresh');
@@ -1371,7 +1417,12 @@ function deleteStudent(name,e){
   if(!confirm(`Delete all data for "${name}"?`))return;
   const students=lsGet(SK.students(),[]).filter(s=>s!==name);
   lsSet(SK.students(),students);
-  LEVELS.forEach(l=>{localStorage.removeItem(SK.mastered(name,l.id));localStorage.removeItem(SK.wrong(name,l.id));});
+  LEVELS.forEach(l=>{
+    localStorage.removeItem(SK.mastered(name,l.id));
+    localStorage.removeItem(SK.wrong(name,l.id));
+    localStorage.removeItem(SK.score(name,l.id));
+    localStorage.removeItem(SK.medals(name,l.id));
+  });
   // 同步删除云端记录（已登录时）
   if (authUser && _supabase) {
     _supabase.from('word_progress')
@@ -1485,8 +1536,8 @@ function saveProgress(){
   lsSet(SK.mastered(currentStudent,currentLevel),[...mastered]);
   lsSet(SK.wrong(currentStudent,currentLevel),wrongSet);
   if (authUser && _supabase) {
-    // 异步上传，不阻塞答题流程；断网时 cloudSaveProgress 内部自动加入离线队列
-    cloudSaveProgress(currentStudent, currentLevel, [...mastered], [...wrongSet]);
+    // 异步上传（含积分/勋章）；断网时 cloudSaveProgress 内部自动加入离线队列
+    cloudSaveProgress(currentStudent, currentLevel, [...mastered], [...wrongSet], userScore, userMedals);
   }
 }
 
@@ -1507,16 +1558,14 @@ function loadScore() {
 
 /**
  * saveScore：积分持久化（本地 + 云端同步）
- * 仅保存积分字段，不影响单词进度数据
- * 云端：复用 cloudSaveProgress，将 score 附加在 progress 数据中
- * 注意：切换等级/账号时会 loadScore() 重新加载，保证数据隔离
+ * 登录状态下通过 cloudSaveProgress 上传至 Supabase word_progress.score 列
  */
 function saveScore() {
   if (!currentStudent || !currentLevel) return;
   lsSet(SK.score(currentStudent, currentLevel), userScore);
-  // 云端同步：将积分附带在进度上传中（复用现有 cloudSaveProgress 管道）
-  // 此处仅本地持久化；云端同步在 saveProgress 里触发，不额外增加请求
-  // 如需独立云端积分字段，可扩展 word_progress 表添加 score 列
+  if (authUser && _supabase) {
+    cloudSaveProgress(currentStudent, currentLevel, [...mastered], [...wrongSet], userScore, userMedals);
+  }
 }
 
 /**
@@ -1614,15 +1663,14 @@ function loadMedals() {
 }
 
 /**
- * saveMedals()：持久化勋章数据到 localStorage；
- * 登录状态下同步到 Supabase（复用 cloudSaveProgress 管道，附带在进度数据中）。
- * 注意：目前 word_progress 表暂无 medals 列，勋章仅本地持久化。
- * 如需云端存储，可在 word_progress 表添加 medals JSONB 列后扩展此函数。
+ * saveMedals()：持久化勋章到 localStorage，登录状态下同步至 Supabase word_progress.medals 列
  */
 function saveMedals() {
   if (!currentStudent || !currentLevel) return;
   lsSet(SK.medals(currentStudent, currentLevel), userMedals);
-  // 云端同步预留：如 word_progress 含 medals 列，在此上传
+  if (authUser && _supabase) {
+    cloudSaveProgress(currentStudent, currentLevel, [...mastered], [...wrongSet], userScore, userMedals);
+  }
   console.log(`[medals] 保存勋章 student="${currentStudent}" level="${currentLevel}"`, userMedals);
 }
 
@@ -2104,12 +2152,14 @@ async function switchAccount(){
   if(typeof _kickChannel!=='undefined'&&_kickChannel&&_supabase){
     try{_supabase.removeChannel(_kickChannel);}catch(e){} _kickChannel=null;
   }
-  // 清空所有学生的本地进度缓存
+  // 清空所有学生的本地进度缓存（含积分/勋章）
   const students=lsGet(SK.students(),[]);
   students.forEach(s=>{
     LEVELS.forEach(l=>{
       localStorage.removeItem(SK.mastered(s,l.id));
       localStorage.removeItem(SK.wrong(s,l.id));
+      localStorage.removeItem(SK.score(s,l.id));
+      localStorage.removeItem(SK.medals(s,l.id));
     });
   });
   localStorage.removeItem(SK.students());
@@ -2398,9 +2448,15 @@ CREATE TABLE IF NOT EXISTS word_progress (
   level      TEXT NOT NULL,
   mastered   JSONB NOT NULL DEFAULT '[]',
   wrong      JSONB NOT NULL DEFAULT '[]',
+  score      INTEGER NOT NULL DEFAULT 0,   -- 该等级累计积分（跨设备同步）
+  medals     JSONB NOT NULL DEFAULT '[]',  -- 已解锁勋章 ID 数组（跨设备同步）
   updated_at TIMESTAMPTZ NOT NULL DEFAULT now(),
   CONSTRAINT word_progress_user_student_level_key UNIQUE (user_id, student_name, level)
 );
+
+-- 已有表升级（积分/勋章云同步）：在 Supabase SQL Editor 执行一次
+-- ALTER TABLE word_progress ADD COLUMN IF NOT EXISTS score  INTEGER NOT NULL DEFAULT 0;
+-- ALTER TABLE word_progress ADD COLUMN IF NOT EXISTS medals JSONB NOT NULL DEFAULT '[]';
 
 -- 2. 开启 RLS
 ALTER TABLE word_progress ENABLE ROW LEVEL SECURITY;
