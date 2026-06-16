@@ -1,0 +1,26 @@
+{
+  "regular": [
+    { "singular": "book",   "plural": "books",   "mean": "书" },
+    { "singular": "cat",    "plural": "cats",    "mean": "猫" },
+    { "singular": "dog",    "plural": "dogs",    "mean": "狗" },
+    { "singular": "bus",    "plural": "buses",   "mean": "公共汽车" },
+    { "singular": "box",    "plural": "boxes",   "mean": "箱子" },
+    { "singular": "dish",   "plural": "dishes",  "mean": "盘子；菜肴" },
+    { "singular": "city",   "plural": "cities",  "mean": "城市" },
+    { "singular": "baby",   "plural": "babies",  "mean": "婴儿" },
+    { "singular": "knife",  "plural": "knives",  "mean": "刀" },
+    { "singular": "leaf",   "plural": "leaves",  "mean": "树叶" }
+  ],
+  "irregular": [
+    { "singular": "man",    "plural": "men",      "mean": "男人" },
+    { "singular": "woman",  "plural": "women",    "mean": "女人" },
+    { "singular": "child",  "plural": "children", "mean": "孩子" },
+    { "singular": "foot",   "plural": "feet",     "mean": "脚" },
+    { "singular": "tooth",  "plural": "teeth",    "mean": "牙齿" },
+    { "singular": "mouse",  "plural": "mice",     "mean": "鼠标；老鼠" },
+    { "singular": "goose",  "plural": "geese",    "mean": "鹅" },
+    { "singular": "ox",     "plural": "oxen",     "mean": "公牛" },
+    { "singular": "sheep",  "plural": "sheep",    "mean": "羊" },
+    { "singular": "fish",   "plural": "fish",     "mean": "鱼" }
+  ]
+}

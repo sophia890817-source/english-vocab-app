@@ -191,6 +191,49 @@ body::before{content:'';position:fixed;inset:0;
 /* ── EDITOR TABS BAR (fixed below modal header) ── */
 .editor-tabs-bar{padding:8px 13px 6px;background:#fff;border-bottom:2px solid #f0f0f8;flex-shrink:0;}
 
+/* ── GRAMMAR MODULE ── */
+/* 语法二级页 */
+#grammarCard .grammar-menu{display:flex;flex-direction:column;gap:12px;margin-top:10px;}
+.grammar-menu-btn{display:flex;align-items:center;gap:12px;background:#fff;
+  border:2px solid #e8eaf0;border-radius:16px;padding:14px 16px;cursor:pointer;
+  transition:border-color 0.2s,box-shadow 0.2s;text-align:left;}
+.grammar-menu-btn:active{background:#f0f6ff;border-color:var(--ocean);}
+.grammar-menu-btn .gmb-icon{font-size:26px;flex-shrink:0;}
+.grammar-menu-btn .gmb-text{flex:1;}
+.grammar-menu-btn .gmb-title{font-family:'Baloo 2',cursive;font-size:15px;font-weight:800;
+  color:var(--text-dark);}
+.grammar-menu-btn .gmb-sub{font-size:11px;color:var(--text-mid);font-weight:600;margin-top:2px;}
+.grammar-menu-btn .gmb-arrow{font-size:18px;color:#c5c9e0;flex-shrink:0;}
+/* 语法刷题页 */
+#verbCard,.gram-card,#nounCard{padding:16px 14px;}
+.gram-tabs{display:flex;gap:6px;margin-bottom:14px;}
+.gram-tab{flex:1;padding:7px 4px;border:2px solid #e8eaf0;border-radius:12px;background:#f7f8fc;
+  font-size:12px;font-weight:700;color:var(--text-mid);cursor:pointer;text-align:center;
+  transition:all 0.18s;}
+.gram-tab.active{background:var(--ocean);border-color:var(--ocean);color:#fff;}
+.gram-question{background:#fff;border-radius:14px;padding:14px 12px;margin-bottom:12px;
+  border:2px solid #e8eaf0;text-align:center;}
+.gram-q-word{font-family:'Baloo 2',cursive;font-size:26px;font-weight:800;color:var(--ocean);
+  margin-bottom:4px;}
+.gram-q-mean{font-size:13px;color:var(--text-mid);font-weight:600;}
+.gram-q-hint{font-size:11px;color:#a78bfa;font-weight:600;margin-top:6px;}
+.gram-input-wrap{display:flex;gap:8px;margin-bottom:10px;}
+.gram-input{flex:1;font-family:'Nunito',sans-serif;font-size:16px;font-weight:700;
+  padding:11px 13px;border:2px solid #d0d8f0;border-radius:12px;outline:none;
+  color:var(--text-dark);background:#fff;-webkit-appearance:none;}
+.gram-input:focus{border-color:var(--ocean);}
+.gram-submit{background:var(--ocean);color:#fff;border:none;border-radius:12px;
+  padding:11px 18px;font-size:14px;font-weight:800;cursor:pointer;flex-shrink:0;}
+.gram-submit:active{opacity:0.85;}
+.gram-feedback{min-height:38px;border-radius:12px;padding:9px 12px;font-size:13px;
+  font-weight:700;text-align:center;margin-bottom:10px;display:none;}
+.gram-feedback.correct{display:block;background:#e8faf0;color:#1a7a2e;border:2px solid #6BCB77;}
+.gram-feedback.wrong{display:block;background:#fde8e8;color:#c0392b;border:2px solid #FF6B6B;}
+.gram-progress{font-size:11px;color:var(--text-mid);font-weight:600;text-align:right;
+  margin-bottom:8px;}
+.gram-skip{background:none;border:none;font-size:12px;color:#aaa;cursor:pointer;
+  text-decoration:underline;display:block;margin:6px auto 0;font-weight:600;}
+
 /* ── LEVEL GRID ── */
 .level-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
 .level-card{background:#f7f8fc;border:2px solid #e8eaf0;border-radius:15px;padding:12px 9px;
@@ -401,6 +444,86 @@ body::before{content:'';position:fixed;inset:0;
     </div>
     <div class="level-grid" id="levelGrid"></div>
     <!-- 账号即学生，已移除"切换学生"按钮 -->
+  </div>
+
+  <!-- GRAMMAR MENU CARD -->
+  <div class="card hidden" id="grammarCard">
+    <div style="text-align:center;margin-bottom:13px;">
+      <div style="font-size:26px">📝</div>
+      <div style="font-family:'Baloo 2',cursive;font-size:19px;font-weight:800;color:var(--text-dark);margin-top:3px;">Grammar Practice</div>
+      <div style="font-size:12px;color:var(--text-mid);margin-top:3px;font-weight:600;">Choose a grammar module</div>
+    </div>
+    <div class="grammar-menu">
+      <button class="grammar-menu-btn" onclick="showGrammarModule('verb')">
+        <span class="gmb-icon">🔤</span>
+        <span class="gmb-text">
+          <div class="gmb-title">Verb Past Tense</div>
+          <div class="gmb-sub">Regular &amp; irregular verb forms</div>
+        </span>
+        <span class="gmb-arrow">›</span>
+      </button>
+      <button class="grammar-menu-btn" onclick="showGrammarModule('noun')">
+        <span class="gmb-icon">📦</span>
+        <span class="gmb-text">
+          <div class="gmb-title">Noun Plurals</div>
+          <div class="gmb-sub">Regular &amp; irregular plural forms</div>
+        </span>
+        <span class="gmb-arrow">›</span>
+      </button>
+    </div>
+    <button class="gram-skip" style="margin-top:16px;" onclick="showLevelSelect()">← Back to levels</button>
+  </div>
+
+  <!-- VERB CARD -->
+  <div class="card hidden" id="verbCard">
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+      <button onclick="showGrammarModule(null)" style="background:none;border:none;font-size:18px;cursor:pointer;color:var(--text-mid);">‹</button>
+      <div style="font-family:'Baloo 2',cursive;font-size:17px;font-weight:800;color:var(--text-dark);flex:1;">Verb Past Tense</div>
+    </div>
+    <div class="gram-tabs">
+      <button class="gram-tab active" id="verbTabReg" onclick="gramSwitchTab('verb','regular')">Regular</button>
+      <button class="gram-tab" id="verbTabIrreg" onclick="gramSwitchTab('verb','irregular')">Irregular</button>
+    </div>
+    <div class="gram-progress" id="verbProgress">—</div>
+    <div class="gram-question" id="verbQuestion">
+      <div class="gram-q-word" id="verbQWord">—</div>
+      <div class="gram-q-mean" id="verbQMean"></div>
+      <div class="gram-q-hint">Type the past tense form</div>
+    </div>
+    <div class="gram-feedback" id="verbFeedback"></div>
+    <div class="gram-input-wrap">
+      <input class="gram-input" id="verbInput" type="text" placeholder="Past tense..."
+        autocorrect="off" autocapitalize="off" spellcheck="false"
+        onkeydown="if(event.key==='Enter')gramSubmit('verb')"/>
+      <button class="gram-submit" onclick="gramSubmit('verb')">Check</button>
+    </div>
+    <button class="gram-skip" onclick="gramNext('verb')">Skip →</button>
+  </div>
+
+  <!-- NOUN CARD -->
+  <div class="card hidden" id="nounCard">
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+      <button onclick="showGrammarModule(null)" style="background:none;border:none;font-size:18px;cursor:pointer;color:var(--text-mid);">‹</button>
+      <div style="font-family:'Baloo 2',cursive;font-size:17px;font-weight:800;color:var(--text-dark);flex:1;">Noun Plurals</div>
+    </div>
+    <div class="gram-tabs">
+      <button class="gram-tab active" id="nounTabReg" onclick="gramSwitchTab('noun','regular')">Regular</button>
+      <button class="gram-tab" id="nounTabIrreg" onclick="gramSwitchTab('noun','irregular')">Irregular</button>
+    </div>
+    <div class="gram-progress" id="nounProgress">—</div>
+    <div class="gram-question" id="nounQuestion">
+      <div class="gram-q-word" id="nounQWord">—</div>
+      <div class="gram-q-mean" id="nounQMean"></div>
+      <div class="gram-q-hint">Type the plural form</div>
+    </div>
+    <div class="gram-feedback" id="nounFeedback"></div>
+    <div class="gram-input-wrap">
+      <input class="gram-input" id="nounInput" type="text" placeholder="Plural form..."
+        autocorrect="off" autocapitalize="off" spellcheck="false"
+        onkeydown="if(event.key==='Enter')gramSubmit('noun')"/>
+      <button class="gram-submit" onclick="gramSubmit('noun')">Check</button>
+    </div>
+    <button class="gram-skip" onclick="gramNext('noun')">Skip →</button>
   </div>
 
   <!-- WORD CARD -->
@@ -1264,6 +1387,155 @@ const LEVELS=[
 
 
 // ═══════════════════════════════════════════════════
+// GRAMMAR MODULE
+// ═══════════════════════════════════════════════════
+
+// ── 公共工具 ─────────────────────────────────────────
+// 读取本地 JSON 文件（相对路径）
+async function gramLoadJSON(path) {
+  try {
+    const res = await fetch(path);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return await res.json();
+  } catch(e) {
+    console.error(`[grammar] 读取 ${path} 失败:`, e.message);
+    return null;
+  }
+}
+
+// 从数组随机抽一道题（排除当前 index，避免连续重复）
+function gramPickRandom(arr, excludeIdx) {
+  if (!arr || arr.length === 0) return null;
+  if (arr.length === 1) return { item: arr[0], idx: 0 };
+  let idx;
+  do { idx = Math.floor(Math.random() * arr.length); } while (idx === excludeIdx);
+  return { item: arr[idx], idx };
+}
+
+// 答案校验（忽略大小写和首尾空格，支持多个正确答案用/分隔）
+function gramCheck(userAns, correct) {
+  const u = userAns.trim().toLowerCase();
+  return String(correct).split('/').map(a=>a.trim().toLowerCase()).some(a => a === u);
+}
+
+// ── 状态 ─────────────────────────────────────────────
+const gramState = {
+  verb: { type:'verb', tab:'regular', data:null, queue:[], pos:0, curIdx:-1 },
+  noun: { type:'noun', tab:'regular', data:null, queue:[], pos:0, curIdx:-1 },
+};
+
+// ── 入口 ─────────────────────────────────────────────
+function showGrammarCard() {
+  hideAllCards();
+  document.getElementById('grammarCard').classList.remove('hidden');
+}
+
+// 二级入口：进入动词或名词刷题页
+async function showGrammarModule(type) {
+  if (!type) { showGrammarCard(); return; }
+  const cardId = type === 'verb' ? 'verbCard' : 'nounCard';
+  const st = gramState[type];
+  // 首次进入时加载 JSON
+  if (!st.data) {
+    showToast('⏳ Loading...');
+    const jsonPath = type === 'verb' ? 'verb.json' : 'noun.json';
+    const raw = await gramLoadJSON(jsonPath);
+    if (!raw) { showToast('❌ Failed to load ' + jsonPath); return; }
+    st.data = raw;  // { regular:[], irregular:[] }
+  }
+  hideAllCards();
+  document.getElementById(cardId).classList.remove('hidden');
+  // 激活默认 tab
+  gramSwitchTab(type, st.tab, true);
+}
+
+// ── Tab 切换 ─────────────────────────────────────────
+function gramSwitchTab(type, tab, force) {
+  const st = gramState[type];
+  if (st.tab === tab && !force) return;
+  st.tab = tab;
+  // 更新 tab 按钮样式
+  const pfx = type === 'verb' ? 'verb' : 'noun';
+  document.getElementById(pfx+'TabReg').classList.toggle('active', tab==='regular');
+  document.getElementById(pfx+'TabIrreg').classList.toggle('active', tab==='irregular');
+  // 重建题目队列（打乱顺序）
+  const pool = (st.data && st.data[tab]) || [];
+  st.queue = [...pool].sort(()=>Math.random()-0.5);
+  st.pos = 0;
+  st.curIdx = -1;
+  gramClearFeedback(type);
+  gramRenderQuestion(type);
+}
+
+// ── 渲染题目 ─────────────────────────────────────────
+function gramRenderQuestion(type) {
+  const st = gramState[type];
+  const pfx = type === 'verb' ? 'verb' : 'noun';
+  if (!st.queue.length) {
+    document.getElementById(pfx+'QWord').textContent = '—';
+    document.getElementById(pfx+'QMean').textContent = 'No data. Please add items to ' + (type==='verb'?'verb':'noun') + '.json';
+    document.getElementById(pfx+'Progress').textContent = '';
+    return;
+  }
+  // 循环出题
+  if (st.pos >= st.queue.length) {
+    st.queue = [...st.queue].sort(()=>Math.random()-0.5);
+    st.pos = 0;
+  }
+  const item = st.queue[st.pos];
+  // verb.json 字段: { base, past, mean }
+  // noun.json 字段: { singular, plural, mean }
+  const word = type === 'verb' ? item.base : item.singular;
+  const mean = item.mean || '';
+  document.getElementById(pfx+'QWord').textContent = word;
+  document.getElementById(pfx+'QMean').textContent = mean;
+  document.getElementById(pfx+'Progress').textContent =
+    `${st.pos + 1} / ${st.queue.length}  ·  ${st.tab}`;
+  document.getElementById(pfx+'Input').value = '';
+  document.getElementById(pfx+'Input').focus();
+  gramClearFeedback(type);
+}
+
+// ── 提交答案 ─────────────────────────────────────────
+function gramSubmit(type) {
+  const pfx  = type === 'verb' ? 'verb' : 'noun';
+  const st   = gramState[type];
+  const input = document.getElementById(pfx+'Input');
+  const userAns = input.value.trim();
+  if (!userAns) { input.focus(); return; }
+
+  const item = st.queue[st.pos];
+  const correct = type === 'verb' ? item.past : item.plural;
+  const fb = document.getElementById(pfx+'Feedback');
+
+  if (gramCheck(userAns, correct)) {
+    fb.className = 'gram-feedback correct';
+    fb.textContent = `✅ Correct!  "${correct}"`;
+    // 答对：1.2s 后自动下一题
+    setTimeout(() => gramNext(type), 1200);
+  } else {
+    fb.className = 'gram-feedback wrong';
+    fb.textContent = `❌ "${userAns}" — correct answer: ${correct}`;
+    // 答错：2s 后自动下一题
+    setTimeout(() => gramNext(type), 2000);
+  }
+}
+
+// ── 下一题 ─────────────────────────────────────────
+function gramNext(type) {
+  const st = gramState[type];
+  st.pos++;
+  gramRenderQuestion(type);
+}
+
+// ── 清除反馈 ─────────────────────────────────────────
+function gramClearFeedback(type) {
+  const pfx = type === 'verb' ? 'verb' : 'noun';
+  const fb = document.getElementById(pfx+'Feedback');
+  if (fb) { fb.className = 'gram-feedback'; fb.textContent = ''; }
+}
+
+// ═══════════════════════════════════════════════════
 // STATE
 // ═══════════════════════════════════════════════════
 let currentStudent=null,currentLevel=null,dailyCount=30;
@@ -1528,6 +1800,14 @@ function renderLevelGrid(){
     d.onclick=()=>startLevel(lvl.id);
     grid.appendChild(d);
   });
+  // [语法练习] 追加语法入口卡片（独立于词汇等级，不参与进度统计）
+  const gd=document.createElement('div');
+  gd.className='level-card';
+  gd.style.cssText='grid-column:1/-1;border-color:#a78bfa;background:linear-gradient(135deg,#f3f0ff,#f7f8fc);';
+  gd.innerHTML=`<div class="lc-title" style="color:#a78bfa">📝 Grammar Practice</div>
+    <div class="lc-sub">Verb tenses · Noun plurals</div>`;
+  gd.onclick=()=>showGrammarCard();
+  grid.appendChild(gd);
 }
 
 // startLevel：选择等级后进入学习
@@ -2102,7 +2382,7 @@ function goToLevelSelect(){
 // UI HELPERS
 // ═══════════════════════════════════════════════════
 function hideAllCards(){
-  ['welcomeCard','levelCard','wordCard','doneCard'].forEach(id=>{
+  ['welcomeCard','levelCard','wordCard','doneCard','grammarCard','verbCard','nounCard'].forEach(id=>{
     const el = document.getElementById(id);
     if(el) { el.classList.add('hidden'); el.style.display=''; }
   });

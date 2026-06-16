@@ -1,0 +1,26 @@
+{
+  "regular": [
+    { "base": "walk",  "past": "walked",  "mean": "走路" },
+    { "base": "talk",  "past": "talked",  "mean": "说话" },
+    { "base": "play",  "past": "played",  "mean": "玩；演奏" },
+    { "base": "jump",  "past": "jumped",  "mean": "跳跃" },
+    { "base": "watch", "past": "watched", "mean": "观看" },
+    { "base": "work",  "past": "worked",  "mean": "工作" },
+    { "base": "help",  "past": "helped",  "mean": "帮助" },
+    { "base": "start", "past": "started", "mean": "开始" },
+    { "base": "finish","past": "finished","mean": "完成" },
+    { "base": "clean", "past": "cleaned", "mean": "清洁" }
+  ],
+  "irregular": [
+    { "base": "go",    "past": "went",    "mean": "去" },
+    { "base": "come",  "past": "came",    "mean": "来" },
+    { "base": "eat",   "past": "ate",     "mean": "吃" },
+    { "base": "drink", "past": "drank",   "mean": "喝" },
+    { "base": "see",   "past": "saw",     "mean": "看见" },
+    { "base": "run",   "past": "ran",     "mean": "跑" },
+    { "base": "give",  "past": "gave",    "mean": "给" },
+    { "base": "take",  "past": "took",    "mean": "拿；花费" },
+    { "base": "make",  "past": "made",    "mean": "制造；做" },
+    { "base": "write", "past": "wrote",   "mean": "写" }
+  ]
+}
