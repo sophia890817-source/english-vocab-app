@@ -233,6 +233,36 @@ body::before{content:'';position:fixed;inset:0;
   margin-bottom:8px;}
 .gram-skip{background:none;border:none;font-size:12px;color:#aaa;cursor:pointer;
   text-decoration:underline;display:block;margin:6px auto 0;font-weight:600;}
+/* ── GRAMMAR SCORE & MEDALS ── */
+.gram-score-bar{display:flex;align-items:center;justify-content:space-between;
+  background:#f3f0ff;border-radius:14px;padding:10px 14px;margin-bottom:12px;
+  border:2px solid #ddd6fe;}
+.gram-score-bar .gsb-label{font-size:11px;font-weight:700;color:#7c3aed;}
+.gram-score-bar .gsb-val{font-family:'Baloo 2',cursive;font-size:20px;font-weight:800;color:#7c3aed;}
+.gram-score-bar .gsb-btn{font-size:11px;background:#7c3aed;color:#fff;border:none;
+  border-radius:8px;padding:4px 9px;cursor:pointer;font-weight:700;}
+/* 语法勋章弹窗 */
+#gramMedalOverlay{position:fixed;inset:0;background:rgba(0,0,0,0.45);z-index:9999;
+  display:flex;align-items:center;justify-content:center;}
+#gramMedalOverlay .gmo-box{background:#fff;border-radius:22px;padding:22px 18px;
+  width:min(340px,92vw);box-shadow:0 8px 40px rgba(0,0,0,0.18);}
+#gramMedalOverlay .gmo-title{font-family:'Baloo 2',cursive;font-size:17px;font-weight:800;
+  color:#7c3aed;text-align:center;margin-bottom:14px;}
+.gram-medal-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.gram-medal-item{border-radius:14px;padding:10px 10px;border:2px solid #e8eaf0;
+  background:#f7f8fc;text-align:center;}
+.gram-medal-item.unlocked{border-color:#7c3aed;background:#f3f0ff;}
+.gram-medal-item .gmi-icon{font-size:22px;}
+.gram-medal-item .gmi-name{font-size:11px;font-weight:800;color:var(--text-dark);
+  margin-top:3px;line-height:1.3;}
+.gram-medal-item .gmi-desc{font-size:10px;color:var(--text-mid);margin-top:2px;line-height:1.3;}
+.gram-medal-item .gmi-lock{font-size:10px;color:#aaa;margin-top:3px;}
+/* 语法成就解锁弹窗 */
+#gramUnlockToast{position:fixed;bottom:80px;left:50%;transform:translateX(-50%);
+  background:linear-gradient(135deg,#7c3aed,#a78bfa);color:#fff;
+  border-radius:16px;padding:12px 20px;font-size:13px;font-weight:700;
+  box-shadow:0 4px 20px rgba(124,58,237,0.35);z-index:9998;
+  text-align:center;max-width:280px;display:none;}
 
 /* ── LEVEL GRID ── */
 .level-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
@@ -452,6 +482,14 @@ body::before{content:'';position:fixed;inset:0;
       <div style="font-size:26px">📝</div>
       <div style="font-family:'Baloo 2',cursive;font-size:19px;font-weight:800;color:var(--text-dark);margin-top:3px;">Grammar Practice</div>
       <div style="font-size:12px;color:var(--text-mid);margin-top:3px;font-weight:600;">Choose a grammar module</div>
+    </div>
+    <!-- 语法总积分展示（从云端拉取，与单词积分完全隔离） -->
+    <div class="gram-score-bar">
+      <div>
+        <div class="gsb-label">🏅 Grammar Score</div>
+        <div class="gsb-val"><span id="gramTotalScore">—</span> pts</div>
+      </div>
+      <button class="gsb-btn" onclick="openGramMedalPanel()">Medals 🎖</button>
     </div>
     <div class="grammar-menu">
       <button class="grammar-menu-btn" onclick="showGrammarModule('verb')">
@@ -961,6 +999,8 @@ async function _onLoginSuccess(action) {
 
   // 以账号用户名进入学习（内部会拉取云端进度 + 显示等级选择）
   await _enterAsStudent(authUser.username);
+  // [语法积分] 登录后异步预拉取语法数据，切换到语法页时直接可用
+  gramLoadScoreFromCloud();
 }
 
 // 【Bug修复1关键函数】清空本地所有等级的进度缓存（仅清进度，不清词库）
@@ -1511,6 +1551,7 @@ function gramSubmit(type) {
   if (gramCheck(userAns, correct)) {
     fb.className = 'gram-feedback correct';
     fb.textContent = `✅ Correct!  "${correct}"`;
+    gramAddScore(type);   // [积分] 答对+1，写云端，检查勋章（与单词积分隔离）
     // 答对：1.2s 后自动下一题
     setTimeout(() => gramNext(type), 1200);
   } else {
@@ -1533,6 +1574,127 @@ function gramClearFeedback(type) {
   const pfx = type === 'verb' ? 'verb' : 'noun';
   const fb = document.getElementById(pfx+'Feedback');
   if (fb) { fb.className = 'gram-feedback'; fb.textContent = ''; }
+}
+
+// ══════════════════════════════════════════════════════════════
+// GRAMMAR SCORE & MEDALS
+// 与单词积分/勋章完全隔离，读写独立表 user_grammar_data
+// ══════════════════════════════════════════════════════════════
+
+const GRAM_MEDALS = [
+  {id:'M1',  icon:'🌱', name:'词性初识徽章', desc:'语法总积分 ≥100',  type:'total', threshold:100  },
+  {id:'M2',  icon:'📖', name:'基础词性能手', desc:'语法总积分 ≥200',  type:'total', threshold:200  },
+  {id:'M3',  icon:'⭐', name:'词性精通达人', desc:'语法总积分 ≥400',  type:'total', threshold:400  },
+  {id:'M4',  icon:'🚀', name:'语法拓展先锋', desc:'语法总积分 ≥600',  type:'total', threshold:600  },
+  {id:'M5',  icon:'🏛', name:'句式构筑师',   desc:'语法总积分 ≥800',  type:'total', threshold:800  },
+  {id:'M6',  icon:'👑', name:'千分语法王者', desc:'语法总积分 ≥1000', type:'total', threshold:1000 },
+  {id:'SM1', icon:'🔤', name:'动词专项奖章', desc:'动词积分 ≥100',    type:'verb',  threshold:100  },
+  {id:'SM2', icon:'📦', name:'名词专项奖章', desc:'名词积分 ≥100',    type:'noun',  threshold:100  },
+];
+
+// 内存积分状态（每次打开语法页从云端拉取，与单词积分完全隔离）
+let gramScoreData = {
+  grammar_total_score:  0,
+  grammar_verb_score:   0,
+  grammar_noun_score:   0,
+  medal_unlock_grammar: [],
+};
+
+// 从云端拉取语法数据（仅读 user_grammar_data 表，不碰单词表）
+async function gramLoadScoreFromCloud() {
+  if (!authUser || !_supabase) return;
+  try {
+    const { data, error } = await _supabase
+      .from('user_grammar_data')
+      .select('grammar_total_score,grammar_verb_score,grammar_noun_score,medal_unlock_grammar')
+      .eq('user_id', authUser.id)
+      .maybeSingle();
+    if (error) { console.error('[gram] 拉取失败:', error.message); return; }
+    if (data) {
+      gramScoreData.grammar_total_score  = data.grammar_total_score  || 0;
+      gramScoreData.grammar_verb_score   = data.grammar_verb_score   || 0;
+      gramScoreData.grammar_noun_score   = data.grammar_noun_score   || 0;
+      gramScoreData.medal_unlock_grammar = data.medal_unlock_grammar || [];
+    }
+    console.log('[gram] 语法数据已同步:', gramScoreData);
+    gramUpdateScoreUI();
+  } catch(e) { console.error('[gram] 拉取异常:', e); }
+}
+
+// 答对时 +1 分并写入云端（仅写 user_grammar_data，不碰单词表）
+async function gramAddScore(type) {
+  gramScoreData.grammar_total_score++;
+  if (type === 'verb') gramScoreData.grammar_verb_score++;
+  if (type === 'noun') gramScoreData.grammar_noun_score++;
+  gramUpdateScoreUI();
+  gramCheckAndUnlock();
+  if (!authUser || !_supabase) return;
+  try {
+    const { error } = await _supabase
+      .from('user_grammar_data')
+      .upsert({
+        user_id:               authUser.id,
+        grammar_total_score:   gramScoreData.grammar_total_score,
+        grammar_verb_score:    gramScoreData.grammar_verb_score,
+        grammar_noun_score:    gramScoreData.grammar_noun_score,
+        medal_unlock_grammar:  gramScoreData.medal_unlock_grammar,
+      }, { onConflict: 'user_id' });
+    if (error) console.error('[gram] 积分写入失败:', error.message);
+    else console.log(`[gram] ✅ total=${gramScoreData.grammar_total_score}`);
+  } catch(e) { console.error('[gram] 写入异常:', e); }
+}
+
+// 检查并解锁新勋章
+function gramCheckAndUnlock() {
+  const unlocked = gramScoreData.medal_unlock_grammar;
+  GRAM_MEDALS.forEach(medal => {
+    if (unlocked.includes(medal.id)) return;
+    const score =
+      medal.type === 'total' ? gramScoreData.grammar_total_score :
+      medal.type === 'verb'  ? gramScoreData.grammar_verb_score  :
+                               gramScoreData.grammar_noun_score;
+    if (score >= medal.threshold) {
+      unlocked.push(medal.id);
+      gramShowUnlockToast(medal);
+    }
+  });
+}
+
+// 语法专属成就 Toast（独立于单词 showToast，互不干扰）
+function gramShowUnlockToast(medal) {
+  const el = document.getElementById('gramUnlockToast');
+  if (!el) return;
+  el.textContent = `${medal.icon} Grammar Badge! "${medal.name}" — ${medal.desc}`;
+  el.style.display = 'block';
+  clearTimeout(el._t);
+  el._t = setTimeout(() => { el.style.display = 'none'; }, 3500);
+}
+
+// 更新语法首页积分显示
+function gramUpdateScoreUI() {
+  const el = document.getElementById('gramTotalScore');
+  if (el) el.textContent = gramScoreData.grammar_total_score;
+}
+
+// 打开语法勋章图鉴弹窗
+function openGramMedalPanel() {
+  const overlay = document.getElementById('gramMedalOverlay');
+  const grid    = document.getElementById('gramMedalGrid');
+  if (!overlay || !grid) return;
+  const unlocked = gramScoreData.medal_unlock_grammar;
+  grid.innerHTML = GRAM_MEDALS.map(m => {
+    const ok = unlocked.includes(m.id);
+    return `<div class="gram-medal-item${ok?' unlocked':''}">
+      <div class="gmi-icon">${ok ? m.icon : '🔒'}</div>
+      <div class="gmi-name">${m.name}</div>
+      <div class="gmi-desc">${m.desc}</div>
+      <div class="gmi-lock">${ok ? '✅ Unlocked' : 'Locked'}</div>
+    </div>`;
+  }).join('');
+  overlay.classList.remove('hidden');
+}
+function closeGramMedalPanel() {
+  document.getElementById('gramMedalOverlay')?.classList.add('hidden');
 }
 
 // ═══════════════════════════════════════════════════
@@ -2821,5 +2983,18 @@ CREATE POLICY "anon_delete" ON word_progress FOR DELETE TO anon USING (true);
 // ═══════════════════════════════════════════════════
 init();
 </script>
+  <!-- 语法勋章图鉴弹窗 -->
+  <div id="gramMedalOverlay" class="hidden" onclick="if(event.target===this)closeGramMedalPanel()">
+    <div class="gmo-box">
+      <div class="gmo-title">🎖 Grammar Medals</div>
+      <div class="gram-medal-grid" id="gramMedalGrid"><!-- filled by JS --></div>
+      <button onclick="closeGramMedalPanel()" style="margin-top:14px;width:100%;background:#7c3aed;
+        color:#fff;border:none;border-radius:12px;padding:10px;font-size:14px;font-weight:800;cursor:pointer;">
+        Close
+      </button>
+    </div>
+  </div>
+  <!-- 语法成就解锁 Toast（独立于单词 showToast，不互相干扰） -->
+  <div id="gramUnlockToast"></div>
 </body>
 </html>
